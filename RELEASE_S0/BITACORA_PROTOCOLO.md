@@ -128,9 +128,11 @@ La bitácora no decide. Documenta.
 
 ## §7 — Estado de la bitácora
 
-**Estado:** ABIERTA.
+**Estado:** ABIERTA — acumulativa.
 
 **Entradas registradas:** 1 (primera aplicación del Protocolo).
+
+**Entrada 1:** CERRADA (2026-09-17). Corresponde a la primera aplicación del Protocolo, cerrada con la publicación del motor S0 (commit ca56309). El cierre formal del Giro 02 quedó documentado en ACTA_CIERRE_GIRO_02.md.
 
 **Próximas aplicaciones:** se registrarán como entradas sucesivas cuando el Operador autorice nuevas aplicaciones del Protocolo.
 
