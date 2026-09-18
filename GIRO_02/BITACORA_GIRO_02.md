@@ -90,3 +90,27 @@ Operador: DEDN — lic.dedn@gmail.com. Autoridad final. Fecha: ________
 ---
 
 **Fin del documento.**
+
+---
+
+## Nota de corrección HL-42
+
+**Fecha:** 2026-09-17.
+
+**Objeto:** corregir la formulación de §2, línea 28, que declaraba:
+
+> "S-4 Estado Gate S0 — Cerrado (C1–C8 PASS, F1–F7 sin activar, PENDIENTE por parada epistemológica)."
+
+**Estado material al 2026-09-17:**
+
+- Gate S0: CERRADO formalmente (H9_GATE_S0_ACTA.md, 2026-09-17).
+- Parada epistemológica del Giro 02: CONSUMADA por publicación del motor S0 (commit ca56309).
+- Giro 02: CERRADO formalmente (ACTA_CIERRE_GIRO_02.md, 2026-09-17).
+
+**Formulación corregida:**
+
+> "S-4 Estado Gate S0 — CERRADO (C1–C8 PASS, F1–F7 sin activar). Parada epistemológica consumada por publicación del motor S0. Giro 02 cerrado."
+
+**Motivo:** la línea original reflejaba el estado al 15-09 (Giro 02 abierto, parada pendiente). Con la publicación del motor S0 y el acta de cierre, esa formulación quedó materialmente obsoleta. Se preserva el texto original y se añade esta corrección sin editar el cuerpo histórico.
+
+**Referencia:** ACTA_CIERRE_GIRO_02.md §6.
