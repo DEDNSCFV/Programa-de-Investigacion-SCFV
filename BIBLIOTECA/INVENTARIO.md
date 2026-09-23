@@ -23,7 +23,7 @@ PDFs en Downloads: referenciados, no movidos.
 | 4 | Cervantes_2023 | 648e625c...d38c.pdf | .cervantes_raw.txt | poblado | poblado | poblado | técnico |
 | 5 | Cosmovision_2004 | LIBRO COSMOVISION.pdf | .cosmovision_raw.txt | poblado | poblado | poblado | contable |
 | 6 | Diaz_Navarro_2014 | — | .diaz_navarro_raw.txt | poblado | poblado | poblado | contable |
-| 7 | Gadamer_VM | — | .gadamer_raw.txt | poblado | poblado | **vacío** | metodológico |
+| 7 | Gadamer_VM | — | .gadamer_raw.txt | poblado | poblado | poblado | metodológico |
 | 8 | GarciaCasella_LaLey_SF | AC_U3_1_CLGC.pdf | .garcia_casella_raw.txt | placeholder | placeholder | placeholder | contable |
 | 9 | GonzalezRodriguez_UO_2001 | UOV0010.pdf | .gonzalez_rodriguez_2001_raw.txt | placeholder | placeholder | placeholder | técnico |
 | 10 | Hevner_Chatterjee_2010 | — | .hevner_raw.txt | poblado | poblado | poblado | metodológico |
@@ -45,6 +45,8 @@ PDFs en Downloads: referenciados, no movidos.
 
 Entradas a poblar en Bloque 5 (8): Aho_2007, GarciaCasella_LaLey_SF, GonzalezRodriguez_UO_2001, Merkle_1979, NIST_FIPS_180_4, Pacioli_1494, ProGit_2014, Thain_2ndEd.
 
+Gadamer_VM cerrado (2026-09-23): CITAS.md materializado con formato C-NNN + A-NNN, advertencia HL-48, 16 anclajes temáticos registrados.
+
 ---
 
 ## §2 · Raws sin entrada en BIBLIOTECA
@@ -63,12 +65,13 @@ Ambos pendientes de entrada propia. Decisión del Operador: crear entradas o dej
 | Deuda | Descripción | Estado |
 |---|---|---|
 | Mattessich fuente primaria | Ausente. Material secundario (UNET 2021, trabajo estudiantil) en Downloads, no procesado. | Abierta — Giro+5 |
-| Pacioli OCR | Raw de 126 717 líneas con OCR destruido (`RO Pu UMHES ENA EC SESDURRESI`). No utilizable por texto. | Abierta — requiere transcripción alternativa |
+| Pacioli OCR | Raw de 126 717 líneas con OCR destruido. No utilizable por texto. | Abierta — requiere transcripción alternativa |
 | García Casella año | Sin fecha en metadata del PDF. Declarado `_SF` (sin fecha). | Abierta — verificación opcional |
-| Gadamer_VM/CITAS.md | Archivo literalmente vacío (0 líneas), no placeholder. Contradice OBS-MAT-13. | Abierta |
+| D-L Gadamer | 03_rutas.md y 04_ipve declaran «FICHA sin actualizar»; FICHA ya firmada por IA-2 (2026-09-18). Descoordinación declarativa, no material. | Abierta — actualizar o anular declaración obsoleta |
 | Aho y Thain FICHA/INDICE/CITAS | Raw existe, ficha pendiente. | Bloque 5 |
 
-Deuda cerrada en este turno: **Raws pendientes** (6 extraídos, 1 duplicado eliminado).
+Deudas cerradas: **Raws pendientes** (Bloque 4), **Gadamer_VM/CITAS.md vacío** (2026-09-23).
+OBS-MAT-13 reformulado: 16 CITAS.md con formato declarado y citas vacías es **diseño**, no deuda.
 
 ---
 
@@ -92,4 +95,4 @@ Deuda cerrada en este turno: **Raws pendientes** (6 extraídos, 1 duplicado elim
 
 ---
 
-*Actualizado 2026-09-23 tras Bloque 4. Verificable contra REGISTRO_ENTRADAS.log.*
+*Actualizado 2026-09-23 tras cierre de Gadamer_VM. Verificable contra REGISTRO_ENTRADAS.log.*
