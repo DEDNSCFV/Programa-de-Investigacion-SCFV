@@ -1,0 +1,1 @@
+# INDICE.md — NIIF18_KPMG_2025
