@@ -43,9 +43,9 @@ PDFs en Downloads: referenciados, no movidos.
 | 24 | Sommerville_2005 | libro_689d10b028359.pdf | .sommerville_raw.txt | poblado | poblado | poblado | técnico |
 | 25 | Thain_2ndEd | compilerbook.pdf | .thain_compilers_raw.txt | placeholder | placeholder | placeholder | técnico |
 
-Entradas a poblar en Bloque 5 (8): Aho_2007, GarciaCasella_LaLey_SF, GonzalezRodriguez_UO_2001, Merkle_1979, NIST_FIPS_180_4, Pacioli_1494, ProGit_2014, Thain_2ndEd.
+Las 8 entradas en placeholder (Aho_2007, GarciaCasella_LaLey_SF, GonzalezRodriguez_UO_2001, Merkle_1979, NIST_FIPS_180_4, Pacioli_1494, ProGit_2014, Thain_2ndEd) permanecen así hasta que un acto del programa las invoque (ver §4).
 
-Gadamer_VM cerrado (2026-09-23): CITAS.md materializado con formato C-NNN + A-NNN, advertencia HL-48, 16 anclajes temáticos registrados.
+Gadamer_VM (2026-09-23): CITAS canónico + INDICE con sección «Anclaje en el raw» y 16 anclajes temáticos.
 
 ---
 
@@ -56,7 +56,7 @@ Gadamer_VM cerrado (2026-09-23): CITAS.md materializado con formato C-NNN + A-NN
 | .baldor_algebra_raw.txt | ALGEBRA_de_BALDOR.pdf (38 MB, parcial pp.1-50) | aprendizaje-matemático |
 | .boole_analysis_logic_raw.txt | mathematicalanal00booluoft.pdf | aprendizaje-matemático |
 
-Ambos pendientes de entrada propia. Decisión del Operador: crear entradas o dejarlos como material sin ficha.
+Ambos pendientes de entrada propia. No se crea entrada hasta invocación (ver §4).
 
 ---
 
@@ -68,14 +68,25 @@ Ambos pendientes de entrada propia. Decisión del Operador: crear entradas o dej
 | Pacioli OCR | Raw de 126 717 líneas con OCR destruido. No utilizable por texto. | Abierta — requiere transcripción alternativa |
 | García Casella año | Sin fecha en metadata del PDF. Declarado `_SF` (sin fecha). | Abierta — verificación opcional |
 | D-L Gadamer | 03_rutas.md y 04_ipve declaran «FICHA sin actualizar»; FICHA ya firmada por IA-2 (2026-09-18). Descoordinación declarativa, no material. | Abierta — actualizar o anular declaración obsoleta |
-| Aho y Thain FICHA/INDICE/CITAS | Raw existe, ficha pendiente. | Bloque 5 |
 
 Deudas cerradas: **Raws pendientes** (Bloque 4), **Gadamer_VM/CITAS.md vacío** (2026-09-23).
-OBS-MAT-13 reformulado: 16 CITAS.md con formato declarado y citas vacías es **diseño**, no deuda.
+OBS-MAT-13 reformulado: CITAS.md con formato declarado y citas vacías es **diseño**, no deuda.
 
 ---
 
 ## §4 · Convenciones
+
+**Régimen de materialización**: nada se materializa sin uso. Un autor invocado por el corpus dispara el llenado de su FICHA (identidad), INDICE (secciones usadas) y CITAS (sólo si hay cita textual). Antes de la invocación, los tres archivos permanecen como placeholder.
+
+Estados operativos derivados:
+
+| Estado | FICHA | INDICE | CITAS |
+|---|---|---|---|
+| Autor no invocado | placeholder | placeholder | placeholder |
+| Autor invocado, sin cita textual | poblado | poblado (secciones usadas) | formato declarado + vacío |
+| Autor invocado con cita textual | poblado | poblado | poblado con C-NNN |
+
+La regla aplica también a: material didáctico, corpus de aprendizaje, entradas nuevas por PDF disponible. Tener el PDF y el raw no es motivo para materializar; la invocación del corpus lo es.
 
 **Hashes**: `REGISTRO_ENTRADAS.log` contiene SHA-256 de los PDFs origen. Los raws no están registrados aún (decisión pendiente: crear `REGISTRO_RAWS.log`).
 
@@ -84,8 +95,8 @@ OBS-MAT-13 reformulado: 16 CITAS.md con formato declarado y citas vacías es **d
 **Raws**: viven en `~/.<nombre>_raw.txt`, ocultos, permisos 600. Respaldo periódico a MEGA.
 
 **FICHA.md**: qué es la obra, autores, año, editorial, estatuto.
-**INDICE.md**: secciones y páginas, extraídas del raw cuando el acto lo requiera.
-**CITAS.md**: citas operativas — efectivamente usadas en documentos del programa. No candidatas.
+**INDICE.md**: secciones, páginas y anclajes verificados en el raw.
+**CITAS.md**: citas textuales operativas — efectivamente usadas para fundamentar una operación. No candidatas, no anticipadas.
 
 **Estatutos**:
 - `núcleo` — componente del núcleo firme (§9).
@@ -95,4 +106,4 @@ OBS-MAT-13 reformulado: 16 CITAS.md con formato declarado y citas vacías es **d
 
 ---
 
-*Actualizado 2026-09-23 tras cierre de Gadamer_VM. Verificable contra REGISTRO_ENTRADAS.log.*
+*Actualizado 2026-09-23. Régimen de materialización declarado. Verificable contra REGISTRO_ENTRADAS.log.*
