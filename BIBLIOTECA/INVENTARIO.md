@@ -1,51 +1,86 @@
 # Inventario de BIBLIOTECA
 
-Estado al 2026-09-23. Verificable contra `REGISTRO_ENTRADAS.log` (hashes de PDFs origen).
+Estado al 2026-09-23. Verificable contra `REGISTRO_ENTRADAS.log` (30 líneas).
 
-Convención de estado:
-- `poblado` — contenido sustantivo (más de 5 líneas)
-- `placeholder` — esqueleto (1 línea)
-- `vacío` — 0 líneas
-- `—` — no aplica
-
-Raws en HOME: 27 archivos (`~/.<nombre>_raw.txt`, permisos 600).
+Raws en HOME: 41 archivos (`~/.<nombre>_raw.txt`, permisos 600).
 PDFs en Downloads: referenciados, no movidos.
+
+Convención de estado: `poblado` (>5 líneas) · `placeholder` (1 línea) · `vacío` (0 líneas).
 
 ---
 
-## §1 · Entradas en BIBLIOTECA (25)
+## §1 · Entradas (39)
 
-| # | Entrada | PDF origen (Downloads) | Raw (HOME) | FICHA | INDICE | CITAS | Estatuto |
-|---|---|---|---|---|---|---|---|
-| 1 | AccountingTheory_2004 | Accounting Theory-M. Com. .pdf | .accounting_theory_raw.txt | poblado | poblado | poblado | contable |
-| 2 | Aho_2007 | Alfred-V.-Aho-...Compilers...2007.pdf | .aho_compilers_raw.txt | placeholder | placeholder | placeholder | técnico |
-| 3 | Angrisani_2019 | — | .angrisani_raw.txt | poblado | poblado | poblado | contable |
-| 4 | Cervantes_2023 | 648e625c...d38c.pdf | .cervantes_raw.txt | poblado | poblado | poblado | técnico |
-| 5 | Cosmovision_2004 | LIBRO COSMOVISION.pdf | .cosmovision_raw.txt | poblado | poblado | poblado | contable |
-| 6 | Diaz_Navarro_2014 | — | .diaz_navarro_raw.txt | poblado | poblado | poblado | contable |
-| 7 | Gadamer_VM | — | .gadamer_raw.txt | poblado | poblado | poblado | metodológico |
-| 8 | GarciaCasella_LaLey_SF | AC_U3_1_CLGC.pdf | .garcia_casella_raw.txt | placeholder | placeholder | placeholder | contable |
-| 9 | GonzalezRodriguez_UO_2001 | UOV0010.pdf | .gonzalez_rodriguez_2001_raw.txt | placeholder | placeholder | placeholder | técnico |
-| 10 | Hevner_Chatterjee_2010 | — | .hevner_raw.txt | poblado | poblado | poblado | metodológico |
-| 11 | Huck_SistemasContables_2024 | sistemaContable_aa.pdf | .huck_raw.txt | poblado | poblado | poblado | contable |
-| 12 | Lakatos_1976 | — | .lakatos_raw.txt | poblado | poblado | poblado | metodológico |
-| 13 | Lakatos_1989 | lakatos-i-la-historia...pp-110-147.pdf | .lakatos_metodologia_raw.txt | poblado | poblado | poblado | metodológico |
-| 14 | Merkle_1979 | Certified1979.pdf | .merkle_1979_raw.txt | placeholder | placeholder | placeholder | aprendizaje-cripto |
-| 15 | NIST_FIPS_180_4 | NIST.FIPS.180-4.pdf | .nist_fips_180_4_raw.txt | placeholder | placeholder | placeholder | aprendizaje-cripto |
-| 16 | Pacioli_1494 | A335068.pdf | .pacioli_summa_raw.txt (OCR destruido) | placeholder | placeholder | placeholder | contable |
-| 17 | Popper_1980 | — | .popper_raw.txt | poblado | poblado | poblado | metodológico |
-| 18 | ProGit_2014 | 2014_pro-git_es.pdf | .progit_2014_raw.txt | placeholder | placeholder | placeholder | aprendizaje-cripto |
-| 19 | Reynoso_Kicillof | introduccion-a-la-arquitectura-de-software.pdf | .reynoso_raw.txt | poblado | poblado | poblado | técnico |
-| 20 | Rodriguez_2016 | — | .rodriguez_raw.txt | poblado | poblado | poblado | núcleo |
-| 21 | RomeroLopez_2010 | Principios_de_contabilidad_4ta_Edicion.pdf | .principios_raw.txt | poblado | poblado | poblado | contable |
-| 22 | Romney_15thEd | — | .romney_raw.txt | poblado | poblado | poblado | contable |
-| 23 | Sampieri_2018 | — | .sampieri_raw.txt | poblado | poblado | poblado | metodológico |
-| 24 | Sommerville_2005 | libro_689d10b028359.pdf | .sommerville_raw.txt | poblado | poblado | poblado | técnico |
-| 25 | Thain_2ndEd | compilerbook.pdf | .thain_compilers_raw.txt | placeholder | placeholder | placeholder | técnico |
+### §1.1 · Núcleo firme (1)
 
-Las 8 entradas en placeholder (Aho_2007, GarciaCasella_LaLey_SF, GonzalezRodriguez_UO_2001, Merkle_1979, NIST_FIPS_180_4, Pacioli_1494, ProGit_2014, Thain_2ndEd) permanecen así hasta que un acto del programa las invoque (ver §4).
+| # | Entrada | Raw (HOME) | FICHA | INDICE | CITAS |
+|---|---|---|---|---|---|
+| 1 | Rodriguez_2016 | .rodriguez_raw.txt | poblado | poblado | poblado |
 
-Gadamer_VM (2026-09-23): CITAS canónico + INDICE con sección «Anclaje en el raw» y 16 anclajes temáticos.
+### §1.2 · Metodológico (8)
+
+| # | Entrada | Raw (HOME) | FICHA | INDICE | CITAS |
+|---|---|---|---|---|---|
+| 2 | Gadamer_VM | .gadamer_raw.txt | poblado | poblado | poblado |
+| 3 | Hevner_Chatterjee_2010 | .hevner_raw.txt | poblado | poblado | poblado |
+| 4 | Lakatos_1976 | .lakatos_raw.txt | poblado | poblado | poblado |
+| 5 | Lakatos_1989 | .lakatos_metodologia_raw.txt | poblado | poblado | poblado |
+| 6 | Popper_1980 | .popper_raw.txt | poblado | poblado | poblado |
+| 7 | Sampieri_2018 | .sampieri_raw.txt | poblado | poblado | poblado |
+| 8 | Mandelbrot_1975 | .mandelbrot_1975_raw.txt | poblado | placeholder | placeholder |
+| 9 | Mandelbrot_1982 | .mandelbrot_1982_raw.txt | poblado | placeholder | placeholder |
+
+### §1.3 · Contable — obras base (9)
+
+| # | Entrada | Raw (HOME) | FICHA | INDICE | CITAS |
+|---|---|---|---|---|---|
+| 10 | AccountingTheory_2004 | .accounting_theory_raw.txt | poblado | poblado | poblado |
+| 11 | Angrisani_2019 | .angrisani_raw.txt | poblado | poblado | poblado |
+| 12 | Cosmovision_2004 | .cosmovision_raw.txt | poblado | poblado | poblado |
+| 13 | Diaz_Navarro_2014 | .diaz_navarro_raw.txt | poblado | poblado | poblado |
+| 14 | Huck_SistemasContables_2024 | .huck_raw.txt | poblado | poblado | poblado |
+| 15 | RomeroLopez_2010 | .principios_raw.txt | poblado | poblado | poblado |
+| 16 | Romney_15thEd | .romney_raw.txt | poblado | poblado | poblado |
+| 17 | GarciaCasella_LaLey_SF | .garcia_casella_raw.txt | placeholder | placeholder | placeholder |
+| 18 | Pacioli_1494 | .pacioli_summa_raw.txt (OCR destruido) | placeholder | placeholder | placeholder |
+
+### §1.4 · Contable — normativa NIIF/IFRS/NIAS (12)
+
+| # | Entrada | Raw (HOME) | FICHA | INDICE | CITAS |
+|---|---|---|---|---|---|
+| 19 | NIIF18_2024 | .niif18_2024_raw.txt | poblado | placeholder | placeholder |
+| 20 | NIIF18_KPMG_2025 | .niif18_kpmg_2025_raw.txt | poblado | placeholder | placeholder |
+| 21 | IFRS_Annotated_2025 | .ifrs_annotated_2025_raw.txt | poblado | placeholder | placeholder |
+| 22 | NIIF1_2024 | .niif1_2024_raw.txt | poblado | placeholder | placeholder |
+| 23 | NIIF_Compilado_2026 | .niif_compilado_2026_raw.txt | poblado | placeholder | placeholder |
+| 24 | IFRS_S1_2023 | .ifrs_s1_2023_raw.txt | poblado | placeholder | placeholder |
+| 25 | IFRS_S2_2023 | .ifrs_s2_2023_raw.txt | poblado | placeholder | placeholder |
+| 26 | NIIF_Pymes_3raEd | .niif_pymes_3ra_raw.txt | poblado | placeholder | placeholder |
+| 27 | NIIF_Peru_2025 | .niif_peru_2025_raw.txt | poblado | placeholder | placeholder |
+| 28 | BAVENNIF_8 | .bavennif_8_raw.txt | poblado | placeholder | placeholder |
+| 29 | NIAS_2021_Vol2 | .nias_2021_vol2_raw.txt | poblado | placeholder | placeholder |
+| 30 | NIAS_2021_Vol3 | .nias_2021_vol3_raw.txt | poblado | placeholder | placeholder |
+
+### §1.5 · Técnico (6)
+
+| # | Entrada | Raw (HOME) | FICHA | INDICE | CITAS |
+|---|---|---|---|---|---|
+| 31 | Aho_2007 | .aho_compilers_raw.txt | placeholder | placeholder | placeholder |
+| 32 | Cervantes_2023 | .cervantes_raw.txt | poblado | poblado | poblado |
+| 33 | GonzalezRodriguez_UO_2001 | .gonzalez_rodriguez_2001_raw.txt | placeholder | placeholder | placeholder |
+| 34 | Reynoso_Kicillof | .reynoso_raw.txt | poblado | poblado | poblado |
+| 35 | Sommerville_2005 | .sommerville_raw.txt | poblado | poblado | poblado |
+| 36 | Thain_2ndEd | .thain_compilers_raw.txt | placeholder | placeholder | placeholder |
+
+### §1.6 · Aprendizaje criptográfico (3)
+
+| # | Entrada | Raw (HOME) | FICHA | INDICE | CITAS |
+|---|---|---|---|---|---|
+| 37 | Merkle_1979 | .merkle_1979_raw.txt | placeholder | placeholder | placeholder |
+| 38 | NIST_FIPS_180_4 | .nist_fips_180_4_raw.txt | placeholder | placeholder | placeholder |
+| 39 | ProGit_2014 | .progit_2014_raw.txt | placeholder | placeholder | placeholder |
+
+Las 12 entradas en §1.6 y los placeholder de otras secciones quedan así hasta invocación (ver §4).
 
 ---
 
@@ -53,10 +88,10 @@ Gadamer_VM (2026-09-23): CITAS canónico + INDICE con sección «Anclaje en el r
 
 | Raw (HOME) | PDF origen | Estatuto propuesto |
 |---|---|---|
-| .baldor_algebra_raw.txt | ALGEBRA_de_BALDOR.pdf (38 MB, parcial pp.1-50) | aprendizaje-matemático |
+| .baldor_algebra_raw.txt | ALGEBRA_de_BALDOR.pdf (parcial pp.1-50) | aprendizaje-matemático |
 | .boole_analysis_logic_raw.txt | mathematicalanal00booluoft.pdf | aprendizaje-matemático |
 
-Ambos pendientes de entrada propia. No se crea entrada hasta invocación (ver §4).
+No se crea entrada hasta invocación (ver §4).
 
 ---
 
@@ -64,21 +99,22 @@ Ambos pendientes de entrada propia. No se crea entrada hasta invocación (ver §
 
 | Deuda | Descripción | Estado |
 |---|---|---|
-| Mattessich fuente primaria | Ausente. Material secundario (UNET 2021, trabajo estudiantil) en Downloads, no procesado. | Abierta — Giro+5 |
+| Mattessich fuente primaria | Ausente. Material secundario (UNET 2021) en Downloads, no procesado. | Abierta — Giro+5 |
+| **IVA Venezuela** | Ausente. No hay ley de IVA en Downloads (2026-09-23). | Abierta — nueva |
+| **ISLR Venezuela** | Ausente. No hay ley de ISLR en Downloads (2026-09-23). | Abierta — nueva |
 | Pacioli OCR | Raw de 126 717 líneas con OCR destruido. No utilizable por texto. | Abierta — requiere transcripción alternativa |
-| García Casella año | Sin fecha en metadata del PDF. Declarado `_SF` (sin fecha). | Abierta — verificación opcional |
-| D-L Gadamer | 03_rutas.md y 04_ipve declaran «FICHA sin actualizar»; FICHA ya firmada por IA-2 (2026-09-18). Descoordinación declarativa, no material. | Abierta — actualizar o anular declaración obsoleta |
+| García Casella año | Sin fecha en metadata del PDF. Declarado `_SF`. | Abierta — verificación opcional |
+| D-L Gadamer | `03_rutas.md` y `04_ipve` declaran «FICHA sin actualizar»; FICHA firmada por IA-2 (2026-09-18). | Abierta — descoordinación declarativa |
+| NIIF_Peru_2025 metadata | Sin Title/Author/CreationDate. `_2025` inferido por nombre. | Abierta — verificación opcional |
 
-Deudas cerradas: **Raws pendientes** (Bloque 4), **Gadamer_VM/CITAS.md vacío** (2026-09-23).
-OBS-MAT-13 reformulado: CITAS.md con formato declarado y citas vacías es **diseño**, no deuda.
+Deudas cerradas: raws pendientes (Bloque 4), Gadamer_VM/CITAS.md vacío (2026-09-23).
+OBS-MAT-13 reformulado: CITAS.md con formato declarado y citas vacías es diseño, no deuda.
 
 ---
 
 ## §4 · Convenciones
 
-**Régimen de materialización**: nada se materializa sin uso. Un autor invocado por el corpus dispara el llenado de su FICHA (identidad), INDICE (secciones usadas) y CITAS (sólo si hay cita textual). Antes de la invocación, los tres archivos permanecen como placeholder.
-
-Estados operativos derivados:
+**Régimen de materialización**: nada se materializa sin uso. Un autor invocado por el corpus o por el Operador dispara el llenado de su FICHA (identidad), INDICE (secciones usadas) y CITAS (sólo si hay cita textual). Antes de la invocación, los tres archivos permanecen como placeholder.
 
 | Estado | FICHA | INDICE | CITAS |
 |---|---|---|---|
@@ -86,24 +122,18 @@ Estados operativos derivados:
 | Autor invocado, sin cita textual | poblado | poblado (secciones usadas) | formato declarado + vacío |
 | Autor invocado con cita textual | poblado | poblado | poblado con C-NNN |
 
-La regla aplica también a: material didáctico, corpus de aprendizaje, entradas nuevas por PDF disponible. Tener el PDF y el raw no es motivo para materializar; la invocación del corpus lo es.
+La regla aplica también a material didáctico, corpus de aprendizaje, entradas nuevas por PDF disponible. Tener el PDF y el raw no es motivo; la invocación lo es.
 
-**Hashes**: `REGISTRO_ENTRADAS.log` contiene SHA-256 de los PDFs origen. Los raws no están registrados aún (decisión pendiente: crear `REGISTRO_RAWS.log`).
+**Hashes**: `REGISTRO_ENTRADAS.log` contiene SHA-256 de los PDFs origen. Los raws no están registrados aún.
 
-**PDFs**: viven en `~/storage/downloads/`. No se mueven. Se referencian por nombre.
+**PDFs**: viven en `~/storage/downloads/`. No se mueven.
 
-**Raws**: viven en `~/.<nombre>_raw.txt`, ocultos, permisos 600. Respaldo periódico a MEGA.
+**Raws**: viven en `~/.<nombre>_raw.txt`, permisos 600. Respaldo periódico a MEGA.
 
 **FICHA.md**: qué es la obra, autores, año, editorial, estatuto.
 **INDICE.md**: secciones, páginas y anclajes verificados en el raw.
-**CITAS.md**: citas textuales operativas — efectivamente usadas para fundamentar una operación. No candidatas, no anticipadas.
-
-**Estatutos**:
-- `núcleo` — componente del núcleo firme (§9).
-- `contable` / `metodológico` / `técnico` — cinturón protector por área.
-- `aprendizaje-cripto` — material de estudio, sin estatuto programático.
-- `aprendizaje-matemático` — idem para álgebra y lógica.
+**CITAS.md**: citas textuales operativas — efectivamente usadas. No candidatas, no anticipadas.
 
 ---
 
-*Actualizado 2026-09-23. Régimen de materialización declarado. Verificable contra REGISTRO_ENTRADAS.log.*
+*Actualizado 2026-09-23 tras agregar Mandelbrot 1975+1982 y 12 NIIF/IFRS/NIAS. 39 entradas. Verificable contra REGISTRO_ENTRADAS.log.*
