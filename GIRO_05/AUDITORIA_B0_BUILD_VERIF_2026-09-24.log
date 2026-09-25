@@ -1,0 +1,164 @@
+=== B0 · verificación previa al BUILD · 2026-09-24 ===
+════ I · CBR · ¿existe? ════
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/intellectus/README.md:25:- **Casos CBR**: Base de casos históricos (decisiones previas del contador).
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/intellectus/README.md:55:Mide la similitud de la observación con casos anteriores (CBR - Case-Based Reasoning) utilizando TF-IDF o similar.
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/intellectus/README.md:117:- `db/repositories/epistemic_casos_cbr.py`: para acceder a casos históricos.
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/intellectus/README.md:132:| **Buscador de Casos** | Busca casos similares en la base CBR (s). |
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/intellectus/README.md:222:    casos = obtener_casos_cbr()
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/dictum/README.md:234:        # Registrar el caso modificado como nuevo caso CBR
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/dictum/README.md:235:        registrar_caso_cbr(orientacion, decision_contador)
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/generador_propuesta.py.bak.d4:35:# Parámetros para t (dependencia pendiente de CBR)
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/generador_propuesta.py.bak.d4.mutilado:35:# Parámetros para t (dependencia pendiente de CBR)
+════ II · Proyecciones · ¿qué son? ════
+CREATE TABLE proyeccion_integridad_hash (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                fecha_verificacion DATE NOT NULL,
+                hash_final TEXT NOT NULL,
+                cadena_integra BOOLEAN NOT NULL,
+                mensaje TEXT,
+                verificador TEXT DEFAULT 'sistema'
+            );
+CREATE TABLE proyeccion_resumen_eventos (
+                periodo TEXT NOT NULL,
+                tipo_evento TEXT NOT NULL,
+                cantidad INTEGER DEFAULT 0,
+                PRIMARY KEY (periodo, tipo_evento)
+            );
+1
+1
+════ III · Motor epistémico · API completa ════
+--- perceptum.py · clases y métodos ---
+39:class Perceptum:
+42:    def _extraer_entidades(evidencia: Evidencia) -> List[EntidadExtraida]:
+72:    def extraer(evidencia: Evidencia) -> ObservacionH1:
+124:    def _validar_referencia_fuente(ref: Dict[str, Any]) -> None:
+148:    def _segmentar_csv(evidencia: Evidencia) -> List[Tuple[Dict[str, Any], Dict[str, Any]]]:
+165:    def _segmentar_json_array(evidencia: Evidencia) -> List[Tuple[Any, Dict[str, Any]]]:
+187:    def _entidades_desde_dict(datos: Any) -> List[EntidadExtraida]:
+207:    def _construir_observacion(
+240:    def extraer_lote(evidencia: Evidencia) -> List[ObservacionH1]:
+--- intellectus.py · clases y métodos ---
+7:class Intellectus:
+11:    def _evaluar_condicion(condicion: Dict, senales: Dict, perfil_attrs: Dict) -> bool:
+40:    def construir_mapa_normativo(
+104:    def interpretar(evidencia: Dict, perfil: Dict, normas: List[Dict]) -> Dict:
+--- dictum.py · clases y métodos ---
+7:class Dictum:
+9:    def orientar(mapa: Dict, formato: str = "texto") -> Dict:
+════ IV · NIC 2 · contexto textual completo ════
+7852:los inventarios se desagregarán, de acuerdo con la NIC 2 Inventarios, en clasificaciones tales
+7854:[Referencia: párrafo 37, NIC 2]
+9464:NIC 2
+9550:NIC 2
+9630:NIC 2
+9666:El Comité concluyó que la NIC 2 Inventarios "se aplica a las criptomonedas cuando se mantienen
+9667:para la venta en el curso ordinario del negocio. Si la NIC 2 no es aplicable, una entidad aplicará la
+9705:NIC 2
+9725:La NIC 2 se aplica a los inventarios de activos intangibles. El párrafo 6 de esa Norma define
+9740:entidad y, en consecuencia, se aplicará la NIC 2 a esa tenencia.
+NIC 2 comienza en L7852
+los inventarios se desagregarán, de acuerdo con la NIC 2 Inventarios, en clasificaciones tales
+como mercaderías, materias primas, materiales, productos en curso y productos terminados;
+[Referencia: párrafo 37, NIC 2]
+
+(d)
+
+las provisiones se desglosarán, de forma que se muestren por separado las que corresponden a
+provisiones por beneficios a empleados y el resto; y
+
+(e)
+
+el capital y las reservas se desagregarán en varias clases, tales como capital pagado, primas de
+emisión y reservas.
+
+Una entidad revelará lo siguiente, sea en el estado de situación financiera, en el estado de cambios en
+el patrimonio o en las notas:
+(a)
+
+(b)
+
+para cada clase de capital en acciones:
+(i)
+
+el número de acciones autorizadas;
+
+(ii)
+
+el número de acciones emitidas y pagadas totalmente, así como las emitidas pero
+aún no pagadas en su totalidad;
+
+(iii)
+
+el valor nominal de las acciones, o el hecho de que no tengan valor nominal;
+
+(iv)
+
+una conciliación entre el número de acciones en circulación al principio y al final
+del periodo;
+
+(v)
+
+los derechos, privilegios y restricciones correspondientes a cada clase de acciones,
+incluyendo las restricciones sobre la distribución de dividendos y el reembolso del
+capital;
+
+(vi)
+
+las acciones de la entidad que estén en su poder o bien en el de sus subsidiarias o
+asociadas; y
+
+(vii)
+
+las acciones cuya emisión está reservada como consecuencia de la existencia de
+opciones o contratos para la venta de acciones, incluyendo las condiciones e
+importes correspondientes; y
+
+una descripción de la naturaleza y destino de cada partida de reservas que figure en el
+patrimonio;
+
+80
+
+════ V · ¿baldor.py en corpus? ════
+/data/data/com.termux/files/home/.baldor_ocr_tmp
+/data/data/com.termux/files/home/.baldor_ocr
+/data/data/com.termux/files/home/.baldor_algebra_raw.txt
+════ VI · Motor contable · API escritura ════
+19:class MotorContable:
+20:    def __init__(self, db_connection, pcu: Dict, moneda_funcional: str = "VES", verificador: Optional[VerificadorAutorizacion] = None):
+29:    def _verificar_cuenta_con_marco(self, cuenta: str, marco_contable: str) -> bool:
+37:    def validar_partida(self, partida: Dict, marco_contable: str = "NIIF_Completas") -> bool:
+54:    def _validar_moneda(self, partida: Dict) -> bool:
+64:    def validar_partida_doble(self, partidas: List[Dict]) -> bool:
+74:    def validar_I6(self, partidas: List[Dict], normas_catalogo: List[Dict]) -> bool:
+87:    def _calcular_ubicacion_xnor(self, naturaleza: str, movimiento: str) -> str:
+95:    def generar_asiento(
+════ VII · SCFV_DSR · ubicación de xnor.py destino ════
+total 38
+drwx------.  6 u0_a288 u0_a288  3452 Sep 24 12:32 .
+drwx------. 36 u0_a288 u0_a288 20480 Sep 23 13:58 ..
+drwx------.  3 u0_a288 u0_a288  3452 Sep 24 12:32 .pytest_cache
+drwx------.  2 u0_a288 u0_a288  3452 Sep 22 17:19 DOCS
+-rw-------.  1 u0_a288 u0_a288  1066 Sep 22 17:19 README.md
+drwx------.  6 u0_a288 u0_a288  3452 Sep 22 20:18 dsl
+drwx------.  5 u0_a288 u0_a288  3452 Sep 22 17:19 evaluacion
+--- ¿hay subdirectorio kernel/ o equivalente? ---
+/data/data/com.termux/files/home/SCFV_DSR/
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/__pycache__
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/__pycache__
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/__pycache__
+/data/data/com.termux/files/home/SCFV_DSR/DOCS
+/data/data/com.termux/files/home/SCFV_DSR/dsl
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/v
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/v/cache

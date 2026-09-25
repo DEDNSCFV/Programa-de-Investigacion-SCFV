@@ -1,0 +1,211 @@
+════ B62 · filtro operacionalizables · Thu Sep 24 23:15:23 -04 2026 ════
+
+════ I · verificar C2 · aritmética explícita ════
+--- búsquedas de patrones aritméticos por norma ---
+--- NIC 2 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIC 16 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIC 21 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIC 23 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIC 36 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIC 37 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIC 12 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIC 19 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIIF 15 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIIF 16 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIIF 9 ---
+  'el menor entre': 4
+  'se medirá': 58
+--- NIIF 13 ---
+  'el menor entre': 4
+  'se medirá': 58
+
+════ II · contar apariciones de términos aritméticos en todo el PDF ════
+4 · el menor entre
+5 · el mayor entre
+6 · se depreciará
+15 · se convertirá
+47 · descontado
+185 · valor presente
+12 · valor actual
+458 · tasa de interés
+1898 · valor razonable
+125 · amortizado
+13 · capitalizar
+123 · actuarial
+66 · diferencia temporaria
+
+════ III · ¿qué normas tienen reglas de medición (verbos SI/ENTONCES)? ════
+234 · 'medirá'
+688 · 'reconocerá'
+178 · 'presentará'
+664 · 'revelará'
+142 · 'clasificará'
+11 · 'depreciará'
+14 · 'amortizará'
+25 · 'convertirá'
+2 · 'reconocerá una provisión'
+23 · 'eliminará'
+14 · 'compensará'
+
+════ IV · títulos de normas · cuáles tienen cuerpo completo ════
+--- normas con encabezado 'Norma Internacional de Contabilidad N' ---
+5829:Norma Internacional de Contabilidad 1
+9466:Norma Internacional de Contabilidad 2
+10367:Norma Internacional de Contabilidad 7
+11815:Norma Internacional de Contabilidad 8
+13483:Norma Internacional de Contabilidad 12
+16978:Norma Internacional de Contabilidad 16
+18583:Norma Internacional de Contabilidad 19
+22674:Norma Internacional de Contabilidad 20
+23363:Norma Internacional de Contabilidad 21
+25040:Norma Internacional de Contabilidad 23
+25617:Norma Internacional de Contabilidad 24
+26343:Norma Internacional de Contabilidad 26
+26967:Norma Internacional de Contabilidad 27
+27682:Norma Internacional de Contabilidad 28
+28957:Norma Internacional de Contabilidad 29
+29451:Norma Internacional de Contabilidad 32
+32852:Norma Internacional de Contabilidad 33
+34279:Norma Internacional de Contabilidad 34
+35315:Norma Internacional de Contabilidad 36
+38370:Norma Internacional de Contabilidad 37
+39942:Norma Internacional de Contabilidad 38
+42679:Norma Internacional de Contabilidad 39
+45313:Norma Internacional de Contabilidad 40
+46691:Norma Internacional de Contabilidad 41
+--- normas con encabezado 'Norma Internacional de Información Financiera N' ---
+12978:Norma Internacional de Información Financiera 10
+52433:Norma Internacional de Información Financiera 1
+55024:Norma Internacional de Información Financiera 2
+58027:Norma Internacional de Información Financiera 3
+61972:Norma Internacional de Información Financiera 5
+63331:Norma Internacional de Información Financiera 6
+63725:Norma Internacional de Información Financiera 7
+67820:Norma Internacional de Información Financiera 8
+68601:Norma Internacional de Información Financiera 9
+81160:Norma Internacional de Información Financiera 10
+85141:Norma Internacional de Información Financiera 11
+87202:Norma Internacional de Información Financiera 12
+88914:Norma Internacional de Información Financiera 13
+91893:Norma Internacional de Información Financiera 14
+92966:Norma Internacional de Información Financiera 15
+97419:Norma Internacional de Información Financiera 16
+101692:Norma Internacional de Información Financiera 17
+
+════ V · presencia de partidas Dr/Cr por norma ════
+99122:Dr Efectivo 1.800.000 u.m.
+99123:Dr Activo por derecho de uso 250.000 u.m.
+
+════ VI · bloques IFRIC que mencionan partidas ════
+331
+6152:[IFRIC® Update—mayo de 2014, Decisión de Agenda, “NIC 1 Presentación de Estados
+6493:[IFRIC® Update, junio de 2021, Decisión de Agenda, «NIC 10 Hechos Ocurridos después del
+6514:[IFRIC Update, julio de 2010, Decisión de Agenda, “Información a revelar sobre el negocio en
+6533:[IFRIC® Update, Julio de 2014, Decisión de Agenda, “NIC 1 Presentación de Estados Financieros—
+6736:[IFRIC® Update, junio de 2005, Decisión de Agenda, “NIC 1 Cifras comparativas para prospectos”
+6929:[IFRIC® Update—mayo de 2014, Decisión de Agenda, “NIC 1 Presentación de Estados
+7153:[IFRIC® Update, septiembre de 2019, Decisión de Agenda, «NIC 1 Presentación de Estados
+7218:[IFRIC® Update, diciembre de 2020, Decisión de Agenda, «Acuerdos de Financiación de la Cadena
+7535:[IFRIC® Update, junio de 2005, Decisión de Agenda, “NIC 1 Ciclo normal de operaciones”
+7557:[IFRIC® Update—marzo de 2022, Decisión de Agenda, «NIC 7 Estado de Flujos de Efectivo—
+8090:[IFRIC® Update, marzo de 2018, Decisión de Agenda “Presentación de ingresos por intereses para
+8142:[IFRIC® Update—julio de 2012, Decisión de Agenda, “NIC 1 Presentación de Estados Financieros y
+8229:[IFRIC® Update, enero de 2015, Decisión de Agenda, «NIC 39 Instrumentos Financieros:
+8885:[IFRIC® Update—noviembre de 2013, Decisión de Agenda, «NIC 19 Beneficios a los Empleados—
+9568:[IFRIC® Update, marzo de 2017, Decisión de Agenda, “Préstamos de materias primas cotizadas”
+9634:[IFRIC® Update—junio de 2019, Decisión de Agenda, «Tenencia de Criptomonedas»
+9787:[IFRIC® Update, noviembre de 2014, Decisión de Agenda, “NIC 16 Propiedades, Planta y Equipo y
+9822:[IFRIC® Update, junio de 2021, Decisión de Agenda, «NIC 2 Inventarios—Costos Necesarios para
+9901:[IFRIC® Update, agosto de 2002, Decisión de Agenda, “Inventarios - descuentos en efectivo”
+9911:[IFRIC® Update, noviembre de 2004, Decisión de Agenda “NIC 2 Inventarios: Descuentos y
+
+════ VII · conceptos de partida doble en el texto ════
+0 · débito
+246 · crédito
+5 · asiento
+1 · registro contable
+0 · partida doble
+0 · débitos y créditos
+347 · reconocimiento inicial
+307 · baja en cuentas
+
+════ VIII · Pymes S13 · verificar C1, C2, C3 ════
+--- S13 · partidas ---
+1
+--- S13 · aritmética ---
+0
+--- S13 · reglas SI/ENTONCES ---
+0
+
+════ IX · NIC 2 · verificar C1, C2, C3 ════
+NIC 2 cuerpo en L9466
+--- NIC 2 · partidas ---
+0
+--- NIC 2 · aritmética ---
+1
+--- NIC 2 · reglas ---
+2
+
+════ X · tabla de normas · corpus disponible ════
+--- NIIF Perú · normas con cuerpo completo ---
+5829:Norma Internacional de Contabilidad 1
+9466:Norma Internacional de Contabilidad 2
+10367:Norma Internacional de Contabilidad 7
+11815:Norma Internacional de Contabilidad 8
+12978:Norma Internacional de Información Financiera 10
+13483:Norma Internacional de Contabilidad 12
+16978:Norma Internacional de Contabilidad 16
+18583:Norma Internacional de Contabilidad 19
+22674:Norma Internacional de Contabilidad 20
+23363:Norma Internacional de Contabilidad 21
+25040:Norma Internacional de Contabilidad 23
+25617:Norma Internacional de Contabilidad 24
+26343:Norma Internacional de Contabilidad 26
+26967:Norma Internacional de Contabilidad 27
+27682:Norma Internacional de Contabilidad 28
+28957:Norma Internacional de Contabilidad 29
+29451:Norma Internacional de Contabilidad 32
+32852:Norma Internacional de Contabilidad 33
+34279:Norma Internacional de Contabilidad 34
+35315:Norma Internacional de Contabilidad 36
+38370:Norma Internacional de Contabilidad 37
+39942:Norma Internacional de Contabilidad 38
+42679:Norma Internacional de Contabilidad 39
+45313:Norma Internacional de Contabilidad 40
+46691:Norma Internacional de Contabilidad 41
+52433:Norma Internacional de Información Financiera 1
+55024:Norma Internacional de Información Financiera 2
+58027:Norma Internacional de Información Financiera 3
+61972:Norma Internacional de Información Financiera 5
+63331:Norma Internacional de Información Financiera 6
+63725:Norma Internacional de Información Financiera 7
+67820:Norma Internacional de Información Financiera 8
+68601:Norma Internacional de Información Financiera 9
+81160:Norma Internacional de Información Financiera 10
+85141:Norma Internacional de Información Financiera 11
+87202:Norma Internacional de Información Financiera 12
+88914:Norma Internacional de Información Financiera 13
+91893:Norma Internacional de Información Financiera 14
+92966:Norma Internacional de Información Financiera 15
+97419:Norma Internacional de Información Financiera 16
+101692:Norma Internacional de Información Financiera 17

@@ -1,0 +1,64 @@
+════ B106 · migración DSR → autocontenido · Fri Sep 25 10:47:20 -04 2026 ════
+
+════ I · crear estructura ════
+════ II · copiar módulos v6 → DSR ════
+Módulos copiados:
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/decision_provider.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/estados.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/event_store.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/examinador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/maquina_estados_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/modelos.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/motor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/nucleo_consecuencias.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/puente_autorizacion.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/puente_consecuencias.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/reportes_motor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/reticulo.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/verificador_autorizacion.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/parser.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_asiento_declarado_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_compatibilidad_s0.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_contract_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_grammar_lalr.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_invariant_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/dictum.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/evidencia.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/generador_propuesta.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/intellectus.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/models.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/perceptum.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/evaluador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/extractor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/baldor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/xnor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/h2.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/orquestador.py
+
+════ III · __init__.py en cada subpaquete ════
+
+════ IV · reescribir imports ════
+  reescrito: .../extractor.py
+  reescrito: .../integrador.py
+  reescrito: .../epistemologico/models.py
+  reescrito: .../epistemologico/perceptum.py
+  reescrito: .../epistemologico/generador_propuesta.py
+  reescrito: .../contable/motor.py
+  reescrito: .../contable/maquina_estados_asiento.py
+  reescrito: .../contable/decision_provider.py
+  reescrito: .../contable/nucleo_consecuencias.py
+  reescrito: .../contable/puente_autorizacion.py
+  reescrito: .../contable/puente_consecuencias.py
+  reescrito: .../contable/examinador.py
+  reescrito: .../profesional/h2.py
+  reescrito: .../profesional/orquestador.py
+
+Archivos modificados: 14
+
+════ V · ajustar rutas a scfv.db ════
+  path-fix: .../extractor.py
+  path-fix: .../integrador.py
+  path-fix: .../dsl/tests/test_compatibilidad_s0.py

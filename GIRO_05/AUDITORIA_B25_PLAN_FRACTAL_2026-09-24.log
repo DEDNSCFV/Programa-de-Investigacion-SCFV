@@ -1,0 +1,178 @@
+=== B25 · plan fractal en prompt v6 · 2026-09-24 ===
+--- §5 Fractales ---
+§5 · FRACTALES
+
+Definición vigente del corpus (glossary.md L36):
+    Fractal · Módulo de dominio soberano.
+    Se comunica con otros fractales exclusivamente mediante eventos.
+
+Redefinición declarada:
+    Fractal NIC · Módulo cuya soberanía es una norma.
+    Coexiste con la definición de dominio (no la sustituye).
+    Declarada conforme al caso "tablero" (06_diseno L516)
+    y al caso "IPVE" (04_ipve §0.2).
+
+Estructura interna (Lakatos + Popper):
+    Núcleo · norma base
+    Cinturón · adaptaciones (VEN NIF, jurisdicciones)
+    Falsadores · casos que rompen la aplicación
+
+Cadena de escritura:
+    Fractal → consecuencias → Motor Contable → asiento → EventStore.
+    Motor Contable · única autoridad de escritura (glossary.md L49).
+
+────────────────────────────────────────────────────────────────────────
+
+§6 · CANON · LOCUS Y FUNCIONES
+
+--- §4 Núcleos operativos ---
+§4 · NÚCLEOS OPERATIVOS
+
+Núcleo algebraico:
+    XNOR · operador booleano definido sobre {0,1}×{0,1} → {0,1}.
+        Fundamento formal · álgebra booleana
+        (Boole, Analysis of Logic, 1847; desarrollo posterior).
+        Implementación · xnor.py (operativo).
+        Aplicación contable · axioma booleano U = N ⊙ M
+        (glossary.md L34). Tesis del corpus, no conjetura.
+        Deuda D-BOOLE-2 (Boole no nombra XNOR).
+
+    Baldor · operador aritmético.
+        Fundamento formal · álgebra elemental.
+        Implementación · pendiente (D-NUC-1).
+        Aplicación contable · aritmética de partidas.
+
+    Estado: XNOR operativo, Baldor no operativo.
+
+Núcleo epistemológico (5 componentes, glossary.md L45):
+    Observación      · Perceptum (perceptum.py)
+    Interpretación   · Intellectus (métricas r, s, o, t, v)
+    Medición         · Dictum (C = f(r, s, o, t, v))
+    Aprendizaje      · CBR (acumulación de casos)
+    Proyección       · proyecciones del EventStore
+
+Radicalización (Lakatos L2266–2269):
+    "La heurística negativa del programa impide que apliquemos
+     el modus tollens a este 'núcleo firme'."
+    Los núcleos no se falsan por prohibición metodológica.
+
+────────────────────────────────────────────────────────────────────────
+
+§5 · FRACTALES
+
+--- todas las menciones NIC ---
+225:    Fractal NIC · Módulo cuya soberanía es una norma.
+448:Jerarquía contable (canon NIC 8 §10-12 + VN4).
+547:    - D7-A · Jerarquía contable (NIC 8 + VN4).
+562:        Crear FRACTAL NIC2 mínimo (1 operación).
+
+--- §3 motor epistemológico ---
+§3 · MOTOR EPISTEMOLÓGICO RODRIGUIANO
+
+Cita A · fundacional · L1312–1314
+    "Toda operacion se funda en un Dogma,
+     se rige por una Disciplina propia del Dogma,
+     y se ejecuta con una Economía propia de la Disciplina."
+
+Cita B · conclusión operativa · L1856–1860
+    Conclusión argumentativa, no axioma.
+    Ortografía del raw, no modernizada.
+    "Educación Popular
+     Destinacion á Ejercicios útiles
+     Aspiracion fundada á la propiedad.
+     Son cosas palpables, por consiguiente mas persuasivas,
+     que cuantos discursos pueda hacer la elocuencia mas vehemente."
+
+Cita C · principio heurístico · L18189
+    "O Inventamos o Erramos."
+
+Correspondencia IPVE (cita B):
+    Educación Popular          → I (Invariante)   → público
+    Destinación á Ejercicios   → P (Propiedad)    → útil
+    Aspiración á la propiedad  → V (Validación)   → apropiable
+    Cosas palpables            → E (Evidencia)    → palpable
+
+Función del motor · términos canónicos:
+    Extiende con arte el corpus para que produzca (L13424, L14296).
+    Estructura causativa · "hacer que" (L5339, L9541, L13424).
+    Uso instrumental · "servirse de" (L5061, L9307, L12373).
+    Ejecución · "trazaba el plan de operaciones y lo hacia ejecutar" (L9925).
+
+El motor no produce él mismo.
+Se sirve del corpus para que produzca.
+Extiende sus consecuencias con arte.
+
+Citable repetidamente.
+Especialmente en estancamiento epistemológico.
+
+────────────────────────────────────────────────────────────────────────
+
+§4 · NÚCLEOS OPERATIVOS
+
+--- NIC en el corpus ---
+/data/data/com.termux/files/home/scfv_v6/normas/internacionales/NIC/NIC_29.json
+/data/data/com.termux/files/home/scfv_v6/normas/locales/BAVEN_NIF/BA_VEN_NIF_01.json
+/data/data/com.termux/files/home/scfv_v6/scfv.db
+/data/data/com.termux/files/home/scfv_v6/scfv.db.baseline_v81
+/data/data/com.termux/files/home/scfv_v6/scfv.db.g24e_test
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/TESTS/__pycache__/test_v82_nuevas_capacidades.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/TESTS/__pycache__/test_v82_nuevas_capacidades.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_v82_nuevas_capacidades.py
+/data/data/com.termux/files/home/scfv_v6/TESTS/__pycache__/test_v82_nuevas_capacidades.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/TESTS/__pycache__/test_v82_nuevas_capacidades.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/scfv_v6/H0_MANIFIESTO_SHA256.txt
+/data/data/com.termux/files/home/scfv_v6/BACKUP_PDIARIO1_20260906_140056/scfv.db
+/data/data/com.termux/files/home/scfv_v6/BACKUP_PDIARIO1_20260906_140201/scfv.db
+/data/data/com.termux/files/home/scfv_v6/BACKUP_PDIARIO1_20260906_140340/scfv.db
+/data/data/com.termux/files/home/scfv_v6/BACKUP_PDIARIO1_20260906_140341/scfv.db
+/data/data/com.termux/files/home/scfv_v6/BACKUP_PDIARIO1_20260906_140621/scfv.db
+/data/data/com.termux/files/home/scfv_v6/BACKUP_PDIARIO1_20260906_140622/scfv.db
+/data/data/com.termux/files/home/scfv_v6/SCFV_S0_ESTADO_20260906_164734/TESTS/test_v82_nuevas_capacidades.py
+/data/data/com.termux/files/home/scfv_v6/SCFV_S0_ESTADO_20260906_164734/TESTS/__pycache__/test_v82_nuevas_capacidades.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/SCFV_S0_ESTADO_20260906_164734/TESTS/__pycache__/test_v82_nuevas_capacidades.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/scfv_v6/useq01_payload_001.json
+/data/data/com.termux/files/home/scfv_v6/normas/internacionales/NIC/NIC_29.json
+
+--- fractales existentes · ¿operativos? ---
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/compras/compras.py:5:    def evaluar(self, evidencia, contexto):
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/inventario/inventario.py:5:    def evaluar(self, evidencia, contexto):
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/ventas/ventas.py:8:    def evaluar(self, evidencia: Dict, contexto: Dict, normas_aplicables: List[Dict] = None) -> List[Dict]:
+from typing import Dict, List, Optional
+"""
+Fractal de Ventas (v8.1 con I6)
+"""
+from DOMINIOS.base_fractal import BaseFractal
+
+class FractalVentas(BaseFractal):
+    def evaluar(self, evidencia: Dict, contexto: Dict, normas_aplicables: List[Dict] = None) -> List[Dict]:
+        if normas_aplicables is not None:
+            self.normas_aplicables = normas_aplicables
+
+        tipo = evidencia.get('tipo', '').lower().strip()
+        monto = evidencia.get('monto', 0)
+        if tipo == 'venta' and monto > 0:
+            # Buscar la norma de IVA aplicable (por simplicidad, la primera que tenga tipo 'aplicar_tasa')
+            norma_iva = None
+            for n in self.normas_aplicables:
+                if n.get('accion_sugerida', {}).get('tipo') == 'aplicar_tasa':
+                    norma_iva = n
+                    break
+
+            if norma_iva:
+                tasa = norma_iva.get('accion_sugerida', {}).get('valor', 0.12)
+                norma_id = norma_iva.get('id')
+            else:
+                tasa = contexto.get('NORMATIVO_GLOBAL_IVA_TASA_GENERAL', 0.12)
+                norma_id = None
+
+            base = monto / (1 + tasa)
+            iva = monto - base
+
+            consecuencias = [
+                {"cuenta": "110101", "naturaleza": "DEUDORA", "movimiento": "AUMENTA", "monto": monto},
+                {"cuenta": "410101", "naturaleza": "ACREEDORA", "movimiento": "AUMENTA", "monto": base},
+                {"cuenta": "210201", "naturaleza": "ACREEDORA", "movimiento": "AUMENTA", "monto": iva,
+                 "es_fiscal": True, "norma_id": norma_id}  # I6
+            ]
+            return consecuencias
+        return []

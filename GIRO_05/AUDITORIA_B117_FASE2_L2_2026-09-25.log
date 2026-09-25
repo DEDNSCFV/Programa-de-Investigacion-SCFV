@@ -1,0 +1,65 @@
+════════════════════════════════════════════════════════════════════
+  AUDITORÍA B117 · FASE 2 · CORRECCIONES L2 (CONTRATO INTERNO)
+  Giro 05 · Sesión 6 · 2026-09-25
+════════════════════════════════════════════════════════════════════
+
+MOTIVO
+  Cierre de los 6 hallazgos clasificados L2 (contrato interno) en la
+  matriz de Fase 2. Afectan comportamiento observable pero no alteran
+  la arquitectura del Motor, NC ni EventStore.
+
+ALCANCE
+  · L2.6  H210  dsl/tests/test_compatibilidad_s0.py · path restaurado
+  · L2.5  H63   contable/event_store.py · json.loads en 2 lectores
+  · L2.4  H50   contable/motor.py · I1 endurecida en validar_partida_doble
+  · L2.3  H31   fractales/INVENTARIOS.scfv · categoria=perdida_deterioro
+  · L2.2  H30   fractales/PROVISIONES.scfv · cuenta=610203
+  · L2.1  H12   evaluador.py · suma_montos acepta lista o plano
+
+HASH MAESTRO
+  Antes (E1):  877c3253ba39fd66fa36a1ad6347123268f7d0f1fa922ad55e4754018d905b81
+  Despues (E2): 2ea63b66a3a2bf3af79803a7c2434eb5383e87fae364fc2c7148913707f146f9
+
+HASHES DE ARCHIVOS MODIFICADOS
+  test_compatibilidad_s0.py
+    antes:   06842926b7d339de0c66ddad4098c0ca70d1ca229f1ee212ab17903c953a742c
+    despues: b50e2da61c7088f52ae242ff31cfee46a20fe4b8321fdac801f5ab865d0e38d8
+  contable/event_store.py
+    antes:   89b7fc37aba2aa7c55505cefdec3b812a4a047fd5e9867f506c0b8824e668a2a
+    despues: af7dee714faa2ff87f1448a6a49db182abd05ecf8988a541ac1de9cdb390d674
+  contable/motor.py
+    antes:   1fac206bb597667e34de5a2e99de14e3b07272856d9e864eb5b88b8a5e40ad6b
+    despues: 28f815d7be7b44217976559030c10bbd6c98158357a7cb69eb76ad2d5a80ebc3
+  fractales/INVENTARIOS.scfv
+    antes:   9fc5a2e07c6e5c8d26ed1069ba227c036177962f954265c70e0be807ba17274f
+    despues: 85e115166aaa1ce7ad715925e61f0a99969dc88535de53d45e0629632feca09f
+  fractales/PROVISIONES.scfv
+    antes:   7d5cca24b6a838e41f09dff3b85f7968b704ec7b07722d6296ffb22657ea8ac3
+    despues: 74d06eaa175fbe5c02c5757ccf7489eb61245b0f120045bb25cf8c40718f6c30
+  evaluador.py
+    antes:   4f6bc5b1f73fd1285f90721236ceee6e883e936593972e4f278a8ddbb3d180d6
+    despues: 2738f35132c3adc829ed1edb5730a60770cafbc909d735ee4055321cca45e6c4
+
+VERIFICACION
+  V1 · sha256sum -c HASHES.txt
+    OK: 70  ·  FALLOS: 0  ·  Total lineas: 70
+  19 reglas verdes + 2 falsaciones esperadas
+    Verdes: 19/19 (D=H · CADENA_INTEGRA)
+    H29 sigue: MOTOR_VIOLACION - DEBE=0, HABER=2000
+    F-NC-1 sigue: NC_VIOLACION - partida 0 con monto invalido
+  Cuentas confirmadas en asientos persistidos
+    INVENTARIOS.DETERIORO asiento 510e8d60 → cuenta 610401 DEBE 500.0
+    PROVISIONES.PROVISION asiento 5bba8ff7 → cuenta 610203 DEBE 1000.0
+
+HALLAZGOS COLATERALES (no cerrados)
+  H31b · divergencia de operacion entre los dos deterioros
+         (valor_neto_realizable vs suma_montos). Registrado.
+  H24b · extractor.py · import sys huerfano (Fase 1).
+  H24c · extractor.py · posible Path huerfano (Fase 1, sin verificar).
+  H47b · motor.py · falta linea en blanco entre return y def (Fase 1).
+
+ESTADO RESULTANTE
+  Fase 2 cerrada. E2 materializado. Hash maestro 2ea63b66...
+  Fase 3 (L3) pendiente de autorizacion explicita.
+
+════════════════════════════════════════════════════════════════════

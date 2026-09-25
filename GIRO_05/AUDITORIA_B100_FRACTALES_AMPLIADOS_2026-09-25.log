@@ -1,0 +1,14 @@
+════ B100 · 9 fractales ampliados · Fri Sep 25 10:06:29 -04 2026 ════
+
+D.3: EventStore preparado para persistencia canónica.
+INVENTARIOS.scfv       OK  D=    850.00 H=    850.00 · 2p
+PPE.scfv               OK  D=  10000.00 H=  10000.00 · 2p
+INTANGIBLES.scfv       OK  D=   5000.00 H=   5000.00 · 2p
+COMBINACIONES.scfv     OK  D=  15000.00 H=  15000.00 · 2p
+ARRENDAMIENTOS.scfv    OK  D=   7721.73 H=   7721.73 · 2p
+PROVISIONES.scfv       OK  D=   1500.00 H=   1500.00 · 2p
+SUBVENCIONES.scfv      OK  D=  10000.00 H=  10000.00 · 2p
+MONEDA.scfv            OK  D=  36500.00 H=  36500.00 · 2p
+HIPERINFLACION.scfv    OK  D=   2000.00 H=   2000.00 · 2p
+
+Resultado: 9/9

@@ -1,0 +1,42 @@
+════════════════════════════════════════════════════════════════
+ ETAPA 3 · CONSOLIDAR RAW COMPLETO · Thu Sep 24 21:41:03 -04 2026
+════════════════════════════════════════════════════════════════
+[21:41:03] Consolidando pp.1-287...
+[21:41:17] Consolidado.
+
+════ VERIFICACIÓN ════
+Archivo: /data/data/com.termux/files/home/.baldor_algebra_raw_completo.txt
+  35041 1035302 /data/data/com.termux/files/home/.baldor_algebra_raw_completo.txt
+63fe32a1ece2e183c43a5d040003c1efc6f6745e0afa976c7aed052c77f5fbaf  /data/data/com.termux/files/home/.baldor_algebra_raw_completo.txt
+
+═══ COMPARACIÓN ═══
+actual (pp.1-50):    5634 líneas
+completo (pp.1-287): 35041 líneas
+ratio: 622.0%
+
+═══ PRIMERAS LÍNEAS ═══
+════════════════════════════════════════════════════════════════
+  PÁGINA 1 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+A. BALDOR
+
+GEBRA
+
+1E
+
+
+
+═══ ÚLTIMAS LÍNEAS ═══
+6, 3518258 sucres, 7 $65266.27. 9, $549.09, 9 $996.54. 10. $900.16. e
+11, $1954.02. — 19031024 13.5a 1472 157% 109%. 17410852
+
+EJERCICIO 304. — y $5180.21, 9 854049 soles. - 3 S48146. - 4, bs, 863245.
+b. 712.19 bolívares. — g 151082 bolívares. — y, 127920.55 sucres. 9. 57743.90 soles,
+9, 643889 bolivares. — 10, 5060.61 bolívares. 11, 6217396 sueres. — 12 2648.61 soles,
+
+EJERCICIO 305.* 1, $2462.48. » 290603 sucres. — 3,$1576.79. — 4 $687.79,
+
+
+
+═══ PÁGINAS AUSENTES ═══
+Ninguna página ausente.

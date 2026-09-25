@@ -1,0 +1,20 @@
+=== B7 · verificación cwd correcto · 2026-09-24 ===
+--- cwd: /data/data/com.termux/files/home/scfv_v6 ---
+--- PODERES presente: ---
+PODERES
+--- normas presente: ---
+normas
+
+--- pytest desde raíz ---
+.............................................................s.......... [ 31%]
+........................................................................ [ 62%]
+........................................................................ [ 94%]
+.............                                                            [100%]
+228 passed, 1 skipped in 3.10s
+
+--- pytest con testpaths (si existe config) ---
+ERROR _legacy/tests_src_legacy/test_orchestrator.py
+ERROR _legacy/tests_src_legacy/test_seguridad.py
+ERROR _legacy/tests_src_legacy/test_ventas.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 39 errors during collection !!!!!!!!!!!!!!!!!!!
+39 errors in 1.66s

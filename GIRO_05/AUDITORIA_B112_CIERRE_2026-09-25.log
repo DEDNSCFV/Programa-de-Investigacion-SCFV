@@ -1,0 +1,113 @@
+════ B112 · cierre · Fri Sep 25 10:53:41 -04 2026 ════
+
+════ I · eliminar baldor.py duplicado de raíz ════
+════ II · decidir qué hacer con evaluacion/ ════
+Contenido:
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/leer_eventos_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/__pycache__/leer_eventos_asiento.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/normalizar_partidas_para_saldos.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/__pycache__/normalizar_partidas_para_saldos.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/test_soporte_minimo.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/observacion_useq_01_20260923T110658Z.json
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/REGISTRO_OBSERVACION.log
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/__pycache__/test_soporte_minimo.cpython-313-pytest-9.1.1.pyc
+evaluacion/ → DOCS/historicos/evaluacion/
+
+════ III · estado final ════
+total 57
+drwx------.  7 u0_a288 u0_a288  3452 Sep 25 10:53 .
+drwx------. 36 u0_a288 u0_a288 20480 Sep 25 10:17 ..
+drwx------.  3 u0_a288 u0_a288  3452 Sep 25 10:53 DOCS
+-rw-------.  1 u0_a288 u0_a288 10123 Sep 25 10:51 HASHES.txt
+-rw-------.  1 u0_a288 u0_a288  1508 Sep 25 10:49 README.md
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 10:51 __pycache__
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 10:47 perfiles
+-rw-------.  1 u0_a288 u0_a288   497 Sep 25 10:49 pyproject.toml
+drwx------. 10 u0_a288 u0_a288  3452 Sep 25 10:49 scfv_dsr
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 10:51 var
+
+════ IV · estructura final ════
+/data/data/com.termux/files/home/SCFV_DSR/DOCS/historicos/evaluacion/lectura/leer_eventos_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/DOCS/historicos/evaluacion/normalizacion/normalizar_partidas_para_saldos.py
+/data/data/com.termux/files/home/SCFV_DSR/DOCS/historicos/evaluacion/verificacion/REGISTRO_OBSERVACION.log
+/data/data/com.termux/files/home/SCFV_DSR/DOCS/historicos/evaluacion/verificacion/observacion_useq_01_20260923T110658Z.json
+/data/data/com.termux/files/home/SCFV_DSR/DOCS/historicos/evaluacion/verificacion/test_soporte_minimo.py
+/data/data/com.termux/files/home/SCFV_DSR/HASHES.txt
+/data/data/com.termux/files/home/SCFV_DSR/README.md
+/data/data/com.termux/files/home/SCFV_DSR/pyproject.toml
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/cli.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/decision_provider.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/estados.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/event_store.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/examinador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/maquina_estados_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/modelos.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/motor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/nucleo_consecuencias.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/puente_autorizacion.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/puente_consecuencias.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/reportes_motor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/reticulo.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/verificador_autorizacion.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/README.md
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/ejemplos/ejemplo_asiento.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/ejemplos/ejemplo_contrato.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/ejemplos/ejemplo_integrado.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/ejemplos/ejemplo_invariante.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/grammar.lark
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/parser.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_asiento_declarado_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_compatibilidad_s0.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_contract_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_grammar_lalr.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_invariant_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/dictum.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/evidencia.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/generador_propuesta.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/intellectus.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/models.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/perceptum.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/evaluador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/extractor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/ARRENDAMIENTOS.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/COMBINACIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/HIPERINFLACION.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/INTANGIBLES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/INVENTARIOS.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/MONEDA.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/PPE.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/PROVISIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/SUBVENCIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/VENTAS.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/infraestructura/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/infraestructura/serializador_canonico.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/baldor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/categorias.json
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/cuentas.json
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/operaciones.json
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/puente.json
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/xnor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/h2.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/orquestador.py
+/data/data/com.termux/files/home/SCFV_DSR/var/scfv.db
+
+════ V · verificar pipeline sigue OK ════
+  ARRENDAMIENTOS.scfv
+  COMBINACIONES.scfv
+  HIPERINFLACION.scfv
+  INTANGIBLES.scfv
+  INVENTARIOS.scfv
+---
+
+════ VI · regenerar HASHES.txt ════
+71 /data/data/com.termux/files/home/SCFV_DSR/HASHES.txt
+f04dfa37dbe21196ff2627871fa59915f35d78ab03a4e4b87718f4a747d8df94  /data/data/com.termux/files/home/SCFV_DSR/HASHES.txt

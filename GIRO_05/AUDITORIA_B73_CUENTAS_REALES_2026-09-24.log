@@ -1,0 +1,172 @@
+════ B73 · cuentas reales del corpus · Fri Sep 25 07:44:59 -04 2026 ════
+
+════ I · cuentas en eventos registrados ════
+Total cuentas únicas: 2
+
+  110101 · nat=DEUDORA · usos=10
+  410101 · nat=ACREEDORA · usos=10
+
+════ II · cuentas en fractales por dominio ════
+--- compras ---
+--- compras ---
+--- fiscal ---
+--- fiscal ---
+--- inventario ---
+--- inventario ---
+--- ventas ---
+--- ventas ---
+"110101"
+"210201"
+"410101"
+
+════ III · cuentas en libros (mayor) ════
+--- balance_2026-08.csv ---
+--- balance_2026-09.csv ---
+--- diario_2026-08.csv ---
+--- inventario_2026-08.csv ---
+--- mayor_2026-08.csv ---
+110101
+140101
+210201
+410101
+610101
+--- mayor_2026-09.csv ---
+110101
+410101
+--- motor_balance_2026-09.csv ---
+--- motor_diario_2026-09.csv ---
+--- motor_mayor_2026-09.csv ---
+110101
+410101
+
+════ IV · cuentas en tests del motor ════
+"110101"
+"140101"
+"210101"
+"410101"
+"610101"
+"999999"
+
+════ V · cuentas en CONTEXTO de perfiles ════
+/data/data/com.termux/files/home/scfv_v6/perfiles/Cliente_A.scfv
+--- Cliente_A.scfv ---
+
+════ VI · consolidado de cuentas únicas en todo el corpus ════
+110101
+140101
+210101
+210201
+410101
+610101
+999999
+
+════ VII · cuentas únicas con conteo ════
+     53 110101
+     47 410101
+      5 999999
+      4 610101
+      3 210101
+      2 140101
+      1 210201
+
+════ VIII · ¿existe algún catálogo de cuentas? ════
+/data/data/com.termux/files/home/scfv_v6/DOCS/manual_usuario.md
+/data/data/com.termux/files/home/scfv_v6/PODERES/FORMAL/dsl/scfv_architect.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/FORMAL/dsl/contexto/SCFV.scfv
+/data/data/com.termux/files/home/scfv_v6/PODERES/FORMAL/dsl/contexto/contexto.json
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/ventas/reglas/ventas.scfv
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/compras/reglas/compras.scfv
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/compras/compras.py
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/inventario/reglas/inventario.scfv
+/data/data/com.termux/files/home/scfv_v6/SCFV_S0_ESTADO_20260906_164734/PODERES/FORMAL/dsl/scfv_architect.py
+/data/data/com.termux/files/home/scfv_v6/SCFV_S0_ESTADO_20260906_164734/PODERES/FORMAL/dsl/contexto/SCFV.scfv
+/data/data/com.termux/files/home/scfv_v6/SCFV_S0_ESTADO_20260906_164734/PODERES/FORMAL/dsl/contexto/contexto.json
+
+════ IX · PCU embebido · ¿está en algún archivo? ════
+--- /data/data/com.termux/files/home/scfv_v6/scfv.db ---
+--- /data/data/com.termux/files/home/scfv_v6/scfv.db.baseline_v81 ---
+--- /data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md ---
+10:    pcu = {
+11-        "110101": {"naturaleza": "DEUDORA",  "marcos": ["NIIF_Completas", ...]},
+12-        "140101": {"naturaleza": "DEUDORA",  "marcos": [...]},
+13-        ...
+14-    }
+15-
+--- /data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md ---
+54:  pcu = { "110101": {"naturaleza": "DEUDORA", "marcos": [...]}, ... }
+55-        (se inyecta en __init__, no en examinar())
+56-
+57-## Reporte
+58-
+59-  @dataclass
+--- /data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md.bak_h8p ---
+10:    pcu = {
+11-        "110101": {"naturaleza": "DEUDORA",  "marcos": ["NIIF_Completas", ...]},
+12-        "140101": {"naturaleza": "DEUDORA",  "marcos": [...]},
+13-        ...
+14-    }
+15-
+--- /data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_h8p ---
+33:  pcu = { "110101": {"naturaleza": "DEUDORA", "marcos": [...]}, ... }
+34-        (se inyecta en __init__, no en examinar())
+35-
+36-## Reporte
+37-
+38-  @dataclass
+--- /data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_d3 ---
+54:  pcu = { "110101": {"naturaleza": "DEUDORA", "marcos": [...]}, ... }
+55-        (se inyecta en __init__, no en examinar())
+56-
+57-## Reporte
+58-
+59-  @dataclass
+--- /data/data/com.termux/files/home/scfv_v6/scfv.db.g24e_test ---
+--- /data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/INFRAESTRUCTURA/db/scfv.db ---
+--- /data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/cli/integrador.py ---
+26:        pcu = {
+27-            "110101": {"nombre": "Caja", "naturaleza": "DEUDORA", "marcos": ["NIIF_Completas", "NIIF_PYMES"]},
+28-            "410101": {"nombre": "Ventas", "naturaleza": "ACREEDORA", "marcos": ["NIIF_Completas"]},
+29-        }
+30-        self.motor = MotorContable(None, pcu, moneda_funcional="VES")
+31-
+
+════ X · estructura del PCU en contratos H8P ════
+11:        "110101": {"naturaleza": "DEUDORA",  "marcos": ["NIIF_Completas", ...]},
+12-        "140101": {"naturaleza": "DEUDORA",  "marcos": [...]},
+13-        ...
+14-    }
+15-
+16-Sin jerarquía. Claves atómicas. Atributos por cuenta.
+17-
+18-## Estructura algebraica
+19-Retículo booleano (P(C), ⊆, ∪, ∩, ¬, △).
+20-
+21-## Tipos
+--
+164:   (x2), orquestador_v82.py, tests. La cuenta "110101" tiene marcos
+165-   distintos según archivo. Deuda pre-existente.
+166-   Consecuencia: reticulo.py recibe PCU inyectado. Diseño correcto por esta
+167-   razón, no por elegancia.
+168-
+169-2. MotorContable(None) en exportador.py:66 — firma exige pcu: Dict sin
+170-   default. Bug latente fuera de esta fase.
+171-
+46:          {"cuenta_codigo": "110101",
+47-           "movimiento": "AUMENTA",
+48-           "ubicacion": "DEBE"},     # opcional; el Motor la valida aparte
+49-          ...
+50-      ],
+51-      "marco_contable": "NIIF_Completas",   # opcional, default "NIIF_Completas"
+52-  }
+53-
+54:  pcu = { "110101": {"naturaleza": "DEUDORA", "marcos": [...]}, ... }
+55-        (se inyecta en __init__, no en examinar())
+56-
+57-## Reporte
+58-
+59-  @dataclass
+60-  class Reporte:
+61-      linea:    dict   # {"ok": bool, "hallazgos": list[str], "detalles": dict}
+62-      conjunto: dict   # idem
+63-
+64-Cada nivel devuelve siempre un dict con esa forma. Nunca None.

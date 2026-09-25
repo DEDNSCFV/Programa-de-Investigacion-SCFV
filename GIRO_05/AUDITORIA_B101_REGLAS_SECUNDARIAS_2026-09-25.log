@@ -1,0 +1,11 @@
+D.3: EventStore preparado para persistencia canónica.
+PPE.scfv               OK  D=    900.00 H=    900.00 · regla={'DEPRECIACION_PYMES'}
+INTANGIBLES.scfv       OK  D=   1000.00 H=   1000.00 · regla={'AMORTIZACION_PYMES'}
+ARRENDAMIENTOS.scfv    OK  D=   1000.00 H=   1000.00 · regla={'PAGO_CUOTA_PYMES'}
+PROVISIONES.scfv       OK  D=    500.00 H=    500.00 · regla={'USO_PROVISION_PYMES'}
+SUBVENCIONES.scfv      FALLA: NC_VIOLACION: partida 0 con monto inválido
+MONEDA.scfv            FALLA: MOTOR_VIOLACION: I1_VIOLACION - DEBE=73000.0, HABER=0 (valores deben s
+HIPERINFLACION.scfv    OK  D=   2000.00 H=   2000.00 · regla={'REEXPRESION_PATRIMONIO_PYMES'}
+COMBINACIONES.scfv     OK  D=   5000.00 H=   5000.00 · regla={'GANANCIA_COMPRA_VENTAJOSA_PYMES'}
+
+Reglas secundarias OK: 6/8

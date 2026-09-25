@@ -1,0 +1,259 @@
+=== H1-D · loci de las leyes de Baldor · 2026-09-24 ===
+════ I · Ley de los signos · L1885-1890 ════
+El producto de dos números relativos se halla multiplicando los valores
+ibsulutos de ambos. El producto hallado llevará signo positivo (4), sí los
+ignos de ambos factores son iguales; llevará signo negativo (—), si los fac-
+ores ticnen signos distintos, Si uno de los factores es Q el producto será 0.
+
+Cuando operamos con símhbolos literales (+2 (C+P=+6 (M+3=0
+
+════ II · Leyes formales · axiomas · L1624-1700 ════
+LEYES FORMALES DE LAS OPERACIONES FUNDAMENTALES
+ConN NUMEROS REALES
+
+Hemos visto sumariamente cómo a través del curso de la historia de las
+matemáticas, se ha ido ampliando sucesivamente cl campo de los números,
+hasta legar al concepto de número real, El camino recorrido ha sido, unas
+veres, El grométrico, que siempre desemboca en la Aritmética pura, formal;
+Otras veces, el camino puro, formal ha iniciado el recorrido para desembocar
+en lo intul » eN lo geométrico, Como ejemplos del primer caso, tenemos
+Jos números irracionales, introducidos como razón de <Em tos con el
+|uopó¡ílo de re|prucn¡ar magnitudes inconmensurables, y que hacen posible
+a expresión del resultado de la radicación inexacta, Y también, los números
+Irccionarios que surgen para expresar el resultado de medir magnitudes con-
+mensurables, y que hacen posible la división inexacta, Como ejemplo del
+
+undo caso, están los números negativos que aparecen por primera vez como
+Falces de ecuaciones, y hacen posible la resta en todos los casos, ya que cuando
+€l minuendo es menor que el sustraendo esta operación carece de sentido
+cuando trabajamos con números naturales. Más tarde, estos números negativos
+(relativos) servirán para expresar los puntos a uno y otro lado de una recta
+indefinida.
+
+Sin pretensiones de profundizar prematuramente en el campo numérico,
+vamos a exponer las Ie(rs formales festo es, que no toman en cuenta la natu-
+faleza de los números) de la suma y de la multiplicación, ya que Jas demás ope-
+raciones fundamentales pueden explicarse como inversas de éstas, asi, la resta,
+
+
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 16 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+32 e ALGERRA
+
+la división, la potenciación, la logaritmación y la radicación. Conviene ir
+adaptando la mentalidad del principiante al carácter formal (abstracto) de estas
+leyes, pues ello contribuirá a la comprensión de los problemas que ulteriormente
+le plantearán las matemáticas superiores, Por otra parte, el conjunto de estas
+leyes formales constituirá una detinición indirecta de los números reales y de
+las operaciones fundamentales, Estas leyes que no requieren demostración, pues
+son de aprehensión inmediata, se Jaman axiomas.
+
+IGUALDAD
+1. Axioma de identidad: a =a.
+H. Axioma de reciprocidad: si 0=, tenemos que b=a,
+U Axioma de transitividad: si 0=D y b=c, tenemos que a=c.
+
+SUMA O ADICION
+
+1. Axioma de uniformidad: la suma de dos números es siempre igual,
+es decir, única; así, si a=b y c=d, tenemos que a+c=b+d.
+
+11, Axioma de conmutatividad: a + b =b+a.
+
+HE Axioma de asociatividad: (0+b)+e=a4(b+c)
+
+1Y. Axioma de identidad, o módulo de la suma: hay un mimero y sólo
+un número, el cero, de modo que a+0=0+a=a, para cualquier valor de a.
+De ahí que el cero reciba el nombre'de elemento idéntico o múdulo de la suma.
+
+MULTIPLICACION
+
+1. Axioma de uniformidad: el producto de dos números es siempre igual,
+es decir, único, así si a=b y c=d, tenemos que ac=bd.
+
+IL Axioma de conmutatividad: ab=ba.
+
+E Axioma de asociatividad: (ab)c=a (Dbe).
+
+1V. — Axioma de distributividad: con respecto a la suma tenemos que
+afb+c)=ab+ac.
+
+V. — Axioma de identidad, o módulo del producto: hay un número y sólo
+un número, el uno (1), de modo que a.1=/.a=a, para cualquier valor de a.
+
+VI, — Axioma de existencia del inverso: para todo número real a-0
+(a distinto de cero) corresponde un número real, y sólo uno, x, de modo que
+
+════ III · Ley Conmutativa suma · L2105-2115 ════
+
+El orden de los sumandos no altera la suma. - Así, Ga+ 6% + Bc es lo
+
+mismo que 5a +8c+60 o que 6b + Bc + 5a.
+
+Esta es la Ley Conmutativa de la suma,
+2) Sumar da%b, 4ab?, a*b, Tab? y 6b".
+
+Tendremos: — g0e5 4 4002 a2 + 7abt + 60.
+
+Reduciendo los términas
+
+════ IV · Ley Asociativa suma y resta · L3320-3325 ════
+Lo anterior nos dice que los términos de una expresión pueden
+
+pane de cualquier modo, : —
+Esta es la Ley Asociativa de la suma y de la resta.
+Podemos, pues, enunciar la siguiente:
+
+
+════ V · Ley Distributiva · L3660-3670 ════
+mio, teniendo en cuenta en cada caso la regla de los signos, y se separan
+los productos parciales con sus propios signos.
+
+Esta es la Ley Distributiva de Ja multiplicación.
+
+(1) Multiplicar 3x? — 6x +7 por dox”,
+
+B— óx +7
+dox?
+Lo operación suele disponerse así: Z
+
+
+════ VI · Reducción términos semejantes · L874-1000 ════
+En la reducción de términos semejantes pueden ocurrir los tres casos
+siguientes:
+
+1) Reducción de dos a má términos semejantes del mismo signo,
+
+REGLA
+
+Se suman los coeficientes, poniendo delante de esta suma el mismo
+signo que tienen todos y a continuación se escribe la parte literal,
+
+emp!os |
+
+11) 3a+2a=50. R t6) 5,ob+;ob=£ab. R
+
+(2) —Sb-760=-—12. R (7 — -iy== K
+
+(3) —o?—90%=- 100 R. (8) 5x+x+20=8x. R
+
+(4) 20t24 502 =8 R (9) — m—3m — óm — m == 16m
+(5) — 401 — 7051 = 110**1, R (10) iy +2y + Ey =. R
+
+m EJERCICIO 7
+
+Reducir:
+1 x+2%. 6. —Im—Tr. 11, La+la. 14 —y
+2. 8a49a. T. Aa*+5a", ; ', ú A
+3, 11b+9b. 8 2+80*+1. 12, —ab+—ab. 18; .=7 0=
+4. —b—6b. 9. +I1—Gmrel, Cr '¡º a
+5. —Sm=m, 10. —3a*—e, 18 iay+lay. 7 16 —0-0,
+
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 10 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+28 ALGESRA
+
+17. Ba+90+6a. 20. —x-B%y—0xy-20:ty.
+18. 15x+20x+%. 30, —dar—5a"—(a"—Se",
+19. —7m—8m-9m. a1 +. + %º + %º i
+
+20. —a*b—0"b—3a%. ME
+—AX+—AX-+ 0X -| —AX.
+21. a"+Ja+8a". — 3 10 20
+s r 33. 0.5m+0.6mY0.7m-+0.8m.
+E 34 —-ab-Lab—iab—ab,
+23 a+-ata. T [
+
+35, —y -
+36. 7 ab*+alb2+7ab*+9ab*421ab”,
+
+25, Lex+Tax+ax. 37. —m—m—8m—im—3m.
+, " 98 —x*11—Bxt=1-4x0+1—Gxo+1—x8+1,
+
+2 1
+D6 —a— aA
+
+— aa VNPO SR asl
+4 ha 39. certo+-a+-a+-a.
+27 Ma+Ba4+9a-+11a, 4 4 A : á
+28. m*+1pam<1-4m+1+Gmt+1. 40. ——qab-rab——ab—-ab—-—ab.
+
+9) Reducción de dos términos semejantes de distimto signo.
+
+REGLA
+
+Se restan los coeficientes, poniendo delante de esta diferencia el signo
+del mayor y a continuación se escribe la parte literal.
+
+(1) 20-30=-a. R (5) 259%*1—540**1=—290**1. R
+(2) 18—11x=7%. R 16) + jo R
+
+(3) —200b+110b=-9ab. R (7) —Fob+o%b=1a"b. R
+
+(4) —Bo*+130%=50% R [N
+
+De la regla anterior se deduce que dos lérminos semejontos de iguales cosfi-
+cientes y de signo contrario se anulan.
+
+— M
+
+E EJERCICIO 8
+
+Reducir:
+
+l. Ba—6a 5. 2a—2a. 9 40x9y—51xy.
+2 BGa-da, 6. —T7b+7b, 10, —min+6min,
+3, dab-I5ab, 7 —l4xy+32xy. 1. —169+10.
+4 15ab—Yab. 9. —26x*y+92x*y. 12. 5560"b*—Bla%b*,
+
+naDUCCION UN TEAMINOS sINDANTES —O Z)
+
+1. —y 23 —y T. 33 —x+i-ana,
+16 —9ab*+9ab*, P . e
+15. 7xy-7xy. 28 —am——am, ' , E
+
+16. —101mn+118mn.
+17. 502ab—4050b.
+18 —1024x--1018x. 26. Lmn—mn. 30 a.
+109. —15eb+13ab. * e
+
+s 1
+25. —um+%am. ia apiunsa ea
+
+a,
+
+"NPR 27, 37 —-5'mu+%—mn.
+Vn 28 34056 39, - gar+3he-1—o5a e
+s A 29 —1.2y:+%3.4y%. 7
+2 Ta-ja 30 da=—9a". 38 ——abt+a"b",
+ú » 31. —Bo*1+ayerE.
+22 Lab-Leb. 39 25ma1-A2m, 40. o.85mxy—%mxy.
+
+Se reducen a un solo término todos los positivos, se reducen a un solo
+término todos los negativos y a los dos resultados obtenidos se aplica la re-
+gla del caso anterior.
+
+Ejemplos |
+
+(1) Reducir 50 — Bo + a — éc + 21a.
+Reduciendo los pasitivos: 5a + 0 +21a =77a.
+Reduciendo los negativos: — Ba — éc = — Mo.
+Aplicondo a estos resultados ablenidos, 270 y — M4a, la regla del coso ante:
+rior, sc tiene: 270 — la =130. R.
+Esla reducción también suele hacerse término a término, de esta monerol
+$a — Ba = —3o; — 3a+0=-—20; —2a— 6n =— La; — 80 +7l 100 N
+
+12) Reducir —Ibx? +5bx" + jba? — abr? + br'.
+
+════ VII · Axioma del inverso · L1699-1705 ════
+VI, — Axioma de existencia del inverso: para todo número real a-0
+(a distinto de cero) corresponde un número real, y sólo uno, x, de modo que
+ax=/. Este número x se llama inverso o recíproco de a, y se representa por 1/a.
+
+ANXIOMAS DE ORDEN
+
+l Tricotomía: Si tenemos dos múmeros reales a y 6 sólo puede haber una

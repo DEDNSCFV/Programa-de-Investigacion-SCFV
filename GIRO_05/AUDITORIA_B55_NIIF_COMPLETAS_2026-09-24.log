@@ -1,0 +1,518 @@
+════ B55 · inventario NIIF completas · Thu Sep 24 22:58:54 -04 2026 ════
+
+════ I · dimensiones de cada raw ════
+.niif_peru_2025_raw.txt · 109629 L · 5435605 bytes
+.niif_compilado_2026_raw.txt · 91633 L · 4144184 bytes
+.ifrs_annotated_2025_raw.txt · 6686 L · 242903 bytes
+.niif18_2024_raw.txt · 4956 L · 203361 bytes
+.niif1_2024_raw.txt · 13951 L · 732797 bytes
+.ifrs_s1_2023_raw.txt · 2856 L · 125150 bytes
+.ifrs_s2_2023_raw.txt · 2664 L · 120336 bytes
+
+════ II · ¿qué NIC aparecen en niif_peru_2025? ════
+NIC 1
+NIC 10
+NIC 12
+NIC 16
+NIC 17
+NIC 19
+NIC 2
+NIC 20
+NIC 21
+NIC 23
+NIC 24
+NIC 26
+NIC 27
+NIC 28
+NIC 29
+NIC 31
+NIC 32
+NIC 34
+NIC 36
+NIC 37
+NIC 38
+NIC 39
+NIC 40
+NIC 41
+NIC 7
+NIC 8
+--- variantes ---
+    441 NIC 1
+    337 NIC 32
+    307 NIC 39
+    291 NIC 8
+    261 NIC 12
+    214 NIC 19
+    206 NIC 38
+    182 NIC 16
+    177 NIC 27
+    175 NIC 36
+    165 NIC 37
+    155 NIC 21
+    140 NIC 28
+     90 NIC 7
+     86 NIC 2
+     69 NIC 40
+     68 NIC 20
+     59 NIC 41
+     59 NIC 29
+     58 NIC 10
+     52 NIC 23
+     51 NIC 33
+     49 NIC 24
+     46 NIC 34
+     19 NIC 17
+     16 NIC 26
+      9 NIC 31
+      6 NIC 18
+      5 NIC 14
+      4 NIC 11
+      2 NIC 35
+      2 NIC 30
+      2 NIC 3
+      1 NIC 9
+
+════ III · ¿qué NIIF aparecen? ════
+   1027 NIIF 9
+    367 NIIF 17
+    363 NIIF 10
+    358 NIIF 16
+    344 NIIF 3
+    249 NIIF 13
+    248 NIIF 15
+    180 NIIF 11
+    171 NIIF 2
+    147 NIIF 5
+    139 NIIF 12
+    128 NIIF 7
+     66 NIIF 1
+     43 NIIF 8
+     41 NIIF 14
+     26 NIIF 6
+     25 NIIF 21
+     22 NIIF 23
+     11 NIIF 4
+     11 NIIF 22
+      8 NIIF 20
+      6 NIIF 19
+      2 NIIF 09
+      1 NIIF 2018
+      1 NIIF 18
+
+════ IV · índice general del raw (si existe) ════
+Marco Conceptual
+
+El Marco Conceptual para la Información Financiera
+El Marco Conceptual para la Información Financiera fue emitido por el Consejo de Normas Internacionales de
+Contabilidad en septiembre de 2010. Fue revisado en marzo de 2018.
+
+© IFRS Foundation
+
+1
+
+Marco Conceptual
+
+ÍNDICE
+desde el párrafo
+ESTATUS Y PROPÓSITO DEL MARCO CONCEPTUAL
+
+SP1.1
+
+CAPÍTULO 1—EL OBJETIVO DE LA INFORMACIÓN
+FINANCIERA CON PROPÓSITO GENERAL
+INTRODUCCIÓN
+
+1.1
+
+OBJETIVO, UTILIDAD Y LIMITACIONES DE LA INFORMACIÓN FINANCIERA
+CON PROPÓSITO GENERAL
+
+1.2
+
+INFORMACIÓN SOBRE LOS RECURSOS ECONÓMICOS, LOS DERECHOS
+DE LOS ACREEDORES CONTRA LA ENTIDAD Y LOS CAMBIOS EN ESTOS
+DE LA ENTIDAD QUE INFORMA
+
+1.12
+
+Recursos económicos y derechos de los acreedores
+
+1.13
+
+Cambios en los recursos económicos y en los derechos
+
+1.15
+
+Rendimiento financiero reflejado por la contabilidad de acumulación (o
+devengo)
+
+1.17
+
+Rendimiento financiero reflejado por los flujos de efectivo pasados
+
+1.20
+
+Cambios en los recursos económicos y en los derechos que no proceden
+del rendimiento financiero
+
+1.21
+
+INFORMACIÓN SOBRE EL USO DE LOS RECURSOS ECONÓMICOS DE LA
+ENTIDAD
+
+1.22
+
+CAPÍTULO 2—CARACTERÍSTICAS CUALITATIVAS DE LA
+INFORMACIÓN FINANCIERA ÚTIL
+INTRODUCCIÓN
+
+2.1
+
+CARACTERÍSTICAS CUALITATIVAS DE LA INFORMACIÓN FINANCIERA
+ÚTIL
+
+2.4
+
+Características cualitativas fundamentales
+
+2.5
+
+Características cualitativas de mejora
+
+2.23
+
+LA RESTRICCIÓN DEL COSTO SOBRE LA INFORMACIÓN FINANCIERA
+ÚTIL
+
+2.39
+
+CAPÍTULO 3—ESTADOS FINANCIEROS Y LA ENTIDAD QUE
+INFORMA
+ESTADOS FINANCIEROS
+
+3.1
+
+Objetivo y alcance de los estados financieros
+
+3.2
+
+Periodo sobre el que se informa
+
+3.4
+
+
+════ V · estructura: títulos de normas ════
+6224:NIC 7]
+6315:NIC 7] de una entidad. Esta presentación razonable requiere la presentación fidedigna [Referencia:
+6344:NIC 8 establece una jerarquía normativa [Referencia: párrafos 10 a 12, NIC 8] a considerar por
+6517:NIC 1 con respecto a incertidumbres relacionadas con la capacidad de una entidad de continuar
+6520:NIC 1 requiere del ejercicio del juicio profesional. El Comité destacó que el párrafo 25 requiere que
+6574:NIC 10] El grado de detalle de las consideraciones dependerá de los hechos que se presenten en cada caso.
+7186:NIC 12... ».
+8023:NIIF 17);
+8042:NIIF 17 (véase la NIIF 17);
+8100:NIC 39 Instrumentos Financieros:. Reconocimiento y Medición).
+8143:NIC 12 Impuestos a las Ganancias—Presentación de pagos sobre impuestos distintos a los de las
+9403:NIC 8. Una entidad aplicará esas modificaciones de forma prospectiva a los periodos anuales que
+9418:NIC 8. Se permite su aplicación anticipada. Si una entidad aplica esas modificaciones para un periodo
+9492:NIIF 9 Instrumentos Financieros); y
+9668:NIC 38 a la tenencia de criptomonedas. Para llegar a su conclusión, el Comité consideró los
+9788:NIC 2 Inventarios—Contabilización de los inventarios básicos”
+9818:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+10532:NIC 1).
+10689:NIC 7, llevándose a cabo dentro del proyecto de información sobre el rendimiento.]
+11190:NIC 23 Costos por Préstamos.
+11752:NIIF 11.
+12157:NIC 37 porque es un activo, y no un posible activo, de la entidad.
+12208:NIC 16 para las distintas clases de propiedades, planta y equipo y el párrafo 72 de la NIC 38 para
+12931:NIC 8. Una entidad aplicará esas modificaciones de forma prospectiva a los periodos anuales que
+13819:NIC 12. El Comité observó que la NIC 12 requiere que una entidad refleje un ajuste a la base fiscal
+13909:NIC 12.]]
+14157:NIC 40 Propiedades de Inversión. Quien envío la solicitud preguntaba si los requerimientos del
+14192:NIC 12 a la agenda del Consejo, pero que había decidido no hacerlo. Por consiguiente, el Comité
+16138:NIIF 2] y no recibir la deducción fiscal hasta que las opciones sobre acciones sean ejercitadas, de forma
+17007:NIIF 5 Activos No Corrientes Mantenidos para la Venta y Operaciones Discontinuadas;
+17154:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+17866:NIIF 16 y evaluar "una penalización insignificante", una entidad considerará las condiciones
+17910:NIC 16 y la NIIF 16 proporcionan una base adecuada para que una entidad determine la vida útil de
+18040:NIC 36;
+18195:NIC 36]
+18512:NIC 38), emitido en mayo de 2014, modificó el párrafo 56 y añadió el párrafo 62A. Una entidad aplicará
+19327:NIC 24] requiere información a revelar sobre los beneficios a los empleados del personal clave de la
+20905:NIC 19. El párrafo 75 de la NIC 19 requiere que las suposiciones actuariales sean mutuamente
+20957:NIC 19 explica la decisión del Consejo del IASC para rechazar la propuesta de que el “costo de los
+21313:NIC 19 explica la decisión del Consejo del IASC para rechazar la propuesta de que el “costo de los
+21441:NIC 19 y NIIF 13 Medición del Valor Razonable, con cambios en el valor razonable registrados en el
+21453:NIC 19 y la NIIF 13.
+21554:NIC 2] y la NIC 16 [Referencia: párrafos 15 y 28, NIC 16]). Todo costo por beneficios definidos post-
+21728:NIC 32 Instrumentos Financieros: Presentación [Referencia: párrafo 42, NIC 32].
+23820:NIC 2] y el valor neto realizable [Referencia: párrafos 28 a 33, NIC 2] de acuerdo con la NIC 2
+24102:NIC 29) multiplicado por la diferencia entre las tasas de cambio de apertura y cierre.
+24272:NIIF 10] como por ejemplo, la eliminación de los saldos y transacciones intragrupo de una subsidiaria
+25156:NIIF 9; [Referencia: Apéndice A y párrafos 5.4.1, 5.4.2 y B5.4.1 a B5.4.7, NIIF 9]
+25555:NIC 8] una entidad aplicará la Norma a los costos por préstamos relacionados con los activos aptos
+25659:NIC 27 Estados Financieros Separados. Esta norma también se aplicará a los estados financieros
+25998:NIIF 12 Información a Revelar sobre Participaciones en Otras Entidades.
+27113:NIIF 9.
+27153:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+27157:NIC 27.
+27232:NIC 28 para medir inicialmente una inversión en una asociada o negocio conjunto al costo. El
+27234:NIC 28 en esta etapa, en lugar de como parte de su consideración más amplia de la NIC 28 dentro
+27246:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+27250:NIC 27.
+27278:NIIF 9 es elegible para la opción, si no se mantiene para negociar (como se define en el Apéndice A
+27925:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+
+════ VI · reglas de medición por norma ════
+--- NIC 1 (presentación) ---
+88
+--- se medirá / se reconocerá total ---
+324
+
+════ VII · asientos Dr/Cr en NIIF Perú ════
+99122:Dr Efectivo 1.800.000 u.m.
+99123:Dr Activo por derecho de uso 250.000 u.m.
+--- total ---
+2
+
+════ VIII · NIIF compilado 2026 · ¿qué contiene? ════
+Febrero 2026
+
+Edita: Instituto de Contabilidad y Auditoría de Cuentas
+(Ministerio de Economía, Comercio y Empresa)
+Huertas, 26 – 28014 MADRID
+Publicación exclusiva en línea en la siguiente dirección de internet: www.icac.gob.es
+N.I.P.O.: 223-24-017-X
+
+NORMAS INTERNACIONALES DE INFORMACION FINANCIERA ADOPTADAS
+POR LA U.E.
+
+(Actualización febrero 2026)
+
+Las actualizaciones de esta entrega son de aplicación obligatoria a partir de 1 de enero de 2027
+
+A continuación se relacionan las páginas que han sido objeto de modificación así
+como la forma en que deben ser sustituidas.
+
+•
+
+Normas Internacionales de Información Financiera (NIIF):
+
+NIIF 1: Se sustituye integra.
+NIIF 2: Se sustituye integra.
+NIIF 3: Se sustituye integra.
+NIIF 5: Se sustituye integra.
+NIIF 6: Se sustituye integra.
+NIIF 7: Se sustituye integra.
+NIIF 8: Se sustituye integra.
+NIIF 9: Se sustituye integra.
+NIIF 10: Se sustituye integra.
+NIIF 11: Se sustituye integra.
+NIIF 12: Se sustituye integra.
+NIIF 13: Se sustituye integra.
+NIIF 15: Se sustituye integra.
+NIIF 16: Se sustituye integra.
+NIIF 17: Se sustituye integra.
+NIIF 18: Se añade.
+NIC 2: Se sustituye integra.
+NIC 7: Se sustituye integra.
+NIC 8: Se sustituye integra.
+NIC 10: Se sustituye integra.
+NIC 12: Se sustituye integra.
+NIC 16: Se sustituye integra.
+NIC 19: Se sustituye integra.
+NIC 20: Se sustituye integra.
+NIC 21: Se sustituye integra.
+NIC 24: Se sustituye integra.
+NIC 26: Se sustituye integra.
+NIC 27: Se sustituye integra.
+NIC 28: Se sustituye integra.
+NIC 29: Se sustituye integra.
+NIC 32: Se sustituye integra.
+NIC 33: Se sustituye integra.
+
+NIC 34: Se sustituye integra.
+NIC 36: Se sustituye integra.
+NIC 37: Se sustituye integra.
+NIC 38: Se sustituye integra.
+NIC 40: Se sustituye integra.
+--- inventario de sustituciones ---
+
+Normas Internacionales de Información Financiera (NIIF):
+
+NIIF 1: Se sustituye integra.
+NIIF 2: Se sustituye integra.
+NIIF 3: Se sustituye integra.
+NIIF 5: Se sustituye integra.
+NIIF 6: Se sustituye integra.
+NIIF 7: Se sustituye integra.
+NIIF 8: Se sustituye integra.
+NIIF 9: Se sustituye integra.
+NIIF 10: Se sustituye integra.
+NIIF 11: Se sustituye integra.
+NIIF 12: Se sustituye integra.
+NIIF 13: Se sustituye integra.
+NIIF 15: Se sustituye integra.
+NIIF 16: Se sustituye integra.
+NIIF 17: Se sustituye integra.
+NIIF 18: Se añade.
+NIC 2: Se sustituye integra.
+NIC 7: Se sustituye integra.
+NIC 8: Se sustituye integra.
+NIC 10: Se sustituye integra.
+NIC 12: Se sustituye integra.
+NIC 16: Se sustituye integra.
+NIC 19: Se sustituye integra.
+NIC 20: Se sustituye integra.
+NIC 21: Se sustituye integra.
+NIC 24: Se sustituye integra.
+NIC 26: Se sustituye integra.
+NIC 27: Se sustituye integra.
+NIC 28: Se sustituye integra.
+NIC 29: Se sustituye integra.
+NIC 32: Se sustituye integra.
+NIC 33: Se sustituye integra.
+
+NIC 34: Se sustituye integra.
+NIC 36: Se sustituye integra.
+NIC 37: Se sustituye integra.
+NIC 38: Se sustituye integra.
+NIC 40: Se sustituye integra.
+
+════ IX · NIIF individuales sueltas ════
+--- NIIF 18 ---
+NIIF 18
+
+Norma internacional de información financiera 18
+Presentación y revelación de información en los
+estados financieros
+Objetivo
+1
+
+Esta Norma establece los requisitos para la presentación y revelación de información en los estados
+financieros con propósito general (denominados «estados financieros») con el fin de contribuir a garantizar
+que dichos estados proporcionen información pertinente y que represente de manera fiel los activos, los
+pasivos, el patrimonio neto, los ingresos y los gastos de la entidad.
+
+Ámbito de aplicación
+2
+
+La entidad aplicará esta Norma al presentar y revelar información en los estados financieros
+elaborados de acuerdo con las normas NIIF de contabilidad.
+
+3
+
+Esta Norma establece los requisitos generales y específicos para la presentación de información en el
+estado o estados de rendimiento financiero, el estado de situación financiera y el estado de cambios en
+el patrimonio neto. Asimismo, esta Norma establece los requisitos para la revelación de información en
+las notas. La NIC 7 Estado de flujos de efectivo establece los requisitos para la presentación y revelación
+de información sobre flujos de efectivo. No obstante, los requisitos generales relativos a los estados
+financieros que figuran en los párrafos 9 a 43 y 113 a 114 se aplicarán al estado de flujos de efectivo.
+
+4
+
+--- NIIF 1 ---
+Junio 2025
+
+Edita: Instituto de Contabilidad y Auditoría de Cuentas
+(Ministerio de Economía, Comercio y Empresa)
+Huertas, 26 – 28014 MADRID
+Publicación exclusiva en línea en la siguiente dirección de internet: www.icac.gob.es
+N.I.P.O.: 223-24-017-X
+
+NORMAS INTERNACIONALES DE INFORMACION FINANCIERA ADOPTADAS
+POR LA U.E.
+
+(Actualización junio 2025)
+
+Las actualizaciones de esta entrega son de aplicación obligatoria a partir de 1 de enero de 2026
+
+A continuación se relacionan las páginas que han sido objeto de modificación así
+como la forma en que deben sustituidas.
+
+•
+
+Normas Internacionales de Información Financiera (NIIF):
+
+NIIF 7: Se sustituye integra.
+NIIF 9: Se sustituye integra.
+
+NORMAS INTERNACIONALES DE INFORMACIÓN
+FINANCIERA ADOPTADAS POR LA UE
+
+Actualización Junio 2025
+
+
+════ X · IFRS S1/S2 · sostenibilidad ════
+Junio 2023
+
+NIIF S1
+
+Norma NIIF® de Información a Revelar sobre Sostenibilidad
+
+Requerimientos Generales para la Información
+Financiera a Revelar relacionada con la
+Sostenibilidad
+
+Consejo de Normas Internacionales de Sostenibilidad
+
+NIIF S1
+Requerimientos Generales para la Información Financiera
+a Revelar relacionada con la Sostenibilidad
+
+IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information together with its
+accompanying documents is issued by the International Sustainability Standards Board (ISSB).
+Disclaimer: To the extent permitted by applicable law, the ISSB and the IFRS Foundation (Foundation) expressly
+disclaim all liability howsoever arising from this publication or any translation thereof whether in contract, tort or
+otherwise to any person in respect of any claims or losses of any nature including direct, indirect, incidental or
+consequential loss, punitive damages, penalties or costs.
+Information contained in this publication does not constitute advice and should not be substituted for the services of
+an appropriately qualified professional.
+© IFRS Foundation 2023
+Reproduction and use rights are strictly limited to personal non-commercial use, such as corporate disclosure.
+Any other use, such as – but not limited to – reporting software, investment analysis, data services and product
+development is not permitted without written consent. Please contact the Foundation for further details at
+sustainability_licensing@ifrs.org.
+All rights reserved.
+This Spanish translation of the IFRS S1 General Requirements for Disclosure of Sustainability-related
+Financial Information has been approved by the Review Committee appointed by the IFRS Foundation. The Spanish
+translation is the copyright of the IFRS Foundation.
+
+The Foundation has trade marks registered around the world (Marks) including ‘IAS®’, ‘IASB®’, the IASB® logo,
+‘IFRIC®’, ‘IFRS®’, the IFRS® logo, ‘IFRS for SMEs®’, the IFRS for SMEs® logo, ‘International Accounting
+Standards®’, ‘International Financial Reporting Standards®’, the ‘Hexagon Device’, ‘NIIF®’, ‘SIC®’ and SASB®.
+Further details of the Foundation’s Marks are available from the Foundation on request.
+The Foundation is a not-for-profit corporation under the General Corporation Law of the State of Delaware, USA and
+operates in England and Wales as an overseas company (Company number: FC023235) with its principal office in the
+
+════ XI · solapamiento Pymes vs NIIF completas ════
+--- Normas que aparecen en ambos ---
+N=1 · Pymes S1: 6 · NIIF/NIC 1: 495
+N=2 · Pymes S2: 12 · NIIF/NIC 2: 253
+N=3 · Pymes S3: 3 · NIIF/NIC 3: 335
+N=4 · Pymes S4: 3 · NIIF/NIC 4: 11
+N=5 · Pymes S5: 4 · NIIF/NIC 5: 135
+N=7 · Pymes S7: 3 · NIIF/NIC 7: 216
+N=8 · Pymes S8: 3 · NIIF/NIC 8: 320
+N=10 · Pymes S10: 26 · NIIF/NIC 10: 416
+N=11 · Pymes S11: 75 · NIIF/NIC 11: 184
+N=12 · Pymes S12: 30 · NIIF/NIC 12: 394
+N=16 · Pymes S16: 7 · NIIF/NIC 16: 506
+N=17 · Pymes S17: 26 · NIIF/NIC 17: 373
+N=18 · Pymes S18: 12 · NIIF/NIC 18: 7
+N=19 · Pymes S19: 24 · NIIF/NIC 19: 218
+N=20 · Pymes S20: 13 · NIIF/NIC 20: 75
+N=21 · Pymes S21: 21 · NIIF/NIC 21: 176
+N=23 · Pymes S23: 37 · NIIF/NIC 23: 72
+N=24 · Pymes S24: 6 · NIIF/NIC 24: 47
+N=27 · Pymes S27: 27 · NIIF/NIC 27: 171
+N=28 · Pymes S28: 13 · NIIF/NIC 28: 137
+N=29 · Pymes S29: 11 · NIIF/NIC 29: 59
+
+════ XII · conteo total de normas individuales ════
+--- NIC únicas en NIIF Perú ---
+34
+--- NIIF únicas en NIIF Perú ---
+25
+--- SIC/IFRIC ---
+0

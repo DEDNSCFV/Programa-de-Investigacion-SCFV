@@ -1,0 +1,34 @@
+════ B108 · fix residual · Fri Sep 25 10:49:00 -04 2026 ════
+
+════ I · copiar serializador_canonico ════
+total 19
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 10:49 .
+drwx------. 10 u0_a288 u0_a288  3452 Sep 25 10:49 ..
+-rw-------.  1 u0_a288 u0_a288     0 Sep 25 10:49 __init__.py
+-rw-------.  1 u0_a288 u0_a288 10753 Sep 25 10:49 serializador_canonico.py
+
+════ II · reescritura agresiva (todas las líneas) ════
+Modificados: 8
+  .../integrador.py
+  .../epistemologico/evidencia.py
+  .../contable/motor.py
+  .../contable/event_store.py
+  .../contable/decision_provider.py
+  .../contable/nucleo_consecuencias.py
+  .../contable/examinador.py
+  .../profesional/h2.py
+
+════ III · verificar residual ════
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/motor.py:88:        """Wrapper de la fuente única en PODERES/CONTABLE/xnor.py."""
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/nucleo_consecuencias.py:53:        """Wrapper de la fuente única en PODERES/CONTABLE/xnor.py."""
+(vacío = OK)
+
+════ IV · import completo sin v6 ════
+D.3: EventStore preparado para persistencia canónica.
+✓ TODOS los módulos importan sin v6
+
+════ V · pipeline completo sin v6 ════
+D.3: EventStore preparado para persistencia canónica.
+✓ Pipeline completo · D=850.0 H=850.0
+✓ Cadena: (True, 'CADENA_INTEGRA')
+✓ Eventos: 2

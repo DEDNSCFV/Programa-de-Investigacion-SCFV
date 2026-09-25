@@ -1,0 +1,200 @@
+=== B17 · loci CITAS_CANON · 2026-09-24 ===
+--- Mandelbrot 1975 · loci nuevos ---
+L100:
+de «inventor de los fractales», o aun de «padre de la revolución fractal»? Lo acepto
+L116:
+sorprendente que parece como si implicara que «la naturaleza les hubiera gastado una
+L165:
+he concebido, puesto a punto y utilizado extensamente una nueva geometría de la
+L732:
+Dos conceptos intuitivos esenciales: homotecia interna y cascada
+--- L12426 · ¿de quién? ---
+Puede haberse concebido un Error—puede haberse descubierto una verdad.
+--- Hevner · loci nuevos ---
+L904:
+• Research is by its nature cyclical, iterative, or more exactly helical
+L1336:
+                          Table 2.1 Design Science Research Guidelines
+L1563:
+   Figure 2.2 borrows the IS research framework found in (Hevner et al. 2004) and
+L1649:
+2.4.3.3 The Design Cycle
+L1651:
+cycle of research activities iterates more rapidly between the construction of an
+L1654:
+ating the alternatives against requirements until a satisfactory design is achieved. As
+L1662:
+    During the performance of the design cycle a balance must be maintained
+--- Merkle ---
+L213:
+The new signature method is called a "tree signature."
+L2432:
+The method is called tree authentication because the
+L2439:
+forms a binary tree of recursive calls.
+L2441:
+Authenticating a particular leaf Yi in the tree
+L2463:
+to as the root of the authentication tree, or R.
+--- NIST FIPS 180-4 ---
+L781:
+Preprocessing consists of three steps: padding the message, M (Sec. 5.1), parsing the message
+L1053:
+Each message block, M(1), M(2), …, M(N), is processed in order, using the following steps:
+--- Pro Git ---
+L427:
+entiendes lo que es Git y los fundamentos de cómo funciona, probablemente te será mucho más
+L491:
+funcionalidad está integrada en Git al más bajo nivel y es parte integral de su filosofía. No puedes
+L494:
+El mecanismo que usa Git para generar esta suma de comprobación se conoce como hash SHA-1. Se
+L500:
+Git guarda todo no por nombre de archivo, sino por el valor hash de sus contenidos.
+L537:
+El flujo de trabajo básico en Git es algo así:
+L684:
+introducida de manera inmutable en los commits que envías:
+L898:
+historial la versión del archivo correspondiente al instante en que ejecutaste git
+--- Gadamer ---
+L425:
+tos prejuicios e intereses, Querer sustraer a la
+L1240:
+en sustitución de un empirismo dogmático lleno de prejuicios.
+L3681:
+acaba Evnnw=n…o la «ctítica del gusto» de todo prejuicio tanto
+L15060:
+prejuicios filosóficos los que tienen que ser superados al estilo
+L15535:
+El concepto y el fenómeno del horizonte posec un significado
+L15546:
+y lleva consigo el horizonte del mundo. En su retractavión en
+L15568:
+1, 399 (1929), El concepto de «horizonte» y de la conciencia horizóntica
+L19239:
+verdadera fusión horizóntica que con el proyecto del horizonte
+L21206:
+y fusión de horizontes intentaba precisamente describir la ma-
+L23273:
+es la de que esta fusión de horizontes que tiene lugar en la comprensión
+L34342:
+una fusión horizóntica. El horizonte histórico no puede empe:
+--- Lakatos ---
+L244:
+
+L245:
+and what not in set-theoretical and metamathematical proofs, as shown by the well-
+L246:
+
+L2266:
+H
+L2267:
+&
+L2268:
+w
+L2269:
+]
+--- Popper L106 ---
+6. La falsabilidad como criterio de demarcación
+--- Mandelbrot 1975 y 1982 · encabezados ---
+¿Qué son los objetos fractales? ¿Para qué sirven, cuál es su historia y por
+qué se llaman así? Los fractales representan a la vez una teoría matemática
+y un método para analizar una gran diversidad de fenómenos de la
+naturaleza; precisamente aquellos fenómenos que se nos antojan «sin ley»,
+como la caprichosa forma de una costa, de una nube o, incluso, de una obra
+de arte.
+Benoît Mandelbrot creó los fractales a principios de los años sesenta y hoy
+protagonizan investigaciones que se ocupan de física teórica, geografía,
+economía, biología, etc., de modo que en la actualidad se puede decir que
+existe una concepción y una geometría fractales de la naturaleza. Éstas se
+basan, en esencia, en el concepto de autosimilitud, una propiedad exhibida
+por aquellos sistemas cuyas estructuras permanecen constantes al variar la
+escala de observación; en otras palabras: cuando las partes, por pequeñas
+que éstas sean, se parecen al todo.
+Este libro es el primer ensayo dedicado a exponer la teoría y es también, por
+lo tanto, un documento histórico impregnado de las vivencias directas de este
+científico cuya sorprendente aventura intelectual se desarrolla entre la
+Universidad de Harvard y la IBM.
+
+www.lectulandia.com - Página 2
+Benoît Mandelbrot es conocido como el «padre de los fractales». Pero
+¿qué es la geometría fractal?
+Concedamos la palabra al propio Mandelbrot: «¿Por qué a menudo se
+describe la geometría como algo “frío” y “árido”? Una de las razones es la
+incapacidad de describir la forma de la nube, una montaña, una costa o un
+árbol, porque ni las nubes son esféricas, ni las montañas cónicas, ni las
+costas circulares, ni el tronco de un árbol cilíndrico, ni un rayo rectilíneo. […]
+Creo que muchas formas de la naturaleza son tan irregulares y fragmentadas
+que la naturaleza no sólo presenta un grado mayor de complejidad, sino que
+ésta se nos revela completamente diferente. […] La existencia de estas
+formas representa un desafío: […] la investigación de la morfología de lo
+“amorfo”. […] En respuesta a este desafío, concebí y desarrollé una nueva
+geometría de la naturaleza y empecé a aplicarla a una serie de campos.
+Permite describir muchas de las formas irregulares y fragmentadas que nos
+rodean, dando lugar a teorías coherentes, identificando una serie de formas
+que llamo fractales. […] Algunos conjuntos fractales [tienen] formas tan
+disparatadas que ni en las ciencias ni en las artes he encontrado palabras
+que lo describieran bien. El lector puede hacerse una idea de ello ahora
+mismo con sólo echar una rápida mirada a las ilustraciones de este libro».
+Y termina: «Contra lo que hubiera podido parecer en un principio, la mayoría
+--- BIBLIOTECA · rutas CITAS.md ---
+BIBLIOTECA/AccountingTheory_2004/CITAS.md
+BIBLIOTECA/Aho_2007/CITAS.md
+BIBLIOTECA/Angrisani_2019/CITAS.md
+BIBLIOTECA/BAVENNIF_8/CITAS.md
+BIBLIOTECA/Cervantes_2023/CITAS.md
+BIBLIOTECA/Cosmovision_2004/CITAS.md
+BIBLIOTECA/Diaz_Navarro_2014/CITAS.md
+BIBLIOTECA/Gadamer_VM/CITAS.md
+BIBLIOTECA/GarciaCasella_LaLey_SF/CITAS.md
+BIBLIOTECA/GonzalezRodriguez_UO_2001/CITAS.md
+BIBLIOTECA/Hevner_Chatterjee_2010/CITAS.md
+BIBLIOTECA/Huck_SistemasContables_2024/CITAS.md
+BIBLIOTECA/IFRS_Annotated_2025/CITAS.md
+BIBLIOTECA/IFRS_S1_2023/CITAS.md
+BIBLIOTECA/IFRS_S2_2023/CITAS.md
+BIBLIOTECA/Lakatos_1976/CITAS.md
+BIBLIOTECA/Lakatos_1989/CITAS.md
+BIBLIOTECA/Mandelbrot_1975/CITAS.md
+BIBLIOTECA/Mandelbrot_1982/CITAS.md
+BIBLIOTECA/Merkle_1979/CITAS.md
+BIBLIOTECA/AccountingTheory_2004/
+BIBLIOTECA/Aho_2007/
+BIBLIOTECA/Angrisani_2019/
+BIBLIOTECA/BAVENNIF_8/
+BIBLIOTECA/Cervantes_2023/
+BIBLIOTECA/Cosmovision_2004/
+BIBLIOTECA/Diaz_Navarro_2014/
+BIBLIOTECA/Gadamer_VM/
+BIBLIOTECA/GarciaCasella_LaLey_SF/
+BIBLIOTECA/GonzalezRodriguez_UO_2001/
+BIBLIOTECA/Hevner_Chatterjee_2010/
+BIBLIOTECA/Huck_SistemasContables_2024/
+BIBLIOTECA/IFRS_Annotated_2025/
+BIBLIOTECA/IFRS_S1_2023/
+BIBLIOTECA/IFRS_S2_2023/
+BIBLIOTECA/Lakatos_1976/
+BIBLIOTECA/Lakatos_1989/
+BIBLIOTECA/Mandelbrot_1975/
+BIBLIOTECA/Mandelbrot_1982/
+BIBLIOTECA/Merkle_1979/
+BIBLIOTECA/NIAS_2021_Vol2/
+BIBLIOTECA/NIAS_2021_Vol3/
+BIBLIOTECA/NIIF18_2024/
+BIBLIOTECA/NIIF18_KPMG_2025/
+BIBLIOTECA/NIIF1_2024/
+BIBLIOTECA/NIIF_Compilado_2026/
+BIBLIOTECA/NIIF_Peru_2025/
+BIBLIOTECA/NIIF_Pymes_3raEd/
+BIBLIOTECA/NIST_FIPS_180_4/
+BIBLIOTECA/Pacioli_1494/
+BIBLIOTECA/Popper_1980/
+BIBLIOTECA/ProGit_2014/
+BIBLIOTECA/Reynoso_Kicillof/
+BIBLIOTECA/Rodriguez_2016/
+BIBLIOTECA/RomeroLopez_2010/
+BIBLIOTECA/Romney_15thEd/
+BIBLIOTECA/Sampieri_2018/
+BIBLIOTECA/Sommerville_2005/
+BIBLIOTECA/Thain_2ndEd/
+--- npl-definitivo.md ---

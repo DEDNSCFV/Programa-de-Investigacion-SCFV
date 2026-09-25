@@ -1,0 +1,719 @@
+=== B23 · material fractal ya existente · 2026-09-24 ===
+
+════ PARTE I · FRACTALIDAD_ACOTADA.md · documento base ════
+# Fractalidad Acotada — Conjetura y evidencia
+
+**Estado:** CONJETURA CON EVIDENCIA EMPÍRICA PRELIMINAR.
+**No es:** teorema matemático.
+**Rango de evidencia:** H6.10-a′/b′, H6.10-c.
+**Fecha:** 2026-09-12.
+**Autoridad:** acuerdo I1/I2.
+
+---
+
+## 1. Motivación y alcance
+
+SCFV propone que su estructura contable es "fractal". El término, tal
+como se usaba al comienzo de la investigación, era ambiguo. Podía
+significar:
+
+1. Que los módulos tienen nombres con la palabra "Fractal".
+2. Que la misma fórmula aparece en distintos dominios.
+3. Que la misma estructura se reproduce a distintas escalas.
+4. Que existe una propiedad de autosimilitud matemática.
+
+H3 falsó (1) y (2) como evidencia suficiente.
+H6.10 ensaya (3) bajo transformaciones explícitas.
+
+**Alcance de este documento:**
+
+- Formalizar las nociones involucradas en (3).
+- Enunciar la conjetura que H6.10 apoya empíricamente.
+- Declarar sus fronteras y condiciones de falsación.
+- Establecer qué falta para elevar el estatus a teorema.
+
+**Fuera de alcance:**
+
+- Fractalidad geométrica (Mandelbrot, autosimilitud exacta).
+- Aplicabilidad a toda consolidación contable real.
+- Proposición universal sobre sistemas contables.
+- Operacionalización de la tétrada epistemológica de H1.
+
+---
+
+## 2. Definiciones formales
+
+**2.1 Escala (E).**
+Un nivel de agregación del sistema contable. En H6.10 se trabajaron tres:
+- E₁ = línea o partida individual
+- E₂ = asiento (conjunto de partidas)
+- E₃ = período (conjunto de asientos)
+- E₄ = consolidación (unión de dos o más entidades del grupo)
+
+**2.2 Estado (S).**
+El objeto sobre el cual se calcula un invariante. Ejemplos:
+- S(E₁) = una partida `(cuenta, monto, signo, interno)`
+- S(E₂) = un asiento (lista de partidas)
+- S(E₃) = un período (lista de asientos)
+- S(E₄) = un grupo (par de journals)
+
+**2.3 Invariante (I).**
+Una función `I: S → R` o `I: S → Rⁿ` que extrae la información
+relevante de un estado. En H6.10:
+
+    V(S)  = {cuenta → Σ signo·monto}
+    V'(S) = {(cuenta, interno) → Σ signo·monto}
+
+`V` es grueso (una componente por cuenta).
+`V'` es refinado (dos componentes por cuenta: interno y externo).
+
+**2.4 Representación (R).**
+La forma concreta en que se expresa el invariante. `V` y `V'` son
+representaciones distintas del mismo estado. La representación es lo
+que se preserva o no bajo transformación.
+
+**2.5 Transformación (T).**
+Una operación que lleva de un estado en escala Eᵢ a un estado en escala
+Eⱼ. En H6.10:
+
+    T_agregación:   S(E₂) → S(E₃)      (concatenar asientos en período)
+    T_consolidación: (S(E₄_A), S(E₄_B)) → S(E₄_grupo)   (eliminar internos)
+
+**2.6 Preservación.**
+Un invariante `I` se preserva bajo `T` si existe una función
+`F: R(I) → R(I)` tal que:
+
+    I(T(S)) = F(I(S))
+
+`F` se denomina morfismo inducido por `T` sobre `I`. Si `F` es la suma
+directa y `I` es aditiva sobre la concatenación, decimos que `T` es
+representable en `I`.
+
+**2.7 Refinamiento.**
+Un invariante `I'` es un refinamiento de `I` si existe una proyección
+`π: R(I') → R(I)` tal que `π(I'(S)) = I(S)` para todo `S`. Es decir:
+`I'` conserva toda la información de `I` y añade al menos una dimensión.
+
+Ejemplo: `V'` es un refinamiento de `V`, con
+`π((cuenta, interno) → x) = cuenta → Σ_interno x`.
+
+**2.8 Suficiencia.**
+Un invariante `I` es **suficiente** para una transformación `T` si
+existe un morfismo `F` inducido por `T` sobre `I`. Si `I` no es
+suficiente pero algún refinamiento `I'` sí lo es, decimos que `T`
+**requiere refinamiento**.
+
+---
+
+## 3. Conjetura de Fractalidad Acotada
+
+**Enunciado.**
+
+> Bajo las condiciones, representaciones y transformaciones ensayadas
+> en H6, la propiedad invariante observada se preserva bajo los
+> refinamientos y transformaciones estudiados.
+
+**Formulación operativa.**
+
+Sea `S_0` un estado inicial y `T_1, ..., T_n` una secuencia de
+transformaciones entre escalas. Existe una sucesión de invariantes
+`I_0, I_1, ..., I_n` (posiblemente iguales, posiblemente refinamientos
+sucesivos) tal que para cada paso:
+
+    I_k(T_k(S_{k-1})) = F_k(I_{k-1}(S_{k-1}))
+
+para algún morfismo `F_k`, y donde cada `I_k` está definido **antes**
+de conocer `T_k` (no ajuste post-hoc).
+
+**Alcance declarado.**
+
+La conjetura cubre las transformaciones `T_k` efectivamente ensayadas
+en H6.10. No cubre:
+
+- transformaciones no ensayadas;
+- consolidación contable real con reglas NIIF completas;
+- invariantes no lineales;
+- estados con estructura no agregativa.
+
+**Diferencia con "identidad entre escalas".**
+
+La conjetura **no** afirma que la estructura sea idéntica entre escalas.
+Afirma que existe una representación suficiente para transportar las
+relaciones relevantes. Un invariante grueso puede ser insuficiente;
+refinarlo puede ser necesario.
+
+    Fractalidad ≠ identidad de representación
+    Fractalidad = preservación mediante representación suficiente
+
+---
+
+## 4. Evidencia empírica
+
+Las siguientes pruebas constituyen **evidencia de apoyo**, no
+demostraciones matemáticas. Se incluyen porque dan contenido operativo
+a la conjetura, no porque la prueben.
+
+### 4.1 Experimento 1 — agregación aditiva (H6.10-a′/b′)
+
+**Estado.** Cuatro asientos con cuentas reutilizadas, signos opuestos,
+cobertura desigual.
+
+**Invariante.** `V(cuenta) = Σ signo·monto`.
+
+**Transformación.** `T_agregación`: concatenar partidas de los cuatro
+asientos en un período.
+
+**Resultado.**
+
+    Σᵢ V(A_i) == V(período)   componente a componente
+
+**Control negativo.** Manipulación de una componente de `V(período)`
+detectada por el test.
+
+**Alcance.** Preservación vectorial bajo concatenación aditiva.
+
+**No demuestra.** Preservación bajo operaciones que introduzcan
+estructura nueva (eliminación, reclasificación, ajuste).
+
+### 4.2 Experimento 2 — consolidación con eliminación (H6.10-c)
+
+**Estado.** Dos entidades del grupo. Cada una con operaciones externas
+y operaciones internas.
+
+**Escenarios.** Dos configuraciones con `V` grueso idéntico pero `V'`
+refinado distinto.
+
+**Transformación.** `T_consolidación`: eliminar partidas internas de la
+concatenación.
+
+**Resultado.**
+
+    V_consolidado  ≠  E_grueso(V_A, V_B)     (V grueso insuficiente)
+    V'_consolidado ==  E_refinado(V'_A, V'_B)  (V' refinado suficiente)
+
+**Control negativo.** Manipulación de una componente de `V'_estimado`
+detectada por el test.
+
+**Alcance.** Preservación vectorial refinada bajo el operador de
+eliminación interno/externo ensayado.
+
+**No demuestra.** Aplicabilidad del morfismo `E_refinado` a
+consolidación contable real, ni suficiencia de `V'` frente a
+transformaciones distintas de la ensayada.
+
+### 4.3 Control de falsación
+
+Ambos experimentos incluyen un control negativo que manipula el
+invariante agregado y verifica que el test detecta la manipulación.
+Esto demuestra que las pruebas tienen **capacidad de fallar** y no son
+tautológicas.
+
+El primer intento con invariante escalar `I = Σ signo·monto` fue
+falsado como evidencia (I = 0 en todas las escalas por construcción).
+La corrección al invariante vectorial produjo los resultados de 4.1 y
+4.2.
+
+---
+
+## 5. Condiciones de falsación de un refinamiento
+
+Un refinamiento `I'` de un invariante `I` es **legítimo** si y solo si
+satisface:
+
+**(1) Pre-definición.** `I'` se define antes de conocer el resultado
+de la transformación que se busca representar. No se introduce
+después de observar la falla de `I`.
+
+**(2) No-ajuste.** `I'` no depende de parámetros calibrados al caso
+particular. No incluye constantes específicas del experimento.
+
+**(3) Validación cruzada.** `I'` sobrevive a una transformación
+distinta de aquella que motivó su introducción, sin modificación.
+
+**Aplicación a `V'`:**
+
+- `V'` cumple (1). Fue definido antes de ensayar la consolidación.
+- `V'` cumple (2). La dimensión interno/externo es estructural, no
+  calibrada.
+- `V'` **no cumple (3) todavía.** Solo ha sido validado contra el
+  operador `T_consolidación` que lo motivó. Extensión multi-período o
+  contra otra transformación queda pendiente.
+
+Registrado como **H6.10-FINDING-REF-001**.
+
+---
+
+## 6. Fronteras y conjeturas abiertas
+
+### 6.1 Aplicabilidad a consolidación contable real
+
+El operador `T_consolidación` ensayado es una eliminación simple de
+partidas internas. La consolidación contable real (NIIF) incluye:
+
+- eliminación de operaciones recíprocas,
+- ajustes por diferencia de cambio,
+- reclasificaciones,
+- eliminación de resultados no realizados,
+- participaciones no controladas.
+
+La conjetura **no** afirma que `V'` baste para todas esas operaciones.
+Afirma que bajo el operador ensayado, se preserva.
+
+### 6.2 Suficiencia frente a transformaciones no ensayadas
+
+Solo se han ensayado dos transformaciones: `T_agregación` y
+`T_consolidación`. No sabemos si `V'` es suficiente para
+transformaciones de otra clase.
+
+### 6.3 Unicidad del invariante
+
+No se ha demostrado que `V'` sea el único invariante que preserva bajo
+`T_consolidación`. Podría haber otros, quizás más simples o más ricos.
+
+### 6.4 Tétrada epistemológica (H1)
+
+La estructura `SUELO → SITUACIÓN → MOVIMIENTOS → MEDIOS` de H1 fue
+invocada como fundamento conceptual. **No ha sido operacionalizada**
+como invariante formal. Este documento no la incluye como evidencia
+de la conjetura.
+
+---
+
+## 7. Condiciones para elevar a teorema
+
+Para que la Conjetura de Fractalidad Acotada alcance el estatus de
+teorema matemático, **deberían cumplirse** los siguientes requisitos.
+Se listan como condiciones futuras, no como logros parciales.
+
+**Requisito A — Extensión de validación cruzada.**
+`V'` debería preservarse bajo al menos una transformación adicional,
+distinta de `T_consolidación`, sin modificación.
+
+**Requisito B — Generalización del morfismo.**
+Debería demostrarse que `E_refinado` no es específico del operador
+ensayado, sino que forma parte de una familia de morfismos con
+propiedades algebraicas verificables.
+
+**Requisito C — Cierre bajo composición.**
+Debería probarse que la composición de transformaciones
+representables es representable:
+si `T₁` es representable en `I` y `T₂` en `I'`, entonces `T₂ ∘ T₁`
+es representable en alguna representación derivada de ambas.
+
+**Requisito D — Independencia del dominio.**
+La conjetura debería enunciarse sin referencia específica a la
+contabilidad, y ser aplicable a cualquier sistema que cumpla las
+hipótesis estructurales.
+
+**Requisito E — Falsación activa fallida.**
+Debería haberse intentado activamente producir un contraejemplo dentro
+del dominio de la conjetura, sin éxito, y con registro del intento.
+
+Ninguno de estos requisitos está satisfecho por H6.
+
+---
+
+## 8. Remisiones
+
+- **Cierre histórico-evidencial de H6:** `DOCS/H6_CIERRE.md`.
+- **Cierre global de SCFV Motor:** `DOCS/SCFV_MOTOR_CIERRE.md`.
+- **Política de deprecación:** `DOCS/migracion_v82.md`.
+- **Fuente única de XNOR:** `PODERES/CONTABLE/xnor.py`.
+- **Orquestador v8.2:** `PODERES/PROFESIONAL/orquestador_v82.py`.
+
+---
+
+## 9. Declaración final
+
+**La Conjetura de Fractalidad Acotada** enuncia que, bajo las
+transformaciones ensayadas y mediante representaciones suficientes, la
+estructura contable se preserva entre escalas.
+
+**Estado actual:** CONJETURA CON EVIDENCIA EMPÍRICA PRELIMINAR.
+
+**No es teorema.** La evidencia es operacional y acotada. Las
+condiciones para elevar el estatus se enumeran en §7 como requisitos
+futuros.
+
+**La frontera es parte del resultado.**
+
+**Fin del documento.**
+
+════ PARTE II · base_fractal.py · API ════
+from typing import Dict, List, Optional
+"""
+BaseFractal - Clase base para todos los fractales (v8.1 con I6)
+"""
+from typing import Dict, List, Any, Optional
+
+class BaseFractal:
+    def __init__(self):
+        self.normas_aplicables = []
+
+    def evaluar(self, evidencia: Dict, contexto: Dict, normas_aplicables: List[Dict] = None) -> List[Dict]:
+        """
+        Evalúa la evidencia y genera consecuencias.
+        Parámetros:
+            - evidencia: dict con los datos de la operación.
+            - contexto: dict con el contexto global.
+            - normas_aplicables: lista de normas aplicables (mapa normativo).
+        Retorna: lista de consecuencias (partidas).
+        """
+        if normas_aplicables is not None:
+            self.normas_aplicables = normas_aplicables
+        # Los fractales hijos deben implementar este método
+        raise NotImplementedError("Los fractales deben implementar evaluar()")
+--- clases y funciones ---
+7:class BaseFractal:
+
+════ PARTE III · fractal_40_tetrada.py ════
+def tetrada(hecho_economico=None, contraparte=None, efecto_patrimonial=None, medios_pago=None):
+    """
+    Retorna un diccionario con el diagnóstico de la Tetráda.
+    Las claves internas (suelo, situacion, movimiento, medios) se mantienen
+    para compatibilidad con el resto del sistema.
+    """
+    return {
+        "suelo": hecho_economico or "",
+        "situacion": contraparte or "",
+        "movimiento": efecto_patrimonial or "",
+        "medios": medios_pago or ""
+    }
+1:def tetrada(hecho_economico=None, contraparte=None, efecto_patrimonial=None, medios_pago=None):
+
+════ PARTE IV · 4 ejemplos .scfv ════
+--- /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_asiento.scfv ---
+# DOCUMENTO SINTÉTICO — Acto 15 · SCFV_DSR · Giro 04
+# No representa operación económica real. Solo prueba sintáctica.
+
+ASIENTO_DECLARADO VENTA: DEMO_CUENTA DEMO_MONTO
+
+--- /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_contrato.scfv ---
+# DOCUMENTO SINTÉTICO — Acto 15 · SCFV_DSR · Giro 04
+# No representa operación económica real. Solo prueba sintáctica.
+
+CONTRATO CONTROL_VENTA
+OBJETO: REGISTRO
+PRE: VENTA
+POST: VALIDADA
+INVARIANTE: MONTO_POSITIVO
+ELEMENTO: MONTO VENTA
+EVIDENCIA: FACTURA
+
+--- /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_integrado.scfv ---
+# DOCUMENTO SINTÉTICO — Acto 15 · SCFV_DSR · Giro 04
+# No representa operación económica real. Solo prueba sintáctica.
+
+CONTRATO CONTROL_VENTA
+OBJETO: REGISTRO
+PRE: VENTA
+POST: VALIDADA
+INVARIANTE: MONTO_POSITIVO
+ELEMENTO: MONTO VENTA
+EVIDENCIA: FACTURA
+
+INVARIANTE MONTO_POSITIVO
+OBJETO: REGISTRO
+EXPRESION: MONTO
+DOMINIO: REGISTRO
+SATISFACCION: VALIDADA
+VERIFICACION: PRUEBA
+EVIDENCIA: FACTURA
+
+ASIENTO_DECLARADO VENTA: DEMO_CUENTA DEMO_MONTO
+
+--- /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_invariante.scfv ---
+# DOCUMENTO SINTÉTICO — Acto 15 · SCFV_DSR · Giro 04
+# No representa operación económica real. Solo prueba sintáctica.
+
+INVARIANTE MONTO_POSITIVO
+OBJETO: REGISTRO
+EXPRESION: MONTO
+DOMINIO: REGISTRO
+SATISFACCION: VALIDADA
+VERIFICACION: PRUEBA
+EVIDENCIA: FACTURA
+
+
+════ PARTE V · leer_eventos_asiento.py ════
+"""
+Soporte mínimo U-SEQ-01 · lectura
+Lee eventos ASIENTO_REGISTRADO de event_store y devuelve payload parseado.
+
+Acto 11 · soporte mínimo · pre-registro vE vigente.
+Sin modificar la DB. Sólo lectura.
+"""
+import json
+import sqlite3
+from pathlib import Path
+
+
+def leer_eventos_asiento(db_path):
+    """
+    Devuelve lista de dicts:
+      {id, tipo_evento, payload (dict), correlation_id,
+       hash_previo, hash_actual, timestamp, version_contexto (dict|None)}
+    Sólo incluye tipo_evento='ASIENTO_REGISTRADO'.
+    """
+    p = Path(db_path)
+    if not p.is_file():
+        raise FileNotFoundError(f"DB no encontrada: {db_path}")
+
+    conn = sqlite3.connect(str(p))
+    conn.row_factory = sqlite3.Row
+    try:
+        rows = conn.execute(
+            """
+            SELECT id, tipo_evento, payload, correlation_id,
+                   hash_previo, hash_actual, timestamp, version_contexto
+            FROM event_store
+            WHERE tipo_evento = 'ASIENTO_REGISTRADO'
+            ORDER BY id
+            """
+        ).fetchall()
+    finally:
+        conn.close()
+
+    eventos = []
+    for r in rows:
+        payload = json.loads(r["payload"]) if r["payload"] else {}
+        vc = json.loads(r["version_contexto"]) if r["version_contexto"] else None
+        eventos.append({
+            "id": r["id"],
+            "tipo_evento": r["tipo_evento"],
+            "payload": payload,
+            "correlation_id": r["correlation_id"],
+            "hash_previo": r["hash_previo"],
+            "hash_actual": r["hash_actual"],
+            "timestamp": r["timestamp"],
+            "version_contexto": vc,
+        })
+    return eventos
+
+
+if __name__ == "__main__":
+    import sys
+    eventos = leer_eventos_asiento(sys.argv[1])
+    print(f"eventos leídos: {len(eventos)}")
+    for e in eventos:
+        n = len(e["payload"].get("partidas", []))
+        print(f"  id={e['id']} partidas={n}")
+
+════ PARTE VI · normalizar_partidas_para_saldos.py ════
+"""
+Soporte mínimo U-SEQ-01 · normalización
+Convierte partidas de un asiento a saldos por cuenta con signo algebraico.
+
+Convención: saldo positivo = deudor, saldo negativo = acreedor.
+Un asiento cuadrado produce suma algebraica = 0.
+
+Acto 11 · soporte mínimo · pre-registro vE vigente.
+"""
+NATURALEZAS_VALIDAS = {"DEUDORA", "ACREEDORA"}
+MOVIMIENTOS_VALIDOS = {"AUMENTA", "DISMINUYE"}
+
+
+def _delta(naturaleza, movimiento, monto):
+    if naturaleza not in NATURALEZAS_VALIDAS:
+        raise ValueError(f"Naturaleza desconocida: {naturaleza!r}")
+    if movimiento not in MOVIMIENTOS_VALIDOS:
+        raise ValueError(f"Movimiento desconocido: {movimiento!r}")
+
+    if naturaleza == "DEUDORA":
+        return +monto if movimiento == "AUMENTA" else -monto
+    else:  # ACREEDORA
+        return -monto if movimiento == "AUMENTA" else +monto
+
+
+def normalizar_partidas_para_saldos(evento):
+    """
+    Recibe un evento (dict) tal como lo devuelve leer_eventos_asiento.
+    Devuelve {cuenta: saldo} con signo algebraico.
+
+    Si el asiento está cuadrado, sum(saldos.values()) ≈ 0.
+    """
+    payload = evento.get("payload", {})
+    partidas = payload.get("partidas", [])
+    if not partidas:
+        return {}
+
+    saldos = {}
+    for p in partidas:
+        cuenta = p.get("cuenta")
+        if not cuenta:
+            raise ValueError(f"Partida sin cuenta: {p!r}")
+        monto = float(p.get("monto", 0.0))
+        delta = _delta(p.get("naturaleza"), p.get("movimiento"), monto)
+        saldos[cuenta] = saldos.get(cuenta, 0.0) + delta
+    return saldos
+
+
+if __name__ == "__main__":
+    import json
+    import sys
+    evento = json.load(sys.stdin)
+    saldos = normalizar_partidas_para_saldos(evento)
+    print(json.dumps(saldos, ensure_ascii=False, indent=2))
+    print(f"suma algebraica: {sum(saldos.values())}")
+
+════ PARTE VII · parser.py · transformación de FRACTAL ════
+112:            "fractales": {}, "contexto": {}, "mandante": {},
+113-            "tetrada": {}, "booleano": {},
+114-            "contratos": {}, "invariantes": {}, "asientos_declarados": {}
+115-        }
+116-
+117-        for child in tree.children:
+118-            if not hasattr(child, 'data'):
+119-                continue
+120-
+121:            if child.data == "fractal_def":
+122:                self._handle_fractal(child, result)
+123-            elif child.data == "contexto_def":
+124-                self._handle_assignments(child, "assignment", result["contexto"])
+125-            elif child.data == "mandante_def":
+126-                self._handle_assignments(child, "assignment", result["mandante"])
+127-            elif child.data == "tetrada_def":
+128-                self._handle_assignments(child, "tetrada_item", result["tetrada"])
+129-            elif child.data == "booleano_def":
+130-                self._handle_assignments(child, "booleano_item", result["booleano"])
+131-            elif child.data == "contract_def":
+132-                self._handle_contract(child, result)
+133-            elif child.data == "invariant_def":
+134-                self._handle_invariant(child, result)
+135-            elif child.data == "asiento_declarado_def":
+136-                self._handle_asiento_declarado(child, result)
+137-
+138-        return result
+139-
+140:    def _handle_fractal(self, child, result):
+141-        name = self._get_node_value(child.children[0])
+142-        rules = []
+143-        for node in child.children[1:]:
+144-            if hasattr(node, 'data') and node.data == "rule":
+145-                rule_name = self._get_node_value(node.children[0])
+146-                cond_expr = self._extract_condition(node)
+147-                actions = self._extract_actions(node)
+148-                rules.append({"name": rule_name, "condition": cond_expr,
+149-                              "actions": actions})
+150:        result["fractales"][name] = rules
+151-
+152-    def _handle_assignments(self, child, item_data, target):
+153-        for item in child.children:
+154-            if hasattr(item, 'data') and item.data == item_data:
+155-                name = self._get_node_value(item.children[0])
+156-                value = self._get_node_value(item.children[1])
+157-                target[name] = value
+158-
+159-    # ---- contract_def -----------------------------------------------
+160-
+161-    def _extraer_por_keywords(self, tokens, keywords):
+162-        """Devuelve dict {kw: [value_tokens]} escaneando tokens por
+163-        posiciones de keywords. Ignora ':' si aparecen."""
+164-        # Encontrar posiciones de keywords
+165-        posiciones = []
+166-        for idx, t in enumerate(tokens):
+167-            if self._is_token(t) and self._token_str(t) in keywords:
+168-                posiciones.append((idx, self._token_str(t)))
+169-        posiciones.append((len(tokens), None))
+170-
+
+════ PARTE VIII · XNOR · contenido completo ════
+"""
+XNOR contable — fuente única del axioma de cargo/abono.
+
+Tres representaciones equivalentes de la misma regla estructural:
+
+    1. Booleana  : tabla cerrada de 4 combinaciones
+    2. GF(2)     : 1 ⊕ n ⊕ m  (1 → DEBE, 0 → HABER)
+    3. Signos    : χ(n) · χ(m)  (+1 → DEBE, −1 → HABER)
+
+Codificación:
+    DEUDORA   → 1 / +1
+    ACREEDORA → 0 / −1
+    AUMENTA   → 1 / +1
+    DISMINUYE → 0 / −1
+
+Ninguna de las tres reemplaza a las otras: son tres vistas del mismo
+invariante. La coincidencia entre ellas se verifica por test.
+"""
+
+NATURALEZAS_VALIDAS = ("DEUDORA", "ACREEDORA")
+MOVIMIENTOS_VALIDOS = ("AUMENTA", "DISMINUYE")
+
+_TABLA = {
+    ("DEUDORA",   "AUMENTA"):   "DEBE",
+    ("DEUDORA",   "DISMINUYE"): "HABER",
+    ("ACREEDORA", "AUMENTA"):   "HABER",
+    ("ACREEDORA", "DISMINUYE"): "DEBE",
+}
+
+_N_A_GF2 = {"DEUDORA": 1, "ACREEDORA": 0}
+_M_A_GF2 = {"AUMENTA": 1, "DISMINUYE": 0}
+
+_N_A_SIGNO = {"DEUDORA": +1, "ACREEDORA": -1}
+_M_A_SIGNO = {"AUMENTA": +1, "DISMINUYE": -1}
+
+
+def _validar(naturaleza: str, movimiento: str) -> None:
+    if naturaleza not in NATURALEZAS_VALIDAS:
+        raise ValueError(
+            f"XNOR inválido para naturaleza='{naturaleza}', "
+            f"movimiento='{movimiento}'"
+        )
+    if movimiento not in MOVIMIENTOS_VALIDOS:
+        raise ValueError(
+            f"XNOR inválido para naturaleza='{naturaleza}', "
+            f"movimiento='{movimiento}'"
+        )
+
+
+def ubicacion_booleana(naturaleza: str, movimiento: str) -> str:
+    """Cara 1 — tabla cerrada de 4 combinaciones."""
+    _validar(naturaleza, movimiento)
+    return _TABLA[(naturaleza, movimiento)]
+
+
+def ubicacion_gf2(naturaleza: str, movimiento: str) -> str:
+    """Cara 2 — suma módulo 2. DEBE = 1 ⊕ n ⊕ m."""
+    _validar(naturaleza, movimiento)
+    bit = 1 ^ _N_A_GF2[naturaleza] ^ _M_A_GF2[movimiento]
+    return "DEBE" if bit == 1 else "HABER"
+
+
+def ubicacion_signos(naturaleza: str, movimiento: str) -> str:
+    """Cara 3 — producto de caracteres. DEBE = (+1)·(+1) = +1."""
+    _validar(naturaleza, movimiento)
+    producto = _N_A_SIGNO[naturaleza] * _M_A_SIGNO[movimiento]
+    return "DEBE" if producto == +1 else "HABER"
+
+
+# Alias canónico: la cara booleana es la que se expone por defecto,
+# pero las tres son la misma función desde el punto de vista del contrato.
+calcular_ubicacion = ubicacion_booleana
+
+════ PARTE IX · NIC 29 (referencia del evento id=1) ════
+{
+  "id": "NIC_29",
+  "nombre": "Reexpresión por inflación",
+  "tipo": "norma_internacional",
+  "jurisdiccion": "internacional",
+  "jerarquia": 4,
+  "fuente": "NIC 29 (IAS 29)",
+  "fecha_publicacion": "2024-01-01",
+  "texto_completo": "En economías hiperinflacionarias, los estados financieros deben reexpresarse en moneda de poder adquisitivo constante al cierre del período.",
+  "condiciones_activacion": {
+    "economia_hiperinflacionaria": true
+  },
+  "accion_sugerida": {
+    "tipo": "activar_reexpresion",
+    "metodo": "NIC_29"
+  },
+  "relaciones": {
+    "es_complementada_por": ["BA_VEN_NIF_01"]
+  },
+  "prioridad_sobre_normas_nacionales": true,
+  "nota_para_el_contador": "La NIC 29 tiene prioridad sobre cualquier norma nacional que contradiga el método de reexpresión."
+}
+
+════ PARTE X · ¿FRACTAL NIC2 ya declarado en algún .scfv? ════
+/data/data/com.termux/files/home/SCFV_DSR/dsl/grammar.lark:10:fractal_def: "FRACTAL" NAME "DOMINIO" "CONTABLE" ":" rule+

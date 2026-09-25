@@ -1,0 +1,82 @@
+════ B84 · filtro Pymes operacionalizables · Fri Sep 25 08:28:35 -04 2026 ════
+
+ Sec · Concepto                                   · Med · Arit · Part · Veredicto
+────────────────────────────────────────────────────────────────────────────────────────────────────
+S  1 · Pequeñas entidades · alcance               ·   0 ·    0 ·    0 · no
+S  2 · Conceptos y principios                     ·   0 ·    0 ·    0 · no
+S  3 · Presentación EEFF                          ·   0 ·    0 ·    1 · no
+S  4 · Estado situación financiera                ·   0 ·    3 ·    1 · PARCIAL
+S  5 · Estado resultado integral                  ·   0 ·    2 ·    1 · PARCIAL
+S  6 · Estado cambios patrimonio                  ·   0 ·    0 ·    1 · no
+S  7 · Estado flujos efectivo                     ·   0 ·    3 ·    2 · PARCIAL
+S  8 · Notas a los EEFF                           ·   0 ·    1 ·    1 · no
+S  9 · Estados consolidados/separados             ·   1 ·    2 ·    3 · PARCIAL
+S 10 · Políticas contables, estimaciones, errores ·   0 ·    2 ·    1 · PARCIAL
+S 11 · Instrumentos financieros básicos           ·   5 ·    8 ·    6 · OPERACIONALIZABLE
+S 12 · Otros temas instrumentos                   ·   0 ·    4 ·    2 · PARCIAL
+S 13 · Inventarios                                ·   0 ·    4 ·    3 · PARCIAL
+S 14 · Inversiones en asociadas                   ·   0 ·    5 ·    2 · PARCIAL
+S 15 · Acuerdos conjuntos                         ·   0 ·    2 ·    0 · PARCIAL
+S 16 · Propiedades de inversión                   ·   2 ·    4 ·    4 · PARCIAL
+S 17 · Propiedades, planta y equipo               ·   4 ·    4 ·    5 · OPERACIONALIZABLE
+S 18 · Activos intangibles                        ·   3 ·    3 ·    5 · OPERACIONALIZABLE
+S 19 · Combinaciones de negocios                  ·   0 ·    4 ·    4 · PARCIAL
+S 20 · Arrendamientos                             ·   2 ·    6 ·    3 · PARCIAL
+S 21 · Provisiones y contingencias                ·   1 ·    6 ·    4 · PARCIAL
+S 22 · Pasivos y patrimonio                       ·   1 ·    5 ·    5 · PARCIAL
+S 23 · Ingresos de actividades ordinarias         ·   0 ·    5 ·    3 · PARCIAL
+S 24 · Subvenciones del gobierno                  ·   2 ·    1 ·    2 · PARCIAL
+S 25 · Costos por préstamos                       ·   0 ·    0 ·    0 · no
+S 26 · Pagos basados en acciones                  ·   1 ·    2 ·    1 · PARCIAL
+S 27 · Deterioro del valor de los activos         ·   4 ·    7 ·    1 · OPERACIONALIZABLE
+S 28 · Beneficios a los empleados                 ·   3 ·    4 ·    2 · OPERACIONALIZABLE
+S 29 · Impuesto a las ganancias                   ·   2 ·    4 ·    3 · PARCIAL
+S 30 · Conversión de moneda extranjera            ·   2 ·    2 ·    2 · PARCIAL
+S 31 · Hiperinflación                             ·   0 ·    4 ·    2 · PARCIAL
+S 32 · Hechos posteriores                         ·   0 ·    2 ·    1 · PARCIAL
+S 33 · Partes relacionadas                        ·   0 ·    0 ·    1 · no
+S 34 · Actividades especiales                     ·   3 ·    3 ·    2 · OPERACIONALIZABLE
+S 35 · Transición a NIIF Pymes                    ·   3 ·   12 ·    4 · OPERACIONALIZABLE
+
+════ OPERACIONALIZABLES ════
+  S11 · Instrumentos financieros básicos
+  S17 · Propiedades, planta y equipo
+  S18 · Activos intangibles
+  S27 · Deterioro del valor de los activos
+  S28 · Beneficios a los empleados
+  S34 · Actividades especiales
+  S35 · Transición a NIIF Pymes
+
+════ PARCIALES ════
+  S 4 · Estado situación financiera
+  S 5 · Estado resultado integral
+  S 7 · Estado flujos efectivo
+  S 9 · Estados consolidados/separados
+  S10 · Políticas contables, estimaciones, errores
+  S12 · Otros temas instrumentos
+  S13 · Inventarios
+  S14 · Inversiones en asociadas
+  S15 · Acuerdos conjuntos
+  S16 · Propiedades de inversión
+  S19 · Combinaciones de negocios
+  S20 · Arrendamientos
+  S21 · Provisiones y contingencias
+  S22 · Pasivos y patrimonio
+  S23 · Ingresos de actividades ordinarias
+  S24 · Subvenciones del gobierno
+  S26 · Pagos basados en acciones
+  S29 · Impuesto a las ganancias
+  S30 · Conversión de moneda extranjera
+  S31 · Hiperinflación
+  S32 · Hechos posteriores
+
+════ NO OPERACIONALIZABLES ════
+  S 1 · Pequeñas entidades · alcance
+  S 2 · Conceptos y principios
+  S 3 · Presentación EEFF
+  S 6 · Estado cambios patrimonio
+  S 8 · Notas a los EEFF
+  S25 · Costos por préstamos
+  S33 · Partes relacionadas
+
+Total: 7 oper · 21 parcial · 7 no-op

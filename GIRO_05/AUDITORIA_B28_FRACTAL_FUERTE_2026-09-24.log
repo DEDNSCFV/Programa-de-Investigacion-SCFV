@@ -1,0 +1,399 @@
+=== B28 · fractal fuerte · invariantes · escalas · 2026-09-24 ===
+════ I · XNOR como invariante candidato ════
+318:- **Fuente única de XNOR:** `PODERES/CONTABLE/xnor.py`.
+117:## H6.7 — Falsación XNOR en pipeline
+120:  XNOR antes de persistir asiento.
+124:  - A1: `MOTOR_VIOLACION: XNOR contradictorio en partida 0`
+125:  - A2: `XNOR inválido para naturaleza='FICTICIA'`
+144:## H6.9 — Tres caras de XNOR
+212:- XNOR con tres representaciones equivalentes y fuente única en
+
+════ II · Baldor como invariante candidato ════
+no hay baldor.py
+
+════ III · Motor epistémico · 5 componentes ════
+24:| **H₁ — Hecho Observado** | Lo que el sistema ha capturado a través de la evidencia (Perceptum). Es una representación parcial y potencialmente ruidosa. | H₂. H₁ es la observación; H₂ es la interpretación validada. |
+28:| **Observación** | Representación estructurada extraída de la evidencia por el Perceptum. Incluye `confianza_por_campo` para cada dato extraído. | Hecho reconocido (H₂). La observación es una propuesta; H₂ es una decisión. |
+29:| **Interpretación** | Proposición sobre el hecho económico, generada por el Intellectus a partir de una observación. Incluye métricas r, s, o, t, v. | Decisión profesional. La interpretación es una hipótesis; la decisión es un acto profesional. |
+30:| **Orientación** | Resultado informativo del Dictum (Núcleo). Puede ser una sugerencia, alerta, proyección o patrón. No es vinculante. | Autorización o comando. La orientación orienta, no ordena. |
+46:| **Perceptum** | Fase del Núcleo que extrae entidades de la evidencia (PDF, XML, imagen, texto, manuscrito). Produce una Observación con confianza por campo. | OCR genérico. Perceptum es contextualizado y produce confianza por campo. |
+47:| **Intellectus** | Fase del Núcleo que interpreta una Observación, calculando las métricas r (cobertura normativa), s (similitud histórica), o (consistencia ontológica), t (peso temporal) y v (volatilidad contextual). | Un motor de reglas simple. Intellectus usa CBR y ontología, no solo reglas. |
+48:| **Dictum** | Fase del Núcleo que mide el soporte computacional (C = f(r, s, o, t, v)) y genera una Orientación con soporte y sugerencia. | Un decisor. Dictum orienta, no decide. |
+CONTABLE
+DEMOSTRATIVO
+EPISTEMOLOGICO
+FORMAL
+INFRAESTRUCTURA
+PROFESIONAL
+__init__.py
+__pycache__
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/PODERES/EPISTEMOLOGICO/perceptum
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/PODERES/EPISTEMOLOGICO/perceptum/__pycache__/perceptum.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/PODERES/EPISTEMOLOGICO/intellectus
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/PODERES/EPISTEMOLOGICO/intellectus/__pycache__/intellectus.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/PODERES/EPISTEMOLOGICO/dictum
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/PODERES/EPISTEMOLOGICO/dictum/__pycache__/dictum.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/perceptum
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/perceptum/perceptum.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/perceptum/__pycache__/perceptum.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/perceptum/perceptum.py.bak_imp_s0
+
+════ IV · escalas internas del SCFV_DSR ════
+--- estructura completa SCFV_DSR ---
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/.gitignore
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/CACHEDIR.TAG
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/README.md
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/v/cache/nodeids
+/data/data/com.termux/files/home/SCFV_DSR/README.md
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/.gitignore
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/CACHEDIR.TAG
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/README.md
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache/lastfailed
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache/nodeids
+/data/data/com.termux/files/home/SCFV_DSR/dsl/README.md
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/__init__.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/parser.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_asiento.scfv
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_contrato.scfv
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_integrado.scfv
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_invariante.scfv
+/data/data/com.termux/files/home/SCFV_DSR/dsl/grammar.lark
+/data/data/com.termux/files/home/SCFV_DSR/dsl/parser.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/__init__.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_asiento_declarado_def.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_compatibilidad_s0.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_contract_def.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_grammar_lalr.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_invariant_def.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_asiento_declarado_def.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_compatibilidad_s0.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_contract_def.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_grammar_lalr.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_invariant_def.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/__pycache__/leer_eventos_asiento.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/leer_eventos_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/__pycache__/normalizar_partidas_para_saldos.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/normalizar_partidas_para_saldos.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/REGISTRO_OBSERVACION.log
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/__pycache__/test_soporte_minimo.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/observacion_useq_01_20260923T110658Z.json
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/test_soporte_minimo.py
+--- dsl/parser.py · qué produce ---
+11:class SCFVParser:
+12:    def __init__(self):
+18:    def parse_file(self, filepath: str) -> Dict[str, Any]:
+25:        return self._transform_tree(tree)
+27:    def parse_string(self, text: str) -> Dict[str, Any]:
+32:        return self._transform_tree(tree)
+38:    def _get_node_value(self, node):
+44:                return True
+46:                return False
+47:            return raw
+49:            return self._get_node_value(node.children[0])
+50:        return None
+52:    def _is_token(self, node):
+53:        return hasattr(node, 'value') and not hasattr(node, 'data')
+55:    def _token_str(self, node):
+56:        return str(node.value) if self._is_token(node) else None
+58:    def _expr_to_str(self, node) -> str:
+60:            return str(node.value)
+62:            return str(node)
+67:                return (f"{self._expr_to_str(node.children[0])} "
+70:            return self._expr_to_str(node.children[0])
+78:            return ' '.join(out)
+80:            return self._expr_to_str(node.children[0])
+82:            return self._expr_to_str(node.children[0])
+85:            return f"[{inner}]"
+93:            return ' '.join(out)
+94:        return ' '.join(self._expr_to_str(c) for c in node.children)
+96:    def _as_expr_node(self, node):
+99:            return node
+101:            return node
+--- dsl/grammar.lark · reglas disponibles ---
+start: (contexto_def | mandante_def | booleano_def | tetrada_def | fractal_def | contract_def | invariant_def | asiento_declarado_def)*
+
+contexto_def: "CONTEXTO" ":" assignment+
+mandante_def: "MANDANTE" ":" assignment+
+booleano_def: "BOOLEANO" ":" booleano_item+
+booleano_item: NAME "=" value
+tetrada_def: "TETRADA" ":" tetrada_item+
+tetrada_item: NAME "=" value
+
+fractal_def: "FRACTAL" NAME "DOMINIO" "CONTABLE" ":" rule+
+rule: "REGLA" NAME ":" condition "ENTONCES" action+
+
+contract_def: CONTRATO NAME OBJETO ":" NAME [PRE ":" expr] [POST ":" expr] INVARIANTE ":" NAME+ ELEMENTO ":" NAME+ [EVIDENCIA ":" NAME+]
+invariant_def: INVARIANTE NAME OBJETO ":" NAME EXPRESION ":" expr DOMINIO ":" NAME SATISFACCION ":" expr VERIFICACION ":" NAME EVIDENCIA ":" NAME+
+asiento_declarado_def: ASIENTO_DECLARADO NAME ":" NAME+
+
+CONTRATO: "CONTRATO"
+OBJETO: "OBJETO"
+PRE: "PRE"
+POST: "POST"
+INVARIANTE: "INVARIANTE"
+ELEMENTO: "ELEMENTO"
+EVIDENCIA: "EVIDENCIA"
+EXPRESION: "EXPRESION"
+DOMINIO: "DOMINIO"
+SATISFACCION: "SATISFACCION"
+VERIFICACION: "VERIFICACION"
+ASIENTO_DECLARADO: "ASIENTO_DECLARADO"
+
+condition: "SI" expr ((AND_OP | OR_OP) expr)*
+?expr: comparison
+?comparison: arith (COMPOP arith)?
+?arith: term (ADDOP term)*
+?term: factor (MULOP factor)*
+?factor: NUMBER | STRING | BOOLEAN | NAME | list_value | "(" arith ")" | "-" factor
+
+list_value: "[" [value ("," value)*] "]"
+value: NUMBER | STRING | BOOLEAN | NAME | list_value
+
+action: assignment | generate
+generate: "GENERAR" "CONSECUENCIA" "(" param_list ")"
+param_list: param ("," param)*
+param: NAME "=" arith
+
+assignment: NAME "=" arith
+
+AND_OP: "Y"
+OR_OP:  "O"
+COMPOP: "==" | "!=" | ">=" | "<=" | ">" | "<"
+ADDOP: "+" | "-"
+MULOP: "*" | "/"
+
+NAME: /[A-Za-z_][A-Za-z0-9_]*/
+NUMBER: /\d+(\.\d+)?/
+STRING: /"[^"]*"/
+BOOLEAN: "VERDADERO" | "FALSO"
+
+%import common.WS
+%ignore WS
+%ignore /#.*/
+
+════ V · escalas candidatas en EventStore ════
+event_store     negocio_diario     proyeccion_decisiones_h2     proyeccion_integridad_hash     proyeccion_resumen_eventos     trabajos_realizados     trabajos_solicitados
+ASIENTO_REGISTRADO
+
+════ VI · FRACTALIDAD_ACOTADA · qué dice de XNOR ════
+315-- **Cierre histórico-evidencial de H6:** `DOCS/H6_CIERRE.md`.
+316-- **Cierre global de SCFV Motor:** `DOCS/SCFV_MOTOR_CIERRE.md`.
+317-- **Política de deprecación:** `DOCS/migracion_v82.md`.
+318:- **Fuente única de XNOR:** `PODERES/CONTABLE/xnor.py`.
+319-- **Orquestador v8.2:** `PODERES/PROFESIONAL/orquestador_v82.py`.
+320-
+321----
+322-
+323-## 9. Declaración final
+324-
+325-**La Conjetura de Fractalidad Acotada** enuncia que, bajo las
+326-transformaciones ensayadas y mediante representaciones suficientes, la
+327-estructura contable se preserva entre escalas.
+328-
+
+════ VII · Mandelbrot · loci de fractal fuerte ════
+9-economía, biología, etc., de modo que en la actualidad se puede decir que
+10-existe una concepción y una geometría fractales de la naturaleza. Éstas se
+11:basan, en esencia, en el concepto de autosimilitud, una propiedad exhibida
+12-por aquellos sistemas cuyas estructuras permanecen constantes al variar la
+13-escala de observación; en otras palabras: cuando las partes, por pequeñas
+14-que éstas sean, se parecen al todo.
+15-Este libro es el primer ensayo dedicado a exponer la teoría y es también, por
+16-lo tanto, un documento histórico impregnado de las vivencias directas de este
+--
+730-conciernen ahora.
+731-
+732:Dos conceptos intuitivos esenciales: homotecia interna y cascada
+733-Hemos insistido hasta aquí en la complicación y el desorden que caracterizan las
+734-costas consideradas como figuras geométricas. Examinemos ahora un orden que les
+735-es subyacente: de hecho, aunque las costas son muy irregulares, los grados de
+736-irregularidad que corresponden a distintas escalas son, grosso modo, iguales. Es, en
+737-efecto, asombroso que cuando una bahía o una península que estaban representadas
+--
+744-escala, el mismo mecanismo hubiera podido engendrar tanto los pequeños detalles de
+745-las costas como los grandes.
+746:Se puede pensar en este mecanismo como una especie de cascada, o más bien
+747-como un fuego de artificio por etapas, en el que cada etapa engendra detalles más
+748-pequeños que la que la que la precede. Cuando, hablando estadísticamente, cada
+749-pedazo de costa es homotético al todo —salvo detalles de los que decidimos no
+750-ocuparnos— se dirá que la costa posee una homotecia interna.
+751-Al ser este ultimo concepto fundamental pero delicado, empezaremos afinándolo
+--
+759-Modelo basto de la costa de una isla: la curva en forma de copo de nieve de von
+760-Koch
+761:La cascada geométrica de una costa puede simplificarse, como indican las Figuras
+762-42 y 43. Supongamos que un trozo de costa trazada de un modo simplificado a escala
+763-1/1.000.000 es, así a lo tonto, un triángulo equilátero. Que el nuevo detalle visible en
+764-un mapa a 3/1.000.000 sea el resultado de substituir el tercio central de cada lado por
+765-un promontorio en forma de triángulo equilátero, es decir, que cada lado se convierta
+766-en una figura formada por cuatro segmentos iguales. Que el nuevo detalle que
+--
+2026-«azar-deseo» debida a Charlier, como el hecho de que la dimensión tenga que ser
+2027-igual a 1, se pueden deducir de la hipótesis de que las galaxias y las estrellas se han
+2028:formado por una cascada de fragmentaciones a partir de una masa gaseosa uniforme.
+2029-El argumento, debido a Hoyle 1953, es controvertido, pero tiene en cuenta una
+119-derechas, identificando una serie de formas que llamo fractales. Las más útiles
+120-implican azar, y tanto sus regularidades como sus irregularidades son estadísticas.
+121:Las formas que describo aquí tienden a ser, también, escalantes, es decir su grado de
+122-irregularidad y/o fragmentación es idéntico a todas las escalas. El concepto de
+123-dimensión fractal (de Hausdorff) tiene un papel central en esta obra.
+124-Algunos conjuntos fractales son curvas o superficies, otros «polvos» inconexos, y
+125-también los hay con formas tan disparatadas que no he encontrado, ni en las ciencias
+126-ni en las artes, palabras que los describieran bien. El lector puede hacerse una idea de
+--
+765-cierto sentido, invariantes por traslación.
+766-Además, la mayoría es también invariante según ciertos cambios de escala.
+767:Diremos que son escalantes. Un fractal que sea invariante por la transformación
+768-geométrica de semejanza, en el sentido ordinario, se dice autosemejante.
+769:En la expresión compuesta fractal escalante, el adjetivo suaviza el significado del
+770-sustantivo. Así, mientras fractal suena a desorden y abarca casos de una irregularidad
+771:inmanejable, el calificativo escalante da a entender un cierto orden. Si se prefiere, se
+772:puede tomar la expresión en orden inverso; con escalante como sustantivo que indica
+773-un orden estricto y fractal como calificativo que excluye las rectas y los planos.
+774-No hay que mal interpretar la motivación que nos impulsa a suponer la
+775-homogeneidad y la invariancia por cambios de escala. Aquí, como en la geometría
+776-ordinaria de la naturaleza, nadie cree que el mundo sea estrictamente homogéneo ni
+777:escalante. La geometría ordinaria estudia las rectas como caso preliminar más simple.
+778-También la mecánica contempla el movimiento rectilíneo y uniforme como un simple
+779-primer paso.
+780:Lo mismo ocurre con los fractales escalantes, pero aquí este primer paso es más
+781-lento, ya que el papel de la línea recta lo juega ahora una multitud de posibilidades
+782-distintas, de las que este libro sólo puede presentar una pequeña muestra. No hay que
+783:sorprenderse de que los fractales escalantes se limiten a dar una primera
+784-aproximación de las formas naturales que queremos tratar. Antes bien, lo que resulta
+785-sorprendente es que dichas primeras aproximaciones sean tan notablemente
+786-razonables.
+787-Conviene señalar que la idea de autosemejanza es antigua. En el caso de la línea
+788-recta, se le ocurrió a Leibniz hacia 1700 (véase la entrada «cambio de escala en
+--
+804-Tras acabar con las líneas, Euclides aborda formas con otras invariancias más
+805-ricas, comúnmente denominadas «simetrías». Este ensayo realiza también una
+806:excursión bastante larga por el terreno de los fractales no escalantes del capítulo 15 al
+807-20.
+808:Los fractales no escalantes imagen de sí mismas están íntimamente relacionados
+809-con algunos de los temas más refinados y difíciles del análisis matemático clásico
+
+════ VIII · Acto 2 · qué cualifica ════
+### §2-bis · Cualificadores del término
+
+El término "fractalidad" en `FRACTALIDAD_ACOTADA.md` se cualifica
+mediante cuatro adjetivos. Cada uno tiene fuente verificable.
+
+**ESCALANTE**
+- Fuente · Mandelbrot 1982, L767-773.
+- Cita · "En la expresión compuesta fractal escalante, el
+  adjetivo suaviza el significado del sustantivo."
+- Significado · autosimilitud funcional laxa, no geométrica exacta.
+
+**ACOTADA**
+- Fuente · propio del corpus.
+- Cita · FRACTALIDAD_ACOTADA.md §3, §9.
+- Significado · restringida al dominio contable.
+- Distinción · no confundir con "acotado" en sentido métrico
+  (Mandelbrot 1975 L3863 · "contenido en una bola finita").
+
+**EN CASCADA**
+- Fuente · Mandelbrot 1975, L732, L746, L1392.
+- Cita · "Dos conceptos intuitivos esenciales: homotecia interna
+  y cascada" (L732).
+- Significado · proceso generativo iterado.
+
+**FUNCIONAL**
+- Fuente derivada · Mandelbrot 1982, L9482.
+- Cita · "no de una operación que se realiza, luego se repite, etc.
+  Esas funciones iteradas son..."
+- Significado · opera sobre funciones, no sobre formas geométricas.
+
+Formulación completa adoptada:
+
+> Fractalidad **escalante**, **acotada** al dominio contable,
+> **en cascada**, **funcional**.
+
+---
+
+### §2-ter · Los tres operadores
+
+════ IX · SCFV_DSR · README ════
+# SCFV_DSR
+
+**Artefacto:** SCFV_DSR
+**Programa:** Investigación SCFV
+**Giro:** 04 · Sesión: 4
+**Fecha de creación:** 2026-09-22
+**Autoridad:** Operador (DEDN, C.P.C. Nº 183594)
+
+## Estatuto
+
+Árbol dedicado al artefacto SCFV_DSR, conforme a:
+
+- `GIRO_04/06_diseno.md` — diseño del artefacto.
+- `GIRO_04/07_materializacion_scfv_dsr.md` — materialización.
+- `GIRO_04/11_soporte_minimo.md` §5-bis — locus físico previsto.
+
+No modifica S0. No modifica el Motor Contable. No modifica el corpus histórico.
+
+## Estructura
+
+- `evaluacion/` — componente de evaluación declarado en el Acto 11.
+  - `lectura/` — `leer_eventos_asiento()` (§6, §7, §8, §9).
+  - `normalizacion/` — `normalizar_partidas_para_saldos()` (§10).
+  - `verificacion/` — utilidades de verificación reproducible.
+- `DOCS/` — documentación interna del artefacto.
+
+## Estado
+
+Árbol recién creado. Sin código materializado.
+La implementación de `leer_eventos_asiento()` y `normalizar_partidas_para_saldos()`
+requiere acto posterior del Operador conforme al Acto 11 §21.
+# SCFV_DSR · dsl — Gramática extendida y parser ADL-SCFV
+
+**Módulo:** `~/SCFV_DSR/dsl/`
+**Programa:** Investigación SCFV
+**Giro:** 04 · Sesión: 4 · Acto: 14
+**Fecha:** 2026-09-22
+**Autoridad:** Operador (DEDN, C.P.C. Nº 183594)
+
+## 1. Propósito
+
+El módulo implementa la extensión local de la gramática `.scfv` para
+ADL-SCFV y su parser correspondiente, conforme a las especificaciones del
+Acto 13 (`GIRO_04/13_sintaxis_concreta_adl.md`, hash declarado
+`3fc8e7bd…`).
+
+El módulo constituye **infraestructura sintáctica y de parsing**.
+No constituye por sí mismo: autoridad normativa, decisión profesional,
+motor contable, Diario o Mayor, ni sistema de modificación de datos
+contables.
+
+## 2. Autoridad
+
+El parser interpreta sintaxis conforme a la gramática declarada.
+
+Queda expresamente fuera de su autoridad:
+
+- decidir profesionalmente;
+- determinar por sí mismo la validez normativa de un hecho;
+- contabilizar;
+- escribir en Diario o Mayor;
+- modificar datos contables;
+- sustituir al Motor Contable;
+- convertir una declaración sintáctica en una decisión profesional.
+
+## 3. Entradas y salidas
+
+Funciones públicas (heredadas de `parser.py` de S0):
+
+    parse_file(self, filepath: str) -> Dict[str, Any]
+    parse_string(self, text: str) -> Dict[str, Any]
+
+La salida conserva las cinco claves históricas de S0:
+
+    fractales, contexto, mandante, tetrada, booleano
+
+y añade tres claves para la extensión:
+
+    contratos, invariantes, asientos_declarados
+
+La salida representa estructura sintáctica procesada.

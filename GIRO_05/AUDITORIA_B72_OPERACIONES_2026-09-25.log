@@ -1,0 +1,30 @@
+════ VERIFICACION operaciones.json · Fri Sep 25 07:40:01 -04 2026 ════
+
+--- JSON valido ---
+Operaciones: 15
+
+  amortizacion_lineal                 · NIC_38, S18
+  conversion_moneda                   · NIC_21, S30
+  depreciacion_lineal                 · NIC_16, S17
+  desglose_iva                        · LIVA_Art4
+  interes_compuesto                   · NIC_23, NIIF_9
+  menor_costo_precio_venta            · S13
+  menor_costo_vnr                     · NIC_2, S13
+  reexpresion_inflacion               · NIC_29, BA_VEN_NIF_2
+  suma_montos                         · generico
+  tasa_efectiva                       · NIIF_9
+  valor_esperado                      · NIC_37, S21
+  valor_neto_realizable               · NIC_2, S13
+  valor_presente                      · NIC_36, NIIF_16, NIIF_13
+  valor_presente_anualidad            · S20, NIIF_16
+  verificar_cuadre                    · generico
+
+--- dimensiones ---
+ 111 4248 /data/data/com.termux/files/home/SCFV_DSR/kernel/operaciones.json
+
+--- hash ---
+b70d7bbacc324b12b510325c15aceaa8aa8f0476f3019a6bdfb81d8cd20651dc
+
+--- registrar ---
+2026-09-25T11:12:27Z | BALDOR_EXTENDIDO | SHA256=8f77a5f801f0706354f63ff5bf38beaff74a7d9aed6804da4c2cd4ec9e95d90e | 624 L · 28106 b · 52 funciones · 7 bloques
+2026-09-25T11:40:01Z | OPERACIONES_JSON | SHA256=b70d7bbacc324b12b510325c15aceaa8aa8f0476f3019a6bdfb81d8cd20651dc | 15 operaciones · 1.0

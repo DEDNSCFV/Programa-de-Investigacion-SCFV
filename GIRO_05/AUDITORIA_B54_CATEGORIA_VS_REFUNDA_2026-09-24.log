@@ -1,0 +1,248 @@
+════ B54 · categoría: metadato vs refunda · Thu Sep 24 22:53:48 -04 2026 ════
+
+════ I · ¿el motor usa 'cuenta' como clave o como campo? ════
+37-    def validar_partida(self, partida: Dict, marco_contable: str = "NIIF_Completas") -> bool:
+38-        # I2: cuenta existe y es compatible
+39:        cuenta = partida.get("cuenta")
+40-        if not cuenta:
+41-            raise ValueError("I2_VIOLATION: Partida sin cuenta")
+42-        if not self._verificar_cuenta_con_marco(cuenta, marco_contable):
+43-            raise ValueError(f"I2_VIOLATION: Cuenta {cuenta} no existe o no es compatible con el marco {marco_contable}")
+44-
+--
+54-    def _validar_moneda(self, partida: Dict) -> bool:
+55-        """Valida que la moneda esté definida y sea la funcional (I13)."""
+56:        moneda = partida.get("moneda", "VES")
+57-        if moneda != self.moneda_funcional:
+58-            raise ValueError(f"I13_VIOLATION: Moneda '{moneda}' no permitida. Solo '{self.moneda_funcional}'")
+59-        return True
+60-
+61-    # --------------------------------------------------------------------
+
+--- _verificar_cuenta_con_marco ---
+29:    def _verificar_cuenta_con_marco(self, cuenta: str, marco_contable: str) -> bool:
+30-        if cuenta not in self.pcu:
+31-            return False
+32-        marcos_permitidos = self.pcu[cuenta].get("marcos", ["NIIF_Completas"])
+33-        if marco_contable not in marcos_permitidos:
+34-            return False
+35-        return True
+36-
+37-    def validar_partida(self, partida: Dict, marco_contable: str = "NIIF_Completas") -> bool:
+38-        # I2: cuenta existe y es compatible
+39-        cuenta = partida.get("cuenta")
+40-        if not cuenta:
+41-            raise ValueError("I2_VIOLATION: Partida sin cuenta")
+42-        if not self._verificar_cuenta_con_marco(cuenta, marco_contable):
+43-            raise ValueError(f"I2_VIOLATION: Cuenta {cuenta} no existe o no es compatible con el marco {marco_contable}")
+44-
+
+════ II · ¿cuántas piezas dependen de 'cuenta_codigo'? ════
+29
+--- archivos ---
+/data/data/com.termux/files/home/scfv_v6/_tmp_migraciones_prueba/scfv_migraciones_prueba.db
+/data/data/com.termux/files/home/scfv_v6/.pytest_cache/v/cache/nodeids
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_h8p
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_d3
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py.bak_fase3f
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/README.md
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py.bak
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py.bak_fase2a
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py.bak_fase2a_v2
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/modelos.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/nucleo_consecuencias.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/reportes_motor.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/examinador.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/examinador.py.bak_h8p2
+/data/data/com.termux/files/home/scfv_v6/INFRAESTRUCTURA/db/migrations/001_schema_negocio.sql
+/data/data/com.termux/files/home/scfv_v6/INFRAESTRUCTURA/db/schema_final.sql
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_nucleo_consecuencias.py
+
+════ III · ¿cuántos tests usan cuenta_codigo? ════
+21
+/data/data/com.termux/files/home/scfv_v6/TESTS/__init__.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_adquisidor.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_d4_perceptum_generador.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_externa.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_provider.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_estados_asiento.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_event_store_d3.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_event_store_tipo.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_evidencia.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_evidencia_provider.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:11
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_f3b4_infra_f.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_generador_propuesta.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_h2_soberania.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_importador_s0.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_integracion.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_motor_v82.py:25
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_nucleo_consecuencias.py:8
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_orquestador_v82.py:0
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_orquestador_v82_contrato.py:1
+
+════ IV · precedentes de refundación en el corpus ════
+--- ADRs ---
+ADR-000.md
+ADR-001.md
+ADR-002.md
+ADR-003.md
+ADR-004.md
+ADR-005.md
+--- ADR-001 ---
+<!--
+SCFV v6 — Documento de Ingeniería
+Autor: Domingo E. Díaz N. (C.P.C. Nº 183594)
+Versión: 1.0.0
+Fecha: 2026-08-26
+Estado: APROBADO
+ADR relacionados: ADR-000, ADR-003, ADR-004
+-->
+
+# ADR-001: Separación de Poderes del SCFV v6
+
+## Problema
+¿Cómo se organizan las responsabilidades dentro del SCFV v6 para garantizar que ningún componente pueda invadir el territorio de otro, respetando la soberanía del contador y la integridad contable?
+
+## Contexto
+El SCFV v6 se basa en una inversión de la causalidad contable: el hecho económico es el átomo, el asiento es una consecuencia. Esta ontología requiere que diferentes autoridades manejen diferentes aspectos: observar, decidir, contabilizar y demostrar.
+
+## Alternativas Consideradas
+1. **Arquitectura monolítica tradicional**: Un solo componente hace todo. Riesgo: el código mezcla lógica de negocio, contabilidad e inferencia.
+2. **Microservicios con API**: Demasiado pesado para Termux/Android y rompe el principio local-first.
+3. **Separación de poderes con contratos explícitos**: Cada autoridad tiene su propio módulo y límites claros. Es la elegida.
+
+## Decisión
+Se establecen **cuatro autoridades independientes**, cada una con un ámbito de acción y límites explícitos:
+
+| Autoridad | Componente | Función | Límite |
+|-----------|------------|---------|--------|
+| **Epistemológica** | Núcleo Epistemológico | Observar, interpretar, orientar. | No decide, no contabiliza, no persiste directamente. |
+| **Profesional** | Contador Humano | Decidir, aceptar, rechazar, justificar. | La decisión es exclusiva del contador y trazable. |
+| **Contable** | Motor Contable | Generar y registrar asientos de N partidas. | Única autoridad que escribe en Diario y Mayor. |
+| **Demostrativa** | Auditoría / Hash Chain | Reconstruir y demostrar cadenas causal y de justificación. | No modifica datos históricos. |
+
+## Dependencias Permitidas
+
+| Autoridad | Puede usar | No puede usar |
+|-----------|------------|---------------|
+| Núcleo | Evidencias, Observaciones, Casos CBR | Diario, Mayor, escritura en tablas contables |
+| Contador | Orientación del Núcleo, CLI | Escritura directa en Diario o Mayor |
+| Motor Contable | Decisiones estructuradas (H₂), PCU, Política Contable | Generar orientaciones, modificar evidencias |
+| Auditoría | Tablas de Diario, Mayor, Hash Chain | Modificar datos de negocio o epistemológicos |
+--- ADR-004 ---
+<!--
+SCFV v6 — Documento de Ingeniería
+Autor: Domingo E. Díaz N. (C.P.C. Nº 183594)
+Versión: 1.0.0
+Fecha: 2026-08-26
+Estado: APROBADO
+ADR relacionados: ADR-001, ADR-003
+-->
+
+# ADR-004: Axiomas Epistemológicos del Núcleo
+
+## Problema
+¿Qué principios fundamentales deben regir el comportamiento del Núcleo Epistemológico para garantizar que no invada la soberanía del contador, no confunda integridad con veracidad, y no convierta el soporte computacional en una autorización para contabilizar?
+
+## Contexto
+El Núcleo Epistemológico es una herramienta de asistencia que observa, interpreta, aprende y orienta, pero nunca decide. Su diseño debe basarse en axiomas que protejan al contador de la tentación de delegar su juicio profesional en el sistema.
+
+## Alternativas Consideradas
+1. **Sin axiomas explícitos**: El Núcleo podría evolucionar hacia un sistema de "decisión automatizada", contradiciendo la filosofía del SCFV.
+2. **Axiomas implícitos en el código**: Se asumen principios sin documentarlos, lo que dificulta su auditoría y cumplimiento.
+3. **Axiomas documentados y verificables**: Se definen formalmente tres axiomas, se documentan, y se implementan pruebas que los verifiquen.
+
+## Decisión
+Se adoptan los siguientes **tres axiomas epistemológicos** como invariantes del sistema:
+
+---
+
+### E-1: Similitud ≠ Evidencia
+
+**Enunciado**: La similitud histórica nunca constituye evidencia primaria de ocurrencia.
+
+**Implicación**: El Núcleo puede sugerir "esto se parece a un caso anterior", pero esa similitud **no** puede ser utilizada como prueba de que el hecho ocurrió. La evidencia primaria debe ser un documento (factura, extracto, manuscrito) con su hash de integridad.
+
+**Reflejo en el código**: El campo `confianza_por_campo` en `Observacion` debe distinguir entre `fuente: 'documento'` y `fuente: 'similitud_historica'`. El Motor Contable nunca acepta una operación basada únicamente en similitud.
+
+---
+
+### E-2: Integridad ≠ Veracidad
+
+**Enunciado**: El hash demuestra integridad del objeto, no autenticidad del contenido ni veracidad del hecho.
+
+════ V · ¿el raw Pymes/NIC usa categoria como clave o como clasificación? ════
+--- Pymes: 'categorías separadas' ---
+3711-4.4
+3712-
+3713-Una entidad presentará sus activos corrientes y no corrientes, y sus pasivos
+3714:corrientes y no corrientes, como categorías separadas en su estado de
+3715-situación financiera, de acuerdo con los párrafos 4.5 a 4.8, excepto cuando una
+3716-presentación basada en el grado de liquidez proporcione una información
+3717-fiable que sea más relevante. Cuando se aplique tal excepción, todos los activos
+--- NIC: cómo usa 'categoría' ---
+66689-según la naturaleza de la información revelada y que tenga en cuenta las características de dichos
+66690-instrumentos financieros. Las clases descritas en el párrafo 6 serán determinadas por la entidad y son
+66691:distintas de las categorías de instrumentos financieros especificadas en la NIIF 9 (que determinan cómo se
+66692-miden los instrumentos financieros y dónde se reconocen los cambios en el valor razonable).
+66693-
+66694-B2
+66695-
+66696-Al determinar las clases de instrumentos financieros, una entidad, como mínimo:
+
+════ VI · ¿el raw Pymes/NIC usa cuentas explícitas? ════
+--- códigos numéricos en Pymes ---
+069584
+915712
+--- códigos numéricos en NIC Perú ---
+
+════ VII · ¿qué tan atomizado está el PCU actual? ════
+--- copias de PCU en el corpus ---
+/data/data/com.termux/files/home/scfv_v6/scfv.db
+/data/data/com.termux/files/home/scfv_v6/scfv.db.baseline_v81
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md.bak_h8p
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_h8p
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_d3
+/data/data/com.termux/files/home/scfv_v6/scfv.db.g24e_test
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/INFRAESTRUCTURA/db/scfv.db
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/cli/integrador.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/cli/integrador.py.bak_arq_f3b4
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py.bak_fase3f
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/ventas/ventas.py
+/data/data/com.termux/files/home/scfv_v6/INFRAESTRUCTURA/db/scfv.db
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_reticulo.py
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_motor_v82.py
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_motor_v82.py.bak
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_orquestador_v82.py
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_orquestador_v82_contrato.py
+--- cuentas únicas usadas en todo el corpus ---
+"110101"
+"140101"
+"210101"
+"210201"
+"210202"
+"410101"
+"610101"
+"999999"
+
+════ VIII · ¿existen clasificaciones paralelas ya en el corpus? ════
+--- el corpus ya clasifica por algo además de cuenta? ---
+
+════ IX · esfuerzo de refunda: contar archivos afectados ════
+--- motor_contable ---
+31
+--- tests motor ---
+30
+--- fractales ---
+10
+--- schema normas ---
+/data/data/com.termux/files/home/scfv_v6/normas/schema_v8.2.1.json
+
+════ X · precedente: ¿alguien ya propuso esto en el corpus? ════

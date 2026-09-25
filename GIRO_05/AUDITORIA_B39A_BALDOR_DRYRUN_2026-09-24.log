@@ -1,0 +1,116 @@
+=== B39a · dry-run OCR · página 51 · 2026-09-24 ===
+════ I · idiomas tesseract disponibles ════
+List of available languages in "/data/data/com.termux/files/usr/share/tessdata/" (3):
+eng
+osd
+spa
+
+════ II · extraer página 51 como PNG ════
+-rw-------. 1 u0_a288 u0_a288 1170248 Sep 24 19:34 /data/data/com.termux/files/home/.baldor_ocr_tmp/test-p-051.png
+
+════ III · OCR de la página 51 (spa) ════
+Detected 315 diacritics
+107 ALCIBRA
+
+REFRESENTACIÓN GRAFICA DEL PRODUCTO DE LA 54-IM.A
+POR LA DIFERENCIA DE DOS CANTIDADES
+
+— El producro de la suma por la diferencia de dos cantidades puede
+mprmnt…u*x: geométricamente cuando los valores de dichas cantidades son
+
+positivos. Véamse los siguientes pasos:
+Sea (E b) (5—b) =a — 6
+
+Construimos an cuadrado de e
+—| unidades de lado, es decir, de lado u:
+
+—| FIGURA 14 |
+
+Construimos un cuadrado de
+tinidades de lado, es decir, de lado $:
+
+_' son [d + h)y (a— 6, y cuva drea (figura 1E] será:
+(ea+ b) (a— ) =a
+
+(e b)(a—b)=a" — be
+(0+6) (10—6)= (1y -
+— 16X 4=100— 96
+=e =
+
+Al cuadrado de lado e de q¡utnmns el :..tladmdn de la-
+de 6 (figura 161, y trazando Ia linea de punt-:s obtenemos
+
+la I13ura 17 uht:ncmns él rectángulo .4.BEI] cuyes lados
+
+|
+e
+
+PROÑUCTOS MOTADLES .1 I:¡_“a»_º.'
+
+(?Ei) CUBO DE UN BINOMIO
+
+1) Elevemos e+ 6 al'cubo. = 4
+Tendremos: l1+6= I[—1+ Ef -+ byja + I.I:| (a + (a + I.r:i |[aº+ 1".n:b + b']| [t-|u:_t
+Ea + e
+FEfectuando esta a+h
+multiplicación, P— + ab o scl fa+bjt=:
+
+tenemós: . — f al + 20b? + 63
+E eÉ + Sr
+
+lo que-nos dice que el cubo de la suma de dos canridades es-iguál al ei
+de la primeta camtidad más el triplo del cuadrado de la primera |mr;._|_ur
+segunda, más el tripio de la primera por el cuadraflo de la segrmnila, más
+El eo «e [a-seromida,
+
+2) Elevemos d— P al
+
+cubo. “Tendremos; - — (a— b = (a — be(a=0) = (0" — 2ab -E:H¡;
+y58 ua
+Efectuando esta multiplicación, tenemos:
+"a? — 2ab + 62 "a
+a —É e
+náfi'5¿r_-l-—'ñ'¿ ""
+— a Zab?— 61
+
+N de a i
+
+la que nos dice que el cubo de ls diferencia de dos camidades es 11;111Í af
+rabo de la primera cantidad, menos el tripto del cusdradío ee Ta f¡r|m¡_'r.|
+pur la segumda, más el triplo de la- primerz por el cuadrado de la 5:=¡u11d..1 ml
+mens el caho de la seginda contidad, Í i
+
+EÍE"'£-PIÚS- TI1 Desarrallar (a + 1]-'. r N
+Ja -+ 1= 4 BA| + 3 2)+ 1 =0 + 302 +3a+1. R
+
+IZ) Desorrollar |X—27.
+[ —2 =3 - 3012| + 27 -P = - 684 x—6. .
+19 Dumrmllu¡ u + 5),
+|dx -F 59 =[4] - |-3Hx*.l'15]+31u]|5“?+9—¿-1;—*+2£h“+30&¿+125.E
+1) deho|fnr1!º-ar]'.
+ley P B6 Dy [ P y4 EA R
+
+
+════ IV · comparar con pag-050 (última existente) ════
+--- pag-050.txt (últimas líneas) ---
+
+EJERCICIO 65
+Escribir, por simple inspección, el resultado de:
+
+(xty+D(a-+y—2). 0. (xIy-2)Xx-y+2). 11 (2xhy-22x—y+z).
+(x—y+(x49—2). T (nº+2n+l)(n*—2n—l). 12. (x?—5x+6)(x2-+5x—0).
+(ay +z)(x—y-—2). B (a*-2043)(a>+2a-3), 13, (a?—ab-+b%a?+b3-4ab
+
+(mbn+1(m+9—1). . (m*—m—iymi+m—l) — 14. (x4—x*—(x"+x74x)
+(m—n—m—r-1). - 10. (20—b—ey(20—b+c).
+--- test-p-051.txt (primeras líneas) ---
+107 ALCIBRA
+
+REFRESENTACIÓN GRAFICA DEL PRODUCTO DE LA 54-IM.A
+POR LA DIFERENCIA DE DOS CANTIDADES
+
+— El producro de la suma por la diferencia de dos cantidades puede
+mprmnt…u*x: geométricamente cuando los valores de dichas cantidades son
+
+positivos. Véamse los siguientes pasos:
+Sea (E b) (5—b) =a — 6

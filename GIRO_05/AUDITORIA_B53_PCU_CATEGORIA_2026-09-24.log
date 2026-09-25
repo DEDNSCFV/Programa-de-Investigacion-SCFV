@@ -1,0 +1,212 @@
+════ B53 · PCU por categoría · verificación · Thu Sep 24 22:47:24 -04 2026 ════
+
+════ I · motor_contable · ¿qué campo lee? ════
+35-        return True
+36-
+37:    def validar_partida(self, partida: Dict, marco_contable: str = "NIIF_Completas") -> bool:
+38-        # I2: cuenta existe y es compatible
+39-        cuenta = partida.get("cuenta")
+40-        if not cuenta:
+41-            raise ValueError("I2_VIOLATION: Partida sin cuenta")
+42-        if not self._verificar_cuenta_con_marco(cuenta, marco_contable):
+43-            raise ValueError(f"I2_VIOLATION: Cuenta {cuenta} no existe o no es compatible con el marco {marco_contable}")
+44-
+45-        # I13: moneda definida y soportada
+46-        self._validar_moneda(partida)
+47-
+48-        # I6: se validará externamente (en el integrador) porque necesita el catálogo de normas
+49-        return True
+50-
+51-    # --------------------------------------------------------------------
+52-    # I13: Moneda definida y soportada por el perfil
+--
+62-    # I1: Partida doble
+63-    # --------------------------------------------------------------------
+64:    def validar_partida_doble(self, partidas: List[Dict]) -> bool:
+65-        total_debe = sum(p.get("monto", 0) for p in partidas if p.get("ubicacion") == "DEBE")
+66-        total_haber = sum(p.get("monto", 0) for p in partidas if p.get("ubicacion") == "HABER")
+67-        if abs(total_debe - total_haber) > 0.001:
+68-            raise ValueError(f"I1_VIOLACION: debe={total_debe}, haber={total_haber}")
+69-        return True
+70-
+71-    # --------------------------------------------------------------------
+72-    # I6: Regla fiscal identificada (se llama externamente)
+73-    # --------------------------------------------------------------------
+74-    def validar_I6(self, partidas: List[Dict], normas_catalogo: List[Dict]) -> bool:
+75-        normas_ids = {n.get('id') for n in normas_catalogo if n.get('id')}
+76-        for p in partidas:
+77-            if p.get('es_fiscal') and not p.get('norma_id'):
+78-                raise ValueError(f"I6_VIOLATION: Partida fiscal sin norma_id: {p}")
+79-            if p.get('norma_id') and p.get('norma_id') not in normas_ids:
+
+--- genera asiento ---
+95:    def generar_asiento(
+96-        self,
+97-        consecuencia: ConsecuenciaAutorizada,
+98-        verificador: VerificadorAutorizacion,
+99-        estado_actual: str,
+100-        catalogo_normas: Optional[List[Dict]] = None
+101-    ) -> Dict:
+102-        """
+103-        Genera un asiento contable técnico a partir de una consecuencia autorizada.
+104-        """
+105-        # 1. Barrera de autorización
+106-        if verificador is None:
+107-            raise ValueError("MOTOR_VIOLACION: Motor sin verificador de autorización")
+108-
+109-        if not verificador.esta_autorizado(
+110-            propuesta_id=consecuencia.propuesta_id,
+111-            decision_id=consecuencia.decision_id,
+112-            firma_h2=consecuencia.firma_h2,
+113-            correlation_id=consecuencia.correlation_id,
+114-            estado_actual=estado_actual
+115-        ):
+116-            raise ValueError("MOTOR_VIOLACION: consecuencia no autorizada")
+117-
+118-        # 2. Validación estructural
+119-        if not consecuencia.decision_id or not consecuencia.propuesta_id or not consecuencia.firma_h2 or not consecuencia.correlation_id:
+120-            raise ValueError("MOTOR_VIOLACION: identificadores ausentes en consecuencia")
+121-        if not consecuencia.contexto_contable:
+122-            raise ValueError("MOTOR_VIOLACION: contexto_contable ausente")
+123-        if len(consecuencia.partidas) < 2:
+124-            raise ValueError("MOTOR_VIOLACION: se requieren al menos 2 partidas")
+125-
+
+════ II · ¿qué campos tiene una partida? ════
+{
+    "id": "372bed8b-158c-4083-8a81-4037c5d39ac6",
+    "partidas": [
+        {
+            "cuenta": "110101",
+            "naturaleza": "DEUDORA",
+            "movimiento": "AUMENTA",
+            "monto": 1000.0,
+            "moneda": "VES"
+        },
+        {
+            "cuenta": "410101",
+            "naturaleza": "ACREEDORA",
+            "movimiento": "AUMENTA",
+            "monto": 1000.0,
+            "moneda": "VES"
+        }
+    ],
+    "total_debe": 1000.0,
+    "total_haber": 1000.0,
+    "evidencia": {
+        "factura": "FAC-001",
+        "rif": "J-12345678",
+        "monto": 1000.0,
+        "fecha": "2026-09-01",
+        "tipo": "venta",
+        "producto": "PROD-A",
+        "cantidad": 2,
+        "costo_unitario": 500.0
+    },
+    "normas_aplicadas": [
+        "LIVA_Art4",
+        "NIC_29"
+    ],
+    "conflictos": [],
+    "justificacion_h2": null
+}
+
+════ III · esquema de partida en modelos.py ════
+5-
+6-Contiene las estructuras de datos para el Motor Contable v8.2:
+7:ConsecuenciaAutorizada, ContextoContable, PartidaAutorizada.
+8-"""
+9-
+10-from dataclasses import dataclass
+11-from typing import List, Dict, Optional
+12-
+13-@dataclass
+14-class ContextoContable:
+15-    marco_contable: str           # ej. "NIIF_Completas", "NIIF_PYMES"
+16-    PCU_version: str              # Versión del PCU utilizada
+17-    reglas_version: str           # Versión de reglas contables
+18-    politica_monetaria_version: str
+19-
+20-@dataclass
+21-class ConsecuenciaAutorizada:
+22-    # Identificación de la decisión H₂
+--
+36-    contexto_contable: ContextoContable
+37-
+38:    # Partidas (lista de dicts con la estructura de PartidaAutorizada)
+39:    partidas: List[Dict]
+40-
+41-@dataclass
+42:class PartidaAutorizada:
+43-    cuenta_codigo: str
+44-    cuenta_version: str            # Obligatorio
+45-    monto: float
+46-    ubicacion: str                 # "DEBE" o "HABER"
+47-    movimiento: str                # "AUMENTA" o "DISMINUYE"
+48-    moneda: Optional[str] = "VES"
+49-    es_fiscal: bool = False
+50-    norma_id: Optional[str] = None
+
+════ IV · NIIF Pymes · categorías enumerables ════
+--- efectivo y equivalentes ---
+8
+--- inventarios ---
+71
+--- propiedades, planta y equipo ---
+48
+--- activos intangibles ---
+18
+--- cuentas por cobrar ---
+17
+--- cuentas por pagar ---
+6
+
+════ V · NIC completas · también por categoría ════
+451
+102
+71
+
+════ VI · ¿hay PCU por categoría ya en el corpus? ════
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/PROMPT_CONTINUIDAD.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_60
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_65
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_MATRIZ_SINTESIS.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_68
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_MATRIZ_SINTESIS.md.bak_bloque1
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_MATRIZ_SINTESIS.md.bak_bloque2
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_70
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_MATRIZ_SINTESIS.md.bak_bloque3
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_73
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_MATRIZ_SINTESIS.md.bak_bloque4
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_75
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_MATRIZ_SINTESIS.md.bak_bloque5
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_79
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_MATRIZ_SINTESIS.md.bak_bloque6
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_82
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_MATRIZ_SINTESIS.md.bak_bloque7
+/data/data/com.termux/files/home/scfv_v6/DOCS/_EA_HALLAZGOS.md.bak_ampliacion_85
+
+════ VII · ¿el schema de normas admite categoría? ════
+
+════ VIII · ¿el EventStore payload admite categoría? ════
+      2 cuenta
+
+════ IX · RAG de categorías NIIF Pymes (extracto) ════
+    356 efectivo
+     67 inventarios
+     14 Patrimonio
+     12 Pasivos
+      3 Gastos
+      2 Propiedades, planta y equipo
+      1 Ingresos de actividades ordinarias
+      1 Cuentas por pagar
+
+════ X · RAG de categorías NIC (extracto) ════
+     66 Arrendamientos
+     18 Activos financieros
+      9 Instrumentos financieros
+      3 Pasivos financieros
+      3 Impuesto a las ganancias
+      3 Activos biológicos

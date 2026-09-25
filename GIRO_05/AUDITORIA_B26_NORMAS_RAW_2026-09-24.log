@@ -1,0 +1,188 @@
+=== B26 · corpus de normas en raws · 2026-09-24 ===
+--- archivos de normas en HOME ---
+-rw-------. 1 u0_a288 u0_a288   17164 Sep 23 12:16 /data/data/com.termux/files/home/.bavennif_8_raw.txt
+-rw-------. 1 u0_a288 u0_a288  242903 Sep 23 12:15 /data/data/com.termux/files/home/.ifrs_annotated_2025_raw.txt
+-rw-------. 1 u0_a288 u0_a288  125150 Sep 23 12:16 /data/data/com.termux/files/home/.ifrs_s1_2023_raw.txt
+-rw-------. 1 u0_a288 u0_a288  120336 Sep 23 12:16 /data/data/com.termux/files/home/.ifrs_s2_2023_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1478433 Sep 23 12:16 /data/data/com.termux/files/home/.nias_2021_vol2_raw.txt
+-rw-------. 1 u0_a288 u0_a288  278586 Sep 23 12:16 /data/data/com.termux/files/home/.nias_2021_vol3_raw.txt
+-rw-------. 1 u0_a288 u0_a288  203361 Sep 23 12:15 /data/data/com.termux/files/home/.niif18_2024_raw.txt
+-rw-------. 1 u0_a288 u0_a288  137302 Sep 23 12:15 /data/data/com.termux/files/home/.niif18_kpmg_2025_raw.txt
+-rw-------. 1 u0_a288 u0_a288  732797 Sep 23 12:15 /data/data/com.termux/files/home/.niif1_2024_raw.txt
+-rw-------. 1 u0_a288 u0_a288 4144184 Sep 23 12:15 /data/data/com.termux/files/home/.niif_compilado_2026_raw.txt
+-rw-------. 1 u0_a288 u0_a288 5435605 Sep 23 12:16 /data/data/com.termux/files/home/.niif_peru_2025_raw.txt
+-rw-------. 1 u0_a288 u0_a288  846731 Sep 23 12:16 /data/data/com.termux/files/home/.niif_pymes_3ra_raw.txt
+
+--- NIC / NIIF identificadas en niif_peru_2025 ---
+6092:esta Norma con el significado especificado en dicha NIC 32:
+6224:NIC 7]
+6315:NIC 7] de una entidad. Esta presentación razonable requiere la presentación fidedigna [Referencia:
+6344:NIC 8 establece una jerarquía normativa [Referencia: párrafos 10 a 12, NIC 8] a considerar por
+6517:NIC 1 con respecto a incertidumbres relacionadas con la capacidad de una entidad de continuar
+6520:NIC 1 requiere del ejercicio del juicio profesional. El Comité destacó que el párrafo 25 requiere que
+6574:NIC 10] El grado de detalle de las consideraciones dependerá de los hechos que se presenten en cada caso.
+7186:NIC 12... ».
+8023:NIIF 17);
+8042:NIIF 17 (véase la NIIF 17);
+8100:NIC 39 Instrumentos Financieros:. Reconocimiento y Medición).
+8143:NIC 12 Impuestos a las Ganancias—Presentación de pagos sobre impuestos distintos a los de las
+9403:NIC 8. Una entidad aplicará esas modificaciones de forma prospectiva a los periodos anuales que
+9418:NIC 8. Se permite su aplicación anticipada. Si una entidad aplica esas modificaciones para un periodo
+9492:NIIF 9 Instrumentos Financieros); y
+9668:NIC 38 a la tenencia de criptomonedas. Para llegar a su conclusión, el Comité consideró los
+9788:NIC 2 Inventarios—Contabilización de los inventarios básicos”
+9818:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+10532:NIC 1).
+10689:NIC 7, llevándose a cabo dentro del proyecto de información sobre el rendimiento.]
+11190:NIC 23 Costos por Préstamos.
+11752:NIIF 11.
+12157:NIC 37 porque es un activo, y no un posible activo, de la entidad.
+12208:NIC 16 para las distintas clases de propiedades, planta y equipo y el párrafo 72 de la NIC 38 para
+12931:NIC 8. Una entidad aplicará esas modificaciones de forma prospectiva a los periodos anuales que
+13819:NIC 12. El Comité observó que la NIC 12 requiere que una entidad refleje un ajuste a la base fiscal
+13909:NIC 12.]]
+14157:NIC 40 Propiedades de Inversión. Quien envío la solicitud preguntaba si los requerimientos del
+14192:NIC 12 a la agenda del Consejo, pero que había decidido no hacerlo. Por consiguiente, el Comité
+14709:El Comité de Interpretaciones destacó que de acuerdo con los párrafos 28 y 35 de la NIC 12:
+
+--- NIC / NIIF en niif_compilado_2026 ---
+23:NIIF 1: Se sustituye integra.
+24:NIIF 2: Se sustituye integra.
+25:NIIF 3: Se sustituye integra.
+26:NIIF 5: Se sustituye integra.
+27:NIIF 6: Se sustituye integra.
+28:NIIF 7: Se sustituye integra.
+29:NIIF 8: Se sustituye integra.
+30:NIIF 9: Se sustituye integra.
+31:NIIF 10: Se sustituye integra.
+32:NIIF 11: Se sustituye integra.
+33:NIIF 12: Se sustituye integra.
+34:NIIF 13: Se sustituye integra.
+35:NIIF 15: Se sustituye integra.
+36:NIIF 16: Se sustituye integra.
+37:NIIF 17: Se sustituye integra.
+38:NIIF 18: Se añade.
+39:NIC 2: Se sustituye integra.
+40:NIC 7: Se sustituye integra.
+41:NIC 8: Se sustituye integra.
+42:NIC 10: Se sustituye integra.
+43:NIC 12: Se sustituye integra.
+44:NIC 16: Se sustituye integra.
+45:NIC 19: Se sustituye integra.
+46:NIC 20: Se sustituye integra.
+47:NIC 21: Se sustituye integra.
+48:NIC 24: Se sustituye integra.
+49:NIC 26: Se sustituye integra.
+50:NIC 27: Se sustituye integra.
+51:NIC 28: Se sustituye integra.
+52:NIC 29: Se sustituye integra.
+
+--- NIC / NIIF en ifrs_s1_2023 ---
+Junio 2023
+
+NIIF S1
+
+Norma NIIF® de Información a Revelar sobre Sostenibilidad
+
+Requerimientos Generales para la Información
+Financiera a Revelar relacionada con la
+Sostenibilidad
+
+Consejo de Normas Internacionales de Sostenibilidad
+
+NIIF S1
+Requerimientos Generales para la Información Financiera
+a Revelar relacionada con la Sostenibilidad
+
+IFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information together with its
+accompanying documents is issued by the International Sustainability Standards Board (ISSB).
+Disclaimer: To the extent permitted by applicable law, the ISSB and the IFRS Foundation (Foundation) expressly
+disclaim all liability howsoever arising from this publication or any translation thereof whether in contract, tort or
+otherwise to any person in respect of any claims or losses of any nature including direct, indirect, incidental or
+consequential loss, punitive damages, penalties or costs.
+Information contained in this publication does not constitute advice and should not be substituted for the services of
+an appropriately qualified professional.
+© IFRS Foundation 2023
+Reproduction and use rights are strictly limited to personal non-commercial use, such as corporate disclosure.
+Any other use, such as – but not limited to – reporting software, investment analysis, data services and product
+development is not permitted without written consent. Please contact the Foundation for further details at
+sustainability_licensing@ifrs.org.
+All rights reserved.
+
+--- NIC / NIIF en ifrs_s2_2023 ---
+Junio 2023
+
+NIIF S2
+
+Norma NIIF® de Información a Revelar sobre Sostenibilidad
+
+Información a Revelar relacionada con el
+Clima
+
+Consejo de Normas Internacionales de Sostenibilidad
+
+NIIF S2
+Información a Revelar relacionada con el Clima
+
+IFRS S2 Climate-related Disclosures together with its accompanying documents is issued by the International
+Sustainability Standards Board (ISSB).
+Disclaimer: To the extent permitted by applicable law, the ISSB and the IFRS Foundation (Foundation) expressly
+disclaim all liability howsoever arising from this publication or any translation thereof whether in contract, tort or
+otherwise to any person in respect of any claims or losses of any nature including direct, indirect, incidental or
+consequential loss, punitive damages, penalties or costs.
+Information contained in this publication does not constitute advice and should not be substituted for the services of an
+appropriately qualified professional.
+© IFRS Foundation 2023
+Reproduction and use rights are strictly limited to personal non-commercial use, such as corporate disclosure.
+Any other use, such as – but not limited to – reporting software, investment analysis, data services and product
+development is not permitted without written consent. Please contact the Foundation for further details at
+sustainability_licensing@ifrs.org.
+All rights reserved.
+This Spanish translation of IFRS S2 Climate-related Disclosures has been approved by the Review Committee
+appointed by the IFRS Foundation. The Spanish translation is the copyright of the IFRS Foundation.
+
+--- NIC 2 · ¿aparece en algún raw? ---
+/data/data/com.termux/files/home/.niif18_2024_raw.txt
+/data/data/com.termux/files/home/.niif_compilado_2026_raw.txt
+/data/data/com.termux/files/home/.niif_peru_2025_raw.txt
+/data/data/com.termux/files/home/.ifrs_annotated_2025_raw.txt
+
+--- BIBLIOTECA · rutas de normas ---
+BAVENNIF_8
+IFRS_Annotated_2025
+IFRS_S1_2023
+IFRS_S2_2023
+NIAS_2021_Vol2
+NIAS_2021_Vol3
+NIIF18_2024
+NIIF18_KPMG_2025
+NIIF1_2024
+NIIF_Compilado_2026
+NIIF_Peru_2025
+NIIF_Pymes_3raEd
+CITAS.md
+FICHA.md
+INDICE.md
+CITAS.md
+FICHA.md
+INDICE.md
+CITAS.md
+FICHA.md
+INDICE.md
+
+--- ¿qué NIC/NIIF tiene el corpus? ---
+=== .niif_peru_2025_raw.txt ===
+109629 /data/data/com.termux/files/home/.niif_peru_2025_raw.txt
+7108
+=== .niif_compilado_2026_raw.txt ===
+91633 /data/data/com.termux/files/home/.niif_compilado_2026_raw.txt
+4242
+=== .ifrs_s1_2023_raw.txt ===
+2856 /data/data/com.termux/files/home/.ifrs_s1_2023_raw.txt
+0
+=== .ifrs_s2_2023_raw.txt ===
+2664 /data/data/com.termux/files/home/.ifrs_s2_2023_raw.txt
+0
+=== .ifrs_annotated_2025_raw.txt ===
+6686 /data/data/com.termux/files/home/.ifrs_annotated_2025_raw.txt
+386

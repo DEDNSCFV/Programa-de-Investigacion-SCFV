@@ -1,0 +1,300 @@
+=== H1-C · raw de Baldor · 2026-09-24 ===
+════ I · dimensiones ════
+  5634 185043 /data/data/com.termux/files/home/.baldor_algebra_raw.txt
+
+════ II · índice general · qué contiene ════
+3409:CAPITULO
+4269:Tratándosc de más de dos Factores aplicamos las reglas generales que CAPITULO v
+
+════ III · primeras 120 líneas (preliminares) ════
+════════════════════════════════════════════════════════════════
+  PÁGINA 1 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+A. BALDOR
+
+GEBRA
+
+1E
+
+
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 2 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+PRELIMINARES
+
+ALGEBRA es la rama de Ja Matemática que estudía la cantidad consi-
+derada del modo más general posible.
+
+(DCARACT!I DEL ALGEBRA Y SU DIFERENCIA
+— CON LA ARITMETICA
+
+El concepto de la cantidad en Algebra es mucho más amplio que en
+Aritmética.
+
+En Aritmética las cantidades se representan por números y éstos ex-
+presan valores detérminados. -Asi, 20 expresa un solo valor: veínte; para
+expresar un valor mayor o menor que éste habrá que escribir un múmero
+distinto de 20.
+
+En Algebra, para lograr la generalización, las cantidades se represen-
+tan por medio de letras, las cuales pueden representar todos los valores,
+Asf, a representa el valor que nosotros le asignemos, y por tanto puede re-
+presentar 20 0 más de 20 0 menos de 20, a nuestra elección, aunque con-
+viene advertir que cuando en un problema asignamos a una letra un valor
+determinado, esa letra no puede representar, en el mismo problema, otro
+valor distinto del que le hemos asignado. a
+
+©NOTAC¡ON ALGEBRAICA
+Los símbolos usados en Algebra para representar las cantidades son los
+múmeros y las letras.
+
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 3 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+ALGENNA
+
+Los números se emplean para representar cantidades conocidas y de-
+terminadas,
+
+Las Jerras se emplean para representar toda clase de cantidades, ya
+sean conocidas o desconocidas.
+
+Las contidades conocidas se expresan por las primeras letras del alfa-
+beto: a, b, e, d...
+
+Las cantidades desconocidas se representan por las últimas letras del
+alfabeto: , v, w, X, y, Z.
+
+Una misma letra puede representar distintos valores diferenciándolos
+por medio de comillas; por ejemplo: a', a, a, que se leen a prima, a se-
+gunda, a tercera, o también por medio de subíndices; por ejemplo: a, az,
+, que se Jeen a subuno, a subdos, a subtres,
+
+4 ) FORMULAS
+
+Consecuencia de la generalización que implica la representación de
+las cantidades por medio de letras son las fórmulas algebraicas.
+
+Fórmula algebraica es la representación, por medio de letras, de una
+regla o de un principio general.
+
+Asi, la Geometría enseña que el área de un rectángulo es
+
+igual al producto de su base por su altura; Juego, llamando 4 , Asbaeh
+al drea del rectángulo, b a la base y h a la altura, la fórmula
+
+representará de un modo general'el área de
+
+cualquier rectángulo, pues el área de un rec-
+
+tángulo dado se obtendrá con sólo sustituir ea
+
+b y h en la fórmula anterior por sus valores
+en el caso dado. Así, si la base de un rec -
+tángulo es 3 m. y su altura 2 m., su área será:
+
+El drea de otro rectángulo cuya J_A=bxh=&'m.x»8¡—m.=2&m.'.()
+
+base fuera 8 m, y su altura 34 m, sería: 7
+
+© SIGNOS DEL ALGEBRA
+
+Los signos empleados en Algebra son de tres clases: Signos de Ope-
+— ración, Signos de Relación y Signos de Agrupación.
+
+© SIGNOS DE OPERACION
+
+En Algebra se verifican con las cantidades las mismas operaciones que
+en Aritmética: Suma, Resta, Multiplicación, División, Elevación a Poten-
+cias y Extracción de Raíces, que se indican con los signos siguientes:
+
+El Signo de la Suma es +, que se lee más. Asf u+b se lee “a más b”.
+
+() En el Cap. XVIII, página 270,se estudía ampliamente todo Jo relacionado con las
+fórmulas niyebralcas.
+
+PRELIMINANES * 7
+
+El Signo de la Resta es —, que se lec menos, Así, a— b se lee “a me-
+nos b",
+
+El Signo de la Multiplicación es X, que se lee multiplicado por. Asf,
+aX b sc lee “a multiplicado por 6".
+
+En lugar del signo X sucle emplearse un punto entre los factores y
+también se indica la multiplicación colocando los factores entre paréntesis.
+Asií, a.5 y (a)(b) equivalen a ax b.
+
+
+════ IV · buscar operaciones básicas ════
+76:igual al producto de su base por su altura; Juego, llamando 4 , Asbaeh
+101:en Aritmética: Suma, Resta, Multiplicación, División, Elevación a Poten-
+104:El Signo de la Suma es +, que se lee más. Asf u+b se lee “a más b”.
+111:El Signo de la Resta es —, que se lec menos, Así, a— b se lee “a me-
+114:El Signo de la Multiplicación es X, que se lee multiplicado por. Asf,
+118:también se indica la multiplicación colocando los factores entre paréntesis.
+125:El Signo de la División es +, que sc lee dividido entre. _ Así, a+b se
+126:lee "a dividido entre b”. También se indica la división separando el di-
+146:En el producto de dos factores, cualquiera de los factores es llamado
+149:Asi, en el producto 3a el factor 3 es coeficiente del factor a e indica
+150:que el factor a se toma como sumando tres veces, 0 sea 3a=4+a+a; en
+151:el producto 5b, el factor 5 es coeficiente de b e indica que 50=b+b+b+b+b,
+154:En el producto ab, el factor a es cocficiente del factor b, € indica que
+155:el factor b se toma como sumando a veces, o sea ab=b+4+b+b+b...a
+158:En el producto de más de dos factores, uno o varios de ellos son el
+159:coeficiente de los restantes. Así, en el producto abcd, a es el coeficiente
+185:tuarse primero. Así, (a+b)c indica que el resultado de la suma de a y b |
+187:multiplicarse por m; [a+D)+$c—d ]indica que la suma de a y b debe di-
+198:Las edades de A y B suman 48 años. Si la edad de B es 5 veces la
+213:Como ambas edades suman 48 años, tendremos:
+548:operaciones de suma y resta, y otra, indicar el sentido o condición de las
+552:tienen la significación de suma o resta, van entre lérminos o expresiones in-
+615:Grado absoluto de un término es la suma de los exponentes de sus
+618:la suma de los exponentes de sus factores literales es 1+1=2; el término
+619:a*b es de tercer grado porque la suma de los exponentes de sus factores
+620:literales es 2+1=3; 5a%*c* es de noveno grado porque la suma de los ex-
+881:Se suman los coeficientes, poniendo delante de esta suma el mismo
+939:Se restan los coeficientes, poniendo delante de esta diferencia el signo
+1292:11) Escríbase la suma del cuadrado de a con el cubo de b.
+1323:Escríbase la suma de a, b y m.
+1324:Escríbase la suma del cuadrado de m, el cubo de b y la cuarta poten-
+1378:Escríbase Ja suma del duplo de a con el triplo de b y la mitad de c.
+1390:Escribase el producto de 2+b por x+y.
+1420:la cuarta parte del duplo de lo de Pedro. La suma de lo que tienen
+1422:los tres es menor que 1000 sueres, ¿Cuánto falta a esta suma para ser
+1441:más adelante, el número natural () no nos sirve para efectuar la resta y la
+1442:división en todos los casos. Bastc por el momento, dado el nivel matemático
+1492:miten expresar el cociente de una división inexacta, o lo que es lo mismo, ur
+1493:división en la cual el dividendo no es múltiplo del divisor, y
+1496:meros enteros, que podemos definir como aquellos que expresan el cociente
+
+════ V · buscar axiomas y definiciones ════
+1557:de un modo práctico, sin llegar a dar una definición de ellos. Durante la
+1624:LEYES FORMALES DE LAS OPERACIONES FUNDAMENTALES
+1660:leyes, pues ello contribuirá a la comprensión de los problemas que ulteriormente
+1662:leyes formales constituirá una detinición indirecta de los números reales y de
+1663:las operaciones fundamentales, Estas leyes que no requieren demostración, pues
+1664:son de aprehensión inmediata, se Jaman axiomas.
+1667:1. Axioma de identidad: a =a.
+1668:H. Axioma de reciprocidad: si 0=, tenemos que b=a,
+1669:U Axioma de transitividad: si 0=D y b=c, tenemos que a=c.
+1673:1. Axioma de uniformidad: la suma de dos números es siempre igual,
+1676:11, Axioma de conmutatividad: a + b =b+a.
+1678:HE Axioma de asociatividad: (0+b)+e=a4(b+c)
+1680:1Y. Axioma de identidad, o módulo de la suma: hay un mimero y sólo
+1686:1. Axioma de uniformidad: el producto de dos números es siempre igual,
+1689:IL Axioma de conmutatividad: ab=ba.
+1691:E Axioma de asociatividad: (ab)c=a (Dbe).
+1693:1V. — Axioma de distributividad: con respecto a la suma tenemos que
+1696:V. — Axioma de identidad, o módulo del producto: hay un número y sólo
+1699:VI, — Axioma de existencia del inverso: para todo número real a-0
+1714:AXIOMA DE CONMTINUIDAD
+1839:veremos que aplicando el axioma de asociatividad tenemos:
+1898:cordar ficilmente la ley de Jos signos en la , — por — de + - — por + da —
+1964:Ya vimos, al tratar de las leyes formales de la multiplicación, que de
+1966:uerdo con el axioma VI (existencia del inverso), a todo número real a70,
+1982:Aplicando el axioma de existencia del inverso, tenemos que:
+2025:cación, potenciación y división, que se cumple en todas cllas el axioma de
+2044:entes, siempre que tales entes cumplan las leyes formales. Dentro de los límites
+2110:Esta es la Ley Conmutativa de la suma,
+2429:Es evidente, de esta definición, que la suma del sustraendo y la dife-
+3229:5, 2x-43y—4x-+3y. 13. —(x?—y)+xy+(—2x +ley)—[—y'+rzL
+3323:Esta es la Ley Asociativa de la suma y de la resta.
+3421:El orden de los factores no altera el producto. Esta propiedad, de-
+3427:Esta es la Ley Conmutativa de la multiplicación.
+3434:Esta es la Ley Asociativa de la multiplicación.
+3445:LEY DE LOS SIGNOS
+3456:porque según la definición de multiplicar, el signo del producto tiene
+3508:© LEY DE LOS EXPONENTES
+3517:©j LEY DE LOS COEFICIENTES
+3541:factores. El signo del producto vendrá dado por la Ley de los signos (53).
+3663:Esta es la Ley Distributiva de Ja multiplicación.
+
+════ VI · buscar notación algebraica ════
+125:El Signo de la División es +, que sc lee dividido entre. _ Así, a+b se
+185:tuarse primero. Así, (a+b)c indica que el resultado de la suma de a y b |
+211:Sca x=edad de 4.
+212:Entonces 5x =edad de D.
+214:* +5x =48 años;
+215:o nea, Ux =48 años.
+693:término, como a+b, a+x—9, "+2xXT+x+7.
+943:(2) 18—11x=7%. R 16) + jo R
+1151:—a+b+2b-92c+3a+20—930,
+1156:—a+b—c48+2a-2b-—19-20-3a-3—3b-43c.
+1220:12) Valor …¡mhí£—º+ipum n=2,b=%,x=£-.
+1243:=2 b=9,x=4, y=1
+1259:(a+byc—d, 5 (4mb8pya*+bGn—d). EA lep
+1260:(a+bYb—a). 5. (—b(d-eyb—exm—p). 10 ( R ¿º
+1281:(a+b)VEFBD—m VIA. be£
+1293:a+b% R
+1676:11, Axioma de conmutatividad: a + b =b+a.
+1701:ax=/. Este número x se llama inverso o recíproco de a, y se representa por 1/a.
+1968:rresponde un número real, y sólo uno, x, de modo que ax=1: Este m
+2354:3 x=+;:y; —axy+y'; —Ery+5f.
+
+════ VII · buscar Términos semejantes / reducción / signos ════
+93:© SIGNOS DEL ALGEBRA
+95:Los signos empleados en Algebra son de tres clases: Signos de Ope-
+96:— ración, Signos de Relación y Signos de Agrupación.
+98:© SIGNOS DE OPERACION
+102:cias y Extracción de Raíces, que se indican con los signos siguientes:
+118:también se indica la multiplicación colocando los factores entre paréntesis.
+171:SIGNOS DE RELACION
+173:Se emplean estos signos para indicar la relación que existe entre dos
+179:SIGNOS DE AGRUPACION
+181:Los signos de ón son: el parémesis ordinario ( ), el parénte-
+184:Estos signos indican que la operación colocada entre cllos debe efec- V
+229:dad por medio de los signos 4 y —, anteponiendo el signo + a las cantida
+547:Los signos + y — tienen en Algebra dos aplicaciones: una, indicar las
+551:Esta doble aplicación se distingue porque cuando los signos + v —
+553:cluídas en paréntesis, como por cjemplo en (+ 8) + (—4) y en (— 7) — (+ 6)-
+874:En la reducción de términos semejantes pueden ocurrir los tres casos
+877:1) Reducción de dos a má términos semejantes del mismo signo,
+935:9) Reducción de dos términos semejantes de distimto signo.
+997:Esla reducción también suele hacerse término a término, de esta monerol
+1247:dentro de los paréntesis de-
+1560:estos números. Postcriormente Harriot (1560-1621) introdujo los signos + y —
+1563:La significación de los números relativos o con signos (positivos y nega-
+1762:ticnen igual valor absoluto y signos distíntos la suma esJ'
+1888:ores ticnen signos distintos, Si uno de los factores es Q el producto será 0.
+1898:cordar ficilmente la ley de Jos signos en la , — por — de + - — por + da —
+1992:os dos números son del mismo signo; y negativo, si son de signos contrarios.
+2000:ey de los signos de la división con números relativos.
+2090:dentro de un paréntesis para indicar la sura;
+2096:tinuación de las otras con sus propios signos y se reducen los términos se-
+2104:propios signos, y como 5a=+5a, 6b=+60 y Be=+8c la suma será: 7
+
+════ VIII · buscar ley de signos ════
+1885-El producto de dos números relativos se halla multiplicando los valores
+1886-ibsulutos de ambos. El producto hallado llevará signo positivo (4), sí los
+1887-ignos de ambos factores son iguales; llevará signo negativo (—), si los fac-
+1888:ores ticnen signos distintos, Si uno de los factores es Q el producto será 0.
+1889-
+1890-Cuando operamos con símhbolos literales (+2 (C+P=+6 (M+3=0
+1891-+ producto es siempre indicado, bien en la (-2(-9=+6 (D(—-9=0
+--
+3538-Se multiplican los coeficientes y a continuación de este producto se
+3539-escriben las letras de los factores en orden alfabético, poniéndole a cada
+3540-letra un exponente igual a la suma de los exponentes que tenga en los
+3541:factores. El signo del producto vendrá dado por la Ley de los signos (53).
+3542-
+3543-411 Multiplicar 20? por 30",
+3544-20* X J0? =2 x Ia = 40", R
+--
+3746-REGLA PARA MULTIPLICAR DOS POLINOMIOS
+3747-
+3748-Se multiplican todos los términos del multiplicando por cada uno de
+3749:los términos del multiplicador, teniendo en cuenta la Ley de los signos, y
+3750-se reducen los térmirios semejantes.
+3751-(11 Multiplicar a- 4 por 3+a.
+3752-
+--
+4382-cada letra un exponente igual a la diferencia entre el exponente que tiene
+4383-
+4384-en el dividendo y el exponente que tiene en el divisor. El signo lo da
+4385:la Ley de los signos.
+4386-
+4387-l Ejemplos I (1) Dividir 40"b" entre — 20b.
+4388-

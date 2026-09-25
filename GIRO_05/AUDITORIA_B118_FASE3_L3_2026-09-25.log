@@ -1,0 +1,47 @@
+════════════════════════════════════════════════════════════════════
+  AUDITORÍA B118 · FASE 3 · CORRECCIONES L3 (FUNCIONALES)
+  Giro 05 · Sesión 6 · 2026-09-25
+════════════════════════════════════════════════════════════════════
+
+MOTIVO
+  Cierre de los 2 hallazgos clasificados L3 (funcionales) en la matriz
+  de Fase 3. Son las dos falsaciones consumadas por ejecución en la
+  ventana 1 del Giro 05.
+
+ALCANCE
+  · L3.1  H29    fractales/PPE.scfv · BAJA_PYMES · AUMENTA → DISMINUYE
+  · L3.2  F-NC-1 evaluador.py · subvencion_sistematica acepta
+                              monto_subvencion como alias de monto
+
+HASH MAESTRO
+  Antes (E2):  2ea63b66a3a2bf3af79803a7c2434eb5383e87fae364fc2c7148913707f146f9
+  Despues (E3): 5833327c94de5d97a4de14eca52be4cb8f1ba758cf9d8329425684bb03cbf1e2
+
+HASHES DE ARCHIVOS MODIFICADOS
+  fractales/PPE.scfv
+    antes:   86643bf7fc06fc80883b0e411893e1f0ffb5a827d7343ebd9dd5ec2655c467be
+    despues: 033a80324bec53e1878bbc780a9c604de4e4e59b2ef22c764f66ea2e23b101c7
+  evaluador.py
+    antes:   2738f35132c3adc829ed1edb5730a60770cafbc909d735ee4055321cca45e6c4
+    despues: 5988df991a281ce4def8742746f4b8494fa93a83bb5676428341f3b6611abc4b
+
+VERIFICACION
+  V1 · sha256sum -c HASHES.txt
+    OK: 70  ·  FALLOS: 0  ·  Total lineas: 70
+  21 casos (19 reglas verdes + 2 ex-falsaciones)
+    Verdes: 21/21 (D=H · CADENA_INTEGRA)
+    H29    · PPE.BAJA_PYMES asiento d0703d76 → D=H=1000
+    F-NC-1 · SUBVENCIONES.DEVENGAMIENTO asiento 5b5376c2 → D=H=200
+
+HALLAZGOS COLATERALES (no cerrados)
+  H31b · divergencia de operacion entre los dos deterioros. Registrado.
+  H24b · extractor.py · import sys huerfano (Fase 1).
+  H24c · extractor.py · posible Path huerfano (Fase 1, sin verificar).
+  H47b · motor.py · falta linea en blanco entre return y def (Fase 1).
+
+ESTADO RESULTANTE
+  Fase 3 cerrada. E3 materializado. Hash maestro 5833327c...
+  El artefacto pasa de 19/21 a 21/21 tras Fase 3.
+  Giro 05 listo para Acta de congelamiento.
+
+════════════════════════════════════════════════════════════════════

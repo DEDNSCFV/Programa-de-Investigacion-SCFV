@@ -1,0 +1,29 @@
+════════════════════════════════════════════════════════════════
+ SUSTITUCIÓN Y REGISTRO · Thu Sep 24 21:42:20 -04 2026
+════════════════════════════════════════════════════════════════
+[21:42:20] Respaldando raw actual (pp.1-50)...
+-rw-------. 1 u0_a288 u0_a288 185043 Sep 24 21:42 /data/data/com.termux/files/home/.baldor_algebra_raw_pp1-50.txt.bak
+
+[21:42:20] Sustituyendo por completo (pp.1-287)...
+
+════ VERIFICACIÓN POST-SUSTITUCIÓN ════
+  35041 1035302 /data/data/com.termux/files/home/.baldor_algebra_raw.txt
+63fe32a1ece2e183c43a5d040003c1efc6f6745e0afa976c7aed052c77f5fbaf  /data/data/com.termux/files/home/.baldor_algebra_raw.txt
+
+[21:42:20] Registrando en BIBLIOTECA/REGISTRO_ENTRADAS.log...
+
+[21:42:21] Verificando registro...
+2026-09-23T16:16:50Z | NIAS_2021_Vol2 | Manual de NIAS edición 2021 Volumen II.pdf | 386c750faedcd67d5468677f0608627e3d42f09acb6d797c81ae50dc941e3665 | 3841561
+2026-09-23T16:16:50Z | NIAS_2021_Vol3 | Manual de NIAS edición 2021 Volumen 3.pdf | ba9c300711dd6b1bde0394436c58c228d66e06cd9f15aedd98e573ed40d09922 | 1320617
+2026-09-25T01:42:21Z | baldor_algebra_raw_completo | SHA256=63fe32a1ece2e183c43a5d040003c1efc6f6745e0afa976c7aed052c77f5fbaf | pp.1-287 | 35041 líneas · 1 035 302 bytes
+
+[21:42:21] Actualizando INVENTARIO.md si aplica...
+91:| .baldor_algebra_raw.txt | ALGEBRA_de_BALDOR.pdf (parcial pp.1-50) | aprendizaje-matemático |
+
+════ ESTADO FINAL ════
+raw actual:
+-rw-------. 1 u0_a288 u0_a288 1035302 Sep 24 21:42 /data/data/com.termux/files/home/.baldor_algebra_raw.txt
+respaldo pp.1-50:
+-rw-------. 1 u0_a288 u0_a288 185043 Sep 24 21:42 /data/data/com.termux/files/home/.baldor_algebra_raw_pp1-50.txt.bak
+completo (temporal):
+-rw-------. 1 u0_a288 u0_a288 1035302 Sep 24 21:41 /data/data/com.termux/files/home/.baldor_algebra_raw_completo.txt

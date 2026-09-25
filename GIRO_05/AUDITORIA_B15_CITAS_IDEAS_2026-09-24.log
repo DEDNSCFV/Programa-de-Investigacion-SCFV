@@ -1,0 +1,289 @@
+=== B15 · verificación de todas las citas de ideas.md · 2026-09-24 ===
+
+--- 1 · extraer todas las citas con locus ---
+14-Referencia metodológica · Sampieri (2018), Cap 2.
+15:Referencia estructural · Mandelbrot (1975, 1982).
+16:Referencia procedimental · Hevner & Chatterjee (2010), Guideline 2.
+17-Antecedente declarado · GIRO_04/01_idea.md (no reutilizado).
+--
+56-     científica, el nacimiento de un proyecto de investigación."
+57:    (Sampieri 2018, L431; L705)
+58-
+--
+60-     paulatinamente."
+61:    (Sampieri 2018, L2116)
+62-
+63:Mandelbrot complementa: la idea no surge sólo del investigador.
+64-Surge del objeto.
+--
+67-     geometría de la [naturaleza]."
+68:    (Mandelbrot 1982, L116 · corchete: intervención editorial IA-1)
+69-
+--
+71-     adjetivo latino fractus."
+72:    (Mandelbrot 1975, L168)
+73-
+--
+98-
+99:Mandelbrot declara la diversidad del objeto:
+100-
+--
+102-     de la [naturaleza]."
+103:    (Mandelbrot 1975, L3 · corchete: intervención editorial IA-1)
+104-
+--
+117-    Fractalidad escalante acotada:
+118:        Mandelbrot 1975, 1982.
+119-
+120-    Motor epistémico operativo:
+121:        XNOR + Baldor + núcleo epistémico (5 componentes).
+122-
+--
+136-    ¿Cómo continuar la construcción del SCFV_DSR en una segunda
+137:     iteración, aplicando el método Hevner + Mandelbrot sobre el
+138-     corpus del Programa?
+139-
+140:Mandelbrot radicaliza la vaguedad: viene del objeto, no del
+141-investigador.
+--
+144-     la investigación de la morfología de lo 'amorfo'."
+145:    (Mandelbrot 1982, L16)
+146-
+--
+148-     residuo sin clasificar."
+149:    (Mandelbrot 1982, L1212)
+150-
+--
+152-     respuestas."
+153:    (Mandelbrot 1982, L7440)
+154-
+--
+166-
+167:Mandelbrot declara el procedimiento:
+168-
+--
+170-     método muy distinto."
+171:    (Mandelbrot 1975, L172)
+172-
+173-    "He aquí un primer método."
+174:    (Mandelbrot 1975, L597)
+175-
+176-    "Un método más: para evitar la asimetría."
+177:    (Mandelbrot 1975, L617)
+178-
+179-    "empezaremos afinándolo."
+180:    (Mandelbrot 1975, L751)
+181-
+182-    "reglas de construcción."
+183:    (Mandelbrot 1982, L6411)
+184-
+--
+186-     las transformaciones."
+187:    (Mandelbrot 1982, L6921)
+188-
+--
+232-
+233:Mandelbrot añade la coexistencia y la reinvención.
+234-
+235-    "Por cada autor antiguo en el que encuentro una buena idea bien."
+236:    (Mandelbrot 1975, L502)
+237-
+--
+239-     varias [veces]."
+240:    (Mandelbrot 1982, L3218 · corchete: intervención editorial IA-1)
+241-
+--
+243-     redefinición."
+244:    (Mandelbrot 1982, L278)
+245-
+--
+261-    Sampieri Cap 2 · idea de investigación.
+262:    Hevner Cap 2 · problem relevance (Guideline 2).
+263:    Mandelbrot 1975, 1982 · fractales escalantes.
+264-
+--
+275-
+276:Hevner L1343-1344 declara:
+277-
+--
+281-
+282:Mandelbrot da el criterio de relevancia por el objeto:
+283-
+284-    "el enfoque fractal es tan efectivo como 'natural'."
+285:    (Mandelbrot 1982, L183)
+286-
+--
+288-     las razones que lo [motivaron]."
+289:    (Mandelbrot 1982, L5728 · corchete: intervención editorial IA-1)
+290-
+--
+306-
+307:    MÉTODO · Hevner + Mandelbrot
+308:        Hevner     · nivel artefacto (guidelines + 3 ciclos).
+309:        Mandelbrot · nivel fractalidad (cascada, iteración funcional,
+310-                     escalante).
+--
+317-
+318:    KERNEL · XNOR + Baldor
+319-        Opera dentro del motor.
+--
+325-     método muy distinto."
+326:    (Mandelbrot 1975, L172)
+327-
+328-    "Un método más: para evitar la asimetría."
+329:    (Mandelbrot 1975, L617)
+330-
+--
+381-    1. Citas literales de Sampieri Cap 2.
+382:    2. Citas literales de Mandelbrot 1975, 1982.
+383:    3. Cita literal de Hevner Guideline 2.
+384-    4. Declaración de no-reutilización de 01_idea.md.
+--
+404-    Constancia: ideas.md redactado conforme a Sampieri Cap 2,
+405:                Mandelbrot 1975/1982, Hevner Guideline 2.
+406-                Motor rodriguiano operacionalizado implícitamente.
+
+--- 2 · Hevner · verificar toda la cita §7 ---
+     Guideline 1: Design as an Artifact           Design science research must produce a
+                                                    viable artifact in the form of a construct,
+                                                    a model, a method, or an instantiation
+     Guideline 2: Problem relevance               The objective of design science research is
+                                                    to develop technology-based solutions to
+                                                    important and relevant business problems
+     Guideline 3: Design evaluation               The utility, quality, and efficacy of a design
+                                                    artifact must be rigorously demonstrated
+                                                    via well-executed evaluation methods
+     Guideline 4: Research                        Effective design science research must
+       contributions                                provide clear and verifiable contributions
+
+--- 3 · Mandelbrot 1982 L16 · párrafo completo ---
+ésta se nos revela completamente diferente. […] La existencia de estas
+formas representa un desafío: […] la investigación de la morfología de lo
+“amorfo”. […] En respuesta a este desafío, concebí y desarrollé una nueva
+geometría de la naturaleza y empecé a aplicarla a una serie de campos.
+Permite describir muchas de las formas irregulares y fragmentadas que nos
+rodean, dando lugar a teorías coherentes, identificando una serie de formas
+que llamo fractales. […] Algunos conjuntos fractales [tienen] formas tan
+disparatadas que ni en las ciencias ni en las artes he encontrado palabras
+que lo describieran bien. El lector puede hacerse una idea de ello ahora
+mismo con sólo echar una rápida mirada a las ilustraciones de este libro».
+Y termina: «Contra lo que hubiera podido parecer en un principio, la mayoría
+de mis trabajos han resultado ser los dolores de parto de una nueva
+disciplina científica». Lo son, en efecto, de tal manera que esta nueva
+disciplina, la geometría fractal de la naturaleza, protagonizan hoy múltiples
+investigaciones en todos los campos de la ciencia.
+
+
+--- 4 · Mandelbrot 1975 L502 · párrafo completo ---
+gran número de pistas históricas que he procurado seguir. Esto no suele darse en
+ciencia, y más si se tiene en cuenta que me he percatado de la mayoría de estas pistas
+demasiado tarde para que hayan influido en lo más mínimo en el desarrollo de mis
+trabajos. Pero la historia de las ideas me apasiona. Además, la novedad de mis
+principales tesis ha sido confirmada demasiado a menudo por la incredulidad
+malévola que han encontrado de entrada; de ahí la necesidad de buscarles un arraigo.
+Sin embargo —¿hay que insistir en ello?— la búsqueda de los orígenes está sujeta a
+controversia. Por cada autor antiguo en el que encuentro una buena idea bien
+expresada, corro el riesgo de encontrar un contemporáneo —a veces la misma
+persona en un contexto distinto— desarrollando la idea contraria. ¿Se puede alabar a
+Poincaré por haber concebido a los 30 años ideas que él mismo iba a condenar a los
+55, sin acordarse, al parecer, de sus pecados de juventud? ¿Y qué hacer si los
+
+www.lectulandia.com - Página 17
+
+argumentos a favor hubieran sido tan débiles como los contrarios, y si nuestros
+
+--- 5 · 00_SCFV_L.md §23 · contenido completo ---
+## §23. CONSTANCIA DE VERIFICACIÓN IA-2
+
+| Elemento | Estado |
+|---|---|
+| HL-617 (clasificación de las 12 categorías de fuentes) | INTEGRADA |
+| HL-618 (delimitación del código como fuente) | INTEGRADA |
+| HL-619 (soporte original vs soporte documentado) | INTEGRADA |
+| Objeciones sustantivas vivas | CERO |
+| Observaciones cosméticas | HL-622, HL-623, HL-624 (no bloqueantes) |
+| Ciclo §19.2 | CERRADO |
+| Estatuto | APTO PARA MATERIALIZACIÓN |
+
+Constancia emitida por IA-2.
+
+---
+
+## §24. DECISIÓN DEL OPERADOR
+> «TRAYECTORIA_ESTADO y EVALUACION_TRAYECTORIA.»
+
+`00_SCFV_L.md` desarrolla una línea de investigación sobre:
+
+> «unificación documental y semántica del vocabulario del Programa.»
+
+Pueden relacionarse posteriormente mediante términos, referencias y trazabilidad, pero ninguno constituye fundamento lógico exclusivo del otro.
+
+---
+
+## §23. CONSTANCIA DE VERIFICACIÓN IA-2
+
+| Elemento | Estado |
+|---|---|
+| HL-617 (clasificación de las 12 categorías de fuentes) | INTEGRADA |
+| HL-618 (delimitación del código como fuente) | INTEGRADA |
+| HL-619 (soporte original vs soporte documentado) | INTEGRADA |
+| Objeciones sustantivas vivas | CERO |
+| Observaciones cosméticas | HL-622, HL-623, HL-624 (no bloqueantes) |
+| Ciclo §19.2 | CERRADO |
+| Estatuto | APTO PARA MATERIALIZACIÓN |
+
+Constancia emitida por IA-2.
+
+---
+
+## §24. DECISIÓN DEL OPERADOR
+
+El documento queda preparado para la decisión del Operador.
+
+Corresponde exclusivamente al Operador decidir:
+
+- materializar `00_SCFV_L.md`;
+- modificarlo;
+- posponerlo;
+- incorporarlo al corpus del Giro 04.
+
+---
+
+**Fin del documento.**
+
+--- 6 · Boole en §6 del prompt ---
+63:    KERNEL · XNOR + Baldor
+189:    XNOR · operador booleano definido sobre {0,1}×{0,1} → {0,1}.
+191:        (Boole, Analysis of Logic, 1847; desarrollo posterior).
+195:        Deuda D-BOOLE-2 (Boole no nombra XNOR).
+197:    Baldor · operador aritmético.
+202:    Estado: XNOR operativo, Baldor no operativo.
+264:    XNOR        · conjetura algebraica
+265:    Baldor      · estructura operacional
+518:    - D-BOOLE-1 · Boole 1854 ausente.
+519:    - D-BOOLE-2 · Boole no nombra XNOR.
+520:    - D-NUC-1 · Baldor no operativo.
+
+--- 7 · Sampieri L431 L705 L2116 L3540 L3557 L3651 L3743 ---
+--- L431 ---
+Capítulo 2. La idea de investigación: el origen de las rutas de la
+--- L705 ---
+    el mixto; y el capítulo 2, "La idea de investigación: el origen de las rutas de la indagación científica, el
+--- L2116 ---
+                           Toda investigación se inicia con una idea que se desarrolla paulatinamente. Pero para comenzar
+--- L3540 ---
+
+--- L3544 ---
+                                           Existe una gran diversidad de fuentes que pueden generar ideas de investigación,
+--- L3557 ---
+                         luego, las fuentes que originan las ideas no necesariamente se relacionan con la calidad de estas. El
+--- L3560 ---
+                         partido de fútbol de la Liga de Campeones de Europa (Champions League). Todas las fuentes citadas
+--- L3651 ---
+Necesidad de afinar o precisar la idea de investigación
+--- L3652 ---
+Con frecuencia las ideas iniciales son demasiado generales y requieren examinarse cuidadosamente para
+--- L3743 ---
+
+--- L3760 ---
+

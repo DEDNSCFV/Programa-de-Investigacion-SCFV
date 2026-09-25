@@ -1,0 +1,91 @@
+=== B38 · PDF Baldor + herramientas OCR · 2026-09-24 ===
+════ I · el PDF ════
+-rwxrwx---. 1 u0_a216 media_rw 37992171 Sep 22 23:16 /data/data/com.termux/files/home/storage/downloads/ALGEBRA_de_BALDOR.pdf
+/data/data/com.termux/files/home/storage/downloads/ALGEBRA_de_BALDOR.pdf: PDF document, version 1.2
+Title:           ALGEBRA
+Subject:         EDU
+Keywords:        HERUPA
+Author:          A. BALDOR
+Creator:         www.davince.com (Unregistered)
+Producer:        DaVince C++ Class Library
+CreationDate:    Sun Aug 29 01:04:48 2004 -04
+Custom Metadata: yes
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           287
+Encrypted:       no
+Page size:       657 x 477.75 pts
+Page rot:        0
+File size:       37992171 bytes
+Optimized:       no
+PDF version:     1.2
+
+════ II · ¿cuántas páginas tiene? ════
+Pages:           287
+Pages: 287
+
+════ III · herramientas disponibles ════
+/data/data/com.termux/files/usr/bin/pdftoppm
+/data/data/com.termux/files/usr/bin/pdftotext
+/data/data/com.termux/files/usr/bin/tesseract
+/data/data/com.termux/files/usr/bin/pdfimages
+/data/data/com.termux/files/usr/bin/pdfinfo
+imagemagick/stable,now 7.1.2.25 aarch64 [installed]
+poppler/stable,now 26.02.0 aarch64 [installed]
+tesseract/stable,now 5.5.2 aarch64 [installed]
+--- versiones ---
+pdftoppm version 26.02.0
+Copyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org
+tesseract 5.5.2
+ leptonica-1.87.0
+
+════ IV · tamaño del raw vs 50 páginas ════
+  5634 185043 /data/data/com.termux/files/home/.baldor_algebra_raw.txt
+promedio por página:
+5634 líneas / 50 páginas = 113 líneas/página
+
+════ V · ¿cómo se hizo el OCR original? · buscar scripts ════
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/NIVEL_1_SCRIPTS/procesar_archivos_forma.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/NIVEL_1_SCRIPTS/exhaustivo_facsimil.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/publicacion/scripts/procesar_lista.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/publicacion/scripts/reentrenar_con_duplicacion.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/desconstruir_universal_orquestador.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/desconstruir_vuelta0_orquestador.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/desconstruir_vuelta0_standalone.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/desconstruir_vuelta0_import.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/desconstruir_vuelta0_import_fixed.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/experimento.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/procesar_pdf_ocr.py
+
+════ VI · estructura del proyecto OCR · archivos de control ════
+total 260
+drwx------.  2 u0_a288 u0_a288  3452 Sep 23 00:01 .
+drwx------. 36 u0_a288 u0_a288 20480 Sep 23 13:58 ..
+total 15420
+drwx------.  2 u0_a288 u0_a288    3452 Sep 22 23:38 .
+drwx------. 36 u0_a288 u0_a288   20480 Sep 23 13:58 ..
+-rw-------.  1 u0_a288 u0_a288  820974 Sep 22 23:38 p-001.png
+-rw-------.  1 u0_a288 u0_a288 1153558 Sep 22 23:38 p-002.png
+-rw-------.  1 u0_a288 u0_a288 2826501 Sep 22 23:38 p-003.png
+-rw-------.  1 u0_a288 u0_a288 2791226 Sep 22 23:38 p-004.png
+-rw-------.  1 u0_a288 u0_a288 2844314 Sep 22 23:38 p-005.png
+-rw-------.  1 u0_a288 u0_a288 3007646 Sep 22 23:38 p-006.png
+-rw-------.  1 u0_a288 u0_a288 2310144 Sep 22 23:38 p-007.png
+  File: /data/data/com.termux/files/home/.baldor_ocr
+  Size: 3452      	Blocks: 7          IO Block: 4096   directory
+Device: 254,75	Inode: 435182      Links: 2
+Access: (0700/drwx------)  Uid: (10288/ u0_a288)   Gid: (10288/ u0_a288)
+Context: u:object_r:app_data_file:s0:c32,c257,c512,c768
+Access: 2026-09-22 23:39:32.192303470 -0400
+Modify: 2026-09-23 00:01:19.460302535 -0400
+Change: 2026-09-23 00:01:19.460302535 -0400
+ Birth: -
+
+════ VII · hipótesis: verificar si hay más PNG sin OCR ════
+/data/data/com.termux/files/home/.baldor_ocr_tmp
+/data/data/com.termux/files/home/.baldor_ocr
+7

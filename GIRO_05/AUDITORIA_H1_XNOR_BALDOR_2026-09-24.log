@@ -1,0 +1,5 @@
+=== H1 · kernel XNOR+Baldor · 2026-09-24 ===
+--- 1 · importar xnor desde SCFV_DSR (reuso, no copia) ---
+xnor import OK
+--- 2 · crear baldor.py autónomo ---
+--- 3 · tests Baldor ---

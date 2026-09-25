@@ -1,0 +1,111 @@
+=== B21 · Calderón · H2 · decisión vs evaluación · 2026-09-24 ===
+--- H2 en el corpus ---
+/data/data/com.termux/files/home/scfv_v6/DOCS/journal/2026-09-02-evolucion-8.1-a-8.2.md:20:| H2 | Creación de schema y normas v8.2.1 | ✅ |
+/data/data/com.termux/files/home/scfv_v6/DOCS/migracion_v82.md:13:| Canónica | v82 --input json --justificacion texto | orquestador_v82 -> H1 -> H2 -> autorización -> consecuencia -> MotorContable -> ASIENTO_REGISTRADO | Ruta canónica SCFV Motor |
+/data/data/com.termux/files/home/scfv_v6/DOCS/migracion_v82.md:44:| Autorización H2 | No atraviesa H2 | Requiere H2 con justificación profesional |
+/data/data/com.termux/files/home/scfv_v6/DOCS/migracion_v82.md:45:| Barreras | MotorContable | H2 + NúcleoConsecuencias + MotorContable + XNOR |
+/data/data/com.termux/files/home/scfv_v6/DOCS/migracion_v82.md:48:| Trazabilidad H2 | No | DECISION_H2 persistido antes del asiento |
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:24:  `H1 → H2 → DP → VA → PA → NC → PC → MC → ASENTADO → EventStore`.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:51:  `correlation_id`, determinismo, `DECISION_H2`, `version_contexto`,
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:72:- **EVIDENCE:** `DECISION_H2=1`, `ASIENTO_REGISTRADO=1` en SQLite.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:74:  `H2_VIOLACION: modo_auto=True requiere SCFV_MODO_PRUEBA=1`.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:95:- **CONTRACT:** `v82` exige `--justificacion`; H2 rechaza vacío.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:211:- Barreras de H2, NC, MC operativas contra 9 clases de entrada adversa.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7B_MATRIZ.md:117:| HEREDADO-H6-03 | Barreras MC/NC/H2 operativas contra entrada adversa | H6.7, H6.8 |
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7B_MATRIZ.md.bak_20260912_120611:117:| HEREDADO-H6-03 | Barreras MC/NC/H2 operativas contra entrada adversa | H6.7, H6.8 |
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md:72:    DECISION_H2
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md:108:ENUM TipoDecisionH2:
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md:216:    tipo_decision: TipoDecisionH2
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md:559:FUNCION H2_Decision_Profesional(propuesta_original: PropuestaH1,
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md:570:        SI tipo = TipoDecisionH2.MODIFICAR ENTONCES:
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md:600:    EventStore.Guardar(TipoEvento.DECISION_H2, decision, decision.correlation_id,
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md:604:    SI tipo = TipoDecisionH2.ACEPTAR ENTONCES:
+100:    Coincide con el rol H2 en el mismo individuo; coincidencia válida
+464:    operativo · normativo · H2 (anidado).
+478:    H2 · decisión profesional por hecho.
+484:Colega (H2, no Operador):
+575:Detección · H2/Operador (Gadamer, Lakatos, Popper, Rodríguez).
+603:    3 · Interpretación de H2
+--- glossary.md L50 ---
+/data/data/com.termux/files/home/scfv_v6/DOCS/glossary.md
+/data/data/com.termux/files/home/scfv_v6_backup_20260830/docs/glossary.md
+/data/data/com.termux/files/home/SCFV_ENTREGABLE/docs/glossary.md
+/data/data/com.termux/files/home/prueba_instalacion/scfv_v6/docs/glossary.md
+FILE: /data/data/com.termux/files/home/scfv_v6/DOCS/glossary.md
+| **Núcleo Epistemológico** | Estructura transversal de observación, interpretación, medición, aprendizaje y proyección. No decide, no contabiliza. | Motor Contable. El Núcleo orienta; el Motor registra. |
+| **Perceptum** | Fase del Núcleo que extrae entidades de la evidencia (PDF, XML, imagen, texto, manuscrito). Produce una Observación con confianza por campo. | OCR genérico. Perceptum es contextualizado y produce confianza por campo. |
+| **Intellectus** | Fase del Núcleo que interpreta una Observación, calculando las métricas r (cobertura normativa), s (similitud histórica), o (consistencia ontológica), t (peso temporal) y v (volatilidad contextual). | Un motor de reglas simple. Intellectus usa CBR y ontología, no solo reglas. |
+| **Dictum** | Fase del Núcleo que mide el soporte computacional (C = f(r, s, o, t, v)) y genera una Orientación con soporte y sugerencia. | Un decisor. Dictum orienta, no decide. |
+| **Motor Contable** | Única autoridad de escritura en el Diario y el Mayor. Recibe decisiones estructuradas (H₂) y genera asientos de N partidas validando ΣDEBE = ΣHABER y el axioma booleano. | El Núcleo Epistemológico. El Motor registra; el Núcleo orienta. |
+| **Contador Humano** | Profesional que decide, acepta, rechaza o modifica las interpretaciones del Núcleo. Su decisión es soberana, trazable y justificada. | Un usuario de software genérico. El contador es una autoridad profesional, no un operador. |
+| **Auditoría** | Autoridad demostrativa que reconstruye y demuestra la cadena causal y la cadena de justificación. No modifica datos históricos. | Una función de verificación de datos. La auditoría es una autoridad con su propia ontología. |
+
+---
+
+## Términos de Ingeniería y Gobierno
+FILE: /data/data/com.termux/files/home/scfv_v6_backup_20260830/docs/glossary.md
+| **Núcleo Epistemológico** | Estructura transversal de observación, interpretación, medición, aprendizaje y proyección. No decide, no contabiliza. | Motor Contable. El Núcleo orienta; el Motor registra. |
+| **Perceptum** | Fase del Núcleo que extrae entidades de la evidencia (PDF, XML, imagen, texto, manuscrito). Produce una Observación con confianza por campo. | OCR genérico. Perceptum es contextualizado y produce confianza por campo. |
+| **Intellectus** | Fase del Núcleo que interpreta una Observación, calculando las métricas r (cobertura normativa), s (similitud histórica), o (consistencia ontológica), t (peso temporal) y v (volatilidad contextual). | Un motor de reglas simple. Intellectus usa CBR y ontología, no solo reglas. |
+| **Dictum** | Fase del Núcleo que mide el soporte computacional (C = f(r, s, o, t, v)) y genera una Orientación con soporte y sugerencia. | Un decisor. Dictum orienta, no decide. |
+| **Motor Contable** | Única autoridad de escritura en el Diario y el Mayor. Recibe decisiones estructuradas (H₂) y genera asientos de N partidas validando ΣDEBE = ΣHABER y el axioma booleano. | El Núcleo Epistemológico. El Motor registra; el Núcleo orienta. |
+| **Contador Humano** | Profesional que decide, acepta, rechaza o modifica las interpretaciones del Núcleo. Su decisión es soberana, trazable y justificada. | Un usuario de software genérico. El contador es una autoridad profesional, no un operador. |
+| **Auditoría** | Autoridad demostrativa que reconstruye y demuestra la cadena causal y la cadena de justificación. No modifica datos históricos. | Una función de verificación de datos. La auditoría es una autoridad con su propia ontología. |
+
+---
+
+## Términos de Ingeniería y Gobierno
+FILE: /data/data/com.termux/files/home/SCFV_ENTREGABLE/docs/glossary.md
+| **Núcleo Epistemológico** | Estructura transversal de observación, interpretación, medición, aprendizaje y proyección. No decide, no contabiliza. | Motor Contable. El Núcleo orienta; el Motor registra. |
+| **Perceptum** | Fase del Núcleo que extrae entidades de la evidencia (PDF, XML, imagen, texto, manuscrito). Produce una Observación con confianza por campo. | OCR genérico. Perceptum es contextualizado y produce confianza por campo. |
+| **Intellectus** | Fase del Núcleo que interpreta una Observación, calculando las métricas r (cobertura normativa), s (similitud histórica), o (consistencia ontológica), t (peso temporal) y v (volatilidad contextual). | Un motor de reglas simple. Intellectus usa CBR y ontología, no solo reglas. |
+| **Dictum** | Fase del Núcleo que mide el soporte computacional (C = f(r, s, o, t, v)) y genera una Orientación con soporte y sugerencia. | Un decisor. Dictum orienta, no decide. |
+| **Motor Contable** | Única autoridad de escritura en el Diario y el Mayor. Recibe decisiones estructuradas (H₂) y genera asientos de N partidas validando ΣDEBE = ΣHABER y el axioma booleano. | El Núcleo Epistemológico. El Motor registra; el Núcleo orienta. |
+| **Contador Humano** | Profesional que decide, acepta, rechaza o modifica las interpretaciones del Núcleo. Su decisión es soberana, trazable y justificada. | Un usuario de software genérico. El contador es una autoridad profesional, no un operador. |
+| **Auditoría** | Autoridad demostrativa que reconstruye y demuestra la cadena causal y la cadena de justificación. No modifica datos históricos. | Una función de verificación de datos. La auditoría es una autoridad con su propia ontología. |
+
+---
+
+## Términos de Ingeniería y Gobierno
+FILE: /data/data/com.termux/files/home/prueba_instalacion/scfv_v6/docs/glossary.md
+| **Núcleo Epistemológico** | Estructura transversal de observación, interpretación, medición, aprendizaje y proyección. No decide, no contabiliza. | Motor Contable. El Núcleo orienta; el Motor registra. |
+| **Perceptum** | Fase del Núcleo que extrae entidades de la evidencia (PDF, XML, imagen, texto, manuscrito). Produce una Observación con confianza por campo. | OCR genérico. Perceptum es contextualizado y produce confianza por campo. |
+| **Intellectus** | Fase del Núcleo que interpreta una Observación, calculando las métricas r (cobertura normativa), s (similitud histórica), o (consistencia ontológica), t (peso temporal) y v (volatilidad contextual). | Un motor de reglas simple. Intellectus usa CBR y ontología, no solo reglas. |
+| **Dictum** | Fase del Núcleo que mide el soporte computacional (C = f(r, s, o, t, v)) y genera una Orientación con soporte y sugerencia. | Un decisor. Dictum orienta, no decide. |
+| **Motor Contable** | Única autoridad de escritura en el Diario y el Mayor. Recibe decisiones estructuradas (H₂) y genera asientos de N partidas validando ΣDEBE = ΣHABER y el axioma booleano. | El Núcleo Epistemológico. El Motor registra; el Núcleo orienta. |
+| **Contador Humano** | Profesional que decide, acepta, rechaza o modifica las interpretaciones del Núcleo. Su decisión es soberana, trazable y justificada. | Un usuario de software genérico. El contador es una autoridad profesional, no un operador. |
+| **Auditoría** | Autoridad demostrativa que reconstruye y demuestra la cadena causal y la cadena de justificación. No modifica datos históricos. | Una función de verificación de datos. La auditoría es una autoridad con su propia ontología. |
+
+---
+
+## Términos de Ingeniería y Gobierno
+--- proyeccion_decisiones_h2 ---
+CREATE TABLE proyeccion_decisiones_h2 (
+    evento_id INTEGER PRIMARY KEY,
+    asiento_id TEXT NOT NULL,
+    correlation_id TEXT NOT NULL,
+    justificacion TEXT,
+    conflictos_detectados INTEGER DEFAULT 0,
+    normas_aplicadas TEXT,
+    fecha_decision DATE NOT NULL
+);
+CREATE INDEX idx_decisiones_correlation ON proyeccion_decisiones_h2(correlation_id);
+CREATE INDEX idx_decisiones_fecha ON proyeccion_decisiones_h2(fecha_decision);
+1|372bed8b-158c-4083-8a81-4037c5d39ac6|2c3cb784-6b9d-483f-920f-1d1f2bcb3fb1||0|["LIVA_Art4","NIC_29"]|2026-09-02
+2|f761bf6c-6ad3-44dd-bf91-1a00b5b3f212|870e493c-2169-4146-af6c-9dca520631bb||0|["NIC_29"]|2026-09-02
+3|e040cd1b-98d6-4c64-8c0f-23970380342d|bdfa6730-e4c8-423a-a0c8-78e78877511e||0|["NIC_29"]|2026-09-02
+4|89b05f40-4aee-4744-b063-b4fbc3cff3c2|a281bd02-4cc4-47b5-bfb2-7e1dc94390a8||0|["LIVA_Art4","NIC_29"]|2026-09-02
+5|f697420c-e825-4ed2-aeac-ab0c0da2697e|cd5fcb87-2c9b-4233-8486-f6c143ef2c5d||0|["LIVA_Art4","NIC_29"]|2026-09-02
+10
+--- Calderón L30 completo ---
+340:Determinismo del sistema · radicalización (Calderón L30):
+--- contexto de L30 en la respuesta de Calderón (si está en corpus) ---
+./ACTAS/ACTA_RESPUESTA_CALDERON_2026-09-19.md
+./GIRO_05/AUDITORIA_B21_CALDERON_H2_2026-09-24.log
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/ACTAS/ACTA_RESPUESTA_CALDERON_2026-09-19.md
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/AUDITORIA_B21_CALDERON_H2_2026-09-24.log
+--- §9 del prompt · cita completa de Calderón ---
+Determinismo del sistema · radicalización (Calderón L30):
+    "Determinista: el mate es legal. Se registra, no se evalúa."
+    El motor no puede evaluar. No sólo "no evalúa".
+

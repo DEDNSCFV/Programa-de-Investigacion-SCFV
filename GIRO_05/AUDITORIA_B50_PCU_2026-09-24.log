@@ -1,0 +1,196 @@
+════ B50 · PCU en el corpus · Thu Sep 24 22:40:54 -04 2026 ════
+
+════ I · archivos con nombre PCU ════
+/data/data/com.termux/files/home/scfv_v6/INFRAESTRUCTURA/db/schemas/negocio_pcu.md
+/data/data/com.termux/files/home/scfv_v6/INFRAESTRUCTURA/db/migrations/013_schema_pcu.sql
+/data/data/com.termux/files/home/scfv_v6_backup_20260830/db/schemas/negocio_pcu.md
+/data/data/com.termux/files/home/SCFV_ENTREGABLE/db/schemas/negocio_pcu.md
+/data/data/com.termux/files/home/SCFV_ENTREGABLE/db/migrations/013_schema_pcu.sql
+/data/data/com.termux/files/home/prueba_instalacion/scfv_v6/db/schemas/negocio_pcu.md
+/data/data/com.termux/files/home/prueba_instalacion/scfv_v6/db/migrations/013_schema_pcu.sql
+/data/data/com.termux/files/home/scfv_entregable/INFRAESTRUCTURA/db/schemas/negocio_pcu.md
+/data/data/com.termux/files/home/scfv_entregable/INFRAESTRUCTURA/db/migrations/013_schema_pcu.sql
+/data/data/com.termux/files/home/prueba_scfv/INFRAESTRUCTURA/db/schemas/negocio_pcu.md
+/data/data/com.termux/files/home/prueba_scfv/INFRAESTRUCTURA/db/migrations/013_schema_pcu.sql
+/data/data/com.termux/files/home/scfv_github/INFRAESTRUCTURA/db/migrations/013_schema_pcu.sql
+/data/data/com.termux/files/home/scfv_github/INFRAESTRUCTURA/db/schemas/negocio_pcu.md
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/AUDITORIA_B50_PCU_2026-09-24.log
+
+════ II · referencia textual a PCU ════
+/data/data/com.termux/files/home/scfv_v6/DOCS/adrs/ADR-001.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/adrs/ADR-004.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/testing/protocolo_validaciones_v8.1.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/glossary.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/arquitectura/c3-componentes.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md.bak_h8p
+35:| **Catálogo de Cuentas (PCU)** | Plan de Cuentas Único del mandante. Lista de cuentas con código, nombre, naturaleza y versión. | Un simple listado de cuentas. El PCU es versionado y tiene una ontología asociada. |
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/estados.py:16:    PCU_version: str
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/importador_s0.py:113:    """Deriva movimiento desde posición DEBE/HABER y naturaleza del PCU."""
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/importador_s0.py:151:        raise ValueError(f"cuenta_debe '{cuenta_debe}' no existe en PCU")
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/importador_s0.py:153:        raise ValueError(f"cuenta_haber '{cuenta_haber}' no existe en PCU")
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/modelos.py:16:    PCU_version: str              # Versión del PCU utilizada
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/reticulo.py:38:        """Construye el retículo desde un PCU: cada valor de `clave` define un subconjunto."""
+
+════ III · ¿qué es PCU en el corpus? ════
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-60-### B.3. Lo decidido por diseño y su materialización
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-61-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-62-- Contrato Retículo: (P(C), ⊆, ∪, ∩, ¬, △). Independiente de xnor y motor.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md:63:- Decisión B: retículo fiel al PCU literal. Sin default replicado del Motor.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-64-- Contrato Examinador: panel de consulta, no puerta. No camino crítico.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-65-- DA: partida_incompleta separada de cuenta_ausente.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-66-- DC: no-Mapping → TypeError; Mapping degradado → hallazgo.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-67-- Guarda explícita en examinar() con Mapping de collections.abc.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-68-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-69-Estas son DECISIONES DE DISEÑO. Se materializaron en código y cuentan con
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-70-evidencia de comportamiento mediante los falsadores E1–E16 y la suite
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-71-196. Lo que no está demostrado es su corrección semántica universal frente
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-72-a casos no cubiertos por los falsadores declarados.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-73-
+--
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-99-   cosas parcialmente solapadas por caminos distintos.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-100-4. NO re-verifica H7h Fases 1-7.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-101-5. NO cierra anillo.py. Lo aparca.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md:102:6. NO resuelve deuda pre-existente (PCU descentralizado, MotorContable(None)).
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-103-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-104-## D. Deudas registradas (sin resolver)
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-105-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md:106:D.1. PCU descentralizado: copias divergentes en integrador.py,
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-107-     curses_app.py (x2), orquestador_v82.py, tests. La cuenta "110101"
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-108-     aparece con marcos distintos según archivo.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md:109:     Impacto: reticulo.py recibe PCU inyectado; diseño correcto por esto.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-110-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-111-D.2. MotorContable(None) en exportador.py:66 — firma exige pcu: Dict sin
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-112-     default. Bug latente fuera de alcance de Camino 3.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-113-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-114-D.3. Desincronización documental: el encabezado del contrato
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-115-     H8P_EXAMINADOR_CONTRATO.md conserva "Validación E1-E16 pendiente",
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-116-     aunque la validación ya fue ejecutada. Corrección documental
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-117-     pendiente, fuera del alcance de este cierre.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-118-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H7H_CIERRE.md-119-D.4. nivel_composicion no existe. Depende de anillo.py. Aparcado con
+--
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-15-Regla: el examinador informa. H1 interpreta. H2 decide. Motor materializa.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-16-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-17-## Fuente de verdad
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md:18:El PCU inyectado al examinador es la autoridad de clasificación de cuentas.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md:19:- `naturaleza` se lee del PCU mediante `cuenta_codigo`.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-20-- La partida NO trae `naturaleza`. Si la trae, se ignora.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md:21:- `nivel_linea` y `nivel_conjunto` consultan el mismo PCU.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-22-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-23-## Frontera de entrada (Mapping vs. no-Mapping)
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-24-examinar() recibe `evidencia: Mapping`. Distinción contractual:
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-25-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-26-  evidencia NO-Mapping (None, lista, str, int)
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-27-      → TypeError. Violación del contrato de API. Guarda explícita.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-28-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-29-  evidencia Mapping válida estructuralmente pero defectuosa en contenido
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-30-      → Reporte con hallazgos. No excepción.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-31-      Ejemplos: {"partidas": None}, {}, {"partidas": [{}]}
+--
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-80-
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-81-E1   nivel_linea OK:          naturaleza+movimiento coherentes con xnor →
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-82-                              ok=True, hallazgos vacío
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md:83:E2   nivel_linea FALLA:       naturaleza inválida en PCU → ok=False con
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md-84-                              hallazgo "naturaleza_invalida"; NO excepción
+
+════ IV · cuenta · estructura del PCU ════
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_motor.py:115:        VALUES ('2024-01', '110101', 'Clientes', 'DEUDORA', 1)
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_motor.py:119:        VALUES ('2024-01', '410101', 'Ventas', 'ACREEDORA', 1)
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_motor.py:198:            {'cuenta_codigo': '110101', 'cuenta_version': '2024-01', 'monto': 100, 'ubicacion': 'DEBE', 'movimiento': 'AUMENTA'},
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_motor.py:199:            {'cuenta_codigo': '410101', 'cuenta_version': '2024-01', 'monto': 100, 'ubicacion': 'HABER', 'movimiento': 'AUMENTA'}
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_motor.py:225:            {'cuenta_codigo': '110101', 'cuenta_version': '2024-01', 'monto': 100, 'ubicacion': 'DEBE', 'movimiento': 'AUMENTA'},
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_motor.py:226:            {'cuenta_codigo': '410101', 'cuenta_version': '2024-01', 'monto': 100, 'ubicacion': 'HABER', 'movimiento': 'AUMENTA'}
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_motor.py:249:    cursor.execute("SELECT * FROM negocio_mayor WHERE cuenta_codigo = '110101' AND periodo_id = '2026-08'")
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_motor.py:254:    cursor.execute("SELECT * FROM negocio_mayor WHERE cuenta_codigo = '410101' AND periodo_id = '2026-08'")
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_orchestrator.py:143:        VALUES ('2024-01', '110101', 'Clientes', 'DEUDORA', 1)
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_orchestrator.py:147:        VALUES ('2024-01', '410101', 'Ventas', 'ACREEDORA', 1)
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_seguridad.py:113:        VALUES ('110101', '2024-01', '2026-08', 100, 0, 100)
+/data/data/com.termux/files/home/scfv_v6/_legacy/tests_src_legacy/test_seguridad.py:118:        VALUES ('110101', '2024-01', 'Clientes')
+/data/data/com.termux/files/home/scfv_v6/libros/mayor_2026-08.csv:2:110101,35384322446900.0
+/data/data/com.termux/files/home/scfv_v6/libros/mayor_2026-08.csv:3:140101,-2.45e+20
+/data/data/com.termux/files/home/scfv_v6/libros/mayor_2026-08.csv:5:410101,-31593145041874.996
+/data/data/com.termux/files/home/scfv_v6/libros/mayor_2026-09.csv:2:110101,3800.0
+/data/data/com.termux/files/home/scfv_v6/libros/mayor_2026-09.csv:3:410101,-3800.0
+/data/data/com.termux/files/home/scfv_v6/libros/motor_mayor_2026-09.csv:2:110101,1000.0
+/data/data/com.termux/files/home/scfv_v6/libros/motor_mayor_2026-09.csv:3:410101,-1000.0
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md:11:        "110101": {"naturaleza": "DEUDORA",  "marcos": ["NIIF_Completas", ...]},
+
+════ V · ¿hay tabla PCU en scfv.db? ════
+event_store     negocio_diario     proyeccion_decisiones_h2     proyeccion_integridad_hash     proyeccion_resumen_eventos     trabajos_realizados     trabajos_solicitados
+
+════ VI · marco_contable · qué valores existen ════
+/data/data/com.termux/files/home/scfv_v6/normas/locales/BAVEN_NIF/BA_VEN_NIF_01.json:12:    "marco_contable": "BA_VEN_NIF"
+/data/data/com.termux/files/home/scfv_v6/BACKUP_F3B6/modelos.py:15:    marco_contable: str           # ej. "NIIF_Completas", "NIIF_PYMES"
+/data/data/com.termux/files/home/scfv_v6/BACKUP_F3B6/estados.py:19:    marco_contable_version: str
+/data/data/com.termux/files/home/scfv_v6/BACKUP_F3B6/estados_pre_unificacion.py:19:    marco_contable_version: str
+/data/data/com.termux/files/home/scfv_v6/BACKUP_F3B6/estados_pre_F3B6E.py:19:    marco_contable_version: str
+/data/data/com.termux/files/home/scfv_v6/DOCS/npl/npl-definitivo.md:125:    marco_contable_version: Cadena
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md:51:      "marco_contable": "NIIF_Completas",   # opcional, default "NIIF_Completas"
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_h8p:30:      "marco_contable": "NIIF_Completas",   # opcional, default "NIIF_Completas"
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_d3:51:      "marco_contable": "NIIF_Completas",   # opcional, default "NIIF_Completas"
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_IMPORTADOR_CONTRATO.md:563:    marco_contable del contexto y pcu[c]["marcos"]. La validación se
+/data/data/com.termux/files/home/scfv_v6/DOCS/S0_CIERRE.md:122:contexto_contable.marco_contable y pcu[cuenta]["marcos"].
+/data/data/com.termux/files/home/scfv_v6/DOCS/S0_CIERRE.md.bak_rev2:113:contexto_contable.marco_contable y pcu[cuenta]["marcos"].
+/data/data/com.termux/files/home/scfv_v6/DOCS/S0_CIERRE.md.bak_sync_h9:122:contexto_contable.marco_contable y pcu[cuenta]["marcos"].
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py:224:            marco_contable_version="NIIF_Completas",
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py:369:                marco_contable="NIIF_Completas",
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py:817:            marco_contable_version="NIIF_Completas",
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py:830:            marco_contable="NIIF_Completas", PCU_version="PCU-3E",
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py.bak_fase3f:223:            marco_contable_version="NIIF_Completas",
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py.bak_fase3f:368:                marco_contable="NIIF_Completas",
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py.bak_fase3f:532:            marco_contable_version="NIIF_Completas",
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/tui/curses_app.py.bak_fase3f:545:            marco_contable="NIIF_Completas", PCU_version="PCU-3E",
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:29:    def _verificar_cuenta_con_marco(self, cuenta: str, marco_contable: str) -> bool:
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:33:        if marco_contable not in marcos_permitidos:
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:37:    def validar_partida(self, partida: Dict, marco_contable: str = "NIIF_Completas") -> bool:
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:42:        if not self._verificar_cuenta_con_marco(cuenta, marco_contable):
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:43:            raise ValueError(f"I2_VIOLATION: Cuenta {cuenta} no existe o no es compatible con el marco {marco_contable}")
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:133:        marco_contable = consecuencia.contexto_contable.marco_contable
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:157:            if marco_contable not in marcos_permitidos:
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:158:                raise ValueError(f"MOTOR_VIOLACION: I2_VIOLATION - cuenta '{cuenta_codigo}' no compatible con marco '{marco_contable}'")
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py:221:                "marco_contable": consecuencia.contexto_contable.marco_contable,
+/data/data/com.termux/files/home/scfv_v6/normas/internacionales/NIC/NIC_29.json:18:    "es_complementada_por": ["BA_VEN_NIF_01"]
+/data/data/com.termux/files/home/scfv_v6/normas/locales/BAVEN_NIF/BA_VEN_NIF_01.json:2:  "id": "BA_VEN_NIF_01",
+/data/data/com.termux/files/home/scfv_v6/normas/locales/BAVEN_NIF/BA_VEN_NIF_01.json:12:    "marco_contable": "BA_VEN_NIF"
+/data/data/com.termux/files/home/scfv_v6/normas/locales/BAVEN_NIF/BA_VEN_NIF_01.json:16:    "metodo": "BA_VEN_NIF"
+/data/data/com.termux/files/home/scfv_v6/perfiles/Cliente_A.scfv:8:  MARCO_CONTABLE = "NIIF_Completas"
+/data/data/com.termux/files/home/scfv_v6/BACKUP_F3B6/modelos.py:15:    marco_contable: str           # ej. "NIIF_Completas", "NIIF_PYMES"
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:241:Normas `BA_VEN_NIF_01.json` y `LIVA_Art4.json` no cumplen el schema
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md:11:        "110101": {"naturaleza": "DEUDORA",  "marcos": ["NIIF_Completas", ...]},
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md:107:    meta.get("marcos", ["NIIF_Completas"])
+/data/data/com.termux/files/home/scfv_v6/DOCS/SCFV_S0_CIERRE.md.bak_fase5:91:| `H6.10-FINDING-SCHEMA-001` | normas `BA_VEN_NIF_01.json` y `LIVA_Art4.json` no cumplen schema v8.2.1; warning en runtime | técnica |
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md.bak_fase5:241:Normas `BA_VEN_NIF_01.json` y `LIVA_Art4.json` no cumplen el schema
+/data/data/com.termux/files/home/scfv_v6/DOCS/SCFV_MOTOR_CIERRE.md:91:| `H6.10-FINDING-SCHEMA-001` | normas `BA_VEN_NIF_01.json` y `LIVA_Art4.json` no cumplen schema v8.2.1; warning en runtime | técnica |
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md:51:      "marco_contable": "NIIF_Completas",   # opcional, default "NIIF_Completas"
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md.bak_h8p:11:        "110101": {"naturaleza": "DEUDORA",  "marcos": ["NIIF_Completas", ...]},
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md.bak_h8p:107:    meta.get("marcos", ["NIIF_Completas"])
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_RETICULO_CONTRATO.md.bak_h8p:188:  Motor (motor.py:32, 156):  meta.get("marcos", ["NIIF_Completas"])
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_h8p:30:      "marco_contable": "NIIF_Completas",   # opcional, default "NIIF_Completas"
+/data/data/com.termux/files/home/scfv_v6/DOCS/H8P_EXAMINADOR_CONTRATO.md.bak_d3:51:      "marco_contable": "NIIF_Completas",   # opcional, default "NIIF_Completas"
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/cli/integrador.py:27:            "110101": {"nombre": "Caja", "naturaleza": "DEUDORA", "marcos": ["NIIF_Completas", "NIIF_PYMES"]},
+/data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/interfaces/cli/integrador.py:28:            "410101": {"nombre": "Ventas", "naturaleza": "ACREEDORA", "marcos": ["NIIF_Completas"]},
+
+════ VII · NIIF Pymes · ¿menciona cuentas específicas? ════
+6966:* La tasa de interés efectiva de 6,9584 por cien es la tasa que descuenta los
+
+════ VIII · BAVEN_NIF · ¿tiene cuentas? ════
+7:  "fuente": "FCCPV, Resolución 2025",
+8:  "fecha_publicacion": "2025-01-15",
+
+════ IX · ¿existe PCU genérico? ════
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P1_Origen/FACSIMILES_UAM/Expertos/Expertos_informe_material.json
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/biblioteca_sot.json
+/data/data/com.termux/files/home/scfv_v6/payload_h6_5.json
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P1_Origen/FACSIMILES_UAM/1828/Nivel_2_Grafos/frecuencias_palabras.csv
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/SOR/scripts/analisis_pdf_directo.csv
+
+════ X · fractales · cuentas usadas ════
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/compras/compras.py:10:                {"cuenta": contexto.get('CONTABLE', {}).get('CUENTA_INVENTARIO', '140101'), 
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/compras/compras.py:12:                {"cuenta": contexto.get('CONTABLE', {}).get('CUENTA_PROVEEDORES', '210101'), 
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/ventas/ventas.py:33:                {"cuenta": "110101", "naturaleza": "DEUDORA", "movimiento": "AUMENTA", "monto": monto},
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/ventas/ventas.py:34:                {"cuenta": "410101", "naturaleza": "ACREEDORA", "movimiento": "AUMENTA", "monto": base},
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/ventas/ventas.py:35:                {"cuenta": "210201", "naturaleza": "ACREEDORA", "movimiento": "AUMENTA", "monto": iva,

@@ -1,0 +1,49 @@
+════════════════════════════════════════════════════════════════════
+  AUDITORÍA B115 · LIMPIEZA DE RESIDUOS DE HEREDOC
+  Giro 05 · Sesión 6 · 2026-09-25
+  Timestamp UTC: 2026-09-25T18:12:48Z
+════════════════════════════════════════════════════════════════════
+
+MOTIVO
+  Cinco archivos de 0 bytes en la raíz del repositorio, residuos de
+  heredocs rotos durante sesiones previas. Sin contenido, sin función,
+  sin referencias en el código.
+
+ARCHIVOS ELIMINADOS
+  · PY
+  · SHA=8f77a5f801f0706354f63ff5bf38beaff74a7d9aed6804da4c2cd4ec9e95d90e
+  · echo
+  · grep
+  · }
+
+NATURALEZA DEL ACTO
+  Limpieza del working tree del repositorio del Programa.
+  No afecta al artefacto SCFV_DSR.
+  No altera el hash maestro 8f5dc93262cc2ef81d35ce51cb08d3e2a3ee711390851babbffcb010f08e1dd4.
+  No modifica REGISTRO_ACTAS.log ni REGISTRO_ACTOS.log.
+
+AUTORIDAD
+  Operador · DEDN · C.P.C. Nº 183594
+
+AUTORIZADO POR
+  IA-1 (Constructor) · propuesta y emisión del bloque
+  IA-2 (Falsador) · confirmación por inspección de 0 bytes
+  Operador · autorización explícita de Fase 0
+
+EVIDENCIA PREVIA
+  ls -la en raíz del repo mostró los 5 archivos con tamaño 0 bytes.
+  wc -c sobre cada uno confirmó 0 bytes.
+  git status --short los listaba como untracked (??).
+
+VERIFICACIÓN POSTERIOR
+  Bloque 0a · los 5 aparecen como ELIMINADO.
+  Bloque 0a · git status --short sin los 5 residuos.
+  Bloque 0a · sha256sum ~/SCFV_DSR/HASHES.txt = 8f5dc93262cc2ef81d35ce51cb08d3e2a3ee711390851babbffcb010f08e1dd4.
+
+ESTADO RESULTANTE
+  Working tree del repositorio sin los 5 residuos.
+  HASHES.txt del SCFV_DSR sin cambios.
+  Fase 0 cerrada.
+  Fase 1 (L1) pendiente de autorización explícita.
+
+════════════════════════════════════════════════════════════════════

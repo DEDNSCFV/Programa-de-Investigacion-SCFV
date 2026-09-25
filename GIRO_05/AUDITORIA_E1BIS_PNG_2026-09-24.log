@@ -1,0 +1,26 @@
+════════════════════════════════════════════════════════════════
+ ETAPA 1-BIS · CONTINUAR EXTRACCIÓN · Thu Sep 24 19:42:34 -04 2026
+════════════════════════════════════════════════════════════════
+[19:42:34] Re-extrayendo p-068 (parcial) y continuando hasta p-287...
+[20:11:58] Extracción completa.
+
+════ VERIFICACIÓN ════
+PNG totales: 237 (esperado 237)
+
+Primeros 3:
+total 294840
+drwx------. 2 u0_a288 u0_a288   20480 Sep 24 20:11 .
+drwx------. 3 u0_a288 u0_a288    3452 Sep 24 19:36 ..
+-rw-------. 1 u0_a288 u0_a288 1170248 Sep 24 19:36 p-051.png
+-rw-------. 1 u0_a288 u0_a288 1244953 Sep 24 19:36 p-052.png
+-rw-------. 1 u0_a288 u0_a288 1131569 Sep 24 19:36 p-053.png
+
+Últimos 5:
+-rw-------. 1 u0_a288 u0_a288 1558032 Sep 24 20:11 p-282.png
+-rw-------. 1 u0_a288 u0_a288 1344758 Sep 24 20:11 p-283.png
+-rw-------. 1 u0_a288 u0_a288 1452587 Sep 24 20:11 p-284.png
+-rw-------. 1 u0_a288 u0_a288 1403032 Sep 24 20:11 p-285.png
+-rw-------. 1 u0_a288 u0_a288 1563663 Sep 24 20:11 p-286.png
+-rw-------. 1 u0_a288 u0_a288 3337669 Sep 24 20:11 p-287.png
+
+Archivos sospechosos (< 500KB):

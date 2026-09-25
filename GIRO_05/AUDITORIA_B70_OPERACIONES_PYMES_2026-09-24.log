@@ -1,0 +1,104 @@
+════ B70 · operaciones requeridas por Pymes · Fri Sep 25 07:22:28 -04 2026 ════
+
+════ I · ¿qué operaciones primitivas menciona el raw Pymes? ════
+1 · el menor entre
+1 · el mayor entre
+0 · se sumará
+0 · se restará
+1 · multiplicado por
+0 · dividido entre
+0 · elevado a
+5 · raíz
+47 · valor presente
+1 · valor descontado
+
+════ II · fórmulas explícitas por sección ════
+13859:(e) ( (u. m.) = (b) –
+13867:(u. m.) = (d) –
+
+════ III · operaciones compuestas mencionadas ════
+57 · depreciación
+38 · amortización
+1 · valor neto realizable
+348 · valor razonable
+47 · valor presente
+33 · costo amortizado
+182 · deterioro
+35 · provisión
+13 · interés efectivo
+0 · tasa efectiva
+
+════ IV · ¿cuántas fórmulas son únicas vs compartidas? ════
+--- Pymes S13 (inventarios) ---
+3
+--- Pymes S17 (PPE) ---
+4
+--- Pymes S21 (provisiones) ---
+0
+
+════ V · ¿el corpus declara operaciones reutilizables? ════
+
+════ VI · ¿cuántas fórmulas son realmente primitivas? ════
+Primitivas (Baldor ya las tiene):
+    suma          · sumar_montos
+    resta         · implícita
+    multiplicación · implícita
+    división      · implícita
+    min/max       · no existen como función, pero son operación primitiva
+    potencia      · capital_final
+    raíz          · raiz_enesima
+    logaritmo     · logaritmo
+
+Total primitivas necesarias: ~8
+Total primitivas en Baldor: ~52 funciones (incluye derivadas)
+
+Fórmulas compuestas (frecuentes en Pymes):
+    depreciación_lineal      (costo - residual) / vida
+    amortización_lineal      costo / vida
+    valor_presente           capital_inicial(C, r, t)
+    interés_compuesto        capital_final(c, r, t)
+    valor_esperado           sum(prob × monto)
+    valor_neto_realizable    precio_venta - costos
+    valor_razonable_menos_costos  valor_razonable - costos_venta
+
+Total fórmulas compuestas: ~10-15
+
+════ VII · operaciones de dominio específicas ════
+3
+--- ejemplos ---
+10618:vida se determinará sobre la base de la mejor estimación de la gerencia, pero
+16938:Los flujos de efectivo futuros se estimarán, para el activo, teniendo en cuenta
+18500:jurisdicciones, la base fiscal se determinará tomando como referencia las
+
+════ VIII · ¿cuántas operaciones necesita cada sección Pymes? ════
+Sección 3 (L3182): 12 operaciones
+Sección 4 (L3596): 13 operaciones
+Sección 5 (L3967): 26 operaciones
+Sección 6 (L4222): 29 operaciones
+Sección 7 (L4354): 33 operaciones
+Sección 9 (L5044): 56 operaciones
+Sección 10 (L5764): 108 operaciones
+Sección 11 (L6192): 114 operaciones
+Sección 12 (L8139): 117 operaciones
+Sección 13 (L8627): 78 operaciones
+Sección 14 (L8948): 77 operaciones
+Sección 15 (L9258): 69 operaciones
+Sección 16 (L9564): 65 operaciones
+Sección 17 (L9783): 48 operaciones
+Sección 18 (L10372): 42 operaciones
+Sección 19 (L10847): 57 operaciones
+Sección 20 (L11919): 40 operaciones
+Sección 21 (L12588): 30 operaciones
+Sección 22 (L13295): 54 operaciones
+Sección 23 (L14021): 59 operaciones
+Sección 24 (L15780): 75 operaciones
+Sección 25 (L15872): 74 operaciones
+Sección 26 (L15918): 74 operaciones
+Sección 27 (L16611): 35 operaciones
+Sección 28 (L17281): 22 operaciones
+Sección 29 (L18344): 25 operaciones
+Sección 30 (L19249): 34 operaciones
+Sección 31 (L20013): 33 operaciones
+Sección 32 (L20244): 32 operaciones
+Sección 33 (L20506): 32 operaciones
+Sección 34 (L20912): 36 operaciones

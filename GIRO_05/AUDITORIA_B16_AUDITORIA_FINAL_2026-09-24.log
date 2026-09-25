@@ -1,0 +1,399 @@
+=== B16 · auditoría exhaustiva + reducción · 2026-09-24 ===
+
+=== PARTE I · FALSACIÓN ===
+
+--- I.1 · F-IA1-9 · C5 en corpus ---
+GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md:629:Referencias invocadas (citas literales verificadas):
+
+--- I.2 · F-IA1-13/16 · cinco niveles genealógicos en corpus ---
+./RELEASE_S0/RELEASE_S0_CONTRATO.md:469:La materialización efectiva de esta bitácora constituye un acto separado.
+./ACTAS/ACTA_CORRECCION_ESTATUTO_EXTENSION_HEVNER_GIRO_04.md:120:estatuto declarado.»
+./ACTAS/ACTA_CORRECCION_ESTATUTO_EXTENSION_HEVNER_GIRO_04.md:124:Exige correspondencia entre el estatuto declarado y el estado efectivo
+./ACTAS/ACTA_ENMIENDA_PROTOCOLO_19_3_BIS.md:74:> el documento ya coherente con el estatuto declarado.
+./GIRO_04/02_planteamiento.md:417:| D3 | ESTADO_OBSERVABLE sin estatuto declarado | INTEGRADA en V3 §6 |
+./GIRO_04/06_diseno.md:135:Nota de elevación de estatuto (T1): las cuatro formulaciones constan en 02_planteamiento.md §17 como «antecedentes de la idea» con estatuto declarado «Contenido no estabilizado» y procedencia 01_idea.md §1.1. El presente diseño las eleva a problemas de diseño heredados como acto propio de este documento. Esta elevación de estatuto se declara expresamente. No se altera el planteamiento materializado.
+./GIRO_04/11_soporte_minimo.md:47:El presente acto especifica el soporte. No declara su materialización efectiva.
+./GIRO_04/12_extension_gramatica_adl.md:100:La materialización efectiva queda subordinada a la falsación prevista en
+
+--- I.3 · F-IA1-14 · 'deuda de trazabilidad' en corpus ---
+
+--- I.4 · F-IA1-17 · condición de materialización para CITAS_CANON ---
+GIRO_05/ideas.md:350:    - Desmaterializar el Giro 04.
+GIRO_05/ideas.md:377:Se solicita a IA-2 falsar este documento antes de materializarlo.
+
+--- I.5 · D-MARCO-1 · marcos clasificatorios en corpus ---
+./GIRO_05/AUDITORIA_B2_2026-09-24.log:184:== D-ABS-1 ==
+./GIRO_05/AUDITORIA_B16_AUDITORIA_FINAL_2026-09-24.log:24:--- I.5 · D-MARCO-1 · marcos clasificatorios en corpus ---
+
+=== PARTE II · AUDITORÍA EXHAUSTIVA MANDELBROT 1975 ===
+
+--- II.1 · Mandelbrot 1975 · inventario de citas en ideas.md ---
+72:    (Mandelbrot 1975, L168)
+103:    (Mandelbrot 1975, L3 · corchete: intervención editorial IA-1)
+118:        Mandelbrot 1975, 1982.
+171:    (Mandelbrot 1975, L172)
+174:    (Mandelbrot 1975, L597)
+177:    (Mandelbrot 1975, L617)
+180:    (Mandelbrot 1975, L751)
+236:    (Mandelbrot 1975, L502)
+263:    Mandelbrot 1975, 1982 · fractales escalantes.
+326:    (Mandelbrot 1975, L172)
+329:    (Mandelbrot 1975, L617)
+382:    2. Citas literales de Mandelbrot 1975, 1982.
+405:                Mandelbrot 1975/1982, Hevner Guideline 2.
+
+--- II.2 · Mandelbrot 1975 · raw · primeros 30 párrafos ---
+¿Qué son los objetos fractales? ¿Para qué sirven, cuál es su historia y por
+qué se llaman así? Los fractales representan a la vez una teoría matemática
+y un método para analizar una gran diversidad de fenómenos de la
+naturaleza; precisamente aquellos fenómenos que se nos antojan «sin ley»,
+como la caprichosa forma de una costa, de una nube o, incluso, de una obra
+de arte.
+Benoît Mandelbrot creó los fractales a principios de los años sesenta y hoy
+protagonizan investigaciones que se ocupan de física teórica, geografía,
+economía, biología, etc., de modo que en la actualidad se puede decir que
+existe una concepción y una geometría fractales de la naturaleza. Éstas se
+basan, en esencia, en el concepto de autosimilitud, una propiedad exhibida
+por aquellos sistemas cuyas estructuras permanecen constantes al variar la
+escala de observación; en otras palabras: cuando las partes, por pequeñas
+que éstas sean, se parecen al todo.
+Este libro es el primer ensayo dedicado a exponer la teoría y es también, por
+lo tanto, un documento histórico impregnado de las vivencias directas de este
+científico cuya sorprendente aventura intelectual se desarrolla entre la
+Universidad de Harvard y la IBM.
+
+www.lectulandia.com - Página 2
+
+Benoît Mandelbrot
+
+Los objetos fractales
+Forma, azar y dimensión
+ePub r1.0
+koothrapali 29.10.13
+
+www.lectulandia.com - Página 3
+
+Título original: Les objets fractals. Forme, hasard et dimension
+Benoît Mandelbrot, 1975
+Traducción: Josep Llosa
+Diseño de portada: Piolin
+Editor digital: koothrapali
+ePub base r1.0
+
+www.lectulandia.com - Página 4
+
+In memoriam, B. y C.
+Para Aliette
+
+www.lectulandia.com - Página 5
+
+PRÓLOGO A LA SEGUNDA EDICIÓN
+
+Esta edición difiere poco de la de 1975, pues los cambios —si bien numerosos y en
+absoluto desdeñables— conciernen a cuestiones de detalle. En efecto, al volver a
+poner este libro sobre la mesa de trabajo, he tenido la feliz sorpresa de constatar que
+tenía pocas rugosidades. Es decir, que quizá ha atravesado deprisa la edad ingrata en
+que uno está cada vez menos de moda para llegar a una edad en que la moda deja de
+ser importante. La geometría fractal de la naturaleza, cuya primera exposición es esta
+obra, se ha desarrollado en todos los sentidos de una manera explosiva, pero este libro
+enunciaba ya la mayoría de las ideas esenciales. Así pues, es cada vez menos un
+tratado, pero continúa siendo una introducción, así como también un documento
+histórico. Conserva, sin duda, las alocadas ambiciones de la primera edición. Por una
+parte, es a la vez una nueva síntesis matemática y filosófica y una colección de
+micromonografías que se refieren a mis descubrimientos en diversos capítulos de la
+ciencia. Por otra, sin embargo, está dirigida al mismo tiempo a públicos dispares:
+pretende inducir a especialistas de distintas ciencias a que olviden su especialización
+para que sueñen y creen conmigo (aquellos que quieran más, que lean el postscriptum del Capítulo 17). Pero, aunque mi texto pretende informar, también quiere
+divertir al aficionado.
+***
+Para presentar un resumen agradable, legible en una noche, he eliminado muchos
+fragmentos inútiles del texto de 1975. Por ejemplo, la introducción ha sido muy
+aligerada, ya que ahora es innecesario argumentar tan insistentemente a favor de unas
+ideas que ya no encuentran oposición. Asimismo, varios fragmentos alambicados se
+han convertido en superfluos por el hecho de que ciertas conjeturas matemáticas que
+había formulado en 1975 han sido demostradas, gracias al trabajo de numerosos
+matemáticos, directamente influenciados por este libro y sus sucesores. También,
+muchos de mis modelos específicos basados en los fractales han sido explicados
+
+www.lectulandia.com - Página 6
+
+posteriormente a partir de principios más fundamentales. No hace falta ya que me
+justifique por el hecho de que la mayor parte de este libro se entretenga en
+descripciones sin dar demasiadas explicaciones.
+Además, se ha suavizado el estilo en aquellos lugares donde resultaba «demasiado
+fractal», se han renovado las ilustraciones (aunque siempre a partir de las originales o
+de sus equivalentes), se han corregido diversos errores y erratas, y se ha añadido un
+Léxico de Neologismos (el nuevo Capítulo 13). El antiguo Capítulo 13, más
+desarrollado, se ha convertido en Capítulo 14.
+A fin de conservar el carácter histórico y el tono de un manifiesto escrito en 1975,
+las añadiduras, más bien escasas, toman la forma de breves post-scriptum. (Para
+conocer el estado de cualquier teoría de base fractal, hay que remitirse a mi libro de
+1982, The Fractal Geometry of Nature, cuyo índice es muy completo). Me he
+conformado, sin embargo, con insertar referencias recientes y una lista (completa
+hasta mayo de 1984) de mis trabajos sobre las fractales.
+***
+Para evitar malentendidos impertinentes, no pocos se y nosotros, discretos pero
+ambiguos, han sido sustituidos por yo. Es un placer manifestar hoy que lo que era
+inédito en 1975 (véase la página 25) lo era, en general, por no haber sido considerado
+aceptable por alguna revista respetable y apropiada. Tal era el caso del Capítulo 6, el
+más largo de este libro y el primero en ser redactado. Tenía por lo tanto razones para
+adoptar un tono anodino que evitara exasperar. Pero a fuerza de argumentar que tal o
+cual de mis tesis tendría que ser considerada en el futuro como algo que cae por su
+propio peso, había hecho creer a algunos que dicha tesis era aceptada desde hacía
+tiempo. Esta edición precisa que ése no es el caso.
+Hay una cuestión que más vale atacar frontalmente. ¿Acepto que se me califique
+de «inventor de los fractales», o aun de «padre de la revolución fractal»? Lo acepto
+
+--- II.3 · Mandelbrot 1975 · total líneas ---
+5809 /data/data/com.termux/files/home/.mandelbrot_1975_raw.txt
+
+=== PARTE III · AUDITORÍA EXHAUSTIVA MANDELBROT 1982 ===
+
+--- III.1 · Mandelbrot 1982 · inventario de citas en ideas.md ---
+68:    (Mandelbrot 1982, L116 · corchete: intervención editorial IA-1)
+145:    (Mandelbrot 1982, L16)
+149:    (Mandelbrot 1982, L1212)
+153:    (Mandelbrot 1982, L7440)
+183:    (Mandelbrot 1982, L6411)
+187:    (Mandelbrot 1982, L6921)
+240:    (Mandelbrot 1982, L3218 · corchete: intervención editorial IA-1)
+244:    (Mandelbrot 1982, L278)
+285:    (Mandelbrot 1982, L183)
+289:    (Mandelbrot 1982, L5728 · corchete: intervención editorial IA-1)
+
+--- III.2 · Mandelbrot 1982 · raw · verificar duplicación de L15-16 y L116 ---
+L10-20:
+ésta se nos revela completamente diferente. […] La existencia de estas
+formas representa un desafío: […] la investigación de la morfología de lo
+“amorfo”. […] En respuesta a este desafío, concebí y desarrollé una nueva
+geometría de la naturaleza y empecé a aplicarla a una serie de campos.
+Permite describir muchas de las formas irregulares y fragmentadas que nos
+rodean, dando lugar a teorías coherentes, identificando una serie de formas
+que llamo fractales. […] Algunos conjuntos fractales [tienen] formas tan
+disparatadas que ni en las ciencias ni en las artes he encontrado palabras
+que lo describieran bien. El lector puede hacerse una idea de ello ahora
+mismo con sólo echar una rápida mirada a las ilustraciones de este libro».
+Y termina: «Contra lo que hubiera podido parecer en un principio, la mayoría
+---
+L110-125:
+efectos prácticos, infinito.
+La existencia de estas formas representa un desafío: el estudio de las formas que
+Euclides descarta por «informes», la investigación de la morfología de lo «amorfo».
+Los matemáticos, sin embargo, han desdeñado este desafío y, cada vez más, han
+optado por huir de lo natural, ideando teorías que nada tienen que ver con aquello que
+podemos ver o sentir.
+En respuesta a este desafío, concebí y desarrollé una nueva geometría de la
+naturaleza y empecé a usarla en una serie de campos. Permite describir muchas de las
+formas irregulares y fragmentadas que nos rodean, dando lugar a teorías hechas y
+derechas, identificando una serie de formas que llamo fractales. Las más útiles
+implican azar, y tanto sus regularidades como sus irregularidades son estadísticas.
+Las formas que describo aquí tienden a ser, también, escalantes, es decir su grado de
+irregularidad y/o fragmentación es idéntico a todas las escalas. El concepto de
+dimensión fractal (de Hausdorff) tiene un papel central en esta obra.
+Algunos conjuntos fractales son curvas o superficies, otros «polvos» inconexos, y
+también los hay con formas tan disparatadas que no he encontrado, ni en las ciencias
+
+--- III.3 · Mandelbrot 1982 · total líneas ---
+19653 /data/data/com.termux/files/home/.mandelbrot_1982_raw.txt
+
+--- III.4 · Mandelbrot 1982 · buscar 'En respuesta a este desafío' ---
+12:“amorfo”. […] En respuesta a este desafío, concebí y desarrollé una nueva
+116:En respuesta a este desafío, concebí y desarrollé una nueva geometría de la
+
+--- III.5 · Mandelbrot 1982 · buscar 'La existencia de estas formas' ---
+10:ésta se nos revela completamente diferente. […] La existencia de estas
+111:La existencia de estas formas representa un desafío: el estudio de las formas que
+
+=== PARTE IV · INTEGRIDAD 00_SCFV_L.md ===
+
+--- IV.1 · estructura completa de 00_SCFV_L.md ---
+14:## §1. PROPÓSITO
+30:## §2. PROBLEMA
+60:## §3. IDEA
+70:## §4. DESTINATARIOS
+86:## §5. FUENTES Y ESTATUTO DOCUMENTAL
+183:## §6. VOCABULARIO TIPADO Y ESTRUCTURAS CONCEPTUALES
+203:## §7. UNIDAD DOCUMENTAL PROVISIONAL
+221:## §8. CADENA DE PROCEDENCIA
+239:## §9. OPERACIONES DE UNIFICACIÓN
+258:## §10. RELACIÓN CON `glossary.md`
+273:## §11. ESTADOS DOCUMENTALES
+289:## §12. SCFV-L Y CANON
+303:## §13. IDENTIFICADORES HISTÓRICOS
+319:## §14. PRINCIPIO DE NO-BORRADO
+336:## §15. CAPA SEMÁNTICA PROPUESTA
+350:## §16. POSIBLE EVOLUCIÓN HACIA LENGUAJE DE DOMINIO
+366:## §17. CONTRIBUCIONES DISCIPLINARES POTENCIALES
+386:## §18. ALCANCE DEL GIRO 04
+405:## §19. LO QUE ESTE DOCUMENTO NO DECLARA
+424:## §20. ESTATUTO DEL DOCUMENTO
+442:## §21. FALSACIÓN SOLICITADA
+462:## §22. RELACIÓN CON `01_idea.md`
+478:## §23. CONSTANCIA DE VERIFICACIÓN IA-2
+494:## §24. DECISIÓN DEL OPERADOR
+
+--- IV.2 · §22 hasta §24 · contenido íntegro ---
+---
+
+## §22. RELACIÓN CON `01_idea.md`
+
+`00_SCFV_L.md` y `01_idea.md` son objetos paralelos del Giro 04.
+
+`01_idea.md` desarrolla una línea de investigación sobre:
+
+> «TRAYECTORIA_ESTADO y EVALUACION_TRAYECTORIA.»
+
+`00_SCFV_L.md` desarrolla una línea de investigación sobre:
+
+> «unificación documental y semántica del vocabulario del Programa.»
+
+Pueden relacionarse posteriormente mediante términos, referencias y trazabilidad, pero ninguno constituye fundamento lógico exclusivo del otro.
+
+---
+
+## §23. CONSTANCIA DE VERIFICACIÓN IA-2
+
+| Elemento | Estado |
+|---|---|
+| HL-617 (clasificación de las 12 categorías de fuentes) | INTEGRADA |
+| HL-618 (delimitación del código como fuente) | INTEGRADA |
+| HL-619 (soporte original vs soporte documentado) | INTEGRADA |
+| Objeciones sustantivas vivas | CERO |
+| Observaciones cosméticas | HL-622, HL-623, HL-624 (no bloqueantes) |
+| Ciclo §19.2 | CERRADO |
+| Estatuto | APTO PARA MATERIALIZACIÓN |
+
+Constancia emitida por IA-2.
+
+---
+
+## §24. DECISIÓN DEL OPERADOR
+
+El documento queda preparado para la decisión del Operador.
+
+Corresponde exclusivamente al Operador decidir:
+
+- materializar `00_SCFV_L.md`;
+- modificarlo;
+- posponerlo;
+- incorporarlo al corpus del Giro 04.
+
+---
+
+**Fin del documento.**
+
+--- IV.3 · total líneas ---
+507 GIRO_04/00_SCFV_L.md
+
+--- IV.4 · hash del archivo ---
+f94e96d4ba9e43ab0b6bf7f10fb5696f4f1dd730d5de4c1220ec94175458e0f3  GIRO_04/00_SCFV_L.md
+
+=== PARTE V · REDUCCIÓN DE DECISIONES ===
+
+--- V.1 · estado material de los actos ---
+Acto 1:
+b250e3b282ed798af8b092208763de1e1040664171734b6a7c80036dc7f716d5  GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md
+Acto 2:
+900d23cf0e475b614e5583121f6e6f3405a101eee08fa3330414ae7ec5889b0b  ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+Acto 3:
+6ae8661d702d51cb9adfc617fcb9784acb60619243dc6486d24358663d641afb  GIRO_05/ideas.md
+
+--- V.2 · log de actos ---
+2026-09-24T15:42:04Z | PROMPT_AVANZADO_GIRO_05_AI1_AI2 | HASH_PREVIO=9fa48acb5338ef205dc8c51c69c34137a58b48e4887952f2099204254d770144 | /data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md
+2026-09-24T15:42:04Z | PROMPT_AVANZADO_GIRO_05_AI1_AI2 | HASH_FINAL=b250e3b282ed798af8b092208763de1e1040664171734b6a7c80036dc7f716d5
+2026-09-24T15:44:14Z | ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24 | HASH_PREVIO=4baf3b359e0752296406341c11d6f2ea5659c9e32ae8fbd2f62708bcdd16af9b | /data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+2026-09-24T15:44:14Z | ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24 | HASH_FINAL=43873eb60ee091e610530213189e321ef0a3c97747182860cb0d5a5a7e4edaf4
+2026-09-24T15:45:07Z | ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24 | HASH_POST_CORRECCION=900d23cf0e475b614e5583121f6e6f3405a101eee08fa3330414ae7ec5889b0b | Corrección de línea defectuosa en constancia del Operador
+2026-09-24T17:22:32Z | IDEAS_GIRO_05 | HASH_PREVIO=N/A | /data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/ideas.md
+2026-09-24T17:22:32Z | IDEAS_GIRO_05 | HASH_FINAL=6ae8661d702d51cb9adfc617fcb9784acb60619243dc6486d24358663d641afb
+
+--- V.3 · git status ---
+?? ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+?? GIRO_05/
+
+--- V.4 · firmas pendientes ---
+3
+3
+5
+
+--- V.5 · deudas registradas en prompt §16 ---
+Abierto por las deudas declaradas (§16).
+Cerrado por el canon fundacional (§6).
+
+El prompt se modifica por iteración.
+Cada modificación se traza y cita deuda o acto.
+
+El prompt se rige por el motor rodriguiano.
+Es parte del corpus. El motor lo extiende.
+
+No inventa reglas. No sustituye protocolos.
+Coordina la iteración entre el Programa SCFV y el Operador.
+Su materialización es acto del Operador (§20).
+
+────────────────────────────────────────────────────────────────────────
+
+§0.1 · MÉTODO DE ESTA ITERACIÓN
+
+El Giro 05 articula cuatro niveles:
+
+    METODOLOGÍA · Sampieri
+        Diseño de investigación (fases, variables, hipótesis).
+        No ejecuta. No procedimenta.
+
+    MÉTODO · Hevner + Mandelbrot
+        Hevner     · nivel artefacto
+                     (guidelines + 3 ciclos + build-evaluate-refine).
+        Mandelbrot · nivel fractalidad
+                     (reglas de construcción, cascada, iteración
+                     funcional, escalante).
+        Los dos describen el mismo bucle en registros distintos.
+        No diseñan.
+
+    OPERACIÓN · Motor rodriguiano
+        Extiende con arte el corpus para que produzca.
+        No diseña. No procedimenta.
+
+    KERNEL · XNOR + Baldor
+        Opera dentro del motor.
+        No procedimenta. No diseña.
+
+────────────────────────────────────────────────────────────────────────
+
+§0.2 · ENTORNO DE OPERACIÓN
+
+El Programa SCFV se opera actualmente en Termux/Android.
+
+Motivo · restricción operativa del entorno del Operador (2026-09-24).
+Alcance · provisional.
+Naturaleza · restricción, no principio.
+
+El Programa es agnóstico al entorno de ejecución.
+La elección de Termux/Android es coyuntural, no constitutiva.
+El artefacto SCFV_DSR no depende de esa elección.
+
+Si el Programa migra a otro entorno (Linux, macOS, servidor, etc.):
+    - el prompt no se modifica,
+    - el corpus no se modifica,
+    - los protocolos no se modifican,
+    - sólo cambia la implementación del motor.
+
+Referencia:
+    npl-definitivo.md L4 declara "Local-First · Determinista · Termux/Android".
+    El corpus ya declaró Termux/Android como entorno operativo.
+    El prompt lo hereda. No lo modifica.
+
+────────────────────────────────────────────────────────────────────────
+
+§1 · ROLES
+
+Operador (DEDN, C.P.C. Nº 183594)
+    Autoridad final del Programa.
+    Declara canon. Activa cambios.
+    Interpreta cuando el canon no alcanza (Nivel 4, §19).
+    Coincide con el rol H2 en el mismo individuo; coincidencia válida
+    con declaración explícita (glossary.md L50).
+
+IA-1 · Lakatos
+    Identifica núcleo y cinturón. Propone adaptaciones.
+    No modifica el núcleo sin acto del Operador.
+

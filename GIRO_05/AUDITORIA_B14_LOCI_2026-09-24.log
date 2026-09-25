@@ -1,0 +1,224 @@
+=== B14 · verificación de loci · 2026-09-24 ===
+
+=== 1 · Mandelbrot 1975 · loci citados en ideas.md ===
+--- L3 ---
+y un método para analizar una gran diversidad de fenómenos de la
+--- L168 ---
+inventado, para las necesidades de este libro, a partir del adjetivo latino fractus, que
+--- L172 ---
+Pensando que tal formalismo sería prematuro, he adoptado un método muy distinto,
+--- L502 ---
+controversia. Por cada autor antiguo en el que encuentro una buena idea bien
+--- L597 ---
+He aquí un primer método: se pasea sobre la costa un compás de abertura dada η,
+--- L617 ---
+Un método más: para evitar la asimetría entre tierra firme y agua establecida por
+--- L751 ---
+Al ser este ultimo concepto fundamental pero delicado, empezaremos afinándolo
+
+=== 2 · Mandelbrot 1982 · loci citados en ideas.md ===
+--- L16 ---
+que llamo fractales. […] Algunos conjuntos fractales [tienen] formas tan
+--- L116 ---
+En respuesta a este desafío, concebí y desarrollé una nueva geometría de la
+--- L183 ---
+el enfoque fractal es tan efectivo como «natural». Y no sólo era indiscutible, sino que
+--- L278 ---
+a menudo tan arraigado que no se borra fácilmente con una redefinición. Como
+--- L1212 ---
+«El vasto campo para los nuevos descubrimientos… es siempre el residuo sin clasificar. Alrededor de los
+--- L3218 ---
+resiste a morir. La idea fundamental ha sido reinventada independientemente varias
+--- L5728 ---
+Pero la utilidad de un descubrimiento no debe juzgarse por las razones que lo
+--- L6411 ---
+reglas de construcción. Por otra parte, el hecho de que un fractal sea «generado» por
+--- L6921 ---
+la iteración, esto es, de la aplicación repetida de una de las transformaciones
+--- L7440 ---
+plantear nuevas preguntas para obtener viejas y gratas respuestas. Esto es, me inventé
+
+=== 3 · Hevner · L1343-1344 ===
+     Guideline 2: Problem relevance               The objective of design science research is
+                                                    to develop technology-based solutions to
+
+=== 4 · Rodríguez · loci del prompt v6 ===
+--- L5061 ---
+”instrumentos; y, al servirse de ellos, el mal que hacen al que los maneja, por poco que
+--- L5339 ---
+sociedades, y para ello hacer que se recomienden por sí mismas: recomendarse es
+--- L9307 ---
+Abate Gerard advierte que se debe estudiar la propiedad de los términos para no servirse de
+--- L9541 ---
+No hay sino un solo recurso, y por fortuna muy fácil . . . hacer que el Pueblo sea republicano,
+--- L9925 ---
+velaban sobre su conducta, y un Director que trazaba el plan de operaciones y lo hacia ejecutar.
+--- L12373 ---
+El uso autoriza a servirse de ciertas fórmulas, sin pesar el sentido que envuelven:
+--- L12426 ---
+Puede haberse concebido un Error—puede haberse descubierto una verdad.
+--- L13424 ---
+Extender con arte será, no solo hacer que
+--- L14296 ---
+Extender con arte será, nó solo hacer que todos sepan lo que se dispone, sino
+
+=== 5 · citas_apa.txt · búsqueda ampliada ===
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/citas_apa_grafo_vuelta0.dot
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/citas_apa_ontologia_desde_vuelta0.ttl
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/citas_apa_grafo_vuelta0.png
+
+=== 6 · 00_SCFV_L.md §13 §14 §22 · texto literal ===
+## §13. IDENTIFICADORES HISTÓRICOS
+
+Los identificadores `HL-XXX` conservan su carácter de genealogía documental.
+
+SCFV-L no los reemplaza ni los renumera.
+
+Cuando resulte útil, podrá presentarse:
+
+> «TRAYECTORIA_ESTADO [HL-XXX]»
+
+de modo que el nombre semántico facilite la consulta mientras el identificador histórico conserva la trazabilidad.
+
+El identificador histórico permanece inmutable.
+
+---
+
+## §14. PRINCIPIO DE NO-BORRADO
+
+La unificación documental no debe borrar la historia terminológica.
+
+Para cada modificación relevante deberá poder conservarse, cuando exista:
+
+- qué se modificó;
+- dónde;
+- cuándo;
+- por qué;
+- qué relación tiene con formulaciones anteriores;
+- qué fuente respalda el cambio.
+---
+## §22. RELACIÓN CON `01_idea.md`
+
+`00_SCFV_L.md` y `01_idea.md` son objetos paralelos del Giro 04.
+
+`01_idea.md` desarrolla una línea de investigación sobre:
+
+> «TRAYECTORIA_ESTADO y EVALUACION_TRAYECTORIA.»
+
+`00_SCFV_L.md` desarrolla una línea de investigación sobre:
+
+> «unificación documental y semántica del vocabulario del Programa.»
+
+Pueden relacionarse posteriormente mediante términos, referencias y trazabilidad, pero ninguno constituye fundamento lógico exclusivo del otro.
+
+---
+
+## §23. CONSTANCIA DE VERIFICACIÓN IA-2
+
+| Elemento | Estado |
+
+=== 7 · Traspaso · C5 y regla de elevación ===
+
+=== 8 · XNOR en prompt §6 · texto literal ===
+
+§4 · NÚCLEOS OPERATIVOS
+
+Núcleo algebraico:
+    XNOR · operador booleano definido sobre {0,1}×{0,1} → {0,1}.
+        Fundamento formal · álgebra booleana
+        (Boole, Analysis of Logic, 1847; desarrollo posterior).
+        Implementación · xnor.py (operativo).
+        Aplicación contable · axioma booleano U = N ⊙ M
+        (glossary.md L34). Tesis del corpus, no conjetura.
+        Deuda D-BOOLE-2 (Boole no nombra XNOR).
+
+    Baldor · operador aritmético.
+        Fundamento formal · álgebra elemental.
+        Implementación · pendiente (D-NUC-1).
+        Aplicación contable · aritmética de partidas.
+
+    Estado: XNOR operativo, Baldor no operativo.
+
+Núcleo epistemológico (5 componentes, glossary.md L45):
+    Observación      · Perceptum (perceptum.py)
+
+=== 9 · Prompt · §17 literal (según ideas.md) ===
+§17 · MODUS OPERANDI DEL GIRO 05
+
+Movimiento 1 · citas rodriguianas · ya dadas (§3).
+
+Movimiento 2 · iteración mínima (Hevner · Iteración 1 real)
+    BUILD ·
+        Copiar xnor.py al DSR.
+        Crear FRACTAL NIC2 mínimo (1 operación).
+        Conectar parser → motor.
+    EVALUATE ·
+        Correr sobre 1 evento del corpus.
+        Reportar bloqueantes.
+    REFINE ·
+        Corregir. Registrar bloqueantes reales.
+
+────────────────────────────────────────────────────────────────────────
+
+§18 · DIMENSIONES EMERGENTES
+
+Las dimensiones emergentes no se declaran. Emergen.
+Detección · H2/Operador (Gadamer, Lakatos, Popper, Rodríguez).
+Declaración · si emerge, se declara en el prompt.
+Criterio de categoría · decisión del Operador.
+
+Caso en curso:
+    Dimensión pedagógica · anclaje IES 2019.
+
+=== 10 · verificar §7 ideas.md vs §6 ORDEN · conflicto ===
+213:El acto no declara el DSR como fractal (06_diseno §6.4, §12.3).
+219:    ordenada    · los pasos están encadenados.
+224:§6 · ANTECEDENTES
+247:Se examinan y se ordenan.
+274:§7 · RELEVANCIA
+
+=== 11 · ¿Existe SCFV-L §13/§14 en algún archivo del corpus? ===
+./GIRO_04/00_SCFV_L.md
+
+=== 12 · Inventario de raws en HOME ===
+-rw-------. 1 u0_a288 u0_a288 1502226 Sep 18 13:06 /data/data/com.termux/files/home/.accounting_theory_raw.txt
+-rw-------. 1 u0_a288 u0_a288 2156010 Sep 22 19:01 /data/data/com.termux/files/home/.aho_compilers_raw.txt
+-rw-------. 1 u0_a288 u0_a288  497608 Sep 16 11:01 /data/data/com.termux/files/home/.angrisani_raw.txt
+-rw-------. 1 u0_a288 u0_a288  185043 Sep 23 00:01 /data/data/com.termux/files/home/.baldor_algebra_raw.txt
+-rw-------. 1 u0_a288 u0_a288   17164 Sep 23 12:16 /data/data/com.termux/files/home/.bavennif_8_raw.txt
+-rw-------. 1 u0_a288 u0_a288  137295 Sep 22 13:17 /data/data/com.termux/files/home/.boole_analysis_logic_raw.txt
+-rw-------. 1 u0_a288 u0_a288  482334 Sep 22 09:52 /data/data/com.termux/files/home/.cervantes_raw.txt
+-rw-------. 1 u0_a288 u0_a288  626920 Sep 18 12:52 /data/data/com.termux/files/home/.cosmovision_raw.txt
+-rw-------. 1 u0_a288 u0_a288  443606 Sep 16 10:42 /data/data/com.termux/files/home/.diaz_navarro_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1782570 Sep 20 16:00 /data/data/com.termux/files/home/.gadamer_raw.txt
+-rw-------. 1 u0_a288 u0_a288   11814 Sep 23 10:51 /data/data/com.termux/files/home/.garcia_casella_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1263102 Sep 23 10:51 /data/data/com.termux/files/home/.gonzalez_rodriguez_2001_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1034613 Sep 16 10:03 /data/data/com.termux/files/home/.hevner_raw.txt
+-rw-------. 1 u0_a288 u0_a288  500156 Sep 22 09:55 /data/data/com.termux/files/home/.huck_raw.txt
+-rw-------. 1 u0_a288 u0_a288  242903 Sep 23 12:15 /data/data/com.termux/files/home/.ifrs_annotated_2025_raw.txt
+-rw-------. 1 u0_a288 u0_a288  125150 Sep 23 12:16 /data/data/com.termux/files/home/.ifrs_s1_2023_raw.txt
+-rw-------. 1 u0_a288 u0_a288  120336 Sep 23 12:16 /data/data/com.termux/files/home/.ifrs_s2_2023_raw.txt
+-rw-------. 1 u0_a288 u0_a288  839100 Sep 18 12:28 /data/data/com.termux/files/home/.lakatos_metodologia_raw.txt
+-rw-------. 1 u0_a288 u0_a288  339408 Sep 18 12:17 /data/data/com.termux/files/home/.lakatos_raw.txt
+-rw-------. 1 u0_a288 u0_a288  363964 Sep 23 12:13 /data/data/com.termux/files/home/.mandelbrot_1975_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1258683 Sep 23 12:13 /data/data/com.termux/files/home/.mandelbrot_1982_raw.txt
+-rw-------. 1 u0_a288 u0_a288   55498 Sep 23 10:51 /data/data/com.termux/files/home/.merkle_1979_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1478433 Sep 23 12:16 /data/data/com.termux/files/home/.nias_2021_vol2_raw.txt
+-rw-------. 1 u0_a288 u0_a288  278586 Sep 23 12:16 /data/data/com.termux/files/home/.nias_2021_vol3_raw.txt
+-rw-------. 1 u0_a288 u0_a288  203361 Sep 23 12:15 /data/data/com.termux/files/home/.niif18_2024_raw.txt
+-rw-------. 1 u0_a288 u0_a288  137302 Sep 23 12:15 /data/data/com.termux/files/home/.niif18_kpmg_2025_raw.txt
+-rw-------. 1 u0_a288 u0_a288  732797 Sep 23 12:15 /data/data/com.termux/files/home/.niif1_2024_raw.txt
+-rw-------. 1 u0_a288 u0_a288 4144184 Sep 23 12:15 /data/data/com.termux/files/home/.niif_compilado_2026_raw.txt
+-rw-------. 1 u0_a288 u0_a288 5435605 Sep 23 12:16 /data/data/com.termux/files/home/.niif_peru_2025_raw.txt
+-rw-------. 1 u0_a288 u0_a288  846731 Sep 23 12:16 /data/data/com.termux/files/home/.niif_pymes_3ra_raw.txt
+-rw-------. 1 u0_a288 u0_a288   50079 Sep 23 10:51 /data/data/com.termux/files/home/.nist_fips_180_4_raw.txt
+-rw-------. 1 u0_a288 u0_a288 2569879 Sep 22 13:17 /data/data/com.termux/files/home/.pacioli_summa_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1362880 Sep 18 09:37 /data/data/com.termux/files/home/.popper_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1370505 Sep 18 12:53 /data/data/com.termux/files/home/.principios_raw.txt
+-rw-------. 1 u0_a288 u0_a288  904940 Sep 23 10:51 /data/data/com.termux/files/home/.progit_2014_raw.txt
+-rw-------. 1 u0_a288 u0_a288  767300 Sep 22 09:52 /data/data/com.termux/files/home/.reynoso_raw.txt
+-rw-------. 1 u0_a288 u0_a288 1296434 Sep 18 09:06 /data/data/com.termux/files/home/.rodriguez_raw.txt
+-rw-------. 1 u0_a288 u0_a288  339960 Sep 16 09:31 /data/data/com.termux/files/home/.romney_raw.txt
+-rw-------. 1 u0_a288 u0_a288 3573525 Sep 15 14:45 /data/data/com.termux/files/home/.sampieri_raw.txt
+-rw-------. 1 u0_a288 u0_a288 2432761 Sep 22 09:53 /data/data/com.termux/files/home/.sommerville_raw.txt
+-rw-------. 1 u0_a288 u0_a288  394009 Sep 22 19:01 /data/data/com.termux/files/home/.thain_compilers_raw.txt

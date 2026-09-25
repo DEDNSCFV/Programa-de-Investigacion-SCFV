@@ -1,0 +1,700 @@
+════ H1-G · loci faltantes · Thu Sep 24 21:52:16 -04 2026 ════
+
+════ I · fórmula general cuadrática · L27078-27200 ════
+Las ecuaciones literales de 2 grado pueden resolverse, como las m
+
+méricas, por la fórmula general o por descomposición en factores, En
+muchas ecuaciones literales la resolución por factores es muy rápida, mien-
+tras que por la Eórmula resulta mucho más laboriosa.
+
+| Ejemplos d _2
+
+[1! Resalver lo eouación — — — —=l.
+E
+
+Guitando deneminodores:
+
+307 — =
+Dar — d? =0
+
+Aplicando |
+
+HO a N
+
+E
+
+(Z] Resolver la ecuoción Tk? — dox + hx = ol
+
+Lo solvción de las ecueciones de este Sipo por la fórmula es bastante laboricsa,
+sin emborgo, por descomposición en factores es muy rápido.
+Paro resobver por factores se posan lodos los contidades al primer miembro
+de modo que quede cero en el segundo, Mái, en esta co50, irensponiendo
+Zcb, fememes:
+
+He — dox + hr 206 =0
+
+Descomponiendo el primer miembre [acior comón por agrupación!, se tfenel
+2 la — Ze |+ k (x —do =0
+
+a sen h= 20)[2x-+b]=0
+Igualendo a coro coda factor, eo fienc:
+5i x — 0=, x =0 u= ,
+|
+h H' 1 li
++ = N=—> | ==
+- EJERCICIÓO 270
+Resolver las ecuaciónes:
+l, E— A=D: 6. X a=. O aA
+A 0T== m 6, Det=abxI5a"0%. — 10 HOx—majpd4rtx— a=l
+S, AR aa =, T TE--Zabax=i0" 11, x2—"=bx=db=0.
+d. Eac - A E aa ed 1a, abat=(b—Laj=
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 227 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+454 1 ALGERRA
+
+13, x3—ax+ot—D3—f) 18, 4—Exomt2m. 25 = n—3x=
+E
+14, 4xix—6)+b*=4m5. 10 x?+mixim— D=Ol o -|1Í
+15. «-da—dax=0, - 20 De-Isee=BbrDab. - % 47 yTE
+ua X =e
+" = [ PEl re r v ray si NAA
+1. x*(a+2)x=—2a. as J0, = |-x ¿¡+¿"
+1. «*AQuid=de)=dño.. . — oy 2 2—7 Ea EE
+E d 6 x+5 - ab
+
+ECUACIONES INCOMPLETAS
+
+g Las ecuaciones incompletas de 2? prado son de la forma a? +e=0,
+
+que carecen del término en , o de la forma ax? 4 ha =0, que carecen
+del término independiente.
+
+© ECUACIONES INCOMPLETAS DE LA FORMA axr?+e=0
+51 el la ecuación ax?+c=0 pasamos c al 20 miembro, se tiene:
+
+A e, c
+sc e_ — AE eo
+- v a
+Si a y £ tienen el miemo signo, las raices son mmaginarias por ser la
+raiz cuadrada de una cantidad negaciva; si tienen signo distinto, las raíces
+son reales.
+A igual resultado se llega aplicando la fórmula general a esta ecuación
+
+¡¿.xº+c=r.: temendo presente que 6=0, ya que el término bx es nulo, Se
+en
+
+LEJEMP¡“3—I (1) Resolvor lo ecuación 12 +1=7+3,
+
+Ssuprimiendo denominadores: =A7
+Trariponiendo; y —
+DE= 16
+=
+Extreyendo la rofr cuadredo: Y=LY9
+== -
+
+Las dos raicos + 3 y — 3 son reoles y recionales.
+LZ) Resolvor la ecuación »2 -+5=7,
+Transponiendo y reduciondo: x2=9
+= a "l'í R
+
+Las dos raíces V7 y — v7 son rodles e frracionalas.
+
+—
+
+FCUACIÓNES DE ELGUMDÉ ORADO E 155
+
+(3) Resolver la ecuación 5% + 12= Ir
+
+Transponiendo: S= — M — 17
+2eE=— 92
+xE=—16
+
+Esxtrayoendo la raiz cuadrada: y =Y — 14
+
+y = V1 — E4in.
+
+Los dos raices son reagricarids.
+
+E- EJERCICIO 271
+
+Resolver las ecuaciones:
+
+EE g (2x—D)6e+9)-(x+4)(x—I+550,
+e 1 T
+T - —40, B ,
+
+════ II · suma de progresión aritmética · L29260-29320 ════
+© En toda progresión aritmética la suma de dos términos equidistantes
+de los extremos es igval a la suma de los extremos. — :
+Sea la progresión +id...---Mecerijpree=s- u, CUYO TAZÓN Es 7. SUPon-
+
+gimos que entre a y m hay 7 términos y Emtre py u también hay n térmi-
+nos, es decir, que m y f son términos equidistantes de los extremios, d y dl
+
+Vamos a demostrar que m pratus
+
+En efecto; Habiendo n términos entre a y m, al término m le prece-
+
+den n+41 términos (contando la e); luego, podemos escribir (465) que
+m=a+ a +1)r... 41
+
+Del propio modo, habiendo » términos entre f y 26 tendremos:
+u=p+ n+ ir: — (%
+
+Restando (2) de (1), temnemos: m - m (a
+== —fP-tm Dr
+
+[ M a=
+y pasando f al primer miembro de esta igualdad y a al segundo, queda:
+
+que era lo que queriamos demostrar.
+
+OBSERYACION
+
+Cuando el número de términos de una progresión aritmética es im-
+par, el 1érmino medio equidista de los extremos y por tanto, serún lo qué
+acabamos de demostrar, el duplo del término meédio será igual a la suma
+de los extremos.
+
+© DEDUCCION DE LA FORMULA PAÑA HALLAR LA SUMA DE LOS
+TERMINOS DE UNA PROGRESION ARITMETICA
+
+Sca la progresión +ait.0.....e..Lmi-4, que consta de n [érmifws.
+Designando por 5 la suma de todos los términos de esta progresidn,
+tendremos: EFE a EE
+y rambién: S=u:m+I-+......-Ee+Db Fd
+
+Sumando estas ipualdades, tenemos:
+2&=a+%+&&g%+&+$+……+$+á4&m+&+&+$»
+Ahora bien, todos estos binomios son iguales a (2+%) porque hemos
+demostrado en el número anterior que la suma de dos términos equidistar-
+tes de los extremos es igual a la suma de los extremos, y como hay tantos
+binomios como términos tiene la progresión, tendremos:
+
+a= |:r|u + ulo
+
+Ejemplos |
+
+PROGNESONES ARITMETICAS M 406
+
+(T) Hallorlo suma de los 12 primeros férminas de +7.13,19...,
+
+En la
+
+fórmula de la sumao entra y, Aquíar es el 19' termiro
+
+que no la CONGcEMOS. Vamos a Ihn||f:lrfu: -
+U=e:+1n=-1r=7-+[12=-116=7+[11)6=73
+
+════ III · suma de progresión geométrica ════
+
+════ IV · logaritmo de potencia y raíz ════
+
+0BC —
+
+Ahora bien: Si £ es el exponente
+a que hay que elevar la base para que
+de YA, % es el log de YA, luego,
+
+y como * =log A, queda:
+
+LOGARITMOS YULGARES
+
+'í4—9 Los logaritmos que usaremos en este curso elemental son los logarit-
+mos vulgares cuya base es 10,
+
+© PROPIEDADES PARTICULARES DE LOS
+LOGARITMOS YULGARES
+
+Observando la progresión
+
+1=1 AEE
+Te 102 = =0.01
+
+10 = 1000 10 =%=º'ºº1
+
+10 = 10000, ete, 10-" =%=B.EHJDL etc.
+
+se deducen Hcilmente las siguientes propiedades de los logaritmos de
+base 10
+
+1) En este sistema, los únicos números cuyos logaritmos son núme-
+ros emteros son las potencias de 10, Así,
+
+log 1=1 log 0.1=—1.
+
+log 10=1 log 0.01=—.
+
+log 100=5 log 0.001=—9,
+
+log 1000 =5 log 0.0001=—4, etc,
+
+log 10000=1, etc.
+
+" 5
+htas A
+
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 256 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+612 E ALGERRA
+
+2 ) El log de tedo número que na sea ua potencia de 10 noes un
+mimero cntero, sino nn fracción propia o 0n número entero más nma
+fracción propia.
+
+En efecto: Como log 1= 0 y log 10=1, los números comprendidos en-
+tre 1 y 10 tendrán un los mayor que 0 y menor qué 17 Juego, su log será
+una fracción propia
+
+Ási, log 2= 0.201080.
+
+Cano lor 10=1 y log 100=2, los números comprendidos entre 10 y
+100 tendrán un log mayor que 1 y menor que 2; luego, su log será 1 más
+ua fracción propiik
+
+Asi, log 15=1+ 0176091 =1,176091.
+
+Como log 100 =2 y lag 1000 =8, los números comprendidos entre 100
+y 1000 tendrán un log mayor que 2 y menor que 45 luego, si log será 2 más
+una fracción propia.
+
+Asi, lag 504=2 + 0751279 =2.751279.
+
+El logaritmo de un número comprendido entre 1000 y 10000 serí %
+más una fracción propia.
+
+Asi, log 1254 =4 0091515 — 3.041815,
+
+Del prepio modo, como lag 1==0 y log 0.1 ==1, los números compren-
+didos entre 1 0.1 cendrán un Jogaritmo mayor que — 1 y meñor que cero:
+
+luego, s logaritmo será —1 más una Fracción propia. Así. lag 0.56=—1
++ 0698070 — T696970, (/Se pone el signo — encima de 1 para indicar que lo
+|;]||_|;; Es nug¡|_|i1¡¡¡ és la Parec ENteTa, l:|£|'|_': no la pal'ti: dL1.'ÍI]]¡'I.|ÍI. .
+
+Como log 0.1= =1 y log 0.01=—2, los números comprendidos entre
+Ñ4 y 001 cendrán un log mayor que —2 y menot que —1; luego, su log
+será — 2 más una fracción propia.
+
+Asi, lag 008 = — 2 + 0908090 = 2.909090.
+
+El lor de an número comprendido entre 0.01 y 0.001 será mayor que
+— 8 y menor que —%; luego, será — 3 más una fracción propia; el log de tin
+número comprendido entre 0.001 y 0.0001 será mayor que —4 y menor
+que — %; huego, será —4 más una fracción propia, etc.
+
+489) CARACTERISTICA Y MANTISA
+
+Acabamos de ver que el log de todo mimero que no sea una potenicia
+de 10 consta de una parte enterá y tina parte decmnal. La parte entera 36
+llama característica, y la parte decimal, mantisa.
+
+J"I.5-[,
+enlog 25 =1.307M0 la característica es 1 y la maneisa 1047510
+en log 4125 =4.61044 la característica es - y la mantisa 0.6154:4)
+
+en log — 0.00=2.694970 la característica es + y la mentis 160070
+
+Lecacirmos M DÍS
+
+La mantisa siempre es positiva, pero la característica puede ser cero
+si el número está comprendido entre 1 y 10; positiva, si el número es mi:
+yor que 10 o negativa si cl número es menor que 1.
+
+Las potencias de 10 sólo tienen característica; si mantisa és 0.
+
+430| YALOR DE LA CARACTERISTICA
+
+En virtud de lo anterior, podemos decir quer
+
+N La característica del loraritmo de un número comprendido entre
+1 y 10 es cera.
+
+2) La característica del logaríimo de an número mayor que 10 es po-
+sitiva y Sr valor absoluto es 1 menos que el número de cifras enteras del
+miámero. Así, 34 nene dos cifras enteras y la característica de su log €s 17
+S2 tiene *tres cifras emteras y la característica de su log es 2; 1215.65 tiene
+enatro cifras cmteras y la característica de su lofg es 4
+
+D La característica de un número menor que 1 es negativa y si valor
+absoluto es 1 más que el número de ceros que hay entre el punto decimal
+y la primera cifra significativa decimal.
+
+Asi, la característica de log 0.5 es — 1; la de log 0.07 es —%; la de log
+D.OU55 es — d, eo
+
+|:49l CARACTERISTICAS HEGATIVAS
+— En el log de un número menor que 1 la característica es negativa, pero
+la mantisa €s positiva.
+
+Así, log 0.5=—1+0.698970. Estc log no puede escribirse — 1.698970,
+pues esto indica que tanto la característica como la mantisa son negativas,
+El modo correcto de escribirlo, indicando que sólo la caracteristica es nes
+gativa, es 1.699970.
+
+Del propio modo, log 004 =2+ 0477191 = 2,477121,
+
+(492) COLOGARITMO. SU USO
+— Se llama cologaritmo de un número al logaritmo de si inverso.
+Asi, €l cologaritmo de 2 es él logaritmo de —, el cologaritmo de 54
+N 1 ;
+
+════ V · sistema por sustitución y reducción · L19400-19550 ════
+
+—96—24 - 3y =19
+— 20y — Ay =19+96
+— Ey = 115
+=,
+Sustituyendo y =— 5 en cualquiera de las ecnaciones dadas, por ejem-
+
+plo en (1) sc ciene:
+
+2x+5H-5)=- i
+=4 ,f“º -
+a=1 u
+E=—
+z
+
+VYERIFICACION
+
+Haciendo x =4, y =— 15 en las dos ecuactones dadas, ambas se convier-
+ten en identidad.
+
+E  EJERCIGIO 177
+
+Resolver por  suwetitución:
+
+x — x—Iy=6. Ta-H =D
+1 353—-9;-=13. 4 ']_-?.—:+3:p=25_ " %—m;.u—4,¿=_'¡_
+E ls l 4 - Gl 1 Ibx-+11y=33 d— Ty=10.
+yi E—º"º+*f"=—'-3º- s %T:v—9x=s- : %1ñx-l—-1f!:r'=l.
+y+Ix=6. INx+18y=—11. —y +11x=—163.
+e ;H.'c—.f]].l=—"|'?. B 6x-—dy==, La í--Ex-l-'?:.¡=£k].
+
+LEMACIONES SIMULTAHEAS CON POL INCOGHITAS — 343
+Hi. METODO DE REDUCCIÓON
+
+de l dy = 0 11
+© Resolver el sistema ] dx -dy =— 23 1)
+
+_ L
+En este método se hacen iguales los cocficientes de una de las incog-
+nitas
+
+Vamos a igualar los coeficientes de y en ambas ecuaciones, porque cs
+la mis sencillo.
+
+El m.c.m. de los coeficientes de y, 6 y + €s 6.
+Multiplicamos la segunda ecnáción por $ porque
+2xX =, y cendremos:
+
+5x+ 0y= 20
+Como los coeficiemes de y que hemos ipue- Bx —Gy = de
+lado tenen signos distintos, se stiman estas ectra- an =
+ciones porque con ello se eltmina la s dl a
+— ul
+13
+Sustituyendo x = — en cualquiera de las ecuaciones dadas, por ejem-
+|r|r:| en (1) 50 dcne! 50234 6y =20
+= =! o
+10 + fy =20 R dN=€
+Gy =S Y
+y=5
+= - H - .. JI = E (1)
+(íEj Resolver el sisterma | Bx—l6y=-1. (9)
+
+Vameos a igualar los coeficientes de x, El mc m.
+de 10 y B es 40 multiplico la primera ecuación por 4
+porque 4 10=40 y la segnnda por 5 porque 5 8=40,
+y tendremos:
+
+Como los coeficiemes que hemos igualado ME
+tenen signos iguales, se restan ámbas ecuaciones __JI_E,:'_£'|1TEL= a
+y de ese moda se elimina la X, Cambiando los 1y =47
+signos a una cualquiera de ellas, por ejemplo a -A
+la segniricla, Eemeros: — a ÓTE E
+
+Sustituyendo y=1 en (2), rememos:
+
+1
+Br—15/ =) =—1
+E A |
+
+Be= d R
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 162 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+1724 A aLGmeas
+
+El méroda expuesto, que es el más expedito, seama también de surmi
+o resta porque según se ha visto en los r.jc;mpl-ua anteriores, si los cocficien-
+teá que se igualan tienco signos distintos sc suman las dos ectaciones Y si
+tienen signos iguales, sc Testan.
+
+Es indiferente irualar los coeficientes de x a de y
+igualan aquéllos en que la operación sea más sencilla.
+
+Ceneralmente 36
+
+De EJERCICIO 176
+
+Resolver por suma o Tésta;
+
+== 10x—3y=46, 199 14y=20.
+1 |4x-9y=18. Iyty=—4. 18y—ldr=—19.
+
+PTE—15=1. 11x—H 15x— =.
+2 |-a0p=, 6. j[].—h 1]'.¿,——-2 10- 319::+'5;.-=z+r5.
+y ed 194 +5y=—11. d0x—11y=-L.
+%| x+6y=47. 19x-411y=31. 1E 194x-17y=10.
+d Bx +y 16 8 Jx+Ty=—: L TEx—1ry=10M.
+-| Gx—6y=—14 = (11x—18y=—48: 14 7 16x+19=-91.
+
+a RESOLUCION DE SISTEMAS NUMERICOS DE DOS
+ECUACIONES ENTERAS CON DOS INCOGNITAS
+
+Conocidos loes métodos de elimtinacion, iesobveremios sistemmas en Equer
+antes de eliminar hay que simplificar las ecuaciones.
+
+l Resolver el sistema E h:| A
+f 2— = Xy +4,
+Suprimiendo los signos de apropación: ]' - _íi :I;h:21:;113
+E ! . y Bx— 4y — Dy + = 1846
+Franspomiendo: <Í Ae i
+Reduciendo rérminos semejantes: E IIÍ -—I- E; í a í£
+Dividiendo la la. ecuación por 4 :: _i Iq; : _? a
+2— dy =f
+Vameos a jgualar los encficientes de y, Multiplicamos — 3X+375= 1
+la segunda ectación por 4 y sumamos: EE = 16
+x= b
+Sustituyendo x =4 en (1h se tiene:
+day=7 [E=3
+y=d. E aR
+
+ECUACIONES EMAULTARNEAS COMN-D05 - IMCOGAHITAS
+
+S, Ecsrlver el sistera
+
+Efectuando las operaciones indicadas: 4
+
+'1'1-nnspmni:rnd
+
+Reduciendo:
+
+Dividiendo por 4 la 2a, ecuación:
+
+Multiplicando la la. ecuación
+
+por 4 y la a. por 6:
+
+Cambiando signos a la la, ecuación:
+
+Sustituyendo y= -d en (1)
+
+════ VI · radical · propiedades completas · L23600-23800 ════
+— = — eA R
+
+,
+
+- h-
+15) Hallar la raíz cuadrado de $.
+
+Cuando el monomio es uno fracción, como en ése coso, so extrac la raíz
+al numerador y denominador,
+=
+
+[ a E T )
+
+e TD
+
+BRI1
+61 Hallar Ja raíz cúóbica de —
+
+tr E s
+B- EJERCICIO 413
+
+Hallar las siguientes raices:
+1. y 403 13. Y E4nT5INS0, 7/ 188
+
+4 STAIA, 15. $a,
+
+F TE ME M [ — I:,¡¡!¿|n.
+— a ! a- S, .| ; =
+. U4¡F:F:úl dik- 1/¿:…—¡ E 183y
+
+n
+
+yTU — —
+Ad , PE D. A
+Y a TR SIA, 17. 4/—_Ei"| " 201
+
+= 2 a 2 E
+F
+E
+=
+-
+be
+=
+=
+e
+í
+
+7
+
+D. — 18. 17._ ru n 1/_º_+.
+11. 4 TM071, . ENE e a
+12 4 ia ' AlimetT" . Tey -
+
+RALE CUADEADA e 173
+
+H RAILZ CUADRADA DE POLIMOMIOS
+
+RAIZ CUADRADA DE POLINOMIOS ENTEROS
+
+Para extraer la taiz cuadrada de un polinomio se aplica la signiente
+regla práctica:
+
+1) Se ordena el polinomio dado,
+
+— %) Sc halla la raíz cuadrada de su primer término, que seri el primer
+termino de la raíz cuadrada del polimomio; se eleva al cuadrado esta raís
+y se resta del polinomio dado.
+
+5) Se bajan los dos términos siguientes del polinomio dado y se diví-
+de el primero de éstos por el duplo del primer término de la vaíz. El co-
+ciente es el segundo rérmino de la raíz, - Este 20. rérmino de la raiz con su
+propio signo se escribe al lado del duplo del primer término de la raíz v
+se forma un binomio; este binomio se multiplica por dicho 20 término y
+el producto se resta de los dos términos que habiamos bajado.
+
+11 Sebajan los términos necesarios para tener 4 términos. Se duplis
+la parre de raiz ya hallada y se divide el primer término del residuo entre
+el primero de este duplo. El cociente es el der, término de la raíz.
+
+Este 3er, término, con sa propio signo, st escribe al tado del duplo
+dé la parte ae raír hallaeda y sc forma n crimcmin; este criromio s ii
+plica por dicho der. término de la míz y el producto se resta del residuo,
+
+5) Se cominúa el procedimiento anterior, dividiendo siempre el pri-
+mer término del residuo entre el prmer término del duplo de la parie de
+raiz hallada, hasta obtener residun cero.
+
+1T Hallar la rolz cuedrada de a* -+ 290% — N* — 0o d
+Ordenonda el polinamío sc ebliena:
+
+Ejemplos
+
+V gi— 10a*F 290%- 200- 4| 0?— Se +7
+E [ 20 -- 5a) -- 80)= — 1009 -+ 250*
+— 100 299%
+
+1007—- 250" (20%— 100 4+2)2= 407 700 44
+
+d— 200 — A
+
+— de*+ M 4
+
+Ú
+EXPLICACIÓN
+
+Hollamos la ralr cuadrada de o* qué es % este és el primes término de la
+raíz del polinómia. a” 50 eevo al cuedrado y de o%; esfo cuadradoe se nes
+la del primer términa del polimamio y bajamos lei dos dérmines siguientes
+— 100" + 2707 - Hallamos el duplo de o* que ei 707%,
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 197 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+30 -
+
+ALGTER A
+
+Dividimos — 1095 — 20 = — 5a, este es el segundo dérmino de la reiz. - Es-
+cribimos — 5a al lada de 2a? y formamos el binomia Za? — 50 oste binomio
+lo multiplicamos por — S0 y nos da -- 1095 + 250%, - Este pmdu:ln_1n restamos
+[combiándole los signes) de — 1009 + 770% la diferencia es 0%  Bojomos
+los dos términos siguientos y tenemos d? — 2a +4, Se duplica la parie de
+raiz hallada 7 | a? — Sa|=9a" — 100. Dividimos do? + 20% =7 esto es el
+Jercer dermino de la roiz.
+
+Este ? 5e escribo al lado de 295 — 106 y formames el rinomic 207 — 109 + 7,
+que se multiplica por 2 y nos do 40 — Ma +4. Este producto se resta | com-
+bióndole las signos) del residuo do* — 200 + 4 y nos de O
+
+PRUEDA
+
+Sc alevo al cuadrado la raiz cuadrado a5 — do +7 y si la eperoción está co-
+recta debo dor la contidad- subradical
+
+[ 2) Haltar to ralz cuadrada de
+
+Pf He + d — dl 2044 + 2? — lén,
+Ordenendo el pelinomio y aplicando la regla daca, se lhene:
+A — 6P aaa - 202 — 20xE — lóx 44
+M ¡ — (=
+
+— AE ;
+— [á — 20 aaj
+
+yE— yT d Y
+
+eA
+
+2a — 20x? — 20R?
+— — Ef — 16 ré
+127 — del —láx +4
+
+123 — 4 +léx —d
+
+ZBy7 || A
+
+14
+
+=17l — 4l —lón —A
+
+RAIZ CLADRADA a 305
+© RAIZ CUADRADA DE POLINOMIOS COM
+TERMIMIOS FRACCIONARIOS
+Ejemplos
+, a 8odk: E
+U N MoNara o auadiada: de p EO EE
+TE D E ZE TA
+
+Ordenando en ceden descendente con relación a la a, y aplicendo la mismeo
+regla del cosó anteriór, lenemos:
+
+-
+
+r D hE
+Fa 0% AaShe Ae AA ñ :
+y U
+1a 2 10 E = z
+uI = En ".
+o a E F
+- — |:_'2—_ I:ij == |:l_-| EO
+A |
+(a * h5 ñ
+- Ln——?nb—_1|.[__"l=_£+g—uh_ !
+h a z = -
+í . u6 |
+
+— ee 206
+10 5 25
+Za
+
+10 5 E
+
+E- EJERCICIÓO 414
+Aallar la roíz cuadrada de
+
+2400y 1. 40%490b—da?bt—19ab4--.054,
+
+— Ta Ea LA, Nn l1I +0a—x7.
+
+ha d dxE1; 15. 5x-—6x5+x"-+16x—Ex*-— Ad
++6a2-+da1Ti-+90, d R Oxt—Bx* 101 2dat+d0=?— 10025

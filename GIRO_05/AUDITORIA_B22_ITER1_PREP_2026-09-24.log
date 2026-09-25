@@ -1,0 +1,346 @@
+=== B22 · preparación Iteración 1 · 2026-09-24 ===
+
+════ PARTE I · el acto declara fractalidad ════
+--- Acto 2 §2-ter · articulación ---
+### §2-ter · Los tres operadores
+
+La fractalidad escalante acotada al dominio contable no opera con un
+solo operador. Opera con tres, iterados en cascada.
+
+    Dogma       ↔ XNOR              · la ley que se sostiene
+    Disciplina  ↔ Baldor            · cómo se calcula el monto
+    Economía    ↔ Motor epistémico  · qué se materializa
+
+Anclaje Rodríguez §2.1 (raw L1312–1314):
+
+> "Toda operacion se funda en un Dogma,
+>  se rige por una Disciplina propia del Dogma,
+>  y se ejecuta con una Economía propia de la Disciplina."
+
+Correspondencia propuesta:
+
+    Dogma      · XNOR     · decide ubicación DEBE/HABER (U = N ⊙ M).
+    Disciplina · Baldor   · calcula el monto aritmético.
+    Economía   · Motor    · materializa el asiento (efecto físico).
+
+Los tres son iterados en cascada contable:
+
+    partida → asiento → período → consolidación.
+
+En cada nivel, los tres operan con la misma estructura.
+
+**Nota de estatuto.** Esta articulación de tres operadores es
+propuesta del Giro 05. No tiene canon directo en el corpus
+(verificado por falsación material: greps vacíos de "Dogma.*XNOR",
+"Disciplina.*Baldor", "Motor.*Economía", "tres operadores").
+
+Coexiste con la correspondencia IPVE declarada en
+`04_ipve_operacionalizado.md` §2.3:
+
+    Dogma → I · Disciplina → V · Economía → E · Operación → P
+
+Los dos mapeos son ortogonales:
+    - IPVE clasifica la aplicación en letras epistémicas.
+    - Los tres operadores ejecutan la aplicación.
+
+---
+
+## §4. No-borrado
+
+Conforme al principio de no-borrado (SCFV-L §14) y a la advertencia
+de Mandelbrot:
+
+> Mandelbrot 1982, L278:
+> "a menudo tan arraigado que no se borra fácilmente con una
+
+--- Acto 2 §2-bis · cualificadores ---
+### §2-bis · Cualificadores del término
+
+El término "fractalidad" en `FRACTALIDAD_ACOTADA.md` se cualifica
+mediante cuatro adjetivos. Cada uno tiene fuente verificable.
+
+**ESCALANTE**
+- Fuente · Mandelbrot 1982, L767-773.
+- Cita · "En la expresión compuesta fractal escalante, el
+  adjetivo suaviza el significado del sustantivo."
+- Significado · autosimilitud funcional laxa, no geométrica exacta.
+
+**ACOTADA**
+- Fuente · propio del corpus.
+- Cita · FRACTALIDAD_ACOTADA.md §3, §9.
+- Significado · restringida al dominio contable.
+- Distinción · no confundir con "acotado" en sentido métrico
+  (Mandelbrot 1975 L3863 · "contenido en una bola finita").
+
+**EN CASCADA**
+- Fuente · Mandelbrot 1975, L732, L746, L1392.
+- Cita · "Dos conceptos intuitivos esenciales: homotecia interna
+  y cascada" (L732).
+- Significado · proceso generativo iterado.
+
+**FUNCIONAL**
+- Fuente derivada · Mandelbrot 1982, L9482.
+- Cita · "no de una operación que se realiza, luego se repite, etc.
+  Esas funciones iteradas son..."
+- Significado · opera sobre funciones, no sobre formas geométricas.
+
+Formulación completa adoptada:
+
+> Fractalidad **escalante**, **acotada** al dominio contable,
+> **en cascada**, **funcional**.
+
+---
+
+### §2-ter · Los tres operadores
+
+════ PARTE II · XNOR operativo ════
+-rw-------. 1 u0_a288 u0_a288 2375 Sep 11 22:37 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/xnor.py
+"""
+XNOR contable — fuente única del axioma de cargo/abono.
+
+Tres representaciones equivalentes de la misma regla estructural:
+
+    1. Booleana  : tabla cerrada de 4 combinaciones
+    2. GF(2)     : 1 ⊕ n ⊕ m  (1 → DEBE, 0 → HABER)
+    3. Signos    : χ(n) · χ(m)  (+1 → DEBE, −1 → HABER)
+
+Codificación:
+    DEUDORA   → 1 / +1
+    ACREEDORA → 0 / −1
+    AUMENTA   → 1 / +1
+    DISMINUYE → 0 / −1
+
+Ninguna de las tres reemplaza a las otras: son tres vistas del mismo
+invariante. La coincidencia entre ellas se verifica por test.
+"""
+
+NATURALEZAS_VALIDAS = ("DEUDORA", "ACREEDORA")
+MOVIMIENTOS_VALIDOS = ("AUMENTA", "DISMINUYE")
+
+_TABLA = {
+    ("DEUDORA",   "AUMENTA"):   "DEBE",
+    ("DEUDORA",   "DISMINUYE"): "HABER",
+    ("ACREEDORA", "AUMENTA"):   "HABER",
+    ("ACREEDORA", "DISMINUYE"): "DEBE",
+}
+
+_N_A_GF2 = {"DEUDORA": 1, "ACREEDORA": 0}
+--- funciones exportadas ---
+37:def _validar(naturaleza: str, movimiento: str) -> None:
+50:def ubicacion_booleana(naturaleza: str, movimiento: str) -> str:
+56:def ubicacion_gf2(naturaleza: str, movimiento: str) -> str:
+63:def ubicacion_signos(naturaleza: str, movimiento: str) -> str:
+
+════ PARTE III · SCFV_DSR · estructura ════
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/leer_eventos_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/normalizar_partidas_para_saldos.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/test_soporte_minimo.py
+/data/data/com.termux/files/home/SCFV_DSR/README.md
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_grammar_lalr.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_compatibilidad_s0.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_contract_def.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_invariant_def.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_asiento_declarado_def.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/README.md
+/data/data/com.termux/files/home/SCFV_DSR/dsl/grammar.lark
+/data/data/com.termux/files/home/SCFV_DSR/dsl/parser.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/README.md
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/README.md
+--- dsl/ ---
+total 45
+drwx------. 6 u0_a288 u0_a288  3452 Sep 22 20:18 .
+drwx------. 6 u0_a288 u0_a288  3452 Sep 24 12:32 ..
+drwx------. 3 u0_a288 u0_a288  3452 Sep 22 20:02 .pytest_cache
+-rw-------. 1 u0_a288 u0_a288  3934 Sep 22 20:01 README.md
+-rw-------. 1 u0_a288 u0_a288     0 Sep 22 20:01 __init__.py
+drwx------. 2 u0_a288 u0_a288  3452 Sep 22 20:03 __pycache__
+drwx------. 2 u0_a288 u0_a288  3452 Sep 22 20:18 ejemplos
+-rw-------. 1 u0_a288 u0_a288  1841 Sep 22 20:01 grammar.lark
+-rw-------. 1 u0_a288 u0_a288 12894 Sep 22 20:03 parser.py
+drwx------. 3 u0_a288 u0_a288  3452 Sep 22 20:02 tests
+--- ejemplos/ ---
+total 23
+drwx------. 2 u0_a288 u0_a288 3452 Sep 22 20:18 .
+drwx------. 6 u0_a288 u0_a288 3452 Sep 22 20:18 ..
+-rw-------. 1 u0_a288 u0_a288  176 Sep 22 20:18 ejemplo_asiento.scfv
+-rw-------. 1 u0_a288 u0_a288  262 Sep 22 20:18 ejemplo_contrato.scfv
+-rw-------. 1 u0_a288 u0_a288  453 Sep 22 20:18 ejemplo_integrado.scfv
+-rw-------. 1 u0_a288 u0_a288  269 Sep 22 20:18 ejemplo_invariante.scfv
+--- tests/ ---
+total 31
+drwx------. 3 u0_a288 u0_a288 3452 Sep 22 20:02 .
+drwx------. 6 u0_a288 u0_a288 3452 Sep 22 20:18 ..
+-rw-------. 1 u0_a288 u0_a288    0 Sep 22 20:02 __init__.py
+drwx------. 2 u0_a288 u0_a288 3452 Sep 22 20:02 __pycache__
+-rw-------. 1 u0_a288 u0_a288  389 Sep 22 20:02 test_asiento_declarado_def.py
+-rw-------. 1 u0_a288 u0_a288  598 Sep 22 20:02 test_compatibilidad_s0.py
+-rw-------. 1 u0_a288 u0_a288  818 Sep 22 20:02 test_contract_def.py
+-rw-------. 1 u0_a288 u0_a288  287 Sep 22 20:02 test_grammar_lalr.py
+-rw-------. 1 u0_a288 u0_a288  453 Sep 22 20:02 test_invariant_def.py
+
+════ PARTE IV · FRACTAL NIC · ¿existe? ════
+/data/data/com.termux/files/home/scfv_v6/normas/internacionales/NIC/NIC_29.json
+/data/data/com.termux/files/home/fractal_40_tetrada.py
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md.bak_fase5
+/data/data/com.termux/files/home/scfv_v6/SCFV_ECOSISTEMA/DOMINIOS/__pycache__/base_fractal.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/base_fractal.py
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/__pycache__/base_fractal.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6_backup_20260830/src/fractals
+/data/data/com.termux/files/home/scfv_v6_backup_20260830/src/fractals/base_fractal.py
+/data/data/com.termux/files/home/scfv_v6_backup_20260830/src/fractals/__pycache__/base_fractal.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_ENTREGABLE/src/fractals
+/data/data/com.termux/files/home/SCFV_ENTREGABLE/src/fractals/base_fractal.py
+/data/data/com.termux/files/home/prueba_instalacion/scfv_v6/src/fractals
+/data/data/com.termux/files/home/prueba_instalacion/scfv_v6/src/fractals/base_fractal.py
+/data/data/com.termux/files/home/scfv_entregable/DOMINIOS/base_fractal.py
+/data/data/com.termux/files/home/prueba_scfv/DOMINIOS/base_fractal.py
+/data/data/com.termux/files/home/prueba_scfv/DOMINIOS/__pycache__/base_fractal.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_github/DOMINIOS/base_fractal.py
+/data/data/com.termux/files/home/scfv_github/DOMINIOS/__pycache__/base_fractal.cpython-313.pyc
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+
+════ PARTE V · motor contable · API ════
+-rw-------. 1 u0_a288 u0_a288 11353 Sep 12 20:06 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py
+19:class MotorContable:
+20:    def __init__(self, db_connection, pcu: Dict, moneda_funcional: str = "VES", verificador: Optional[VerificadorAutorizacion] = None):
+
+════ PARTE VI · EventStore · evento id=1 ════
+CREATE TABLE event_store (
+                id INTEGER PRIMARY KEY,
+                tipo_evento TEXT NOT NULL,
+                payload TEXT NOT NULL,
+                correlation_id TEXT NOT NULL,
+                idempotency_key TEXT UNIQUE NOT NULL,
+                hash_previo TEXT NOT NULL,
+                hash_actual TEXT NOT NULL,
+                timestamp INTEGER NOT NULL,
+                version_contexto TEXT
+            );
+CREATE TRIGGER actualizar_decisiones_h2
+AFTER INSERT ON event_store
+WHEN NEW.tipo_evento = 'ASIENTO_REGISTRADO'
+BEGIN
+    INSERT INTO proyeccion_decisiones_h2 (
+        evento_id,
+        asiento_id,
+        correlation_id,
+        justificacion,
+1|ASIENTO_REGISTRADO|{"id": "372bed8b-158c-4083-8a81-4037c5d39ac6", "partidas": [{"cuenta": "110101", "naturaleza": "DEUDORA", "movimiento": "AUMENTA", "monto": 1000.0, "moneda": "VES"}, {"cuenta": "410101", "naturaleza": "ACREEDORA", "movimiento": "AUMENTA", "monto": 1000.0, "moneda": "VES"}], "total_debe": 1000.0, "total_haber": 1000.0, "evidencia": {"factura": "FAC-001", "rif": "J-12345678", "monto": 1000.0, "fecha": "2026-09-01", "tipo": "venta", "producto": "PROD-A", "cantidad": 2, "costo_unitario": 500.0}, "normas_aplicadas": ["LIVA_Art4", "NIC_29"], "conflictos": [], "justificacion_h2": null}|2c3cb784-6b9d-483f-920f-1d1f2bcb3fb1|ebc2ce3245ef5ad69e1004e842a6b473c99b81ac96fa01122154e65d95eadca8|0000000000000000000000000000000000000000000000000000000000000000|60cd7015f4d8a1086e8b673fb78fb47d78f759689250d3d35451e971f5624296|1788315559|{"V_NORMATIVO": "1.0", "V_REGLAS": "1.0", "V_MOTOR": "8.1", "hash_normas": "ccc53153185019adc220b14ec55e10adc8e0c47b1c24f8d46a6c90e240db318a", "version_perfil": "e258ca53299de54c6723d8c0d6d03ea69c9bcc43286a29b5e15877dac3fa753b"}
+10|1|10
+
+════ PARTE VII · escalas contables en el corpus ════
+--- partida ---
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:45:- E₁ = línea o partida individual
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:46:- E₂ = asiento (conjunto de partidas)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:52:- S(E₁) = una partida `(cuenta, monto, signo, interno)`
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:53:- S(E₂) = un asiento (lista de partidas)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:160:**Transformación.** `T_agregación`: concatenar partidas de los cuatro
+--- asiento ---
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:46:- E₂ = asiento (conjunto de partidas)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:47:- E₃ = período (conjunto de asientos)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:53:- S(E₂) = un asiento (lista de partidas)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:54:- S(E₃) = un período (lista de asientos)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:76:    T_agregación:   S(E₂) → S(E₃)      (concatenar asientos en período)
+--- período / periodo ---
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:47:- E₃ = período (conjunto de asientos)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:54:- S(E₃) = un período (lista de asientos)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:76:    T_agregación:   S(E₂) → S(E₃)      (concatenar asientos en período)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:161:asientos en un período.
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:165:    Σᵢ V(A_i) == V(período)   componente a componente
+--- consolidación ---
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:35:- Aplicabilidad a toda consolidación contable real.
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:48:- E₄ = consolidación (unión de dos o más entidades del grupo)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:77:    T_consolidación: (S(E₄_A), S(E₄_B)) → S(E₄_grupo)   (eliminar internos)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:131:- consolidación contable real con reglas NIIF completas;
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:175:### 4.2 Experimento 2 — consolidación con eliminación (H6.10-c)
+
+════ PARTE VIII · parser SCFV_DSR ════
+"""
+SCFV_DSR — Parser ADL-SCFV
+Extiende SCFV S0 v7.2 (parser.py, hash eebba48b…) para reconocer
+CONTRATO, INVARIANTE y ASIENTO_DECLARADO.
+"""
+import lark
+from pathlib import Path
+from typing import Dict, List, Any
+
+
+class SCFVParser:
+    def __init__(self):
+        grammar_path = Path(__file__).parent / "grammar.lark"
+        with open(grammar_path, "r") as f:
+            grammar = f.read()
+        self.parser = lark.Lark(grammar, start="start", parser="lalr")
+
+    def parse_file(self, filepath: str) -> Dict[str, Any]:
+        with open(filepath, "r", encoding="utf-8") as f:
+            text = f.read()
+        try:
+            tree = self.parser.parse(text)
+        except lark.exceptions.UnexpectedInput as e:
+            raise SyntaxError(f"Error de sintaxis en {filepath}: {e}")
+        return self._transform_tree(tree)
+
+    def parse_string(self, text: str) -> Dict[str, Any]:
+        try:
+            tree = self.parser.parse(text)
+        except lark.exceptions.UnexpectedInput as e:
+--- grammar ---
+start: (contexto_def | mandante_def | booleano_def | tetrada_def | fractal_def | contract_def | invariant_def | asiento_declarado_def)*
+
+contexto_def: "CONTEXTO" ":" assignment+
+mandante_def: "MANDANTE" ":" assignment+
+booleano_def: "BOOLEANO" ":" booleano_item+
+booleano_item: NAME "=" value
+tetrada_def: "TETRADA" ":" tetrada_item+
+tetrada_item: NAME "=" value
+
+fractal_def: "FRACTAL" NAME "DOMINIO" "CONTABLE" ":" rule+
+rule: "REGLA" NAME ":" condition "ENTONCES" action+
+
+contract_def: CONTRATO NAME OBJETO ":" NAME [PRE ":" expr] [POST ":" expr] INVARIANTE ":" NAME+ ELEMENTO ":" NAME+ [EVIDENCIA ":" NAME+]
+invariant_def: INVARIANTE NAME OBJETO ":" NAME EXPRESION ":" expr DOMINIO ":" NAME SATISFACCION ":" expr VERIFICACION ":" NAME EVIDENCIA ":" NAME+
+asiento_declarado_def: ASIENTO_DECLARADO NAME ":" NAME+
+
+CONTRATO: "CONTRATO"
+OBJETO: "OBJETO"
+PRE: "PRE"
+POST: "POST"
+INVARIANTE: "INVARIANTE"
+ELEMENTO: "ELEMENTO"
+EVIDENCIA: "EVIDENCIA"
+EXPRESION: "EXPRESION"
+DOMINIO: "DOMINIO"
+SATISFACCION: "SATISFACCION"
+VERIFICACION: "VERIFICACION"
+ASIENTO_DECLARADO: "ASIENTO_DECLARADO"
+
+condition: "SI" expr ((AND_OP | OR_OP) expr)*
+?expr: comparison
+?comparison: arith (COMPOP arith)?
+?arith: term (ADDOP term)*
+?term: factor (MULOP factor)*
+?factor: NUMBER | STRING | BOOLEAN | NAME | list_value | "(" arith ")" | "-" factor
+
+list_value: "[" [value ("," value)*] "]"
+value: NUMBER | STRING | BOOLEAN | NAME | list_value
+
+action: assignment | generate
+
+════ PARTE IX · tests SCFV_DSR y motor ════
+--- SCFV_DSR tests ---
+..............                                                           [100%]
+14 passed in 1.70s
+--- motor tests (invocación canónica) ---
+........................................................................ [ 94%]
+.............                                                            [100%]
+228 passed, 1 skipped in 3.15s
+
+════ PARTE X · BUILD pendiente (prompt §17) ════
+--- xnor.py en SCFV_DSR? ---
+no está · pendiente BUILD
+--- conexión parser→motor? ---
+no hay conexión motor · pendiente

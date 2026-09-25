@@ -1,0 +1,369 @@
+=== B29 · invariantes candidatos + escalas SCFV_DSR · 2026-09-24 ===
+════ I · XNOR · estructura interna ════
+"""
+XNOR contable — fuente única del axioma de cargo/abono.
+
+Tres representaciones equivalentes de la misma regla estructural:
+
+    1. Booleana  : tabla cerrada de 4 combinaciones
+    2. GF(2)     : 1 ⊕ n ⊕ m  (1 → DEBE, 0 → HABER)
+    3. Signos    : χ(n) · χ(m)  (+1 → DEBE, −1 → HABER)
+
+Codificación:
+    DEUDORA   → 1 / +1
+    ACREEDORA → 0 / −1
+    AUMENTA   → 1 / +1
+    DISMINUYE → 0 / −1
+
+Ninguna de las tres reemplaza a las otras: son tres vistas del mismo
+invariante. La coincidencia entre ellas se verifica por test.
+"""
+
+NATURALEZAS_VALIDAS = ("DEUDORA", "ACREEDORA")
+MOVIMIENTOS_VALIDOS = ("AUMENTA", "DISMINUYE")
+
+_TABLA = {
+    ("DEUDORA",   "AUMENTA"):   "DEBE",
+    ("DEUDORA",   "DISMINUYE"): "HABER",
+    ("ACREEDORA", "AUMENTA"):   "HABER",
+    ("ACREEDORA", "DISMINUYE"): "DEBE",
+}
+
+_N_A_GF2 = {"DEUDORA": 1, "ACREEDORA": 0}
+_M_A_GF2 = {"AUMENTA": 1, "DISMINUYE": 0}
+
+_N_A_SIGNO = {"DEUDORA": +1, "ACREEDORA": -1}
+_M_A_SIGNO = {"AUMENTA": +1, "DISMINUYE": -1}
+
+
+def _validar(naturaleza: str, movimiento: str) -> None:
+    if naturaleza not in NATURALEZAS_VALIDAS:
+        raise ValueError(
+            f"XNOR inválido para naturaleza='{naturaleza}', "
+            f"movimiento='{movimiento}'"
+        )
+    if movimiento not in MOVIMIENTOS_VALIDOS:
+        raise ValueError(
+            f"XNOR inválido para naturaleza='{naturaleza}', "
+            f"movimiento='{movimiento}'"
+        )
+
+
+def ubicacion_booleana(naturaleza: str, movimiento: str) -> str:
+    """Cara 1 — tabla cerrada de 4 combinaciones."""
+    _validar(naturaleza, movimiento)
+    return _TABLA[(naturaleza, movimiento)]
+
+
+def ubicacion_gf2(naturaleza: str, movimiento: str) -> str:
+    """Cara 2 — suma módulo 2. DEBE = 1 ⊕ n ⊕ m."""
+    _validar(naturaleza, movimiento)
+    bit = 1 ^ _N_A_GF2[naturaleza] ^ _M_A_GF2[movimiento]
+    return "DEBE" if bit == 1 else "HABER"
+--- tests de XNOR ---
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_motor_v82.py
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_xnor_tres_caras.py
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_motor_v82.py:246:    def test_t_mot_10_xnor_contradictorio(self):
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_motor_v82.py:348:    def test_t_mot_13_xnor_invalido(self):
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_xnor_tres_caras.py:36:    def test_p1_coincidencia(self):
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_xnor_tres_caras.py:44:    def test_p2_rechazo(self):
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_xnor_tres_caras.py:53:    def test_p3_rango(self):
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_xnor_tres_caras.py:59:    def test_alias_canonico(self):
+
+════ II · Motor epistémico · API ════
+--- perceptum.py ---
+"""
+SCFV v6.1 — Perceptum (Percepción de Evidencia)
+Autor: Domingo E. Díaz N. (C.P.C. Nº 183594)
+Fecha: 2026-09-05
+
+D.3 — Adaptación del Perceptum al contrato Evidencia.
+
+Responsabilidad:
+    Evidencia -> ObservacionH1
+
+Perceptum NO:
+    - adquiere evidencia
+    - modifica evidencia
+    - genera HechoEconomico
+    - genera PropuestaH1
+    - decide H2
+
+S0 — Extensión DA-1:
+    extraer_lote(evidencia) -> List[ObservacionH1]
+    Segmenta CSV (registro base 1) o JSON array (índice base 1).
+    extraer() permanece intacto (contrato D3/D4).
+"""
+
+import csv
+import io
+import json
+import time
+import uuid
+from typing import Any, Dict, List, Optional, Tuple
+
+from PODERES.CONTABLE.estados import EstadoEpistemico
+from PODERES.EPISTEMOLOGICO.modelos.evidencia import Evidencia
+from PODERES.EPISTEMOLOGICO.modelos.models import (
+    ObservacionH1,
+    EntidadExtraida,
+)
+
+
+class Perceptum:
+
+    @staticmethod
+    def _extraer_entidades(evidencia: Evidencia) -> List[EntidadExtraida]:
+        """
+        Extrae entidades únicamente desde el contenido original.
+
+        En D.3 se soporta contenido JSON estructurado.
+        Otros formatos quedan disponibles para adaptadores perceptivos
+        posteriores (OCR/parser/etc.).
+        """
+        entidades: List[EntidadExtraida] = []
+--- intellectus ---
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/intellectus/__init__.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/intellectus/intellectus.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/intellectus/intellectus.v81.bak.py
+--- dictum ---
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/dictum/__init__.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/dictum/dictum.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/dictum/dictum.v81.bak.py
+
+════ III · SCFV_DSR · 8 claves del parser ════
+112:            "fractales": {}, "contexto": {}, "mandante": {},
+113:            "tetrada": {}, "booleano": {},
+114:            "contratos": {}, "invariantes": {}, "asientos_declarados": {}
+124:                self._handle_assignments(child, "assignment", result["contexto"])
+126:                self._handle_assignments(child, "assignment", result["mandante"])
+128:                self._handle_assignments(child, "tetrada_item", result["tetrada"])
+130:                self._handle_assignments(child, "booleano_item", result["booleano"])
+150:        result["fractales"][name] = rules
+188:                "invariantes": [], "elementos": [], "evidencia": []}
+206:            data["invariantes"] = [
+220:        result["contratos"][name] = data
+260:        result["invariantes"][name] = data
+273:        result["asientos_declarados"][name] = {"nombre": name,
+
+════ IV · tests del SCFV_DSR · qué validan ════
+--- __init__.py ---
+--- test_asiento_declarado_def.py ---
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from dsl.parser import SCFVParser
+
+def test_asiento_minimo():
+    p = SCFVParser()
+    texto = "ASIENTO_DECLARADO VENTA_001: A B C"
+    r = p.parse_string(texto)
+    assert "VENTA_001" in r["asientos_declarados"]
+    assert r["asientos_declarados"]["VENTA_001"]["cuerpo"] == ["A", "B", "C"]
+--- test_compatibilidad_s0.py ---
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from dsl.parser import SCFVParser
+
+SCFV_V6 = Path("/data/data/com.termux/files/home/scfv_v6")
+ARCHIVOS = ["ventas", "compras", "inventario", "fiscal"]
+CLAVES_S0 = ["fractales", "contexto", "mandante", "tetrada", "booleano"]
+
+def test_historico_parsea():
+    p = SCFVParser()
+    for nombre in ARCHIVOS:
+        path = SCFV_V6 / "DOMINIOS" / nombre / "reglas" / f"{nombre}.scfv"
+        r = p.parse_file(str(path))
+        for k in CLAVES_S0:
+            assert k in r, f"Falta clave {k} en {nombre}"
+--- test_contract_def.py ---
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from dsl.parser import SCFVParser
+
+def test_contract_minimo():
+    p = SCFVParser()
+    texto = "CONTRATO VENTA OBJETO: O INVARIANTE: I ELEMENTO: E"
+    r = p.parse_string(texto)
+    assert "VENTA" in r["contratos"]
+
+def test_contract_completo():
+    p = SCFVParser()
+    texto = ("CONTRATO VENTA OBJETO: O PRE: x > 0 POST: y == 1 "
+             "INVARIANTE: I ELEMENTO: E EVIDENCIA: F")
+    r = p.parse_string(texto)
+    assert r["contratos"]["VENTA"]["pre"] == "x > 0"
+    assert r["contratos"]["VENTA"]["post"] == "y == 1"
+
+def test_contract_negativo():
+    p = SCFVParser()
+    try:
+        p.parse_string("CONTRATO")  # incompleto
+        assert False, "Debería haber fallado"
+    except SyntaxError:
+        pass
+--- test_grammar_lalr.py ---
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from lark import Lark
+
+def test_lalr_construye():
+    g = (Path(__file__).parent.parent / "grammar.lark").read_text()
+    p = Lark(g, start="start", parser="lalr")
+    assert p is not None
+--- test_invariant_def.py ---
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from dsl.parser import SCFVParser
+
+def test_invariant_completo():
+    p = SCFVParser()
+    texto = ("INVARIANTE BALANCE OBJETO: A EXPRESION: x == y DOMINIO: D "
+             "SATISFACCION: x == y VERIFICACION: V EVIDENCIA: E")
+    r = p.parse_string(texto)
+    assert "BALANCE" in r["invariantes"]
+    assert r["invariantes"]["BALANCE"]["dominio"] == "D"
+
+════ V · Mandelbrot · loci de escala y autosemejanza ════
+--- 1975 · L732-790 · cascada y homotecia ---
+conciernen ahora.
+
+Dos conceptos intuitivos esenciales: homotecia interna y cascada
+Hemos insistido hasta aquí en la complicación y el desorden que caracterizan las
+costas consideradas como figuras geométricas. Examinemos ahora un orden que les
+es subyacente: de hecho, aunque las costas son muy irregulares, los grados de
+irregularidad que corresponden a distintas escalas son, grosso modo, iguales. Es, en
+efecto, asombroso que cuando una bahía o una península que estaban representadas
+en un mapa a escala 1/100.000, se examinan de nuevo en un mapa a 1/10.000, se
+observa que sus contornos están formados por innumerables sub-bahías y subpenínsulas. En un mapa a 1/1.000, se ven aparecer también sub-sub-bahías y sub-subpenínsulas, y así sucesivamente. Esta iteración no se puede continuar
+indefinidamente, pero se puede ir muy lejos, y se encontrará que, aunque los distintos
+mapas correspondientes a los sucesivos niveles de análisis sean completamente
+diferentes en lo que tienen de específico, tienen el mismo carácter global, los mismos
+rasgos genéricos. En otras palabras, que todo induce a creer que, a excepción de la
+escala, el mismo mecanismo hubiera podido engendrar tanto los pequeños detalles de
+las costas como los grandes.
+Se puede pensar en este mecanismo como una especie de cascada, o más bien
+como un fuego de artificio por etapas, en el que cada etapa engendra detalles más
+pequeños que la que la que la precede. Cuando, hablando estadísticamente, cada
+pedazo de costa es homotético al todo —salvo detalles de los que decidimos no
+ocuparnos— se dirá que la costa posee una homotecia interna.
+Al ser este ultimo concepto fundamental pero delicado, empezaremos afinándolo
+mediante una figura más regular que los matemáticos nos habían ya preparado sin
+saber para qué iba a servir. Veremos a continuación cómo sirve para medir el grado
+de irregularidad de las curvas por la intensidad relativa de los grandes y los pequeños
+detalles, y fin de cuentas —por una dimensión de homotecia.
+
+www.lectulandia.com - Página 24
+
+Modelo basto de la costa de una isla: la curva en forma de copo de nieve de von
+Koch
+La cascada geométrica de una costa puede simplificarse, como indican las Figuras
+42 y 43. Supongamos que un trozo de costa trazada de un modo simplificado a escala
+1/1.000.000 es, así a lo tonto, un triángulo equilátero. Que el nuevo detalle visible en
+un mapa a 3/1.000.000 sea el resultado de substituir el tercio central de cada lado por
+un promontorio en forma de triángulo equilátero, es decir, que cada lado se convierta
+en una figura formada por cuatro segmentos iguales. Que el nuevo detalle que
+aparece al 9/1.000.000 consista en substituir cada uno de estos cuatro segmentos por
+cuatro sub-segmentos de la misma forma, pero menores, guardando una proporción
+de un tercio y formando sub-promontorios. Continuando así hasta el infinito, se llega
+a un límite denominado curva de von Koch 1904. Se trata de una figura célebre que
+Cesàro 1905 describe en los términos extáticos siguientes: «Es esta similitud entre el
+todo y sus partes, incluso las infinitesimales, lo que nos lleva a considerar la curva de
+von Koch como una línea verdaderamente maravillosa entre las líneas. Si estuviera
+viva, no sería posible aniquilarla sin suprimirla de golpe, pues renacería sin cesar de
+las profundidades de sus triángulos, como la vida en el universo».
+Se trata claramente de una curva y, en particular, su área es nula, pero cada etapa
+de su construcción aumenta, con toda evidencia, la longitud total en un factor 4/3, con
+lo que la curva de von Koch tiene una longitud infinita —exactamente igual que una
+costa—. Además, y esto es importante, es una curva continua, aunque no tenga
+tangente en prácticamente ninguno de sus puntos; es un objeto geométrico
+emparentado con las funciones continuas sin derivada.
+Cualquier tratado de matemáticas que hable de ella subraya en seguida que es
+necesariamente un monstruo que carece de interés concreto. Y el físico que lee eso no
+puede evitar estar de acuerdo con ello. Aquí, sin embargo, no se permite sacar esta
+conclusión por cuanto ¡la curva de von Koch ha sido introducida precisamente como
+modelo simplificado de una costa! Si, de hecho, este modelo es inaceptable, no es en
+absoluto porque sea demasiado irregular, sino porque —en comparación con una
+costa— su irregularidad es demasiado sistemática. ¡Su desorden no es excesivo, sino
+insuficiente!
+Nos quedan por citar a este respecto dos grandes matemáticos que, a pesar de no
+--- 1982 · L765-790 · escalante ---
+cierto sentido, invariantes por traslación.
+Además, la mayoría es también invariante según ciertos cambios de escala.
+Diremos que son escalantes. Un fractal que sea invariante por la transformación
+geométrica de semejanza, en el sentido ordinario, se dice autosemejante.
+En la expresión compuesta fractal escalante, el adjetivo suaviza el significado del
+sustantivo. Así, mientras fractal suena a desorden y abarca casos de una irregularidad
+inmanejable, el calificativo escalante da a entender un cierto orden. Si se prefiere, se
+puede tomar la expresión en orden inverso; con escalante como sustantivo que indica
+un orden estricto y fractal como calificativo que excluye las rectas y los planos.
+No hay que mal interpretar la motivación que nos impulsa a suponer la
+homogeneidad y la invariancia por cambios de escala. Aquí, como en la geometría
+ordinaria de la naturaleza, nadie cree que el mundo sea estrictamente homogéneo ni
+escalante. La geometría ordinaria estudia las rectas como caso preliminar más simple.
+También la mecánica contempla el movimiento rectilíneo y uniforme como un simple
+primer paso.
+Lo mismo ocurre con los fractales escalantes, pero aquí este primer paso es más
+lento, ya que el papel de la línea recta lo juega ahora una multitud de posibilidades
+distintas, de las que este libro sólo puede presentar una pequeña muestra. No hay que
+sorprenderse de que los fractales escalantes se limiten a dar una primera
+aproximación de las formas naturales que queremos tratar. Antes bien, lo que resulta
+sorprendente es que dichas primeras aproximaciones sean tan notablemente
+razonables.
+Conviene señalar que la idea de autosemejanza es antigua. En el caso de la línea
+recta, se le ocurrió a Leibniz hacia 1700 (véase la entrada «cambio de escala en
+Leibniz y Laplace», en el capítulo 41). Y su generalización a casos distintos de rectas
+y planos tiene más de cien años, aunque su importancia no haya sido apreciada en su
+
+════ VI · H6 · qué invariantes usó ════
+13:No es el cierre de SCFV Motor (ver `SCFV_MOTOR_CIERRE.md`).
+15:**Vocabulario de clasificación usado en cada hito:**
+16:CONTRACT / IMPLEMENTATION / EVIDENCE / HYPOTHESIS / FALSATION /
+17:VALIDATION / DESIGN DECISION / VERDICT.
+24:  `H1 → H2 → DP → VA → PA → NC → PC → MC → ASENTADO → EventStore`.
+26:- **EVIDENCE:** `generador_propuesta`, `h2`, `decision_provider`,
+30:- **VALIDATION:** firmas leídas, todas presentes.
+31:- **VERDICT:** CERRADO. Componentes localizados con firma explícita.
+41:- **VERDICT:** CERRADO.
+49:- **EVIDENCE:** `test_orquestador_v82_contrato` verde.
+50:- **VALIDATION:** C1–C9 verificados (estructura, partidas, totales,
+53:- **VERDICT:** CERRADO.
+61:- **EVIDENCE:** `v82 --help` muestra `--input`; legacy `venta` intacto.
+62:- **VALIDATION:** `py_compile OK`, `--help` funcional, seis tests
+64:- **VERDICT:** CERRADO.
+72:- **EVIDENCE:** `DECISION_H2=1`, `ASIENTO_REGISTRADO=1` en SQLite.
+74:  `H2_VIOLACION: modo_auto=True requiere SCFV_MODO_PRUEBA=1`.
+76:- **VERDICT:** CERRADO tras invocación con `SCFV_MODO_PRUEBA=1`.
+83:  legacy, ruta canónica de SCFV Motor.
+89:- **VERDICT:** CERRADO.
+98:- **EVIDENCE:** sin justificación → argparse error; justificación vacía
+101:- **VERDICT:** CERRADO.
+111:- **EVIDENCE:** `--help` muestra marcas; runtime emite warnings;
+113:- **VERDICT:** CERRADO.
+123:- **EVIDENCE:**
+124:  - A1: `MOTOR_VIOLACION: XNOR contradictorio en partida 0`
+127:- **VERDICT:** CERRADO.
+137:- **EVIDENCE:** 9/9 rechazados, `ASIENTO_REGISTRADO=0` en todos.
+138:- **VALIDATION:** cada caso dispara la barrera correcta (mensaje
+140:- **VERDICT:** CERRADO.
+
+════ VII · eventos con NIC_29 vs NIC_2 ════
+1|["LIVA_Art4","NIC_29"]
+2|["NIC_29"]
+3|["NIC_29"]
+4|["LIVA_Art4","NIC_29"]
+5|["LIVA_Art4","NIC_29"]
+6|["LIVA_Art4","NIC_29"]
+7|["LIVA_Art4","NIC_29"]
+8|["LIVA_ART_62","LIVA_ART_62_COMPLETA"]
+9|["LIVA_ART_62","LIVA_ART_62_COMPLETA"]
+10|["LIVA_ART_62","LIVA_ART_62_COMPLETA"]

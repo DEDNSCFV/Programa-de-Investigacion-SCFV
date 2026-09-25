@@ -1,0 +1,87 @@
+════ B87 · lectura real de cada sección Pymes · Fri Sep 25 08:42:29 -04 2026 ════
+
+ Sec · Concepto                                   · Med · Arit · Obj · Alc
+───────────────────────────────────────────────────────────────────────────────────────────────
+S  1 · Pequeñas entidades                         ·   0 ·    0 ·   - ·   -
+S  2 · Conceptos y principios                     ·   0 ·    0 ·   - ·   -
+S  3 · Presentación EEFF                          ·  10 ·    0 ·   - ·   -
+S  4 · Estado situación financiera                ·   4 ·    9 ·   - ·   -
+S  5 · Estado resultado integral                  ·  11 ·    3 ·   - ·   -
+S  6 · Estado cambios patrimonio                  ·   1 ·    0 ·   S ·   -
+S  7 · Estado flujos efectivo                     ·   8 ·    7 ·   - ·   -
+S  8 · Notas a los EEFF                           ·   4 ·    1 ·   - ·   -
+S  9 · Estados consolidados/separados             ·  18 ·   11 ·   - ·   -
+S 10 · Políticas contables                        ·   2 ·    5 ·   - ·   -
+S 11 · Instrumentos financieros básicos           ·  45 ·  182 ·   - ·   -
+S 12 · Otros temas instrumentos                   ·   7 ·   63 ·   - ·   -
+S 13 · Inventarios                                ·   9 ·   12 ·   - ·   -
+S 14 · Inversiones en asociadas                   ·  10 ·   26 ·   - ·   -
+S 15 · Acuerdos conjuntos                         ·  15 ·   16 ·   - ·   -
+S 16 · Propiedades de inversión                   ·   3 ·   25 ·   - ·   -
+S 17 · PPE                                        ·  24 ·   53 ·   - ·   -
+S 18 · Activos intangibles                        ·  14 ·   33 ·   - ·   -
+S 19 · Combinaciones de negocios                  ·  31 ·   32 ·   - ·   -
+S 20 · Arrendamientos                             ·  21 ·   28 ·   - ·   -
+S 21 · Provisiones y contingencias                ·  21 ·   50 ·   - ·   -
+S 22 · Pasivos y patrimonio                       ·  16 ·   42 ·   - ·   -
+S 23 · Ingresos ordinarios                        ·  51 ·   13 ·   - ·   -
+S 24 · Subvenciones del gobierno                  ·   5 ·    2 ·   - ·   -
+S 25 · Costos por préstamos                       ·   1 ·    1 ·   - ·   -
+S 26 · Pagos basados en acciones                  ·  23 ·   50 ·   - ·   -
+S 27 · Deterioro del valor                        ·  16 ·   90 ·   - ·   -
+S 28 · Beneficios a los empleados                 ·  33 ·   20 ·   - ·   -
+S 29 · Impuesto a las ganancias                   ·  22 ·   10 ·   - ·   -
+S 30 · Conversión de moneda                       ·  12 ·   43 ·   - ·   -
+S 31 · Hiperinflación                             ·   2 ·    6 ·   - ·   -
+S 32 · Hechos posteriores                         ·   3 ·    7 ·   - ·   -
+S 33 · Partes relacionadas                        ·   2 ·    1 ·   - ·   -
+S 34 · Actividades especiales                     ·  21 ·   31 ·   - ·   -
+S 35 · Transición                                 ·  20 ·   81 ·   - ·   -
+
+════ CLASIFICACIÓN ════
+
+Criterio:
+  OPERACIONALIZABLE: Med>=15 AND Arit>=10 AND tiene Objetivo
+  PARCIAL:           Med>=5 OR Arit>=3
+  NO:                resto
+
+OPERACIONALIZABLES (0):
+
+PARCIALES (29):
+  S 3 · Presentación
+  S 4 · Estado situación
+  S 5 · Resultado integral
+  S 7 · Flujos efectivo
+  S 9 · Consolidados
+  S10 · Políticas
+  S11 · Instr. financieros básicos
+  S12 · Otros instr.
+  S13 · Inventarios
+  S14 · Asociadas
+  S15 · Acuerdos conjuntos
+  S16 · Prop. inversión
+  S17 · PPE
+  S18 · Intangibles
+  S19 · Combinaciones
+  S20 · Arrendamientos
+  S21 · Provisiones
+  S22 · Pasivos/patrimonio
+  S23 · Ingresos
+  S24 · Subvenciones
+  S26 · Pagos acciones
+  S27 · Deterioro
+  S28 · Beneficios empleados
+  S29 · Impuesto ganancias
+  S30 · Moneda
+  S31 · Hiperinflación
+  S32 · Hechos posteriores
+  S34 · Act. especiales
+  S35 · Transición
+
+NO OPERACIONALIZABLES (6):
+  S 1 · Pequeñas entidades
+  S 2 · Conceptos
+  S 6 · Cambios patrimonio
+  S 8 · Notas
+  S25 · Costos préstamos
+  S33 · Partes rel.

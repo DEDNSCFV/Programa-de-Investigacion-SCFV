@@ -1,0 +1,16 @@
+════ B97 · integración 9/9 · Fri Sep 25 09:25:13 -04 2026 ════
+
+D.3: EventStore preparado para persistencia canónica.
+Fractal                · Estado          · Asiento
+──────────────────────────────────────────────────────────────────────────────────────────
+INVENTARIOS.scfv       · OK  D=   850.00 H=   850.00 · 2 partidas
+PPE.scfv               · FALLA: MOTOR_VIOLACION: I1_VIOLACION - DEBE=0, HABER=1800.0 (valore
+INTANGIBLES.scfv       · FALLA: MOTOR_VIOLACION: I1_VIOLACION - DEBE=0, HABER=2000.0 (valore
+COMBINACIONES.scfv     · OK  D= 15000.00 H= 15000.00 · 2 partidas
+ARRENDAMIENTOS.scfv    · OK  D=  7721.73 H=  7721.73 · 2 partidas
+PROVISIONES.scfv       · OK  D=  1500.00 H=  1500.00 · 2 partidas
+SUBVENCIONES.scfv      · OK  D= 10000.00 H= 10000.00 · 2 partidas
+MONEDA.scfv            · OK  D= 36500.00 H= 36500.00 · 2 partidas
+HIPERINFLACION.scfv    · FALLA: MOTOR_VIOLACION: I1_VIOLACION - DEBE=0, HABER=4000.0 (valore
+
+Resultado: 6/9

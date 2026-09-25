@@ -1,0 +1,51 @@
+=== B10 · secuencia declarada por el prompt · 2026-09-24 ===
+--- buscar menciones de secuencia y nombres NN_ ---
+10:DOCUMENTO: GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md
+227:    Declarada conforme al caso "tablero" (06_diseno L516)
+228:    y al caso "IPVE" (04_ipve §0.2).
+357:    Declarada en 04_ipve_operacionalizado.md §0.4.
+--- §17 real (marcadores exactos) ---
+351:    Criterios · para derivar métricas (Protocolo §17).
+555:§17 · MODUS OPERANDI DEL GIRO 05
+§17 · MODUS OPERANDI DEL GIRO 05
+
+Movimiento 1 · citas rodriguianas · ya dadas (§3).
+
+Movimiento 2 · iteración mínima (Hevner · Iteración 1 real)
+    BUILD ·
+        Copiar xnor.py al DSR.
+        Crear FRACTAL NIC2 mínimo (1 operación).
+        Conectar parser → motor.
+    EVALUATE ·
+        Correr sobre 1 evento del corpus.
+        Reportar bloqueantes.
+    REFINE ·
+        Corregir. Registrar bloqueantes reales.
+
+────────────────────────────────────────────────────────────────────────
+
+§18 · DIMENSIONES EMERGENTES
+--- §9 alcance (por si nombra docs) ---
+--- patrón numérico en prompts de giros anteriores ---
+00_SCFV_L.md
+01_idea.md
+02_planteamiento.md
+03_rutas.md
+04_ipve_operacionalizado.md
+05_marco_teorico.md
+06_diseno.md
+07_materializacion_scfv_dsr.md
+08_unidad_secuencia.md
+09_evaluacion_useq_01.md
+10_adl_scfv.md
+11_soporte_minimo.md
+12_extension_gramatica_adl.md
+13_sintaxis_concreta_adl.md
+14_materializacion_dsl_adl.md
+15_scfv_extendidos.md
+16_correspondencia_arquitectura_ejecucion.md
+17_declaracion_o164_continuidad_useq01.md
+21_soporte_minimo_construido.md
+22_verificacion_soporte.md
+OBSERVACION_USEQ_01_GIRO_04_2026-09-23.md
+pre_registro_evaluacion_useq_01.md

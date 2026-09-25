@@ -1,0 +1,127 @@
+════ B86 · ¿anclaje en PropuestaH1? · Fri Sep 25 08:38:07 -04 2026 ════
+
+════ I · estructura de PropuestaH1 ════
+197:ESTRUCTURA PropuestaH1:
+198-    propuesta_id: UUID
+199-    hecho_id: UUID
+200-    observacion_id: UUID
+201-    propuesta_padre_id: UUID | NULO    // Genealogía: H₁ original → H₂ derivada
+202-    version_propuesta: Entero = 1
+203-    metricas: MetricasH1
+204-    soporte_C: Confianza
+205-    proposicion: Texto
+206-    estado_operacional: EstadoPropuesta = PROPUESTO
+207-    timestamp: Entero = 0
+208-    correlation_id: UUID
+209-    estado_epistemico: EstadoEpistemico = INFERIDO
+210-    idempotency_key: Hash
+211-
+212-ESTRUCTURA DecisionProfesional:
+213-    decision_id: UUID
+214-    propuesta_h1_id: UUID               // SIEMPRE la H₁ original
+215-    propuesta_h2_id: UUID | NULO        // Solo si hubo MODIFICAR
+216-    tipo_decision: TipoDecisionH2
+217-    justificacion: Texto
+218-    autor: Cadena
+219-    timestamp: Entero
+220-    correlation_id: UUID
+221-    idempotency_key: Hash
+222-
+223-ESTRUCTURA EventoEconomico:
+224-    evento_id: UUID
+225-    hecho_id: UUID
+226-    tipo_evento: TipoEventoEconomico
+227-    descripcion: Texto
+--
+493:FUNCION Intellectus_Interpretar(observacion: ObservacionH1, contexto: ContextoMandante) → PropuestaH1:
+494-    hecho = HechoEconomico(
+495-        hecho_id = UUID_Generar(),
+496-        descripcion = "Hecho inferido desde evidencia " + observacion.evidencia_id,
+497-        entidades = {e.campo: e.valor PARA CADA e EN observacion.entidades},
+498-        temporalidad = Fecha_Hoy(),
+499-        magnitud = ObtenerMonto(observacion.entidades),
+500-        evidencia_ids = [observacion.evidencia_id],
+501-        estado = EstadoEpistemico.INFERIDO,
+502-        origen = "PERCEPTUM",
+503-        correlation_id = observacion.correlation_id,
+504-        idempotency_key = Generar_Idempotency_Key("HECHO", observacion.observacion_id)
+505-    )
+506-
+507-    metricas = MetricasH1(
+508-        r = CalcularCoberturaNormativa(hecho, contexto.reglas_fiscales),
+509-        s = CalcularSimilitudFormalLegal(hecho, contexto.casos_formales),
+510-        o = CalcularCohesionOntologica(hecho, contexto.PCU, contexto.catalogo_productos),
+
+════ II · campos de la propuesta generada ════
+18:  - Event Store: única fuente de verdad (append-only + hash chain)
+143:    fuente: Cadena
+161:    fuente: Cadena
+191:    r: Confianza = 0.0    // cobertura normativa
+546:        alertas.Agregar("ALERTA: Bajo soporte normativo (C < 0.75)")
+841:I5  EVIDENCIA_TRAZABLE     : Todo hecho referencia al menos una evidencia
+842:I6  REGLA_IDENTIFICADA     : Toda consecuencia FISCAL referencia ReglaParametrica
+
+════ III · generador_propuesta · qué emite ════
+130:def generar_hecho_h1(
+131-    observacion: ObservacionH1,
+132-    inflacion_anual: Optional[float] = None,
+133-) -> HechoEconomico:
+134-    """
+135-    Genera un HechoEconomico inferido a partir de una ObservacionH1.
+136-
+137-    Responsabilidad:
+138-        ObservacionH1 -> HechoEconomico
+139-
+140-    El hecho conserva:
+141-        - evidencia_id
+142-        - correlation_id
+143-
+144-    y queda en estado epistemológico INFERIDO.
+145-
+146-    Las métricas H₁ se calculan aquí para mantener la semántica
+147-    del generador F3A.1, aunque el modelo HechoEconomico actual
+148-    no las almacena.
+149-    """
+150-    entidades_dict = _extraer_entidades_dict(observacion)
+--
+288:def generar_propuesta_h1(
+289-    observacion: ObservacionH1,
+290-    inflacion_anual: Optional[float] = None,
+291-) -> PropuestaH1:
+292-    """
+293-    API pública conservada:
+294-
+295-        ObservacionH1 -> PropuestaH1
+296-
+297-    Flujo interno:
+298-
+299-        ObservacionH1
+300-            -> HechoEconomico
+301-            -> PropuestaH1
+302-
+303-    El mismo HechoEconomico generado internamente es utilizado
+304-    por la PropuestaH1.
+305-    """
+
+════ IV · ProyeccionDecisionesH2 · qué registra ════
+CREATE TABLE proyeccion_decisiones_h2 (
+    evento_id INTEGER PRIMARY KEY,
+    asiento_id TEXT NOT NULL,
+    correlation_id TEXT NOT NULL,
+    justificacion TEXT,
+    conflictos_detectados INTEGER DEFAULT 0,
+    normas_aplicadas TEXT,
+    fecha_decision DATE NOT NULL
+);
+CREATE INDEX idx_decisiones_correlation ON proyeccion_decisiones_h2(correlation_id);
+CREATE INDEX idx_decisiones_fecha ON proyeccion_decisiones_h2(fecha_decision);
+
+════ V · payload event_store · ¿incluye norma_aplicada? ════
+  id: str
+  partidas: list
+  total_debe: float
+  total_haber: float
+  evidencia: dict
+  normas_aplicadas: list
+  conflictos: list
+  justificacion_h2: NoneType

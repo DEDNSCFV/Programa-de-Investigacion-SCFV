@@ -1,0 +1,850 @@
+════ H1-F · loci exactos de las leyes nuevas · Thu Sep 24 21:45:47 -04 2026 ════
+
+════ I · PROGRESIONES ARITMÉTICAS · L29069-29300 ════
+PROGRESIONES
+
+© SERIE es una sucesión de rérminos formados de acuerdo con una ley.
+
+Ad 1E es una serie cuya ley es que cada término se obtiene
+sumando 2 al término anterior: 1, 2, 4, 6.,... es uma serie cuya ley es que
+cada término se obtiene multiplicando por 3 el rórmino anterior.
+
+Las series que estudiaremos en Algebra elemental son las progre-
+siones.
+
+Las progresiones se clasifican en progresiones aritméticas y geomé-
+
+LriCAas:
+PROGRESIONES ARITMETICAS
+
+f35) PROGRESION ARITMETICA €s toda serie en la cual cada término des-
+pues del primero se obtiene sumándole al rérmino anrerior una can-
+tidad cofnstante lamada cazón o difenemcia.
+
+HOTACION
+El signo de progresión aritmética es + y entre cada iérmino y el si-
+guiente se escribe un puñnto
+
+AE= 1 BA Es u|:…¡ Prrrgrl:3iún aritmética creciente cuya razón
+es 7 porque 1-+2=:4 34256 54 2=7, ef
+
+0
+
+PEOGACHANES ARITMETICAS » 451
+
++EAM.—94..... es una progresión aritmética decreciente cuya razón
+eS —4 porque B-+(—4)=8-4=4, 4+(—41=0, O-+(=-4>=-—4, ete,
+
+En toda progresión aritmética la razón se halla restándole a u tér
+mino ¿tmeloquiero el término anterior.
+
+- 1- p E €
+-l&r +_-_"-:I- ...... r S
+si, en m ; la razón es rl
+e a
+En =8 I= 1=.... la razón es 1——2=E—2=—-—-.
+e ] E 5 5
+
+4|55) DEDUCCION DE LA FORMULA DEL TERMINO EMESIMO
+Sex la progresión le
+ad a..
+
+en la que u es el término enésimo y cuya razón es r.
+En toda progresión ar itmética, cada término es igual al anterior más
+la razón; luego, tendremos:
+h=a+r
+=b+r=(a+ A+r=a+r
+d=ec+r=(a+27+r=a+dr
+esd+r=(0-+-37|-r=a+dr....
+
+Aque vemos que cada rérmino es igual al primer-término de la pro-
+presión a mas tantas veces la razón como términos le preceden; luego, como
+esta ley se cumple para todos los términos, tendremos que i será igial al
+primer rérmino e más tantas veces la razón como términmos le preceden, y
+como 2 es el término cnésimo, le preceden 1=1 términos; luego;
+
+=a +l 1r
+
+Ejemplm I TP Hallar el 15% término de = 4,7.10....
+Aqui a =4, =15 r=7 4=13, luego:
+uso-+n—-r=4HH 15-13=441MIS=4-4?2= d6 E
+17 Hallar el Z témino de -- .4, — 1,...
+
+Aqui o =7 6 =78, rS 4—9=— 6, luego:
+=0 4ln=1r=9+(23-1i-5)=94(29(—-5) =9 - 110= — 101. R
+
+E y
+13 Hallar el 397 término de + E
+7 a
+dE -:"|_J a E|B_,r=í--—=-— luego
+e 3109 5 1
+— F -=-4+—=— =Y R
+J 1 , Ú q
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 246 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+497 M ALOEBRÁ
+
+[4) Hallar el 42 tórmino de + — 2.— 1—E—. Fg-
+2 AAO
+I'—“"¡í" |í"2:]—-í+º—ír
+la s IS 4
+Cn i
+E- EJERCICIO 286
+Hallar el
+i. 97 témmino de +7.10.13.... 16. 27 rérmino de +3%.55....
+2 127 témino de +5.10.15.... - “A
+1a -u
+3 -48% término de-—D.12.16.... 14 90€ 1EnO de +
+4. 699 término de + 2.10.17.... 17. 159 rérmino de +;f¡
+6. 137 témino de + 11.6.1.... ! be
+v l!
+E 287 wmino de + 19-19.6... 16 217 término de + E
+
+════ II · PROGRESIONES GEOMÉTRICAS ════
+29659:© PROGRESION GEOMETRICA es toda seric en Eu|n:ual cada término ae
+29666:El signo de progresión geométrica és + y entre término y término se
+29677:es una progresión geométrica ereciente cuya Tazón €s 4. y
+29680:es una progresión geométrica decreciente cuya TAZÓN ES +
+29689:En toda progresión geométrica la razón se halla dividiendo un térmi-
+PG comienza en L29657
+I, PROGRESIONES GEOMETRICAS
+
+© PROGRESION GEOMETRICA es toda seric en Eu|n:ual cada término ae
+oBtiene multiplicando el anterior por una cantidad constante que 6
+
+la ra
+
+HOTACIÓON
+
+El signo de progresión geométrica és + y entre término y término se
+escribe :
+
+Asi,-+5:10:20:40..... es una progresión gcométrica en la cual la ra
+2ó es 2. En efecto, 5 x2=10; 10x2=20; 20x 2=d0, elc
+
+Una pregresión geométrica es creciente cuando la razón es, en va
+lor alsoluto, mayor que uno, y €s decreciente cuando la Tazón €s, €
+valor absoluto, menor que uno, o séa, cuando la razón és UNa fracción
+
+propis: Al E 1:4:16:64
+es una progresión geométrica ereciente cuya Tazón €s 4. y
+z E ATS- JPCO
+
+es una progresión geométrica decreciente cuya TAZÓN ES +
+
+Progresión peométrica finita es la que tiene un número limitado de
+ctérminos e infinita la que tiene un mimero ilimitado de términos.
+
+Asi, +2:4:8:16 es una progresión finita porqué consta de 4 térmi:
+nos, y +4:2:1:d..... es una progresión infinita porque consta de un nú-
+
+mero iimitado de términos. ece
+En toda progresión geométrica la razón se halla dividiendo un térmi-
+
+no cualquiera por el anterior.
+
+nenuccmr—: DE LA FORMULA DEL TERMINO ENÉSIMO
+Sea la progresión — e
+
+en que la u es el término emósimo y cuya razón Es f
+b=ar
+E=br=(aryr=ar"
+
+- Vd=cr=(0r=ar
+e=dr=(0r=adr....
+
+En toda progresión geométrica, r.ada¡u bér-
+mino es igual al término anterior multiplicado
+por la razón; luego: ,
+
+Aquí vemos que un término cualquiera es igual al primero a multi-
+plicado por la razón elevada a una potencia igual al múmero de términos
+que lo prececden. ]
+
+l Esta ley se cumple siempre; Juego, -Como N €s el término n y le pre-
+ceden n—1 términos, tendremos: u =ar"-!
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 250 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+5O 4 aLOEBRA
+
+; (1) Hollar el 57 témino de + 7rá4:16....
+Ejemplos Aquí 0=2, 1 =5 r=6+2=1, luego:
+
+TE - 0ea —
+
+127 Hellar el 9' término de + 4:4,...,
+
+nedalE
+Agui a= 6, N=E, RA luegos
+
+=X Í%j—¿*-:£3%=?
+(3) Hallar el 7 sémine de +5:—5:7....
+La razón es: —-l-+g=—á::—:%= -—;. Por tanto:
+
+Cuando la rezón es negodiva, lb que sucede siempro que los términas de la
+pregresión son alternafivamente posifivos y negofivos, háy que tener cuidado
+con el signa que resulta de clevor lo razón a la polencia m — 1.
+
+Si r — 1 es por dicho resultado tendrá signo 4 y si es impar, signo
+
+D EJERCICIO 291
+
+i, Hallar el 77 término de ++ 4 1481 1A ...
+
+2. Hallar el 87 término de ==:1:8..
+1. Hallar el 99 téemino de =+ B:dr8..
+d Hallar el 6? término de = 1:5:5.
+5. Hallar el 7Y término de + 4 :9 E
+. Hallar cl - 69 eérmino de = 5 : E
+
+T Hallar el 89 cémmino de + 25:3....
+
+4. Hallar cl 47 cóomino de - -$ 61 —19...
+O Hallar el 19 término de a 3 ; =1 ...
+
+10 Hallar el 59 cómtine (e + a $
+
+11, Hallar el 47 término de = 16 =4 d....
+a ar- e " s d
+La. Harllar el -% término ee N
+13. Haltarel 5P término de + —*:2: —
+- ] e +
+l4: Hallar el 107 término de + —E $ —]—i _'[1-'-
+
+-
+PEQSREMÓONES CEOMETRICAS M G
+
+47 DEDUCCION DE LA FORMULA DEL PRIMER TERMINO
+.. Y DE LA RAZON
+
+Hemos hallado que uS
+D4:;3pcjuudu a, se tiene: a= %. que es la fóormula del primer tcr-
+
+mino en una progresión geométrica.
+
+Para hallar la razón, Despejando "1 en (1) se tiene
+, aS1
+D
+ml y extrayendo la raíz a— 1, queda Y = 1,º'lr e
+
+════ III · LOGARITMOS · L30176-30500 ════
+LOGARITMOS
+
+©annniu.ú de un número es el exponeme a que hay que elevar
+otro número llamado base para obtener el número dado, Así,
+
+ae
+
+11 1111 El
+AR En
+¿—_¿Eº
+
+-
+
+m en EN TA
+a
+=
+
+Iuego, siendo la hase 5, el logaritmo de 1 (que se escribe log 1) es 0, por-
+que 0 es el exponente a que hay que elevar la base 5 pata que de 1; el
+log 5 es 1; el log 25 €s 2, el log 195 €s 4Y, Ctc.
+
+© BASE _
+Cualquier número positivo se puede tomar como hasc de un sistema
+
+de logariemos.
+
+€B]) SISTEMAS DE LOGARITAAOS
+
+Pudiendo tomarie como basé de un sistema de logaritmos LL|.LI(¡U¡1LT
+número positivo, el número de sistemas es ilimitado. No obstante, los sis-
+temas usados generalmente son dos: el sistema de logaritmos vulgares O de
+
+306
+
+4IutfilTu Max - Planel
+
+LogAniTMOas. E 509
+
+Briggs, cuya base es 10, y el sistema de logaritmos naturales o neperianos
+
+creados por Neper, cuya base es el número inconmensurable
+E=P21AAIAZAdA
+
+PROFIEDADES GEMERALES DE LOS LOGARITAOS
+
+487) Son de importancia las sigiientes propiedades de los logaritmos:
+
+1) La base de un sistema de logaritmos no puede ser negativa, por-
+que si fuera negativa, sus potencias pares serian positivas y las impares ne-
+gativas, y tendríamos una serie de nmúmeros altermativamente positiyos y
+negativos, y por tanto, habría números positivos que no tendrían logaritmo,
+
+2) Los números negalivos no tienen logaritmo porque siendo la bast
+positiva, todas sus potencias, ya scan pares o impares, son positivas y nunca
+negativas.
+
+3) En todo sistema de logaritmos, el logaritmo
+de la hase es 1, porque siendo 5 la base, tendremos: -
+
+,= b 0g a
+
+U
+b =1 109 MAO
+
+i) En todo sistema el logaritmo de 1
+Es cero, porque siendo 6 la base, tendremos:
+
+—
+
+5) Los números mayores que 1 tienen lugu:ith positivo porque sien:
+de log 1=, los logaritmos de los mimeros mayores que 1 serán mayores
+que cero; fuego, serán positivos.
+
+6) Los números menores que 1 tienen logaritmo negativo porque
+sienco log 1=0, los logaritmos de los números menores que 1 serán meno-
+res que cero; luego, serán negativos.
+
+GÍ.-1] LOGARITMO DE UN PRODUCTO
+
+Ta
+
+El lagarirmo de an prodacto es igual a la suma de los Jogaritmos de
+las fuctores,
+
+Scan A y Elos factores, Sea x=log A e y =log E y sea b la basc del
+sistema.
+
+Vamos a probar que -
+
+105 (4X B)=log 4 +10g B. -
+
+En ctecto: Que x es el log de A significa que x es el expo-
+nente a que hay que elevar la base b para que dé A, y que y es be
+El log de A significa que y es el exponente a que hay que elc- =D
+var la base b para que dé E; luego, tenemos:
+
+Multiplicando estas igualdades, tenemos:
+T= AXB.
+
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 255 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+51064 aLcenia
+
+Ahora bien: Si x +y es el exponente a que hay que elevar la hase 6
+para que dé AX B, x+y es el logaritmo de A X £: Inego,
+
+pero x =log Á e y=lor Aj luego,
+0g 4 % B)=10g A +log B-
+i::© LOGARITMO DE UN COCIENTE
+
+El Togariemo de un cociente es igual al logaritmo del diridembo me-
+nos el fnpgaritmeo del divisor,
+
+Sca A el dividendo, E el divisor, x=log A, y=log 5
+siendo 6 la base del sistema. Yamos a probar que
+
+En efecto: bSA.
+
+b=k.
+
+Dividiendo miembro a miembro
+
+cstas ¡rualdades, tenemos'
+
+════ IV · INTERÉS COMPUESTO · L30848-31200 ════
+INTERES COMPUESTO. AMORTIZACIONES, IMPOSICIONES
+
+INTERES COMPLESTO
+
+El interés es compuesto cuando los intereses que gana el capital pres-
+tado se capitalizan periólicamente, es decir, sc suman al capital prestado
+a intervalos iguales de tiempo, constituyéndose de ese mado un mievo ca-
+pital al final de cada unidad de tiempo.
+
+re
+
+el Prem
+
+DEDUCCION DE LA FORMULA FUMDAMENTAL Y DERIVADAS
+
+Sex £ el capital prestado a interés compuesto durante ! aíos, siendo y
+el tanto por uno anual, osea, lo que gana $1 al año.
+
+Cada peso gana 7 al año; luego, en un año se convierte
+en l+r y r pesos se convertirán, al cabo de tun año, ef =
+
+Cada peso de este nuevo eapiral, en el segundo reysm ;
+año, se convierte en 1+7; Juego, los e(I+r7) pesos ¡_H?WE&$%Í&M
+
+al final del segundo año, se habrán convertido en
+
+Aplicando a este nuevo capital la tisia
+regla, tendremos que al final del Jer, año se habrá -
+convertido en — ú
+
+ENE
+
+520
+
+s 521
+
+EATENES COMPLESTO
+
+Este nuevo capital, al final del de año, sc habrá convertido en
+y así sucesivamente; luego, al final de / años, el capital se habrá con-
+vertido en (1 +
+y designándolo por €, tendremos que
+C=al—r (1)
+formula Mndamental del interés complesto.
+
+Esta Eórmula es cale
+nemos:
+
+FORMULAS DERNVADOAS
+La ecuación (1) nos da una relación entre cuatro cantidades; conocien:
+de tres de ellas, podemos hallar la cuarta,
+
+Despejando € en (I) se tiene:
+- C
+C=—
+
+r!
+
+Y aplicando logaritimos: los e=lop€ - o d +
+
+t puede despejarse en esta última Eórmula, Pasando —e log(l+r) al
+primer miembro y lag c al segundo, se tiene:
+tlog(1+7)=log £ —log e
+
+- lag E— lag
+
+lg (1+r)
+I|-' %¿ e
+
+Para hallar r. En la fórmula 1), ¿¿£ -gº? "
+
+despejando (1 +7)" se tiene: d —
+
+y de aqui:
+
+! ¡l"'-
+Extrayendo la raír 4 14H7= / -
+[A
+lug C — lag
+y aplicando togaritmos: las (| +1)=- E |¡- .
+
+Hallado el valor de 1 +r, se le resía 1 y sc tiene r.
+
+W Ejemplos I
+
+Hey que tener presente que r representa el lanta por 1, lo que gona $) en
+la unidad de tiempo. Que el tanto por ciento os el 5 anval significa que
+100 ganon 45 al año, frego 61 gonorá $¡i= 4$0,05, Por fonto, equí:
+
+"o
+E=5000, r=005; 457
+
+(I b ¿En cuénto 3e convertirán $5900 al 5% anval de inferás
+compuesto en7 años?
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 261 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+Z e
+
+1Z
+
+(3)
+
+════ V · PROPORCIONALIDAD · L17262-17360 ════
+do es directoemente proporcional lo propercional) a la variable
+tiempo y viceverea
+
+© Si Á es proporcional a E, A es igual a D multiplicada por una corá
+Lamte.
+
+En el ejemplo anterior, la relación. entre el espacio y cl fiempo cs
+constante,
+
+En efecto:
+
+En 10 min el móvil recorre 20 Em; la relación es ——
+
+=h
+1ú
+En 20 min el móvil recorre 60 Em la relación ey í=;L,
+
+En 5. min el móvil recorre 15 Em; la relación es — =8
+
+(a)
+
+En general, si A es proporcional a B, la relación
+cmtre A y B es constante; luego, desipnando está
+CONsIInte por 4, temermeos;, — B a
+
+(1% VARIACION INVERSA
+
+— de dice que A varía inversamente 1 B o que Á cs inversamente pro
+porcional a 4 cuando multiplicando o dividiendo ua de estas varíalles
+
+por una cantidad, la otra queda dividida en el primer caso y multiplicada
+en el segundo por la misma cancidad.
+
+Sa 10 hombres hacen vno obra en á horas, 20 hombres la*haraa
+en 3 horas y 5 hombres en 17 horas, luego la variable Hampo
+emplecdo en hacer lo abra es inversamenbr properciónal a la
+variable número de hombves y viceverso,
+
+Ú.Eá Si Á es invesamente proporcional a E, A es igual a una constante
+diridida entre T,
+
+| Ejemplo
+
+En el ejemplo anterior, el producto del número de hombres por el
+tiempo empleado en hacer la obra ces constante. En efecto:
+
+10 hombres emplean 6 horas; el producto 10 6=60.
+S hombres 1:|'r|]r|.|::¡1|l_' d horas; el predicro 20 X 3560
+6 hombres emplean 12 horas; el producto 5 12 =4
+
+En general, si A es inversamente proporcional
+ad el producto AÑ es constante; luego, desigrianco
+
+Es
+mia Constante por K, ténemos: E +
+
+T
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 143 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+286 8 ainmña
+
+VARIACION CONJUNTA
+Si A es proporcional a B euando € es constante y A es proporcional
+
+a C cuando P es constante, A es proporcional a BC cuando 6 y C ovarian,
+principio que sc expresa: A = kEBC,
+
+donde k es constante, lo que se puede expresar diciendo qué si ua
+cantidad es proporcional a otras varias, lo es a su producto.
+
+El-áreo de un trióngula es proporcional a la alfura, si la bose
+éS constente y os proporcional a la bose si la altura e5 cons-
+tanic, fuego síla base y la alturo verian, el arca es propórcio-
+nal al producto de lo baso por la altura. Siendo A ol áren,
+bElo bas: y f la allura, temamos;
+
+Ejemplo
+
+A = kbh
+
+Y la consiante E= 4 fpor Geometriaj fuego A = 46f
+w.mn.c::um DIRECTA E INVERSA A LA VEZ A
+Se dice que A es proporcional a 5 e inversamente proporcional "'F='
+
+a Cocmando A es proporcional a la relación v lo que se expresa: ?
+
+RE5UMEN DE LAS VARIACIONES
+A
+
+Si A es proporcional a E.ír.--..-.e... I¿B.
+Si A es invesamente proporcional a I. ñ.=ñ.
+Si A es proporcional a E y C-..e..e... A =kBC
+SI A es proporcional a Rc inveramente k
+proporciónal - a-C::: 750 AS—
+
+(11 Ae proporcional a Á y A = 20 cuando 8 =7
+Hallar A cuando =4
+
+════ VI · SISTEMAS 2x2 · L19298-19400 ════
+© SISTEMA DE ECUÁCIONES es la reunión de dos o más ecnaciones-con
+dos o más incópnitas.
+
+Así,
+
+R y
+es un sistema de dos ecuaciones de primer grado con dos incógnitas,
+
+Solución de un sistema de cenaciones es un grupo de valores de las
+incógnifas que satisface todas las ecuaciones del sistema: La solución del
+sistema anterior es x =2, y=.
+
+Un sistema de ecuaciones es posible o compatible cuando tiene solu-
+ción y s imposible o incompatible cuando no tiene solución.
+
+Un sistema compatible es determinado evando tiene una sola solución
+e indeterminado cuando tiene infinitas soluciones.
+
+SISTEMAS DE DOS ECUACIONES SIMULTAMNEAS DE PRIMER
+GRADO COM DOS INCOGHITAS
+
+(_£;) RESOLUCION
+
+Para resolver un sistema de esta clase es necesario obtener de las dos
+ecuaciones dadas una sola ecuación con una incógnita. Esta operación sc
+llama Eliminación.
+
+293) METODOS DE ELIMIMACION MÁS USUALES
+
+Son tres: Método de igualación, de comparación y de reducción, tam-
+bién HNamado este úitimo de suma o resta.
+
+ECUACIÓNES SIMULTANEAS GOM DOS INCOGHITAS: 6 321
+
+l ELIMINACION FPOR IGUALACIÓN
+
+Despejemos nña cualquiera de las Incognitas; por ejemplo + en am-
+has ectaciones.
+18-4y
+Despejando x en (1): Tx=13-ay .. X=
+
+r
+£ 19 +y
+Despejando x en (2): 5x= 1- X=
+
+5
+
+Ahora se igualan entre si los dos valores de x que hemos obtenido:
+Y va tenemeos ona sola ectuación con ua incógnitt; hemaos eliminaco La +
+Resalviendo esta ecuación:
+
+B(1S — 4)= 010 + 2y
+ha — 20y = T4kk + 14y
+— 20 — 14y =1441— 05
+- H = 65
+
+Susttinyendo este valor de y en cualquiera de las ectaciones dichap.
+por ejemplo en (1) (reneralmente se sustituye en la más senciblas, se tienes
+
+Ta 4 — 2)=19
+
+Te A=18 n fE=
+Tx =1 ¡ —,
+x=d:
+VERIFICACION
+Sustitieyendo X =4, y =—2 en las dos ecmaciones dacas, amibis 5e col-
+
+vierren en ideriiea:d.
+
+D- EJERCICIÓ 176
+
+Resalver por el método de tgualactón:
+
+l x+ =27 Te—d4y=5 q Fey =— 87
+P 3 Tx—Hy="h Dr +8y=14. * | —18x=Ny=-87
+be y=A -F 16y=7, Tx+iy=12:
+
+z 1 ha Ay h % [y =L), B % 12x-+ h=
+E E—y … Ia y= — tix-JAy=—Hi
+de |y-y= 4 19y —Aa=0, 3 Mx-wy= —
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 161 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+327 9 ALGEBRA
+
+ELIMIMACION POR SUSTITUCIÓN
+
+. T-t_fml'. r el sistertoa % ;: Í :_;$ Z r Í; E—;é:
+
+Despejemos una cualguiera de las incógnitas, por ejemplo x en una
+
+de las ecuaciónes, Vamos a d:,=pr._1¡r]:t en la ecuación (1)  Tendremeos:
+
+Este valor de 4 se sustituyc en la ecuación (2
+
+3(—_24;53 )- 3y =1
+
+y Ya tenemos una coNaCIÓN CON- UNa incórmita; hemos eliminado la .
+
+Resolvamos esta ecuación, Simplificando 6 y 2, queda:
+M(—24—5) — y=15
+
+
+════ VII · RADICALES · L23445-23600 ════
+* Txaxgxaxs 147 - RADICACION
+= 252 5325 ) — — 60640 R (554) RAIZ de una expresión alrebraica es tola expresión algebraica qué
+":t"“"dº E' |5'EQ"“¿G témmino del binomio es negofivo, como an este émso — 1y — elevada a una potencia reproduce la expresión dada.
+el signo del término que se busca será + si an el piunleu ee segundo término ; .. u p i
+lene exponente par y será — si liene exponente impar, como sucede en el Así 2q es raíz cmadrada de 4e* porque (ay = 40 y —2a también es ralz
+ua dnterior, cuadrada de 495 porque [— Zaj = 40%.
+dx es riir CÓbica de 274 porque (ax—27x".
+
+E EERCICIO. 212 El signo de rai es + , llamado signo radical, Debajo de esté signo
+Hallar el se colora la cantidad a la cual se extrae la raíz llamada por eso cantidad
+— y ; subradical.
+
+1. 5e término de N "T Ea 2— LA, si a RE =1 .
+
+R .'Íx—]|:ri':lT M T r.-:-,1111fr|u de (x E]-'ÍIl El signo + leva un indice que indica la porencia a que hay que el
+- ERAN a AMO EE I var la raíz para que reproduzca la cantidad subradical, Por convención el
+A 5 término de (1ay 9 107 termino de (a*46715, indice 2 se suprime y cuando el signo v no lleva indice se entiende que
+d c ea ua 10- 99 rérmino de (1=x*1* el indice es 2
+6. 5% término de (e5—24y. 11. El penúltimo término de (20—6)", Asi, val significa una cantidad que elevada al cuadrado reproduce la
+
+- . E NTATAR adical d aiz 05 0? y — porque (Y =0' y (=
+. 6" réermino ce |:l¿..¡_,:_]a_ E- Deriiini del abede (ax2-y2)", cantidad subradical 0*7 esta taiz s a? y — d? porque (4) v 1
+
+VA significa una eantidad que elevada al cubo reproduce la camti-
+dad subradical 8x'; esta ralz es 2x porque (2x) =a
+Y — significa una cantidad que elevada a la quinta potencia re
+produce la camtidad subradical — d20% esta ralz es —2a porque (— 2aj
+— ,
+
+389
+
+════════════════════════════════════════════════════════════════
+  PÁGINA 195 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+.
+
+390 a ALGENRÁ
+
+E€ EXPRESIÓON RADICAL O RADICAL es toda raíz indicada de un nú-
+
+mero o de una expresión algebraica. Así, Y, YO08, Y T6 son ex-
+presiones radicales.
+
+S1 la raíz indicada es exacta, la expresión es racional; si no es exacta,
+es irracional,
+
+Las expresiones irracionales como y, Y5 son las que comtnmente
+se llaman radicales,
+
+El grado de un radical lo indica su indice. — Así, v2q es un radical de
+
+segundo pgrado; $ 6e5 es un tadical de tercer grado; * d% es u nudical de
+cuarto grado.
+
+©5¡EHÚS DE LAS RAICES
+
+Dy Dr ra immprares el ua canticaad tienen el misiio signo eu de
+remetdedieel sa briación d
+
+Asi, Yaza = de porque  Ha =,
+Y —970=-a porque (—807=-— 270
+VN = 9 porque T=
+— — porque (X = — ,
+B Lors nióds ferres ae ann esrrmivelird parrocidass Antriera rbeadoles >iggnnos:
+
+Así, EE =0x 0 — porque (5x)*=20x" y (—dx =a7
+
+Esto se indica de este modo: — Y 26x? =£ 6a,
+
+Ecl propio mado, + I6e*=20 y —2Za porque (Za/ =164* y [— Za = lh!
+
+Esto se indica: Y 16a1=E 20
+357) CANTIDAD IMAGINARIA
+
+Las raices pares de una cantidad negativa no se pueden extracr, por-
+que toda cantidad, ya sea positiva o negitiva, elevada a ua potencia par.
+da tn resultado posirivo, Estas raíces 5e llaman cantidades imaginarias.
+
+Asi, Y — 4 no se puede extrier. . La raiz cuadrada de — dono es 2 por
+que =4 y no —d, y tampoco es —2 porque (-2=4 y no =4 v—4es
+una cantidad imaginaria.
+
+Del propio modo, Y —4, Y —d, Y —16x5 son cantidades imaginarías
+lí3í5© CANTIDAD REAL e; una expresión que no contiene ninguna camti-
+
+dad imaginaria, Ast, 2í E, + 5 son cantidades reales.
+
+i%jgj YALOR ALGEERAICO Y ARITMETICO DE UN RACICAL
+
+En general, una cantidad tiene tanías raices de un grado dado como
+unidades tiene el grado de la taíz, - Asi, toda cantidad riene dos raíces cua
+
+HAGICACION B 301
+
+dradas, cres raices cúbicas, cuatro Taíces cuartas, etc., pero generalmente
+una o más raíces de éstas son imaginarias. Maás adelante hallaremos las
+tres raíces cúbicas de la unidad, dos de las cuales son imaginarias. ,
+El valor real y positivo de un radical, si existe, 6 el valor real negativo
+si no existe el pasitivo, es lo que se lama valor aritmético del radical. Maál,
+Y P==8: el valor aritmético de YS es +
+YTR=9; el valor aritmético de 4 16 €es -*
+
+Al tratar de radicales, siempre nos referimos a 5u valor aritmético.
+
+©RAII DE UNA POTENCIA
+
+Para extrmer una raíz a una potencia se divide el exponente de la po-
+tencia por el índice de la raiz.
+
+=.
+
+Decimos que +
+En efecto: I;¿¡= ) =.r¡;'-- := a", cantidad subradical,
+
+Aplicando esta regla, tenemos: í
+a -
+
+════ VIII · ECUACIÓN 2º GRADO · fórmula ════
+26888-
+26889-Resolver las ecuaciones siguientes Mevándolas a la forma ext+bx<c=0
+26890:y aplicando la fórmula general;
+26891-EA +B=DX+0.
+26892-Vd
+26893-WehI=(2—0)—(—D(E+2)
+26894-(2x—D)— a +07=—28.
+26895-Zo(x-2E=(x—7)—8B1.
+26896-Bxfx— D (x—B)=Za(x —
+26897-
+26898-—
+26899-"
+26900-
+26901-T, Ta — d— Bfe* —< Ox-E2).
+26902-
+26903-g (x-2-(x—B)=(2x—3P—118.
+26904-
+26905-a. (ax—Me—(dx+1)— —O
+--
+26918-Las ecnaciones de esta forma como x?+5x+6=0 sc caracterizan por-
+26919-que el coeficiente del rérmino en x* es 1. Estas ecnaciones pueden resol-
+26920:verse por la fórmula general con sólo suponer en ésta que a= 1, pero existe
+26921-para ellas ana fórmula particular, que vamos a deducir,
+26922-
+26923-m ER=0.
+26924-
+26925-k mx=-—nñ.
+26926-
+26927-La ecuación 45
+26928-
+26929-Transponiendo m:
+26930-
+26931-m.º a m= m2
+26932-Sumarido a los dos miembros: x5 4 my - - = n E
+26933-l]v5r¡:nmp-nmc—-ndn él pr|mf;r miembro, ,1¡ -1——) — —
+26934-que es un trinomio cuadrado perfecto: .
+26935-; E ; m
+--
+27078-Las ecuaciones literales de 2 grado pueden resolverse, como las m
+27079-
+27080:méricas, por la fórmula general o por descomposición en factores, En
+27081-muchas ecuaciones literales la resolución por factores es muy rápida, mien-
+27082-tras que por la Eórmula resulta mucho más laboriosa.
+27083-
+27084-| Ejemplos d _2
+27085-
+27086-[1! Resalver lo eouación — — — —=l.
+27087-E
+27088-
+27089-Guitando deneminodores:
+27090-
+27091-307 — =
+27092-Dar — d? =0
+27093-
+27094-Aplicando |
+27095-
+--
+27155-raiz cuadrada de una cantidad negaciva; si tienen signo distinto, las raíces
+27156-son reales.
+27157:A igual resultado se llega aplicando la fórmula general a esta ecuación

@@ -1,0 +1,197 @@
+════ B91 · inventario SCFV_DSR · Fri Sep 25 09:16:06 -04 2026 ════
+
+════ I · estructura completa ════
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/.gitignore
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/CACHEDIR.TAG
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/README.md
+/data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/v/cache/nodeids
+/data/data/com.termux/files/home/SCFV_DSR/README.md
+/data/data/com.termux/files/home/SCFV_DSR/__pycache__/baldor.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/__pycache__/evaluador.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/__pycache__/test_h1.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/baldor.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/.gitignore
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/CACHEDIR.TAG
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/README.md
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache/lastfailed
+/data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache/nodeids
+/data/data/com.termux/files/home/SCFV_DSR/dsl/README.md
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/__init__.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/parser.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_asiento.scfv
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_contrato.scfv
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_integrado.scfv
+/data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_invariante.scfv
+/data/data/com.termux/files/home/SCFV_DSR/dsl/grammar.lark
+/data/data/com.termux/files/home/SCFV_DSR/dsl/parser.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/__init__.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_asiento_declarado_def.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_compatibilidad_s0.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_contract_def.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_grammar_lalr.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_invariant_def.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_asiento_declarado_def.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_compatibilidad_s0.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_contract_def.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_grammar_lalr.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_invariant_def.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/__pycache__/leer_eventos_asiento.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/leer_eventos_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/__pycache__/normalizar_partidas_para_saldos.cpython-313.pyc
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/normalizar_partidas_para_saldos.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/REGISTRO_OBSERVACION.log
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/__pycache__/test_soporte_minimo.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/observacion_useq_01_20260923T110658Z.json
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/test_soporte_minimo.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluador.py
+/data/data/com.termux/files/home/SCFV_DSR/fractales/ARRENDAMIENTOS.scfv
+/data/data/com.termux/files/home/SCFV_DSR/fractales/COMBINACIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/fractales/HIPERINFLACION.scfv
+/data/data/com.termux/files/home/SCFV_DSR/fractales/INTANGIBLES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/fractales/INVENTARIOS.scfv
+/data/data/com.termux/files/home/SCFV_DSR/fractales/MONEDA.scfv
+/data/data/com.termux/files/home/SCFV_DSR/fractales/PPE.scfv
+/data/data/com.termux/files/home/SCFV_DSR/fractales/PROVISIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/fractales/SUBVENCIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/kernel/categorias.json
+/data/data/com.termux/files/home/SCFV_DSR/kernel/cuentas.json
+/data/data/com.termux/files/home/SCFV_DSR/kernel/operaciones.json
+/data/data/com.termux/files/home/SCFV_DSR/kernel/puente.json
+/data/data/com.termux/files/home/SCFV_DSR/test_h1.py
+
+════ II · dimensiones por archivo ════
+  62 1892 /data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/leer_eventos_asiento.py
+  31 2709 /data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/__pycache__/leer_eventos_asiento.cpython-313.pyc
+  55 1818 /data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/normalizar_partidas_para_saldos.py
+  23 2548 /data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/__pycache__/normalizar_partidas_para_saldos.cpython-313.pyc
+ 103 3286 /data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/test_soporte_minimo.py
+  34 1008 /data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/observacion_useq_01_20260923T110658Z.json
+  1 235 /data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/REGISTRO_OBSERVACION.log
+   67 10586 /data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/__pycache__/test_soporte_minimo.cpython-313-pytest-9.1.1.pyc
+  31 1066 /data/data/com.termux/files/home/SCFV_DSR/README.md
+0 0 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__init__.py
+ 10 287 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_grammar_lalr.py
+ 17 598 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_compatibilidad_s0.py
+ 27 818 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_contract_def.py
+ 13 453 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_invariant_def.py
+ 12 389 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_asiento_declarado_def.py
+  10 3185 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_contract_def.cpython-313-pytest-9.1.1.pyc
+  1 160 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/__init__.cpython-313.pyc
+   6 1873 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_asiento_declarado_def.cpython-313-pytest-9.1.1.pyc
+  12 2197 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_compatibilidad_s0.cpython-313-pytest-9.1.1.pyc
+  10 1643 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_grammar_lalr.cpython-313-pytest-9.1.1.pyc
+   6 1921 /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_invariant_def.cpython-313-pytest-9.1.1.pyc
+ 116 3934 /data/data/com.termux/files/home/SCFV_DSR/dsl/README.md
+  60 1841 /data/data/com.termux/files/home/SCFV_DSR/dsl/grammar.lark
+  326 12894 /data/data/com.termux/files/home/SCFV_DSR/dsl/parser.py
+0 0 /data/data/com.termux/files/home/SCFV_DSR/dsl/__init__.py
+  1 154 /data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/__init__.cpython-313.pyc
+   48 18791 /data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/parser.cpython-313.pyc
+ 10 262 /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_contrato.scfv
+ 10 269 /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_invariante.scfv
+  4 176 /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_asiento.scfv
+ 20 453 /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_integrado.scfv
+  8 302 /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/README.md
+ 2 37 /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/.gitignore
+  4 191 /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/CACHEDIR.TAG
+  8 401 /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache/nodeids
+0 2 /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache/lastfailed
+ 11 463 /data/data/com.termux/files/home/SCFV_DSR/test_h1.py
+  624 28106 /data/data/com.termux/files/home/SCFV_DSR/baldor.py
+  8 302 /data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/README.md
+ 2 37 /data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/.gitignore
+  4 191 /data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/CACHEDIR.TAG
+ 15 986 /data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/v/cache/nodeids
+  155 20255 /data/data/com.termux/files/home/SCFV_DSR/__pycache__/baldor.cpython-313.pyc
+  17 3377 /data/data/com.termux/files/home/SCFV_DSR/__pycache__/test_h1.cpython-313-pytest-9.1.1.pyc
+  58 8862 /data/data/com.termux/files/home/SCFV_DSR/__pycache__/evaluador.cpython-313.pyc
+ 225 5625 /data/data/com.termux/files/home/SCFV_DSR/kernel/operaciones.json
+ 105 2728 /data/data/com.termux/files/home/SCFV_DSR/kernel/cuentas.json
+ 124 3302 /data/data/com.termux/files/home/SCFV_DSR/kernel/categorias.json
+  97 1776 /data/data/com.termux/files/home/SCFV_DSR/kernel/puente.json
+ 12 559 /data/data/com.termux/files/home/SCFV_DSR/fractales/PPE.scfv
+ 12 568 /data/data/com.termux/files/home/SCFV_DSR/fractales/INTANGIBLES.scfv
+ 12 586 /data/data/com.termux/files/home/SCFV_DSR/fractales/COMBINACIONES.scfv
+ 12 620 /data/data/com.termux/files/home/SCFV_DSR/fractales/ARRENDAMIENTOS.scfv
+ 12 609 /data/data/com.termux/files/home/SCFV_DSR/fractales/PROVISIONES.scfv
+ 12 622 /data/data/com.termux/files/home/SCFV_DSR/fractales/SUBVENCIONES.scfv
+ 12 602 /data/data/com.termux/files/home/SCFV_DSR/fractales/MONEDA.scfv
+ 12 672 /data/data/com.termux/files/home/SCFV_DSR/fractales/HIPERINFLACION.scfv
+ 13 582 /data/data/com.termux/files/home/SCFV_DSR/fractales/INVENTARIOS.scfv
+ 152 5699 /data/data/com.termux/files/home/SCFV_DSR/evaluador.py
+
+════ III · hashes SHA256 ════
+3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd  /data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/.gitignore
+37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4  /data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/CACHEDIR.TAG
+73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad  /data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/README.md
+4a002f12aaa493d4f84e64f397bbf562b79ed90a1eb274beb6f1486bfa327fdc  /data/data/com.termux/files/home/SCFV_DSR/.pytest_cache/v/cache/nodeids
+a15b0635c660dfaa1ae0b1ed832d65de575ce939b597fee352fcc57f98873cd2  /data/data/com.termux/files/home/SCFV_DSR/README.md
+c3e3747d2864e4ab5b8075e34504553f7431576f47b7d6d9fd895ef02152b523  /data/data/com.termux/files/home/SCFV_DSR/__pycache__/baldor.cpython-313.pyc
+4c1104b8e28bd242212514997cece82baa728f2d943cbfa8a1f15ff964a6a930  /data/data/com.termux/files/home/SCFV_DSR/__pycache__/evaluador.cpython-313.pyc
+73f58b3c658c1e023842c8192daecc12513dbcc281e35cc0881e7ee2f8896d3f  /data/data/com.termux/files/home/SCFV_DSR/__pycache__/test_h1.cpython-313-pytest-9.1.1.pyc
+8f77a5f801f0706354f63ff5bf38beaff74a7d9aed6804da4c2cd4ec9e95d90e  /data/data/com.termux/files/home/SCFV_DSR/baldor.py
+3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd  /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/.gitignore
+37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4  /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/CACHEDIR.TAG
+73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad  /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/README.md
+44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a  /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache/lastfailed
+224cc9260ab2241d9e95ee29bebe823090f14c718fb8c1b2e95e20d112a846e2  /data/data/com.termux/files/home/SCFV_DSR/dsl/.pytest_cache/v/cache/nodeids
+bd82d55eae8ec0d1c27d71ca0af37c1650cc4e5877e70117d2ca2eed200c47de  /data/data/com.termux/files/home/SCFV_DSR/dsl/README.md
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/SCFV_DSR/dsl/__init__.py
+14e8de3998d5629ebe498f8d30986d0f7f94a5c9429e6894361e0e2bc55fc55e  /data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/__init__.cpython-313.pyc
+5cdfc45b74271ef5a1872b44b225e67ce7091dad65eacc9e2958c3f10f721e2d  /data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/parser.cpython-313.pyc
+fef6d977c1dca957f0e834eef5ed3bfc0084eeace743e2185cf0c26a37f1bd17  /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_asiento.scfv
+3719c198119a3ce2e121d08128c3912882ed26b3a3052d0a72a3ad41db067dc4  /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_contrato.scfv
+8f44d360693514aa9af0c58198fd2166d975e91cf823ae148424cd8c7b6f1331  /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_integrado.scfv
+6de771eb8cacb3b83bcf189e230bfe5b81ee739e6530b12dde26adbabe5e82f8  /data/data/com.termux/files/home/SCFV_DSR/dsl/ejemplos/ejemplo_invariante.scfv
+4129fca2f6f02ef7fb4b386f3a3bcd0369f74d9931c43d5cc38633b5f592e7e7  /data/data/com.termux/files/home/SCFV_DSR/dsl/grammar.lark
+94bdaa939fb4fa810815e13b69717fc856469479dd0d968b4b9b02bc676d9fa2  /data/data/com.termux/files/home/SCFV_DSR/dsl/parser.py
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__init__.py
+8486bc10b78131d4362828e658a260dc50a18b09b1c944b5ef0bc9582c14c9f0  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/__init__.cpython-313.pyc
+4f79afe552c47baa0148c58a927b4419df0dfdcbf015d944b884b51e8334d317  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_asiento_declarado_def.cpython-313-pytest-9.1.1.pyc
+cabf870129d7f3b4155389352ba219c2dc5f7f038145dc6d315eeb1de5c20a4f  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_compatibilidad_s0.cpython-313-pytest-9.1.1.pyc
+223d2e8f2195d18dee6852e5a33b579c6e83b10af0f3905d9b591b071f43f926  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_contract_def.cpython-313-pytest-9.1.1.pyc
+0ff1a0aead36ffa31a1f04cd032dc0cc1585f5da1fa52ff8b0dbcc684c4765e7  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_grammar_lalr.cpython-313-pytest-9.1.1.pyc
+ab75ff73195b6a96b837716a4d768d18a03cd6b247fb8250f8ded469d72f2b20  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_invariant_def.cpython-313-pytest-9.1.1.pyc
+2f3f7ce3530e60d0757214958b3aaa1dfe365b64adea164fb59728d13aab9a18  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_asiento_declarado_def.py
+039d7aecfed4b490f6fd2480eb70341f5aec53fff59068988ba1d9938b4384bb  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_compatibilidad_s0.py
+9344ecdc47afdde7bd0489d03ad01c993b7798536b09913f45ed5033e02380c0  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_contract_def.py
+1469828d21c48ea2ff4cedc8764b87f15616f0a0892a7d8a5629b785a55ae6b9  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_grammar_lalr.py
+3a8cf8c773c07c370fe25a1599e1689dbf01a755609e370441afbe0dc5835269  /data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_invariant_def.py
+c977e168059853f56da6b53458034e7e850d11a2fc7b667ad8e5a685a5f5bb38  /data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/__pycache__/leer_eventos_asiento.cpython-313.pyc
+120bdd69299d0dba36aeb5f7675eaa56c83edef509e8539a89a9cf5e3d27a395  /data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/leer_eventos_asiento.py
+b65860e8b49f919c159b8d3a12edcaccc77b0f41a539eb1f6e7089ff92249aa0  /data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/__pycache__/normalizar_partidas_para_saldos.cpython-313.pyc
+23cac9191f516e8b4d807a0499ee3e1ccb20d05957e96d7f1f91ed37f2b12e8f  /data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/normalizar_partidas_para_saldos.py
+389aed2788586e3e550f0ddb895c261390fe933dfe2f3cf5c2f2c3b17d8707d3  /data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/REGISTRO_OBSERVACION.log
+267c76e0c668028e9088b53be41f3adaa98687849c3ad265bac3cd45b9e9c679  /data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/__pycache__/test_soporte_minimo.cpython-313-pytest-9.1.1.pyc
+935ae9d331c0a63b83c2291c6ea33601efc3046d626fbbcb6b06e8d2d3709e20  /data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/observacion_useq_01_20260923T110658Z.json
+ca44e9284bc25956a2437781a25ab4eaa8a40e344688c45d6e24b55d5f5c3293  /data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/test_soporte_minimo.py
+4f6bc5b1f73fd1285f90721236ceee6e883e936593972e4f278a8ddbb3d180d6  /data/data/com.termux/files/home/SCFV_DSR/evaluador.py
+4fde582eb97e98ca1562d7088bfc07ac7009ec7dbe9577eaa85b4853159e8551  /data/data/com.termux/files/home/SCFV_DSR/fractales/ARRENDAMIENTOS.scfv
+5eb45cd7108794f369f688dd1d1051361585c3a401df45550bbcbfb74b4cc0e0  /data/data/com.termux/files/home/SCFV_DSR/fractales/COMBINACIONES.scfv
+38da0251b82e69a10866db87c18e73d32cfecc28ce536fb3b0b012cdfdcb14c0  /data/data/com.termux/files/home/SCFV_DSR/fractales/HIPERINFLACION.scfv
+33e9bde0c159600d4ca7561f345040dcf0187d85293b53fc2711baab24fbf8cd  /data/data/com.termux/files/home/SCFV_DSR/fractales/INTANGIBLES.scfv
+139546cf52c2fa8cb7fd0a5965c85a253f40058ab12c8729832c066e56bb783b  /data/data/com.termux/files/home/SCFV_DSR/fractales/INVENTARIOS.scfv
+ccf62a30f86df65e240cb440228a1dfe82e7088a82243430cf87ee870386de1a  /data/data/com.termux/files/home/SCFV_DSR/fractales/MONEDA.scfv
+e5b45471a615b33af1077d838d8f5bedc3ec28c9ada26e0ff2d68a9d552fbab1  /data/data/com.termux/files/home/SCFV_DSR/fractales/PPE.scfv
+8648e2e600b8cbe1cc036d166e0421ecf8ef5249f996c45414d62c42d4d038b8  /data/data/com.termux/files/home/SCFV_DSR/fractales/PROVISIONES.scfv
+f2c6900e0b140ab460327082c40a2a6f74f5750b688afeccf0bafafa08222ba1  /data/data/com.termux/files/home/SCFV_DSR/fractales/SUBVENCIONES.scfv
+f38198a378308baaa45c966b1745bda2afba0a880d097cd9d445ac799517bc85  /data/data/com.termux/files/home/SCFV_DSR/kernel/categorias.json
+2c83033d5555fc960e7ade60a99d7fca8bb56359a130b9100599b4f8bb05ad81  /data/data/com.termux/files/home/SCFV_DSR/kernel/cuentas.json
+6aa9bc656b62f45245531958f2f39ac0770def5a13056519145bf0c4104a1694  /data/data/com.termux/files/home/SCFV_DSR/kernel/operaciones.json
+216b7c1adaf18a9d6df59fd25209d450b37db4ee500441e4c0b759562a9dd1af  /data/data/com.termux/files/home/SCFV_DSR/kernel/puente.json
+006e59a67d1f92a779ad9f17d387cb8521d3dffd3c107f576764774cc24989fa  /data/data/com.termux/files/home/SCFV_DSR/test_h1.py
+
+════ IV · conteo ════
+Archivos totales:
+59
+Fractales .scfv:
+13
+Kernel JSON:
+4
+Python:
+14
+
+════ V · test funcional de cierre ════
+Fractales funcionales: 9/9

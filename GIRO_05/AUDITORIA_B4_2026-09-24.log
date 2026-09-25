@@ -1,0 +1,67 @@
+=== B4 · 2026-09-24 · IA-2 ===
+--- motor · 228 tests ---
+./_legacy/tests_src_legacy/test_caos.py
+./_legacy/tests_src_legacy/test_compras.py
+./_legacy/tests_src_legacy/test_epistemic.py
+./_legacy/tests_src_legacy/test_fiscal.py
+./_legacy/tests_src_legacy/test_inventario.py
+./_legacy/tests_src_legacy/test_motor.py
+./_legacy/tests_src_legacy/test_orchestrator.py
+./_legacy/tests_src_legacy/test_seguridad.py
+./_legacy/tests_src_legacy/test_ventas.py
+./_legacy/tests_src_legacy/test_motor_v82_patch.py
+./BACKUP_F3B6/test_estados_asiento_pre_unificacion.py
+./TESTS/test_serializador_canonico.py
+./TESTS/test_event_store_tipo.py
+./TESTS/test_reticulo.py
+./TESTS/test_integracion.py
+./TESTS/test_event_store_d3.py
+./TESTS/test_decision_provider.py
+./TESTS/test_f3b4_infra_f.py
+./TESTS/test_nucleo_consecuencias.py
+./TESTS/test_v82_nuevas_capacidades.py
+./TESTS/test_h2_soberania.py
+./TESTS/test_estados_asiento.py
+./TESTS/test_generador_propuesta.py
+./TESTS/test_verificador_autorizacion.py
+./TESTS/test_motor_v82.py
+./TESTS/test_puente_autorizacion.py
+./TESTS/test_puente_consecuencias.py
+./TESTS/test_evidencia.py
+./TESTS/test_adquisidor.py
+./TESTS/test_evidencia_provider.py
+ERROR _legacy/tests_src_legacy/test_epistemic.py
+ERROR _legacy/tests_src_legacy/test_fiscal.py
+ERROR _legacy/tests_src_legacy/test_inventario.py
+ERROR _legacy/tests_src_legacy/test_motor.py
+ERROR _legacy/tests_src_legacy/test_motor_v82_patch.py - NameError: name 'Ver...
+ERROR _legacy/tests_src_legacy/test_orchestrator.py
+ERROR _legacy/tests_src_legacy/test_seguridad.py
+ERROR _legacy/tests_src_legacy/test_ventas.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 39 errors during collection !!!!!!!!!!!!!!!!!!!
+39 errors in 2.32s
+--- SCFV_DSR · tests ---
+..............                                                           [100%]
+14 passed in 1.57s
+--- confirmar 39 entradas biblioteca ---
+39
+# Inventario de BIBLIOTECA
+
+Estado al 2026-09-23. Verificable contra `REGISTRO_ENTRADAS.log` (30 líneas).
+
+Raws en HOME: 41 archivos (`~/.<nombre>_raw.txt`, permisos 600).
+PDFs en Downloads: referenciados, no movidos.
+
+Convención de estado: `poblado` (>5 líneas) · `placeholder` (1 línea) · `vacío` (0 líneas).
+
+---
+
+## §1 · Entradas (39)
+
+### §1.1 · Núcleo firme (1)
+
+| # | Entrada | Raw (HOME) | FICHA | INDICE | CITAS |
+|---|---|---|---|---|---|
+| 1 | Rodriguez_2016 | .rodriguez_raw.txt | poblado | poblado | poblado |
+
+### §1.2 · Metodológico (8)

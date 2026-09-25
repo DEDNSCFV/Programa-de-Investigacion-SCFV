@@ -1,0 +1,462 @@
+════ B94 · formato consecuencia_candidata · Fri Sep 25 09:21:31 -04 2026 ════
+
+════ I · _datos del test de contrato ════
+19:    def _datos(self, store):
+20-        entidades = [
+21-            EntidadExtraida("fecha", "2026-09-01", 1.0),
+22-            EntidadExtraida("monto", 1000.0, 1.0),
+23-            EntidadExtraida("moneda", "VES", 1.0),
+24-            EntidadExtraida("rif_emisor", "J-12345678", 1.0),
+25-            EntidadExtraida("rif_receptor", "J-87654321", 1.0),
+26-            EntidadExtraida("productos", "bienes", 1.0),
+27-        ]
+28-        obs = ObservacionH1(
+29-            observacion_id="OBS-CONTRATO-001",
+30-            evidencia_id="EVID-CONTRATO-001",
+31-            entidades=entidades,
+32-            confianza_global=0.95,
+33-            timestamp=1756800000,
+34-            correlation_id="CORR-CONTRATO-001",
+35-        )
+36-        ctx = VersionContexto(
+37-            version_id="CTX-CONTRATO-8.2",
+38-            fecha_inicio="2026-01-01",
+39-            fecha_fin="2026-12-31",
+40-            PCU_version="PCU-CONTRATO-1",
+41-            reglas_version="REGLAS-CONTRATO-1",
+42-            politica_inventario_version="INV-CONTRATO-1",
+43-            marco_contable_version="NIIF_Completas",
+44-            politica_monetaria_version="PM-CONTRATO-1",
+45-        )
+46-        pcu = {
+47-            "110101": {"nombre": "Caja",   "naturaleza": "DEUDORA",   "marcos": ["NIIF_Completas"]},
+48-            "410101": {"nombre": "Ventas", "naturaleza": "ACREEDORA", "marcos": ["NIIF_Completas"]},
+49-        }
+50-        candidata = [
+51-            {"cuenta": "110101", "monto": 1000.0, "naturaleza": "DEUDORA",   "movimiento": "AUMENTA"},
+52-            {"cuenta": "410101", "monto": 1000.0, "naturaleza": "ACREEDORA", "movimiento": "AUMENTA"},
+53-        ]
+54-        cctx = ContextoContable(
+55-            marco_contable="NIIF_Completas",
+56-            PCU_version="PCU-CONTRATO-1",
+57-            reglas_version="REGLAS-CONTRATO-1",
+58-            politica_monetaria_version="PM-CONTRATO-1",
+59-        )
+60-        return obs, ctx, pcu, candidata, cctx
+61-
+62-    def test_contrato_completo(self):
+63-        anterior = os.environ.get("SCFV_MODO_PRUEBA")
+64-        os.environ["SCFV_MODO_PRUEBA"] = "1"
+65-        try:
+66-            with tempfile.TemporaryDirectory() as tmp:
+67-                db_path = os.path.join(tmp, "contrato.db")
+68-                store = EventStore(db_path)
+69-                obs, ctx, pcu, candidata, cctx = self._datos(store)
+
+════ II · PartidaAutorizada completa ════
+42:class PartidaAutorizada:
+43-    cuenta_codigo: str
+44-    cuenta_version: str            # Obligatorio
+45-    monto: float
+46-    ubicacion: str                 # "DEBE" o "HABER"
+47-    movimiento: str                # "AUMENTA" o "DISMINUYE"
+48-    moneda: Optional[str] = "VES"
+49-    es_fiscal: bool = False
+50-    norma_id: Optional[str] = None
+
+════ III · NC.construir_consecuencia_autorizada · cuerpo ════
+78:    def construir_consecuencia_autorizada(
+79-        self,
+80-        decision: DecisionProfesional,
+81-        consecuencia_candidata: List[Dict],
+82-        evidencia_hash: str,
+83-        correlation_id: str,
+84-        contexto_contable: ContextoContable,
+85-        fecha: str,
+86-        periodo_id: str,
+87-        estado_actual: str = "ADMITIDO"
+88-    ) -> ConsecuenciaAutorizada:
+89-        """
+90-        Construye una ConsecuenciaAutorizada.
+91-
+92-        Precondiciones:
+93-
+94-        1. La decisión H₂ debe estar autorizada.
+95-        2. El estado debe ser ADMITIDO.
+96-        3. La decisión debe ser ACEPTAR.
+97-        4. Debe existir al menos una consecuencia candidata.
+98-        5. Cada partida debe contener cuenta, monto, naturaleza y movimiento.
+99-        6. La fiscalidad debe estar respaldada por norma_id.
+100-        7. Fecha y período deben venir del contexto productivo.
+101-
+102-        El método no persiste ni genera el asiento.
+103-        """
+104-
+105-        # ==============================================================
+106-        # 1. Verificar autorización H₂
+107-        # ==============================================================
+108-
+109-        if not self.verificador.esta_autorizado(
+110-            propuesta_id=decision.propuesta_h1_id,
+111-            decision_id=decision.decision_id,
+112-            firma_h2=decision.firma_h2,
+113-            correlation_id=correlation_id,
+114-            estado_actual=estado_actual
+115-        ):
+116-            raise ValueError(
+117-                "NC_VIOLACION: consecuencia no autorizada por H₂"
+118-            )
+119-
+120-        # ==============================================================
+121-        # 2. Verificar estado
+122-        # ==============================================================
+123-
+124-        if estado_actual != "ADMITIDO":
+125-            raise ValueError(
+126-                "NC_VIOLACION: estado debe ser ADMITIDO"
+127-            )
+128-
+129-        # ==============================================================
+130-        # 3. Verificar decisión
+131-        # ==============================================================
+132-
+133-        if not self._es_aceptar(decision.tipo_decision):
+134-            raise ValueError(
+135-                "NC_VIOLACION: decisión debe ser ACEPTAR"
+136-            )
+137-
+138-        # ==============================================================
+
+════ IV · PuenteConsecuencias.construir_consecuencia_autorizada ════
+61:    def construir_consecuencia_autorizada(
+62-        self,
+63-        decision: DecisionProfesional,
+64-        consecuencia_candidata: List[Dict],
+65-        evidencia_hash: str,
+66-        correlation_id: str,
+67-        contexto_contable: ContextoContable,
+68-        fecha: str,
+69-        periodo_id: str,
+70-        verificador: VerificadorAutorizacion,
+71-    ) -> ConsecuenciaAutorizada:
+72-        """
+73-        Permite que NC construya una consecuencia únicamente cuando
+74-        la Máquina demuestra que el asiento está ADMITIDO.
+75-
+76-        El puente no modifica la máquina.
+77-        """
+78-
+79-        # ==============================================================
+80-        # 1. La Máquina debe estar en ADMITIDO
+81-        # ==============================================================
+82-
+83-        if self.maquina.estado_actual != EstadoAsiento.ADMITIDO:
+84-            raise ValueError(
+85-                "F3B6F_VIOLACION: la máquina no está en ADMITIDO"
+86-            )
+87-
+88-        # ==============================================================
+89-        # 2. Debe existir propuesta H₁ asociada a la máquina
+90-        # ==============================================================
+91-
+92-        if not self.maquina.propuesta_original_id:
+93-            raise ValueError(
+94-                "F3B6F_VIOLACION: falta propuesta_original_id en la máquina"
+95-            )
+96-
+97-        if not decision.propuesta_h1_id:
+98-            raise ValueError(
+99-                "F3B6F_VIOLACION: falta propuesta_h1_id en DecisionProfesional"
+100-            )
+101-
+
+════ V · Motor.generar_asiento · cuerpo completo ════
+    def generar_asiento(
+        self,
+        consecuencia: ConsecuenciaAutorizada,
+        verificador: VerificadorAutorizacion,
+        estado_actual: str,
+        catalogo_normas: Optional[List[Dict]] = None
+    ) -> Dict:
+        """
+        Genera un asiento contable técnico a partir de una consecuencia autorizada.
+        """
+        # 1. Barrera de autorización
+        if verificador is None:
+            raise ValueError("MOTOR_VIOLACION: Motor sin verificador de autorización")
+
+        if not verificador.esta_autorizado(
+            propuesta_id=consecuencia.propuesta_id,
+            decision_id=consecuencia.decision_id,
+            firma_h2=consecuencia.firma_h2,
+            correlation_id=consecuencia.correlation_id,
+            estado_actual=estado_actual
+        ):
+            raise ValueError("MOTOR_VIOLACION: consecuencia no autorizada")
+
+        # 2. Validación estructural
+        if not consecuencia.decision_id or not consecuencia.propuesta_id or not consecuencia.firma_h2 or not consecuencia.correlation_id:
+            raise ValueError("MOTOR_VIOLACION: identificadores ausentes en consecuencia")
+        if not consecuencia.contexto_contable:
+            raise ValueError("MOTOR_VIOLACION: contexto_contable ausente")
+        if len(consecuencia.partidas) < 2:
+            raise ValueError("MOTOR_VIOLACION: se requieren al menos 2 partidas")
+
+        # 3. I6: Verificar catálogo si hay partidas fiscales
+        if any(p.get("es_fiscal", False) for p in consecuencia.partidas):
+            if catalogo_normas is None:
+                raise ValueError("MOTOR_VIOLACION: I6_VIOLATION - partidas fiscales requieren catálogo normativo")
+
+        # 4. Validaciones por partida
+        normas_ids = {n.get('id') for n in (catalogo_normas or []) if n.get('id')}
+        marco_contable = consecuencia.contexto_contable.marco_contable
+
+        for idx, p in enumerate(consecuencia.partidas):
+            # Validación estructural de partida
+            if "cuenta_codigo" not in p or "cuenta_version" not in p:
+                raise ValueError(f"MOTOR_VIOLACION: partida {idx} sin cuenta_codigo o cuenta_version")
+            if not p["cuenta_version"]:
+                raise ValueError(f"MOTOR_VIOLACION: partida {idx} con cuenta_version vacía")
+            if "ubicacion" not in p or p["ubicacion"] not in ("DEBE", "HABER"):
+                raise ValueError(f"MOTOR_VIOLACION: partida {idx} sin ubicacion válida")
+            if "movimiento" not in p or p["movimiento"] not in ("AUMENTA", "DISMINUYE"):
+                raise ValueError(f"MOTOR_VIOLACION: partida {idx} sin movimiento válido")
+            if "monto" not in p:
+                raise ValueError(f"MOTOR_VIOLACION: partida {idx} sin monto")
+            if not isinstance(p["monto"], (int, float)):
+                raise ValueError(f"MOTOR_VIOLACION: partida {idx} con monto no numérico")
+            if p["monto"] < 0:
+                raise ValueError(f"MOTOR_VIOLACION: partida {idx} con monto inválido (debe ser > 0)")
+
+            # I2: cuenta existe y compatible con marco
+            cuenta_codigo = p["cuenta_codigo"]
+            if cuenta_codigo not in self.pcu:
+                raise ValueError(f"MOTOR_VIOLACION: I2_VIOLATION - cuenta '{cuenta_codigo}' no existe en PCU")
+            marcos_permitidos = self.pcu[cuenta_codigo].get("marcos", ["NIIF_Completas"])
+            if marco_contable not in marcos_permitidos:
+                raise ValueError(f"MOTOR_VIOLACION: I2_VIOLATION - cuenta '{cuenta_codigo}' no compatible con marco '{marco_contable}'")
+
+            # I13: moneda
+            moneda = p.get("moneda", "VES")
+            if moneda != self.moneda_funcional:
+                raise ValueError(f"MOTOR_VIOLACION: I13_VIOLATION - moneda '{moneda}' no permitida. Solo '{self.moneda_funcional}'")
+
+            # I6: partidas fiscales
+            if p.get("es_fiscal", False):
+                if not p.get("norma_id"):
+                    raise ValueError(f"MOTOR_VIOLACION: I6_VIOLATION - partida fiscal sin norma_id")
+                if p["norma_id"] not in normas_ids:
+                    raise ValueError(f"MOTOR_VIOLACION: I6_VIOLATION - norma_id '{p['norma_id']}' no existe en el catálogo")
+
+        # 5. XNOR: calcular y verificar ubicacion
+        for idx, p in enumerate(consecuencia.partidas):
+            naturaleza = self.pcu[p["cuenta_codigo"]]["naturaleza"]
+            movimiento = p["movimiento"]
+
+            # Tres caras del XNOR — verificación mutua
+            b = ubicacion_booleana(naturaleza, movimiento)
+            g = ubicacion_gf2(naturaleza, movimiento)
+            sig = ubicacion_signos(naturaleza, movimiento)
+
+            if not (b == g == sig):
+                raise ValueError(
+                    f"MOTOR_VIOLACION: XNOR_INCONSISTENTE partida {idx} - "
+                    f"booleana={b}, gf2={g}, signos={sig} "
+                    f"(naturaleza='{naturaleza}', movimiento='{movimiento}')"
+                )
+
+            if p["ubicacion"] != b:
+                raise ValueError(
+                    f"MOTOR_VIOLACION: XNOR contradictorio en partida {idx} - "
+                    f"recibida {p['ubicacion']}, calculada {b} "
+                    f"(naturaleza='{naturaleza}', movimiento='{movimiento}')"
+                )
+
+        # 6. I1 endurecida
+        total_debe = sum(p["monto"] for p in consecuencia.partidas if p["ubicacion"] == "DEBE")
+        total_haber = sum(p["monto"] for p in consecuencia.partidas if p["ubicacion"] == "HABER")
+        if total_debe <= 0 or total_haber <= 0:
+            raise ValueError(f"MOTOR_VIOLACION: I1_VIOLACION - DEBE={total_debe}, HABER={total_haber} (valores deben ser > 0)")
+        if abs(total_debe - total_haber) > 0.001:
+            raise ValueError(f"MOTOR_VIOLACION: I1_VIOLACION - DEBE={total_debe}, HABER={total_haber}")
+
+        # 7. Construir asiento técnico (no persistido)
+        asiento = {
+            "id": str(uuid.uuid4()),
+            "fecha": consecuencia.fecha,
+            "periodo_id": consecuencia.periodo_id,
+            "descripcion": consecuencia.descripcion,
+            "partidas": consecuencia.partidas,
+            "total_debe": total_debe,
+            "total_haber": total_haber,
+            "evidencia_hash": consecuencia.evidencia_hash,
+            "decision_id": consecuencia.decision_id,
+            "propuesta_id": consecuencia.propuesta_id,
+            "firma_h2": consecuencia.firma_h2,
+            "correlation_id": consecuencia.correlation_id,
+            "timestamp": consecuencia.timestamp,
+            "version_motor": "8.2",
+            "contexto_contable": {
+
+════ VI · OrquestadorV82 · cuerpo completo ════
+"""
+SCFV v8.2 — Orquestador del ciclo contable (modo supervisado).
+
+Encadena: H1 → H2 → DP → VA → PA → NC → PC → MC → ASENTADO → EventStore.
+
+H2 opera en modo supervisado: requiere justificación profesional explícita.
+"""
+
+import hashlib
+from typing import Any, Dict, List
+
+from PODERES.EPISTEMOLOGICO.generador_propuesta import generar_propuesta_h1
+from PODERES.PROFESIONAL.h2 import H2Decision
+from PODERES.CONTABLE.decision_provider import DecisionProvider
+from PODERES.CONTABLE.verificador_autorizacion import VerificadorAutorizacion
+from PODERES.CONTABLE.puente_autorizacion import PuenteAutorizacion
+from PODERES.CONTABLE.puente_consecuencias import PuenteConsecuencias
+from PODERES.CONTABLE.nucleo_consecuencias import NucleoConsecuencias
+from PODERES.CONTABLE.motor_contable.motor import MotorContable
+from PODERES.CONTABLE.maquina_estados_asiento import MaquinaEstadosAsiento
+from PODERES.CONTABLE.estados import EstadoAsiento
+
+
+def ejecutar_ciclo_v82(
+    observacion,
+    contexto_version,
+    store,
+    pcu: Dict[str, Any],
+    catalogo_normas: Dict[str, Any],
+    consecuencia_candidata: List[Dict[str, Any]],
+    contexto_contable,
+    fecha: str,
+    periodo_id: str,
+    evidencia_hash: str,
+    justificacion: str = None,
+    decision_externa=None,
+    inflacion_anual: float = 0.0,
+) -> Dict[str, Any]:
+    """Ejecuta el ciclo contable v8.2 en modo supervisado."""
+
+    # 1-2. H1 + H2, o reutilizar decision_externa
+    propuesta = None
+    if decision_externa is not None:
+        decision = decision_externa
+        propuesta_id = decision.propuesta_h1_id
+    else:
+        propuesta = generar_propuesta_h1(observacion, inflacion_anual)
+        h2 = H2Decision()
+        resultado_h2 = h2.decidir(
+            propuesta, [], contexto_version, store,
+            modo_auto=False,
+            justificacion=justificacion,
+        )
+        propuesta_id = propuesta.propuesta_id
+
+    # 3. DP
+    provider = DecisionProvider(store)
+    if decision_externa is None:
+        decision = provider.obtener_decision(
+            resultado_h2["decision"].decision_id
+        )
+
+    # 4. Máquina de estados + Verificador
+    maquina = MaquinaEstadosAsiento(EstadoAsiento.EVALUADO)
+    maquina.propuesta_original_id = propuesta_id
+    verificador = VerificadorAutorizacion(provider)
+
+    # 5. PA — Transición EVALUADO → ADMITIDO
+    puente_auth = PuenteAutorizacion(maquina)
+    puente_auth.autorizar_admitido(
+        decision=decision,
+        correlation_id=decision.correlation_id,
+        version_contexto={"version_id": contexto_version.version_id},
+        verificador=verificador,
+    )
+
+    # 6. NC + PC — Construcción de consecuencia autorizada
+    nc = NucleoConsecuencias(verificador)
+    puente_cons = PuenteConsecuencias(maquina, nc)
+    consecuencia = puente_cons.construir_consecuencia_autorizada(
+        decision=decision,
+        consecuencia_candidata=consecuencia_candidata,
+        evidencia_hash=evidencia_hash,
+        correlation_id=decision.correlation_id,
+        contexto_contable=contexto_contable,
+        fecha=fecha,
+        periodo_id=periodo_id,
+        verificador=verificador,
+    )
+
+    # 7. MC — Generación de asiento
+    motor = MotorContable(None, pcu, moneda_funcional="VES")
+    asiento = motor.generar_asiento(
+        consecuencia,
+        verificador,
+        "ADMITIDO",
+        catalogo_normas,
+    )
+
+    # 8. Cerrar ciclo de estados: ADMITIDO → ASENTADO
+    maquina.transicionar(
+        nuevo_estado=EstadoAsiento.ASENTADO,
+        autor=decision.autor,
+        correlation_id=decision.correlation_id,
+        version_contexto={"version_id": contexto_version.version_id},
+        justificacion=decision.justificacion,
+        metadata={"asiento_id": asiento["id"]},
+    )
+
+    # 9. Persistir el evento terminal
+    idempotency_key = hashlib.sha256(
+        (asiento["id"] + decision.correlation_id).encode()
+    ).hexdigest()
+    store.guardar(
+        "ASIENTO_REGISTRADO",
+        asiento,
+        decision.correlation_id,
+        idempotency_key,
+        version_contexto={"version_id": contexto_version.version_id},
+    )
+
+    return {
+        "propuesta": propuesta,
+        "decision": decision,
+        "consecuencia": consecuencia,
+        "asiento": asiento,
+        "maquina": maquina,
+    }
+
+════ VII · H2.decidir · firma ════
+41:    def decidir(
+42-        propuesta_original: PropuestaH1,
+43-        alertas: List[str],
+44-        contexto: VersionContexto,
+45-        event_store: EventStore,
+46-        modo_auto: bool = False,
+47-        tipo_decision: TipoDecisionH2 = TipoDecisionH2.ACEPTAR,
+48-        justificacion: Optional[str] = None,
+49-        autor: Optional[str] = None,
+50-    ) -> Dict:
+51-
+52-        if propuesta_original is None:
+53-            raise ValueError("H₂ requiere PropuestaH1")
+54-
+55-        _validar_modo_prueba(modo_auto)
+56-
+57-        autor_final = (
+58-            autor
+59-            or os.getenv(
+60-                "SCFV_CPC_PROFESIONAL",
+61-                "PROFESIONAL_NO_IDENTIFICADO"
+62-            )
+63-        )
+64-
+65-        if modo_auto:
+66-            justificacion_final = "Decisión automática en prueba"
+67-        else:
+68-            if not justificacion or not justificacion.strip():
+69-                raise ValueError(
+70-                    "H₂ requiere justificación profesional"
+71-                )

@@ -1,0 +1,145 @@
+=== B9 · secuencia de documentos · 2026-09-24 ===
+--- GIRO_05 actual ---
+total 95
+drwx------.  2 u0_a288 u0_a288  3452 Sep 24 13:08 .
+drwx------. 10 u0_a288 u0_a288  3452 Sep 24 11:36 ..
+-rw-------.  1 u0_a288 u0_a288 10939 Sep 24 12:20 AUDITORIA_B2_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288  6368 Sep 24 12:31 AUDITORIA_B3_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288  2431 Sep 24 12:32 AUDITORIA_B4_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288   511 Sep 24 12:35 AUDITORIA_B5_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288  7277 Sep 24 12:38 AUDITORIA_B6_FAILS_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288   850 Sep 24 12:40 AUDITORIA_B7_CWD_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288  2820 Sep 24 12:41 AUDITORIA_B8_LEGACY_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288    75 Sep 24 13:08 AUDITORIA_B9_SECUENCIA_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288  5991 Sep 24 12:15 AUDITORIA_RAW_B1_2026-09-24.log
+-rw-------.  1 u0_a288 u0_a288 27826 Sep 24 11:42 PROMPT_AVANZADO_GIRO_05_AI1_AI2.md
+-rw-------.  1 u0_a288 u0_a288  1019 Sep 24 11:45 REGISTRO_ACTOS.log
+--- GIRO_04 patrón ---
+total 495
+drwx------.  2 u0_a288 u0_a288  3452 Sep 23 07:10 .
+drwx------. 10 u0_a288 u0_a288  3452 Sep 24 11:36 ..
+-rw-------.  1 u0_a288 u0_a288 15971 Sep 20 08:08 00_SCFV_L.md
+-rw-------.  1 u0_a288 u0_a288 11349 Sep 20 08:01 01_idea.md
+-rw-------.  1 u0_a288 u0_a288 21516 Sep 20 09:54 02_planteamiento.md
+-rw-------.  1 u0_a288 u0_a288 13012 Sep 20 16:38 03_rutas.md
+-rw-------.  1 u0_a288 u0_a288 17166 Sep 20 16:37 04_ipve_operacionalizado.md
+-rw-------.  1 u0_a288 u0_a288 32044 Sep 20 20:39 05_marco_teorico.md
+-rw-------.  1 u0_a288 u0_a288 40879 Sep 21 11:12 06_diseno.md
+-rw-------.  1 u0_a288 u0_a288 15774 Sep 22 06:03 07_materializacion_scfv_dsr.md
+-rw-------.  1 u0_a288 u0_a288 20849 Sep 22 07:00 08_unidad_secuencia.md
+-rw-------.  1 u0_a288 u0_a288 23237 Sep 22 07:54 09_evaluacion_useq_01.md
+-rw-------.  1 u0_a288 u0_a288 50540 Sep 22 15:43 10_adl_scfv.md
+-rw-------.  1 u0_a288 u0_a288 44629 Sep 22 17:11 11_soporte_minimo.md
+-rw-------.  1 u0_a288 u0_a288 26522 Sep 22 19:17 12_extension_gramatica_adl.md
+-rw-------.  1 u0_a288 u0_a288 27628 Sep 22 19:48 13_sintaxis_concreta_adl.md
+-rw-------.  1 u0_a288 u0_a288 14657 Sep 22 20:05 14_materializacion_dsl_adl.md
+-rw-------.  1 u0_a288 u0_a288 17835 Sep 22 20:20 15_scfv_extendidos.md
+-rw-------.  1 u0_a288 u0_a288 18393 Sep 22 20:32 16_correspondencia_arquitectura_ejecucion.md
+-rw-------.  1 u0_a288 u0_a288  6440 Sep 23 06:29 17_declaracion_o164_continuidad_useq01.md
+-rw-------.  1 u0_a288 u0_a288  1441 Sep 23 07:10 21_soporte_minimo_construido.md
+-rw-------.  1 u0_a288 u0_a288  1105 Sep 23 07:10 22_verificacion_soporte.md
+-rw-------.  1 u0_a288 u0_a288  2023 Sep 23 07:10 OBSERVACION_USEQ_01_GIRO_04_2026-09-23.md
+-rw-------.  1 u0_a288 u0_a288  1453 Sep 23 07:10 REGISTRO_ACTOS.log
+-rw-------.  1 u0_a288 u0_a288  1437 Sep 23 06:51 falsacion_C1_raw_20260923T105101Z.txt
+-rw-------.  1 u0_a288 u0_a288  1437 Sep 23 06:51 falsacion_C1_raw_20260923T105120Z.txt
+-rw-------.  1 u0_a288 u0_a288   198 Sep 22 08:06 identificacion_previa_useq_01.out.txt
+-rw-------.  1 u0_a288 u0_a288 18985 Sep 22 08:11 pre_registro_evaluacion_useq_01.md
+--- GIRO_03 patrón ---
+total 27
+drwx------.  2 u0_a288 u0_a288  3452 Sep 18 08:41 .
+drwx------. 10 u0_a288 u0_a288  3452 Sep 24 11:36 ..
+-rw-------.  1 u0_a288 u0_a288 19274 Sep 18 08:43 ACTA_APERTURA_VIVA.md
+--- secuencia declarada en el prompt avanzado ---
+179:Extiende sus consecuencias con arte.
+227:    Declarada conforme al caso "tablero" (06_diseno L516)
+236:    Fractal → consecuencias → Motor Contable → asiento → EventStore.
+--- §17 modus operandi ---
+    Criterios · para derivar métricas (Protocolo §17).
+    Actúa en el diseño del fractal (por el Operador).
+
+Decisión vigente (Giro 04):
+    Describir sin medir.
+    Uso parcial de L8414.
+    Declarada en 04_ipve_operacionalizado.md §0.4.
+
+Anclaje:
+    L8414–8418 · estudios descriptivos.
+    L9359 · hipótesis según alcance (V).
+
+Fuente disponible no explotada:
+    Cap 5 · definición de variables (D-SAM-1).
+
+────────────────────────────────────────────────────────────────────────
+
+§11 · RÉGIMEN DE DEUDAS (clasificación)
+
+    Bloqueante dura       · detiene el avance
+    Bloqueante soft       · bloquea una rama, otras avanzan
+    No bloqueante con efecto · avanza con deuda declarada
+    No bloqueante pura    · informativa
+
+Fuente metodológica: Lakatos 1989 (analogía).
+
+────────────────────────────────────────────────────────────────────────
+
+§12 · MODO OPERATIVO · TRES NIVELES
+
+DISEÑO · Operador (Sampieri)
+    "Director que trazaba el plan de operaciones" (Rodríguez L9925).
+
+PROCEDIMIENTO · Hevner
+    Guidelines + ciclos + iteración helicoidal.
+
+OPERACIÓN · Motor rodriguiano
+    "Extender con arte" (L13424).
+    "Y lo hacia ejecutar" (L9925).
+    "Hacer que" el corpus produzca (L5339).
+    "Servirse de" el corpus (L5061).
+
+────────────────────────────────────────────────────────────────────────
+
+§13 · RÉGIMEN DE EVOLUCIÓN E ITERACIÓN
+
+El DSR itera helicoidalmente (Hevner L904).
+
+Iteraciones hasta hoy:
+    Iteración 0 · Giro 04 · documental.
+    Iteración 1 · Giro 05 · Design Cycle real.
+
+Activación: el Operador activa los cambios.
+El cambio cita fuente canónica.
+
+Ritmo:
+    Congelar al declarar satisfacción local.
+    Reabrir cuando el ambiente cambia.
+    Cada vuelta asciende.
+
+--- §21 decisiones residuales ---
+    §21 · Estado y vigencia (Protocolo L395–399)
+
+Régimen del prompt:
+    - El prompt es un acto del Giro 05.
+    - Aplica §19.3-bis.
+    - Se firma tripartitamente (§20).
+    - Se registra en REGISTRO_ACTOS.log.
+    - Hash previo → registro → hash final.
+    - Hash final NO embebido. Reportado externamente.
+
+Herencia:
+    El Protocolo es del Programa SCFV. El prompt lo hereda.
+
+────────────────────────────────────────────────────────────────────────
+
+§21 · DECISIONES RESIDUALES · SIN CANON
+
+Residuales vigentes tras falsación material ampliada:
+
+    D2-B · Articulación tres operadores con Dogma/Disciplina/Economía.
+            Sin canon directo. Requiere acto del Operador.
+
+    D7-B · Jerarquía legal venezolana.
+            Sin fuente. Requiere incorporar o declarar como propuesta.
+
+────────────────────────────────────────────────────────────────────────
+
+FIN DEL PROMPT

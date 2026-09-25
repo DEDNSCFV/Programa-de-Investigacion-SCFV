@@ -1,0 +1,90 @@
+=== AUDITORÍA REDUCTIBILIDAD · B1 · 2026-09-24 · IA-2 ===
+--- 1 · MARCO_IPVE L102 y L138 (D11) ---
+161 MARCO_IPVE.md
+Lo que sí es condición: el reconocimiento cognitivo del Operador
+- El reconocimiento cognitivo del Operador queda sujeto a falsación.
+--- 2 · ACTA_ACTIVACION_HEVNER (D3) ---
+./ACTAS/ACTA_ACTIVACION_HEVNER_GIRO_03.md
+# ACTO DE ACTIVACIÓN DEL CANON METODOLÓGICO HEVNER
+
+**Giro 03 — Programa de Investigación SCFV**
+
+- **Naturaleza:** Acto de activación metodológica
+- **Canon:** Hevner & Chatterjee (2010), *Design Research in Information Systems: Theory and Practice*
+- **Ámbito:** Giro 03
+- **Estado:** MATERIALIZADO — 2026-09-19
+- **Autoridad:** Operador
+
+---
+
+## 1. Objeto
+
+Se activa formalmente, para el Giro 03, Hevner & Chatterjee (2010) como canon metodológico externo de contraste.
+
+La activación no convierte a Hevner en autoridad absoluta del Programa, no modifica retroactivamente S0 v1.0.0 y no sustituye el Protocolo de Revisión de Actos.
+
+Su función es aportar criterios metodológicos explícitos para examinar construcción, pertinencia y evaluación de artefactos dentro del Giro 03.
+
+---
+
+## 2. Estado previo y precisión sobre L80
+
+El Acta Viva contiene la declaración:
+
+> *"...ello no implica que SCFV adopte formalmente DSR como metodología."*
+
+Esta declaración describe el estado previo: SCFV no había adoptado formalmente DSR como metodología.
+
+El presente acto propone un cambio más limitado:
+
+> *SCFV utilizará Hevner & Chatterjee como canon metodológico externo de contraste durante el Giro 03, sin adoptar DSR como metodología total o exclusiva del Programa.*
+
+**Distinción explícita:**
+
+- **Adoptar DSR como metodología** significaría asumir DSR como régimen metodológico rector de la investigación.
+- **Utilizar Hevner como canon metodológico externo de contraste** significa emplear determinados conceptos y criterios de Hevner para examinar objetos concretos del Giro 03, manteniendo al Protocolo, al horizonte epistemológico del SCFV y a la autoridad del Operador fuera de la sustitución por ese canon.
+
+Por tanto, la activación no contradice L80 si "adopción de DSR" y "uso de Hevner como canon externo de contraste" permanecen como categorías distintas y expresamente delimitadas.
+--- 3 · Actas de Mandelbrot (D2-A / F7) ---
+./BIBLIOTECA/Mandelbrot_1975
+./BIBLIOTECA/Mandelbrot_1982
+./ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+--- 4 · Registro de actos Giro 05 ---
+2026-09-24T15:42:04Z | PROMPT_AVANZADO_GIRO_05_AI1_AI2 | HASH_PREVIO=9fa48acb5338ef205dc8c51c69c34137a58b48e4887952f2099204254d770144 | /data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md
+2026-09-24T15:42:04Z | PROMPT_AVANZADO_GIRO_05_AI1_AI2 | HASH_FINAL=b250e3b282ed798af8b092208763de1e1040664171734b6a7c80036dc7f716d5
+2026-09-24T15:44:14Z | ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24 | HASH_PREVIO=4baf3b359e0752296406341c11d6f2ea5659c9e32ae8fbd2f62708bcdd16af9b | /data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+2026-09-24T15:44:14Z | ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24 | HASH_FINAL=43873eb60ee091e610530213189e321ef0a3c97747182860cb0d5a5a7e4edaf4
+2026-09-24T15:45:07Z | ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24 | HASH_POST_CORRECCION=900d23cf0e475b614e5583121f6e6f3405a101eee08fa3330414ae7ec5889b0b | Corrección de línea defectuosa en constancia del Operador
+--- 5 · Registro de actas ---
+7 ACTAS/REGISTRO_ACTAS.log
+2026-09-23T10:43:19Z | ACTA_DECISION_USEQ_01 | HASH_POST_FIRMA=0b045c6c59f0584f607b6b8ff63fd0e683daae62190eaff1a265d92166ca5b5c
+2026-09-23T10:44:17Z | ACTA_DECISION_USEQ_01 | HASH_POST_FIRMA_REAL=0b045c6c59f0584f607b6b8ff63fd0e683daae62190eaff1a265d92166ca5b5c
+2026-09-23T10:47:20Z | ACTA_DECISION_USEQ_01 | FIRMA_EFECTIVA=OK | HASH_POST_FIRMA_EFECTIVA=c5ff667ec6cf6e391bc800affa7c7bbfee54df2fab4e766323979508dfe80093
+2026-09-23T11:18:12Z | ACTA_CONGELAMIENTO_GIRO_04 | HASH_PREVIO=0afa6aad2c5cb9d8d9e237e5362309de443eae725ae8b12441477d425de182b0 | /data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/ACTAS/ACTA_CONGELAMIENTO_GIRO_04_2026-09-23.md
+2026-09-23T11:18:12Z | ACTA_CONGELAMIENTO_GIRO_04 | HASH_FINAL=0afa6aad2c5cb9d8d9e237e5362309de443eae725ae8b12441477d425de182b0
+--- 6 · Hashes Acto 1 y Acto 2 ---
+b250e3b282ed798af8b092208763de1e1040664171734b6a7c80036dc7f716d5  GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md
+  695 27826 GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md
+900d23cf0e475b614e5583121f6e6f3405a101eee08fa3330414ae7ec5889b0b  ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+ 205 6488 ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+--- 7 · Hash defectuoso trazado ---
+./GIRO_05/REGISTRO_ACTOS.log:2026-09-24T15:44:14Z | ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24 | HASH_FINAL=43873eb60ee091e610530213189e321ef0a3c97747182860cb0d5a5a7e4edaf4
+./GIRO_05/AUDITORIA_RAW_B1_2026-09-24.log:2026-09-24T15:44:14Z | ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24 | HASH_FINAL=43873eb60ee091e610530213189e321ef0a3c97747182860cb0d5a5a7e4edaf4
+--- 8 · Bloque 'firmas' en Acto 1 ---
+530:    - D-ACT17-1 · Acto 17 declarado firmado, no firmado.
+615:    Sin canon, no hay afirmación.
+636:    §20 · Firma tripartita asimétrica (Protocolo L389–393)
+642:    - Se firma tripartitamente (§20).
+681:FIRMA TRIPARTITA ASIMÉTRICA (§20)
+684:Firma: [pendiente]
+689:Firma: [pendiente]
+693:Firma: [pendiente]
+--- 9 · Git ---
+?? ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+?? GIRO_05/
+9aa3b63 biblioteca: reorganiza INVENTARIO.md (39 entradas, 6 secciones)
+7f09f96 biblioteca: agrega 12 NIIF/IFRS/NIAS (normativa contable)
+72e0b5a biblioteca: agrega Mandelbrot 1975 + 1982 (fractalidad acotada, §9)
+4ec0ab4 biblioteca: declara régimen de materialización
+e76d2df biblioteca: reformula Gadamer (CITAS canónico + INDICE con 16 anclajes)

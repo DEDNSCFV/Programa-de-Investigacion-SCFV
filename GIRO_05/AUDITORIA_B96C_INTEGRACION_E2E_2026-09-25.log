@@ -1,0 +1,15 @@
+D.3: EventStore preparado para persistencia canónica.
+═══ INTEGRACIÓN OK ═══
+
+Consecuencias DSR:
+  140101 DEUDORA DEBE 850.0
+  210101 ACREEDORA HABER 850.0
+
+Asiento S0:
+  id:          89736260-abfb-4d2f-a3cf-57e361f6b334
+  total_debe:  850.0
+  total_haber: 850.0
+  partidas:    2
+
+Cadena íntegra: (True, 'CADENA_INTEGRA')
+Eventos en DB: 2

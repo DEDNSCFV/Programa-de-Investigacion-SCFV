@@ -1,0 +1,98 @@
+════ B107 · verificar DSR sin v6 · Fri Sep 25 10:47:56 -04 2026 ════
+
+════ I · ¿queda alguna referencia a PODERES o scfv_v6? ════
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/evidencia.py:17:from PODERES.INFRAESTRUCTURA.serializador_canonico import serializar
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/motor.py:8:from PODERES.CONTABLE.xnor import (
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/motor.py:88:        """Wrapper de la fuente única en PODERES/CONTABLE/xnor.py."""
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/motor.py:89:        from PODERES.CONTABLE.xnor import (
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/event_store.py:27:from PODERES.INFRAESTRUCTURA.serializador_canonico import (
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/decision_provider.py:20:from PODERES.CONTABLE.event_store import EventStore
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/nucleo_consecuencias.py:53:        """Wrapper de la fuente única en PODERES/CONTABLE/xnor.py."""
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/nucleo_consecuencias.py:54:        from PODERES.CONTABLE.xnor import ubicacion_booleana
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/examinador.py:10:from PODERES.CONTABLE.reticulo import RetículoCuentas
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/h2.py:12:from PODERES.CONTABLE.event_store import EventStore
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py:40:        'PODERES.EPISTEMOLOGICO.modelos.models',
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py:41:        'PODERES.EPISTEMOLOGICO.modelos',
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py:42:        'PODERES.CONTABLE.estados',
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py:43:        'PODERES.PROFESIONAL.h2',
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py:56:    from PODERES.EPISTEMOLOGICO.modelos.models import ObservacionH1, EntidadExtraida
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py:141:        db_path = os.path.join(os.path.expanduser('~'), 'scfv_v6', 'scfv.db')
+(vacío = correcto)
+
+════ II · estructura final ════
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/decision_provider.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/estados.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/event_store.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/examinador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/maquina_estados_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/modelos.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/motor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/nucleo_consecuencias.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/puente_autorizacion.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/puente_consecuencias.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/reportes_motor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/reticulo.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/verificador_autorizacion.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/parser.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_asiento_declarado_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_compatibilidad_s0.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_contract_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_grammar_lalr.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_invariant_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/dictum.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/evidencia.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/generador_propuesta.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/intellectus.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/models.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/perceptum.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/evaluador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/extractor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/baldor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/xnor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/h2.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/orquestador.py
+
+════ III · ¿el paquete importa sin v6 en sys.path? ════
+scfv_dsr: import OK
+  baldor OK, xnor OK
+
+════ IV · ¿los JSON del kernel están accesibles? ════
+-rw-------. 1 u0_a288 u0_a288 3806 Sep 25 10:47 /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/categorias.json
+-rw-------. 1 u0_a288 u0_a288 3680 Sep 25 10:47 /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/cuentas.json
+-rw-------. 1 u0_a288 u0_a288 5625 Sep 25 10:47 /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/operaciones.json
+-rw-------. 1 u0_a288 u0_a288 2100 Sep 25 10:47 /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/puente.json
+
+════ V · ¿la gramática y parser están accesibles? ════
+-rw-------. 1 u0_a288 u0_a288 1841 Sep 25 10:47 /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/grammar.lark
+-rw-------. 1 u0_a288 u0_a288 12894 Sep 25 10:47 /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/parser.py
+
+════ VI · ¿los 10 fractales están accesibles? ════
+ARRENDAMIENTOS.scfv
+COMBINACIONES.scfv
+HIPERINFLACION.scfv
+INTANGIBLES.scfv
+INVENTARIOS.scfv
+MONEDA.scfv
+PPE.scfv
+PROVISIONES.scfv
+SUBVENCIONES.scfv
+VENTAS.scfv
+__init__.py
+
+════ VII · prueba dura: ejecutar un fractal SIN v6 ════
+Fractal parseado: ['INVENTARIOS']
+Kernel: 17 ops · 27 cuentas
+Consecuencias: 2
+  140101 DEBE 850.0
+  210101 HABER 850.0
+
+✓ DSR funciona SIN v6

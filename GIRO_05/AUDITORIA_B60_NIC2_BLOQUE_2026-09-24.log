@@ -1,0 +1,411 @@
+════ B60 · NIC 2 · bloque páginas 101-151 · Thu Sep 24 23:10:42 -04 2026 ════
+
+════ I · extraer PDF completo a archivo temporal ════
+ 109629 5435605 /data/data/com.termux/files/home/.niif_peru_pdf.txt
+
+════ II · bloque páginas 101-151 del PDF ════
+NIC 1
+139U
+
+Clasificación de Pasivos como Corrientes o No corrientes, emitida en enero de 2020 modificó los párrafos
+69, 73, 74 y 76 y añadió los párrafos 72A, 75A, 76A y 76B. Una entidad aplicará esas modificaciones para
+los periodos anuales que comiencen a partir del 1 de enero de 2024 de forma retroactiva de acuerdo con la
+NIC 8. Se permite su aplicación anticipada. Si una entidad aplica esas modificaciones para un periodo
+anterior a la emisión de Pasivos no Corrientes con Condiciones Pactadas (véase el párrafo 139W), también
+aplicará Pasivos no Corrientes con Condiciones Pactadas para ese periodo. Si una entidad aplica
+Clasificación de Pasivos como Corrientes o No corrientes para un periodo anterior, la entidad revelará ese
+hecho.
+[Referencia: párrafos FC105FA a FC105FC y FC105FE, Fundamentos de las Conclusiones]
+
+139V
+
+Información a Revelar sobre Políticas Contables, emitida en febrero de 2021, modificó los párrafos 7, 10,
+114, 117 y 122 y añadió los párrafos 117A a 117E y eliminó los párrafos 118, 119 y 121. También modificó
+el Documento de Práctica de las NIIF Nº2 Realización de Juicios sobre Materialidad o Importancia
+Relativa. Una entidad aplicará las modificaciones a la NIC 1 en los periodos anuales que comiencen a partir
+del 1 de enero de 2023. Se permite su aplicación anticipada. Si una entidad aplica esas modificaciones en un
+periodo que comience con anterioridad, revelará este hecho.
+[Referencia: párrafo FC76AB, Fundamentos de las Conclusiones]
+
+139W
+
+Pasivos no Corrientes con Condiciones Pactadas, emitida en octubre de 2022, modificó los párrafos 60, 71,
+72A, 74 y 139U y añadió los párrafos 72B, y 76ZA. Una entidad aplicará:
+(a)
+
+La modificación del párrafo 139U, inmediatamente después de la emisión de Pasivos no
+Corrientes con Condiciones Pactadas.
+
+(b)
+
+Todas las demás modificaciones para los periodos anuales que comiencen a partir del 1 de enero
+de 2024 de forma retroactiva de acuerdo con la NIC 8. Se permite su aplicación anticipada. Si
+una entidad aplica estas modificaciones para un periodo anterior, la entidad también aplicará
+Clasificación de Pasivos como Corriente o No Corriente para ese periodo. Si una entidad aplica
+Pasivos no Corrientes con Condiciones Pactadas a periodos anteriores, revelará este hecho.
+
+[Referencia: párrafos FC105FD a FC105FF, Fundamentos de las Conclusiones]
+
+Derogación de la NIC 1 (revisada en 2003)
+140
+
+Esta Norma sustituye a la NIC 1 Presentación de Estados Financieros revisada en 2003 y modificada en
+2005.
+
+© IFRS Foundation
+
+39
+
+NIC 2
+
+Norma Internacional de Contabilidad 2
+Inventarios
+Objetivo
+1
+
+El objetivo de esta Norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en
+la contabilidad de los inventarios es la cantidad de costo que debe reconocerse como un activo, para que sea
+diferido hasta que los ingresos correspondientes sean reconocidos. Esta Norma suministra una guía práctica
+para la determinación de ese costo, así como para el subsiguiente reconocimiento como un gasto del
+periodo, incluyendo también cualquier deterioro que rebaje el importe en libros al valor neto realizable.
+También suministra directrices sobre las fórmulas del costo [Referencia: párrafos 23 a 27] que se usan
+para atribuir costos a los inventarios.
+
+Alcance
+2
+
+3
+
+Esta Norma es de aplicación a todos los inventarios, excepto a:
+(a)
+
+[eliminado]
+
+(b)
+
+los instrumentos financieros (véanse las NIC 32 Instrumentos Financieros: Presentación y
+NIIF 9 Instrumentos Financieros); y
+
+(c)
+
+los activos biológicos relacionados con la actividad agrícola y productos agrícolas en el
+punto de cosecha o recolección [Referencia: párrafo 13, NIC 41] (véase la NIC 41
+Agricultura).
+
+Esta Norma no es de aplicación en la medición de los inventarios mantenidos por:
+[Referencia: párrafos FC6 a FC8, Fundamentos de las Conclusiones]
+(a)
+
+Productores de productos agrícolas y forestales, de productos agrícolas tras la cosecha o
+recolección, de minerales y de productos minerales, siempre que sean medidos por su valor
+neto realizable, de acuerdo con prácticas bien consolidadas en esos sectores industriales. En
+el caso de que esos inventarios se midan al valor neto realizable, los cambios en este valor se
+reconocerán en el resultado del periodo en que se produzcan dichos cambios.
+
+(b)
+
+Intermediarios que comercian con materias primas cotizadas, siempre que midan sus
+inventarios al valor razonable menos costos de venta. En el caso de que esos inventarios se
+lleven al valor razonable menos costos de venta, los cambios en el importe del valor
+razonable menos costos de venta se reconocerán en el resultado del periodo en que se
+produzcan dichos cambios.
+
+4
+
+Los inventarios a que se ha hecho referencia en el párrafo 3(a) se miden por su valor neto realizable en
+ciertas fases de la producción. Ello ocurre, por ejemplo, cuando se han recogido las cosechas agrícolas o se
+han extraído los minerales, siempre que su venta esté asegurada por un contrato a plazo sea cual fuere su
+tipo o garantizada por el gobierno, o bien cuando existe un mercado activo y el riesgo de fracasar en la
+venta sea mínimo. Esos inventarios se excluyen únicamente de los requerimientos de medición establecidos
+en esta Norma.
+
+5
+
+Los intermediarios que comercian son aquellos que compran o venden materias primas cotizadas por cuenta
+propia, o bien por cuenta de terceros. Los inventarios a que se ha hecho referencia en el apartado (b) del
+párrafo 3 se adquieren, principalmente, con el propósito de venderlos en un futuro próximo, y generar
+ganancias procedentes de las fluctuaciones en el precio, o un margen de comercialización. Cuando esos
+inventarios se contabilicen por su valor razonable menos los costos de venta, quedarán excluidos
+únicamente de los requerimientos de medición establecidos en esta Norma.
+
+Definiciones
+6
+
+Los términos siguientes se usan, en esta Norma, con los significados que a continuación se
+especifican:
+Inventarios son activos:
+(a)
+
+poseídos para ser vendidos en el curso normal de la operación;E1, E2
+
+© IFRS Foundation
+
+1
+
+NIC 2
+(b)
+
+en proceso de producción con vistas a esa venta; o
+
+(c)
+
+en forma de materiales o suministros que serán consumidos en el proceso de producción o
+en la prestación de servicios.E3
+
+Valor neto realizable es el precio estimado de venta de un activo en el curso normal de la operación
+menos los costos estimados para terminar su producción y los necesarios para llevar a cabo la
+venta.E4 [Referencia: párrafos 28 a 33]
+Valor razonable es el precio que se recibiría por vender un activo o que se pagaría por transferir un
+pasivo en una transacción ordenada entre participantes del mercado en la fecha de la medición.
+(Véase la NIIF 13 Medición del Valor Razonable).
+E1
+
+[IFRIC® Update, marzo de 2017, Decisión de Agenda, “Préstamos de materias primas cotizadas”
+El Comité recibió una solicitud sobre cómo contabilizar una transacción de préstamo de una
+materia prima cotizada. Concretamente, la transacción es una en la que un banco toma prestado
+oro de un tercero (Contrato 1) y después presta ese oro a un tercero diferente en los mismos
+términos y por una comisión superior (Contrato 2). El banco realiza dos contratos considerando
+conjuntamente uno con otro, pero los contratos no están vinculados—es decir, el banco negocia
+los contratos de forma independiente uno de otro. En cada contrato, el prestatario obtiene la
+titularidad legal del oro al comienzo y tiene la obligación de devolver oro al final del contrato, oro
+de la misma calidad y en la misma cantidad que lo recibió. A cambio del préstamo del oro, cada
+prestatario paga una comisión al respectivo prestamista a lo largo del término del contrato, pero no
+hay flujos de efectivo al comienzo de éste.
+Se preguntó al Comité si, por el término de los dos contratos, el banco que toma prestado y
+después presta el oro reconoce:
+a.
+
+un activo que representa el oro (o el derecho a recibir oro); y
+
+b.
+
+un pasivo que representa la obligación de entregar oro.
+
+El Comité observó que la transacción concreta de la solicitud puede no quedar claramente incluida
+dentro del alcance de ninguna Norma NIIF. [El Comité observó, sin embargo, que se aplicarían
+Normas NIIF concretas a otras transacciones que involucren materias primas cotizadas (por
+ejemplo, la compra de materias primas cotizadas para uso en el proceso productivo de una entidad,
+o la venta de materias primas cotizadas a clientes).] En ausencia de una Norma que
+específicamente se aplique a una transacción, una entidad utilizará los párrafos 10 y 11 de la NIC 8
+Políticas Contables, Cambios en las Estimaciones Contables y Errores al desarrollar y aplicar una
+política contable a la transacción. Al hacerlo así, el párrafo 11 de la NIC 8 requiere que una entidad
+considere:
+a.
+si existen requerimientos en las Normas NIIF que traten de cuestiones similares y
+relacionadas; y, si no;
+b.
+la forma de contabilizar la transacción aplicando las definiciones, criterios de
+reconocimiento y conceptos de medición para los activos, pasivos, ingresos y gastos del Marco
+Conceptual.
+El Comité destacó que, aplicando el párrafo 10 de la NIC 8 la política de contabilización
+desarrollada debe dar lugar a información que sea (i) relevante para las necesidades de toma de
+decisiones económicas de los usuarios de los estados financieros; e (ii) fiable—es decir, presente
+de forma fidedigna la situación financiera, el rendimiento financiero y los flujos de efectivo de la
+entidad; refleje la esencia económica; y sea neutral, prudente y completa en todos los aspectos
+significativos. El Comité observó que, al considerar los requerimientos que tratan cuestiones
+similares y relacionadas, una entidad considerará todos los requerimientos que tratan de
+
+════ III · ¿título de esa sección? ════
+NIC 1
+139U
+
+Clasificación de Pasivos como Corrientes o No corrientes, emitida en enero de 2020 modificó los párrafos
+69, 73, 74 y 76 y añadió los párrafos 72A, 75A, 76A y 76B. Una entidad aplicará esas modificaciones para
+los periodos anuales que comiencen a partir del 1 de enero de 2024 de forma retroactiva de acuerdo con la
+NIC 8. Se permite su aplicación anticipada. Si una entidad aplica esas modificaciones para un periodo
+anterior a la emisión de Pasivos no Corrientes con Condiciones Pactadas (véase el párrafo 139W), también
+aplicará Pasivos no Corrientes con Condiciones Pactadas para ese periodo. Si una entidad aplica
+Clasificación de Pasivos como Corrientes o No corrientes para un periodo anterior, la entidad revelará ese
+hecho.
+[Referencia: párrafos FC105FA a FC105FC y FC105FE, Fundamentos de las Conclusiones]
+
+139V
+
+Información a Revelar sobre Políticas Contables, emitida en febrero de 2021, modificó los párrafos 7, 10,
+114, 117 y 122 y añadió los párrafos 117A a 117E y eliminó los párrafos 118, 119 y 121. También modificó
+el Documento de Práctica de las NIIF Nº2 Realización de Juicios sobre Materialidad o Importancia
+Relativa. Una entidad aplicará las modificaciones a la NIC 1 en los periodos anuales que comiencen a partir
+del 1 de enero de 2023. Se permite su aplicación anticipada. Si una entidad aplica esas modificaciones en un
+periodo que comience con anterioridad, revelará este hecho.
+[Referencia: párrafo FC76AB, Fundamentos de las Conclusiones]
+
+139W
+
+Pasivos no Corrientes con Condiciones Pactadas, emitida en octubre de 2022, modificó los párrafos 60, 71,
+72A, 74 y 139U y añadió los párrafos 72B, y 76ZA. Una entidad aplicará:
+(a)
+
+La modificación del párrafo 139U, inmediatamente después de la emisión de Pasivos no
+Corrientes con Condiciones Pactadas.
+
+(b)
+
+Todas las demás modificaciones para los periodos anuales que comiencen a partir del 1 de enero
+de 2024 de forma retroactiva de acuerdo con la NIC 8. Se permite su aplicación anticipada. Si
+una entidad aplica estas modificaciones para un periodo anterior, la entidad también aplicará
+Clasificación de Pasivos como Corriente o No Corriente para ese periodo. Si una entidad aplica
+Pasivos no Corrientes con Condiciones Pactadas a periodos anteriores, revelará este hecho.
+
+[Referencia: párrafos FC105FD a FC105FF, Fundamentos de las Conclusiones]
+
+Derogación de la NIC 1 (revisada en 2003)
+140
+
+Esta Norma sustituye a la NIC 1 Presentación de Estados Financieros revisada en 2003 y modificada en
+2005.
+
+© IFRS Foundation
+
+39
+
+NIC 2
+
+Norma Internacional de Contabilidad 2
+Inventarios
+Objetivo
+1
+
+El objetivo de esta Norma es prescribir el tratamiento contable de los inventarios. Un tema fundamental en
+
+════ IV · índice de páginas 101-151 ════
+1:NIC 1
+7:NIC 8. Se permite su aplicación anticipada. Si una entidad aplica esas modificaciones para un periodo
+56:Inventarios
+57:Objetivo
+68:Alcance
+81:NIIF 9 Instrumentos Financieros); y
+130:Inventarios son activos:
+257:NIC 38 a la tenencia de criptomonedas. Para llegar a su conclusión, el Comité consideró los
+313:Inventarios
+377:NIC 2 Inventarios—Contabilización de los inventarios básicos”
+407:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+630:Inventarios requiere que cuando una entidad compra inventarios en condiciones de liquidación
+958:Objetivo
+969:Alcance
+1121:NIC 1).
+1278:NIC 7, llevándose a cabo dentro del proyecto de información sobre el rendimiento.]
+1779:NIC 23 Costos por Préstamos.
+2341:NIIF 11.
+2406:Objetivo
+2432:Alcance
+2746:NIC 37 porque es un activo, y no un posible activo, de la entidad.
+2797:NIC 16 para las distintas clases de propiedades, planta y equipo y el párrafo 72 de la NIC 38 para
+3520:NIC 8. Una entidad aplicará esas modificaciones de forma prospectiva a los periodos anuales que
+3569:Objetivo
+3592:Alcance
+4074:Objetivo
+4107:Alcance
+
+════ V · NIC 2 en el raw · líneas 8000-13000 ════
+1468:Inventarios
+1542:Inventarios son activos:
+1725:Inventarios
+1789:NIC 2 Inventarios—Contabilización de los inventarios básicos”
+1819:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+2042:Inventarios requiere que cuando una entidad compra inventarios en condiciones de liquidación
+3191:NIC 23 Costos por Préstamos.
+
+════ VI · ¿NIC 2 aparece después del índice del Marco Conceptual? ════
+1:Marco Conceptual
+3:El Marco Conceptual para la Información Financiera
+4:El Marco Conceptual para la Información Financiera fue emitido por el Consejo de Normas Internacionales de
+11:Marco Conceptual
+128:Marco Conceptual
+7852:los inventarios se desagregarán, de acuerdo con la NIC 2 Inventarios, en clasificaciones tales
+7854:[Referencia: párrafo 37, NIC 2]
+9464:NIC 2
+9550:NIC 2
+9630:NIC 2
+9666:El Comité concluyó que la NIC 2 Inventarios "se aplica a las criptomonedas cuando se mantienen
+9667:para la venta en el curso ordinario del negocio. Si la NIC 2 no es aplicable, una entidad aplicará la
+9705:NIC 2
+9725:La NIC 2 se aplica a los inventarios de activos intangibles. El párrafo 6 de esa Norma define
+9740:entidad y, en consecuencia, se aplicará la NIC 2 a esa tenencia.
+9743:la NIC 2 para los intermediarios que comercian con materias primas cotizadas que miden sus
+9744:inventarios a valor razonable menos costos de venta. El párrafo 5 de la NIC 2 señala que los
+9758:la NIC 2 para criptomonedas mantenidas para la venta en el curso ordinario del negocio; y (ii) por
+9779:NIC 2
+9788:NIC 2 Inventarios—Contabilización de los inventarios básicos”
+9802:La cuestión es si los inventarios básicos deben contabilizarse según la NIC 16 o la NIC 2.
+9818:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+9822:[IFRIC® Update, junio de 2021, Decisión de Agenda, «NIC 2 Inventarios—Costos Necesarios para
+9828:El párrafo 6 de la NIC 2 define el valor neto realizable como «el precio de venta estimado en el
+9830:necesarios para realizar la venta». Los párrafos 28 a 33 de la NIC 2 incluyen requerimientos
+9833:inventarios. Sin embargo, el párrafo 28 de la NIC 2 describe el objetivo de reducir los inventarios a
+9836:El Comité observó que, al determinar el valor neto realizable de los inventarios, la NIC 2 requiere
+9841:alcanzar el objetivo establecido en el párrafo 28 de la NIC 2.
+9849:NIC 2
+9905:párrafo 8 de la NIC 2 Inventarios proporciona guías adecuadas. Los descuentos de efectivo
+9907:párrafo 11 de la NIC 2 como resultado del proyecto de Mejoras.]
+9911:[IFRIC® Update, noviembre de 2004, Decisión de Agenda “NIC 2 Inventarios: Descuentos y
+9913:El CINIIF consideró tres cuestiones relacionadas con la aplicación de la NIC 2 Inventarios que
+9927:NIC 2
+9935:En (b), El CINIIF también acordó provisionalmente que la NIC 2 solo requiere que esos reembolsos
+
+════ VII · ¿cuál es la norma siguiente tras el Marco Conceptual? ════
+46552:NIIF 16
+51535:NIC 36
+85945:NIIF 11
+85959:NIIF 11
+
+════ VIII · estructura de encabezados en el raw ════
+6344:NIC 8 establece una jerarquía normativa [Referencia: párrafos 10 a 12, NIC 8] a considerar por
+6517:NIC 1 con respecto a incertidumbres relacionadas con la capacidad de una entidad de continuar
+6520:NIC 1 requiere del ejercicio del juicio profesional. El Comité destacó que el párrafo 25 requiere que
+8042:NIIF 17 (véase la NIIF 17);
+8100:NIC 39 Instrumentos Financieros:. Reconocimiento y Medición).
+8143:NIC 12 Impuestos a las Ganancias—Presentación de pagos sobre impuestos distintos a los de las
+9492:NIIF 9 Instrumentos Financieros); y
+9668:NIC 38 a la tenencia de criptomonedas. Para llegar a su conclusión, el Comité consideró los
+9788:NIC 2 Inventarios—Contabilización de los inventarios básicos”
+9818:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+11190:NIC 23 Costos por Préstamos.
+12157:NIC 37 porque es un activo, y no un posible activo, de la entidad.
+12208:NIC 16 para las distintas clases de propiedades, planta y equipo y el párrafo 72 de la NIC 38 para
+14157:NIC 40 Propiedades de Inversión. Quien envío la solicitud preguntaba si los requerimientos del
+14192:NIC 12 a la agenda del Consejo, pero que había decidido no hacerlo. Por consiguiente, el Comité
+17007:NIIF 5 Activos No Corrientes Mantenidos para la Venta y Operaciones Discontinuadas;
+17154:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+17866:NIIF 16 y evaluar "una penalización insignificante", una entidad considerará las condiciones
+17910:NIC 16 y la NIIF 16 proporcionan una base adecuada para que una entidad determine la vida útil de
+20957:NIC 19 explica la decisión del Consejo del IASC para rechazar la propuesta de que el “costo de los
+21313:NIC 19 explica la decisión del Consejo del IASC para rechazar la propuesta de que el “costo de los
+21441:NIC 19 y NIIF 13 Medición del Valor Razonable, con cambios en el valor razonable registrados en el
+21453:NIC 19 y la NIIF 13.
+21728:NIC 32 Instrumentos Financieros: Presentación [Referencia: párrafo 42, NIC 32].
+25659:NIC 27 Estados Financieros Separados. Esta norma también se aplicará a los estados financieros
+25998:NIIF 12 Información a Revelar sobre Participaciones en Otras Entidades.
+27153:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+27232:NIC 28 para medir inicialmente una inversión en una asociada o negocio conjunto al costo. El
+27234:NIC 28 en esta etapa, en lugar de como parte de su consideración más amplia de la NIC 28 dentro
+27246:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+27278:NIIF 9 es elegible para la opción, si no se mantiene para negociar (como se define en el Apéndice A
+27925:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+27997:NIC 28 para medir inicialmente una inversión en una asociada o negocio conjunto al costo. El
+27999:NIC 28 en esta etapa, en lugar de como parte de su consideración más amplia de la NIC 28 dentro
+28405:NIIF 3 Combinaciones de Negocios).
+28771:NIC 1 Presentación de Estados Financieros y el párrafo 20 de la NIIF 7 Instrumentos Financieros:
+28850:NIIF 10 y NIC 28), emitida en septiembre de 2014, modificó los párrafos 28 y 30 y añadió los párrafos 31A
+28898:NIIF 9 usará los requerimientos de transición de la NIIF 9 para las participaciones de largo plazo descritos
+29851:NIIF 9 (NIC 39), el Comité de Interpretaciones determinó que no eran necesarias ni una
+30054:NIC 32 Instrumentos Financieros: Presentación. El instrumento tiene una fecha de vencimiento
+31796:NIC 8 Políticas Contables, Cambios en las Estimaciones Contables y Errores para los periodos anuales que
+31875:NIC 32 Instrumentos Financieros: Presentación
+35202:NIC 1 (revisada en 2007) en un periodo anterior, aplicará las modificaciones a dicho periodo.
+35226:NIC 1 (modificada en junio de 2011).
+35287:NIC 8 Políticas Contables, Cambios en las Estimaciones Contables y Errores. Sin embargo, si una entidad
+35543:NIC 36 sobre si las entradas de efectivo son en gran medida independientes estaría más en la
+36499:NIC 36 sobre si las entradas de efectivo son en gran medida independientes estaría más en la
+38658:NIC 37 porque es un activo, y no un posible activo, de la entidad.
+39177:NIC 37 que surge de una obligación de entregar permisos en un plan de derechos de emisión.
+40011:NIC 38 a la tenencia de criptomonedas. Para llegar a su conclusión, el Comité consideró los
+42534:NIC 38 Activos Intangibles emitida en 1998.
+42689:NIIF 9 Instrumentos Financieros si, y en la medida en que:
+45337:NIC 16 Propiedades, Planta y Equipo); y
+45522:NIIF 3 Combinaciones de Negocios. Para determinar si es una combinación de negocios debe hacerse
+46552:NIIF 16
+47524:NIC 1 Presentación de Estados Financieros. Entre los ejemplos de los eventos citados están la declaración
+47694:NIIF 16 Arrendamientos
+47698:NIC 1 Presentación de Estados Financieros (revisada en 2007)
+47702:NIC 8 Políticas Contables, Cambios en las Estimaciones Contables y Errores
+47706:NIC 16 Propiedades, Planta y Equipo (revisada en 2003)

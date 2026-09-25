@@ -1,0 +1,17 @@
+════ B90 · test 9 fractales · Fri Sep 25 09:13:02 -04 2026 ════
+
+Kernel: 17 ops · 19 cuentas · 17 puentes
+
+Fractal                · Reglas · Consec · Asiento
+────────────────────────────────────────────────────────────────────────────────
+INVENTARIOS.scfv       ·      2 ·      1 · DEBE 140101 850.00
+PPE.scfv               ·      2 ·      1 · HABER 150199 900.00
+INTANGIBLES.scfv       ·      2 ·      1 · HABER 160199 1000.00
+COMBINACIONES.scfv     ·      2 ·      1 · DEBE 170101 15000.00
+ARRENDAMIENTOS.scfv    ·      2 ·      2 · DEBE 180101 7721.73
+PROVISIONES.scfv       ·      2 ·      1 · HABER 220101 1500.00
+SUBVENCIONES.scfv      ·      2 ·      1 · HABER 310101 10000.00
+MONEDA.scfv            ·      2 ·      1 · DEBE 140101 36500.00
+HIPERINFLACION.scfv    ·      2 ·      1 · HABER 510101 2000.00
+
+TOTAL consecuencias: 10

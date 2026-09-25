@@ -1,0 +1,79 @@
+════════════════════════════════════════════════════════════
+  SUITE COMPLETA · SCFV · Fri Sep 25 08:00:50 -04 2026
+════════════════════════════════════════════════════════════
+
+════════════════════════════════════════════════════════════
+  A.1 · MOTOR scfv_v6 · TESTS/ (invocación canónica)
+════════════════════════════════════════════════════════════
+.............................................................s.......... [ 31%]
+........................................................................ [ 62%]
+........................................................................ [ 94%]
+.............                                                            [100%]
+228 passed, 1 skipped in 3.19s
+
+════════════════════════════════════════════════════════════
+  A.2 · SCFV_DSR · dsl/tests + evaluacion
+════════════════════════════════════════════════════════════
+..............                                                           [100%]
+14 passed in 1.64s
+
+════════════════════════════════════════════════════════════
+  B · KERNEL NUEVO · SCFV_DSR/kernel
+════════════════════════════════════════════════════════════
+
+─── B.1 · BALDOR ───
+  BALDOR: 57/57 tests OK
+
+─── B.2 · XNOR ───
+  XNOR: 4/4 coincidencias 3 caras
+  XNOR: 2/2 rechazos correctos
+
+─── B.3 · OPERACIONES ───
+  Operaciones cargadas: 15
+  Validan contra baldor: 15/15
+  Campos obligatorios: 15/15
+
+─── B.4 · CUENTAS + CATEGORIAS + PUENTE ───
+  Cuentas:    6
+  Categorias: 6
+  Elementos:  5
+  Puentes:    6
+  Puente ⊂ categorias: 6/6
+  Puente cuentas ⊂ cuentas.json: 6/6
+  Naturalezas válidas: 6/6
+
+─── B.5 · PARSER + FRACTAL ───
+  Fractales: 1
+  Reglas:    2
+  Names:     ['INVENTARIOS']
+
+─── B.6 · FLUJO END-TO-END ───
+  Marco:      NIIF_PYMES
+  Regla:      MEDICION_PYMES
+  Categoria:  inventarios
+  Operacion:  menor_costo_precio_venta
+  Cuenta:     140101 (Mercaderias)
+  Naturaleza: DEUDORA
+  Ubicacion:  DEBE
+  Monto:      850.0
+
+  → Asiento: DEBE 140101 850.0
+
+─── B.7 · FLUJO CON MARCO NIIF Completas ───
+  Marco:      NIIF_Completas
+  Regla:      MEDICION_NIC2
+  Operacion:  menor_costo_vnr
+  Cuenta:     140101
+  Ubicacion:  DEBE
+
+════════════════════════════════════════════════════════════
+  FIN TEST KERNEL NUEVO
+════════════════════════════════════════════════════════════
+
+════════════════════════════════════════════════════════════
+  RESUMEN FINAL
+════════════════════════════════════════════════════════════
+  Motor scfv_v6:    (arriba)
+  SCFV_DSR:         (arriba)
+  Kernel nuevo:     (arriba)
+  Log:              GIRO_05/AUDITORIA_B77_SUITE_COMPLETA_2026-09-25.log

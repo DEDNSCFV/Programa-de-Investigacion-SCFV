@@ -1,0 +1,12 @@
+════ B63 · fractal multi-marco · Fri Sep 25 06:09:49 -04 2026 ════
+
+--- parser ---
+PARSEA OK
+fractales: ['INVENTARIOS']
+  INVENTARIOS:
+    regla: MEDICION_PYMES
+    condición: marco == "NIIF_PYMES" Y activo_es_inventario
+    acciones: ['GENERAR CONSECUENCIA (categoria="inventarios", metodo="menor_costo_vnr")']
+    regla: MEDICION_NIC2
+    condición: marco == "NIIF_Completas" Y activo_es_inventario
+    acciones: ['GENERAR CONSECUENCIA (categoria="inventarios", metodo="menor_costo_vnr")']

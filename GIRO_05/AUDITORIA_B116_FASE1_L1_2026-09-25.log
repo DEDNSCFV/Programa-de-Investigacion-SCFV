@@ -1,0 +1,64 @@
+════════════════════════════════════════════════════════════════════
+  AUDITORÍA B116 · FASE 1 · CORRECCIONES L1 (COSMÉTICAS)
+  Giro 05 · Sesión 6 · 2026-09-25
+════════════════════════════════════════════════════════════════════
+
+MOTIVO
+  Cierre de los 6 hallazgos clasificados L1 (cosméticos) en la matriz
+  de Fase 1. Ninguno altera contrato verificable ni comportamiento del
+  Motor, NC ni EventStore.
+
+ALCANCE
+  · H5   README.md · balbor.py → baldor.py
+  · H14  kernel/baldor.py · quitar Optional del import typing
+  · H20  integrador.py · quitar candidato duplicado
+  · H24  extractor.py + integrador.py · quitar SCFV_V6 residual
+  · H62  contable/event_store.py · quitar print de módulo
+  · H47  contable/motor.py · reducir import interno de xnor
+
+HASH MAESTRO
+  Antes:  8f5dc93262cc2ef81d35ce51cb08d3e2a3ee711390851babbffcb010f08e1dd4
+  Después: 877c3253ba39fd66fa36a1ad6347123268f7d0f1fa922ad55e4754018d905b81
+
+HASHES DE ARCHIVOS MODIFICADOS
+  README.md
+    después: a3bf8a287cdff1b945b7e52355177bc5611be0576632745ee8a2293c5ecffb81
+  kernel/baldor.py
+    después: ad3cbc539a929a0c4fe5030e3305f4a84996815d897861c74a23a6d1876f4e46
+  integrador.py
+    antes:   0d7e821e6dda345f0dbd67464c16af3a0078b1a35eb3ca03a0e36ac71606181b
+    después: 91d8edf946dedd290df589585d40f6e9edfee94bdf15b011569ab6fdd71b85f6
+  extractor.py
+    antes:   5d41eff07c0488030aadf5f927cac286b035304f9444b749f9576b9426185ea9
+    después: f7ca097acab0017c679f06dcdde858db0eed00468a20ec2600ba292eb5c5251c
+  contable/event_store.py
+    antes:   9640bb13280504b4434bfaf47cfa002addde394758faecf0cca2bf2d0a681d94
+    después: 89b7fc37aba2aa7c55505cefdec3b812a4a047fd5e9867f506c0b8824e668a2a
+  contable/motor.py
+    antes:   26dcb06e9cd78e0a69942f9d8cd99288647122772b4e12bc8be501c64a3651f0
+    después: 1fac206bb597667e34de5a2e99de14e3b07272856d9e864eb5b88b8a5e40ad6b
+
+VERIFICACIÓN
+  V1 · sha256sum -c HASHES.txt
+    OK: 70  ·  FALLOS: 0  ·  Total líneas: 70
+  18 casos fractales (19 reglas verdes re-ejecutadas + 2 falsaciones)
+    Verdes: 19/19 (todos D=H · CADENA_INTEGRA)
+    Falsaciones esperadas: 2/2 (H29 · F-NC-1) sin cambio
+  Import funcional: extractor · integrador · motor · event_store · OK
+
+HALLAZGOS COLATERALES EMERGIDOS (no cerrados)
+  H24b · extractor.py · import sys huérfano (0 usos de sys.*)
+  H24c · extractor.py · possible Path huérfano (verificar)
+  H47b · motor.py · falta línea en blanco entre return y def generar_asiento
+
+FALSACIONES PROPIAS DE ESTA FASE
+  H-F1-1 · sed sobre balbor.py no matcheó por patrón incorrecto del
+           import (mezclé dos líneas distintas en la propuesta). Corregido
+           verificando la línea real antes del segundo sed.
+
+ESTADO RESULTANTE
+  Fase 1 cerrada. E1 materializado. Hash maestro 877c3253…
+  Fase 2 (L2) pendiente de autorización explícita.
+  Fase 3 (L3) pendiente de autorización explícita.
+
+════════════════════════════════════════════════════════════════════

@@ -1,0 +1,223 @@
+════ B57 · NIC 2 · ¿existe fuente completa? · Thu Sep 24 23:03:24 -04 2026 ════
+
+════ I · PDFs de NIC/NIIF en el teléfono ════
+/data/data/com.termux/files/home/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/cfg_aliases-0.2.1.crate
+/data/data/com.termux/files/home/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/unicode-xid-0.2.6.crate
+/data/data/com.termux/files/home/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/unicase-2.9.0.crate
+/data/data/com.termux/files/home/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/unicode-segmentation-1.13.2.crate
+/data/data/com.termux/files/home/.cargo/registry/cache/index.crates.io-1949cf8c6b5b557f/unicode-ident-1.0.24.crate
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg_aliases-0.2.1
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-ident-1.0.24
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-xid-0.2.6
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicase-2.9.0
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-segmentation-1.13.2
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/scripts/temporal/citas_1828_limpias_v2.txt
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/publicacion/informes/analisis_secuencias_1828.md
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/publicacion/informes/analisis_secuencias_1842.md
+/data/data/com.termux/files/home/scfv_v6/normas/internacionales/NIC/NIC_29.json
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/BIBLIOTECA/NIAS_2021_Vol2
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/BIBLIOTECA/NIAS_2021_Vol3
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/AUDITORIA_B0BIS_NIC2_2026-09-24.log
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/AUDITORIA_B53_CATEGORIAS_RAW_2026-09-24.log
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/AUDITORIA_B56_NIC2_CUERPO_2026-09-24.log
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/AUDITORIA_B57_NIC2_PDF_2026-09-24.log
+Alfred-V.-Aho-Monica-S.-Lam-Ravi-Sethi-Jeffrey-D.-Ullman-Compilers-Principles-Techniques-and-Tools-Pearson_Addison-Wesley-2007.pdf
+FICHA TÉCNICA SCFV V6(1).docx
+FICHA TÉCNICA SCFV V6.docx
+INFORME TÉCNICO FASE 0.docx
+INFORME TÉCNICO FASE 1.docx
+INFORME TÉCNICO FASE 2.docx
+NIIF 18.febrero 26.pdf
+NIIF ACTUALIZACION JUNIO 2025.pdf
+NIIF S1 (1).pdf
+NIIF S2. Norma NIIF de Información a Revelar -Clima.pdf
+NIIF-para-Pymes-–-Tercera-edicion.pdf
+NIIF18-Presentacion-e-informacion-a-revelar-en-los-estados-financieros-.pdf
+NIIF_Actualizadas_2025_Peru.pdf
+niif-18-presentacion-e-informacion-a-revelar-en-los-estados-financieros.pdf
+
+════ II · BIBLIOTECA · ¿qué hay de NIC? ════
+IFRS_Annotated_2025
+IFRS_S1_2023
+IFRS_S2_2023
+NIIF18_2024
+NIIF18_KPMG_2025
+NIIF1_2024
+NIIF_Compilado_2026
+NIIF_Peru_2025
+NIIF_Pymes_3raEd
+
+════ III · raws de NIC individuales ════
+-rw-------. 1 u0_a288 u0_a288  203361 Sep 23 12:15 /data/data/com.termux/files/home/.niif18_2024_raw.txt
+-rw-------. 1 u0_a288 u0_a288  137302 Sep 23 12:15 /data/data/com.termux/files/home/.niif18_kpmg_2025_raw.txt
+-rw-------. 1 u0_a288 u0_a288  732797 Sep 23 12:15 /data/data/com.termux/files/home/.niif1_2024_raw.txt
+-rw-------. 1 u0_a288 u0_a288 4144184 Sep 23 12:15 /data/data/com.termux/files/home/.niif_compilado_2026_raw.txt
+-rw-------. 1 u0_a288 u0_a288 5435605 Sep 23 12:16 /data/data/com.termux/files/home/.niif_peru_2025_raw.txt
+-rw-------. 1 u0_a288 u0_a288  846731 Sep 23 12:16 /data/data/com.termux/files/home/.niif_pymes_3ra_raw.txt
+
+════ IV · ¿hay NIC 2 en el raw de NIIF 1? ════
+
+════ V · NIIF completas · qué otras normas tienen cuerpo completo ════
+--- NIIF con encabezado propio ---
+8042:NIIF 17 (véase la NIIF 17);
+9492:NIIF 9 Instrumentos Financieros); y
+17007:NIIF 5 Activos No Corrientes Mantenidos para la Venta y Operaciones Discontinuadas;
+17866:NIIF 16 y evaluar "una penalización insignificante", una entidad considerará las condiciones
+25998:NIIF 12 Información a Revelar sobre Participaciones en Otras Entidades.
+27278:NIIF 9 es elegible para la opción, si no se mantiene para negociar (como se define en el Apéndice A
+28405:NIIF 3 Combinaciones de Negocios).
+28850:NIIF 10 y NIC 28), emitida en septiembre de 2014, modificó los párrafos 28 y 30 y añadió los párrafos 31A
+28898:NIIF 9 usará los requerimientos de transición de la NIIF 9 para las participaciones de largo plazo descritos
+29851:NIIF 9 (NIC 39), el Comité de Interpretaciones determinó que no eran necesarias ni una
+42689:NIIF 9 Instrumentos Financieros si, y en la medida en que:
+45522:NIIF 3 Combinaciones de Negocios. Para determinar si es una combinación de negocios debe hacerse
+46552:NIIF 16
+47694:NIIF 16 Arrendamientos
+47930:NIIF 9 Instrumentos Financieros
+47934:NIIF 13 Medición del Valor Razonable
+48438:NIIF 9 Instrumentos Financieros
+48442:NIIF 10 Estados Financieros Consolidados
+48446:NIIF 11 Acuerdos Conjuntos
+48913:NIIF 9 Instrumentos Financieros
+49022:NIIF 1 Adopción por Primera vez de las Normas Internacionales de Información Financiera
+49026:NIIF 7 Instrumentos Financieros: Información a Revelar
+49030:NIIF 9 Instrumentos Financieros
+49034:NIIF 15 Ingresos de Actividades Ordinarias Procedentes de Contratos con Clientes
+49038:NIIF 16 Arrendamientos
+50270:NIIF 9 Instrumentos Financieros
+50317:NIIF 9 [Referencia: párrafo 6.2.2, NIIF 9] permite que una entidad designe un instrumento financiero
+50879:NIIF 3 Combinaciones de Negocios (revisada en 2008)
+50883:NIIF 5 Activos no Corrientes Mantenidos para la Venta y Operaciones Discontinuadas
+50887:NIIF 7 Instrumentos Financieros: Información a Revelar
+--- NIC con encabezado propio ---
+6344:NIC 8 establece una jerarquía normativa [Referencia: párrafos 10 a 12, NIC 8] a considerar por
+6517:NIC 1 con respecto a incertidumbres relacionadas con la capacidad de una entidad de continuar
+6520:NIC 1 requiere del ejercicio del juicio profesional. El Comité destacó que el párrafo 25 requiere que
+8100:NIC 39 Instrumentos Financieros:. Reconocimiento y Medición).
+8143:NIC 12 Impuestos a las Ganancias—Presentación de pagos sobre impuestos distintos a los de las
+9668:NIC 38 a la tenencia de criptomonedas. Para llegar a su conclusión, el Comité consideró los
+9788:NIC 2 Inventarios—Contabilización de los inventarios básicos”
+9818:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+11190:NIC 23 Costos por Préstamos.
+12157:NIC 37 porque es un activo, y no un posible activo, de la entidad.
+12208:NIC 16 para las distintas clases de propiedades, planta y equipo y el párrafo 72 de la NIC 38 para
+14157:NIC 40 Propiedades de Inversión. Quien envío la solicitud preguntaba si los requerimientos del
+14192:NIC 12 a la agenda del Consejo, pero que había decidido no hacerlo. Por consiguiente, el Comité
+17154:NIC 2 y NIC 16. En ausencia de esta evidencia, el Comité de Interpretaciones decidió eliminar este
+17910:NIC 16 y la NIIF 16 proporcionan una base adecuada para que una entidad determine la vida útil de
+20957:NIC 19 explica la decisión del Consejo del IASC para rechazar la propuesta de que el “costo de los
+21313:NIC 19 explica la decisión del Consejo del IASC para rechazar la propuesta de que el “costo de los
+21441:NIC 19 y NIIF 13 Medición del Valor Razonable, con cambios en el valor razonable registrados en el
+21453:NIC 19 y la NIIF 13.
+21728:NIC 32 Instrumentos Financieros: Presentación [Referencia: párrafo 42, NIC 32].
+25659:NIC 27 Estados Financieros Separados. Esta norma también se aplicará a los estados financieros
+27153:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+27232:NIC 28 para medir inicialmente una inversión en una asociada o negocio conjunto al costo. El
+27234:NIC 28 en esta etapa, en lugar de como parte de su consideración más amplia de la NIC 28 dentro
+27246:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+27925:NIC 27 a unos hechos que implican una inversión en una subsidiaria.
+27997:NIC 28 para medir inicialmente una inversión en una asociada o negocio conjunto al costo. El
+27999:NIC 28 en esta etapa, en lugar de como parte de su consideración más amplia de la NIC 28 dentro
+28771:NIC 1 Presentación de Estados Financieros y el párrafo 20 de la NIIF 7 Instrumentos Financieros:
+30054:NIC 32 Instrumentos Financieros: Presentación. El instrumento tiene una fecha de vencimiento
+
+════ VI · NIIF 15 y NIIF 18 · ¿tienen cuerpo completo? ════
+93:Objetivo y alcance de los estados financieros
+443:Objetivo, utilidad y limitaciones de la información financiera con
+1211:Objetivo y alcance de los estados financieros
+1246:Objetivo y alcance de los estados financieros
+5084:Objetivos y principios de presentación e información a revelar
+5831:Objetivo
+9468:Objetivo
+10369:Objetivo
+11817:Objetivo
+12980:Objetivo
+1:NIIF 18
+77:NIIF 18
+195:NIIF 18
+298:NIIF 18
+405:NIIF 18
+NIIF 18
+
+Norma internacional de información financiera 18
+Presentación y revelación de información en los
+estados financieros
+Objetivo
+1
+
+Esta Norma establece los requisitos para la presentación y revelación de información en los estados
+financieros con propósito general (denominados «estados financieros») con el fin de contribuir a garantizar
+que dichos estados proporcionen información pertinente y que represente de manera fiel los activos, los
+pasivos, el patrimonio neto, los ingresos y los gastos de la entidad.
+
+Ámbito de aplicación
+2
+
+La entidad aplicará esta Norma al presentar y revelar información en los estados financieros
+elaborados de acuerdo con las normas NIIF de contabilidad.
+
+3
+
+Esta Norma establece los requisitos generales y específicos para la presentación de información en el
+estado o estados de rendimiento financiero, el estado de situación financiera y el estado de cambios en
+el patrimonio neto. Asimismo, esta Norma establece los requisitos para la revelación de información en
+las notas. La NIC 7 Estado de flujos de efectivo establece los requisitos para la presentación y revelación
+de información sobre flujos de efectivo. No obstante, los requisitos generales relativos a los estados
+financieros que figuran en los párrafos 9 a 43 y 113 a 114 se aplicarán al estado de flujos de efectivo.
+
+4
+
+En otras normas NIIF de contabilidad se establecen los requisitos de reconocimiento, valoración,
+presentación y revelación respecto de transacciones y otros hechos específicos.
+
+5
+
+Esta Norma no se aplicará a la presentación y revelación de información en los estados financieros
+intermedios condensados que hayan sido elaborados en aplicación de la NIC 34 Información financiera
+intermedia. Sin embargo, los párrafos 41 a 45 y 117 a 125 se aplicarán a dichos estados financieros.
+
+6
+
+Esta Norma utiliza terminología adaptada a las entidades con ánimo de lucro, incluidas las entidades
+empresariales del sector público. Si aplican esta Norma entidades del sector privado o del sector público
+que ejercen actividades sin ánimo de lucro, es posible que deban modificar las descripciones utilizadas
+para ciertos epígrafes, categorías, subtotales o totales de los estados financieros e incluso para los
+propios estados financieros.
+
+7
+
+De forma análoga, las entidades que carezcan de patrimonio neto, de acuerdo con la definición de la NIC
+32 Instrumentos financieros: Presentación (por ejemplo, algunos fondos de inversión colectiva), y aquellas
+entidades cuyo capital social no sea patrimonio neto (por ejemplo, algunas entidades cooperativas)
+podrían tener que adaptar la presentación en los estados financieros de las participaciones de los
+miembros o partícipes.
+
+8
+
+Muchas entidades proporcionan un análisis financiero elaborado por la dirección e independiente de los
+estados financieros (véase el párrafo 10) en el que se describen y explican las características principales
+del rendimiento financiero y la situación financiera de la entidad, así como las principales incertidumbres
+a las que esta se enfrenta. Dicho análisis queda fuera del ámbito de aplicación de las normas NIIF de
+contabilidad.
+
+Requisitos generales aplicables a los estados financieros
+Objetivo de los estados financieros
+9
+
+El objetivo de los estados financieros es proporcionar información financiera sobre los activos, los pasivos,
+el patrimonio neto, los ingresos y los gastos de la entidad que sea útil para los usuarios de dichos estados
+a la hora de evaluar las perspectivas de entradas netas de efectivo a la entidad en el futuro, así como la
+gestión de los recursos económicos de la entidad por parte de la dirección.
+
+Febrero 2026
+
+1
+
+NIIF 18
+
+Conjunto completo de estados financieros
+10
+
+════ VII · ¿cuántas normas tienen cuerpo completo vs referencia? ════
+--- con párrafo 1 y 2 explícitos ---
+319

@@ -1,0 +1,733 @@
+=== B19 · operacionalización Rodríguez→Sampieri para Cap 3 · 2026-09-24 ===
+
+════ PARTE I · ACTO 2 (nunca leído) ════
+--- enmienda fractalidad acotada · texto completo ---
+# ACTA DE ENMIENDA A FRACTALIDAD_ACOTADA.md
+## Cualificadores y tres operadores
+
+**Programa de Investigación SCFV**
+**Giro:** 05
+**Sesión:** 5
+**Fecha:** 2026-09-24
+**Estatuto:** ACTO MAYOR — ENMIENDA A DOCUMENTO DEL PROGRAMA
+**Estado efectivo:** MATERIALIZADO Y FIRMADO
+**Vigencia:** aplicable desde su firma
+**Régimen:** §19.2, §19.3, §19.3-bis, §19.3-ter, §20 del Protocolo
+
+---
+
+## §1. Objeto
+
+La presente acta introduce una enmienda al documento
+`FRACTALIDAD_ACOTADA.md` (GIRO_04 del Programa SCFV).
+
+La enmienda:
+
+1. Añade cuatro cualificadores al término "fractalidad":
+   escalante, acotada, en cascada, funcional.
+2. Declara la articulación de tres operadores (XNOR, Baldor,
+   motor epistémico) con la tríada rodriguiana
+   (Dogma, Disciplina, Economía).
+3. Declara el anclaje metodológico a Benoît Mandelbrot,
+   activado como canon del prompt del Giro 05.
+
+La enmienda no sustituye el cuerpo original. Añade secciones.
+
+---
+
+## §2. Antecedente
+
+Durante el Giro 05, el Operador activó Mandelbrot como canon del
+prompt (PROMPT_AVANZADO_GIRO_05_AI1_AI2.md §6).
+
+El corpus originalmente declaraba:
+
+> FRACTALIDAD_ACOTADA.md §1:
+> "Fuera de alcance: Fractalidad geométrica (Mandelbrot,
+> autosimilitud exacta)."
+
+Esa exclusión fue por lectura estrecha. Mandelbrot mismo distingue:
+
+> Mandelbrot 1982, L767-773:
+> "En la expresión compuesta fractal escalante, el adjetivo suaviza
+> el significado del sustantivo."
+
+> Mandelbrot 1975, L732:
+> "Dos conceptos intuitivos esenciales: homotecia interna y cascada."
+
+> Mandelbrot 1982, L9482:
+> "no de una operación que se realiza, luego se repite, etc.
+> Esas funciones iteradas son..."
+
+La operación del Programa SCFV (XNOR iterado en cascada contable)
+es análoga al método estructural de Mandelbrot.
+
+---
+
+## §3. Texto de la enmienda
+
+### §2-bis · Cualificadores del término
+
+El término "fractalidad" en `FRACTALIDAD_ACOTADA.md` se cualifica
+mediante cuatro adjetivos. Cada uno tiene fuente verificable.
+
+**ESCALANTE**
+- Fuente · Mandelbrot 1982, L767-773.
+- Cita · "En la expresión compuesta fractal escalante, el
+  adjetivo suaviza el significado del sustantivo."
+- Significado · autosimilitud funcional laxa, no geométrica exacta.
+
+**ACOTADA**
+- Fuente · propio del corpus.
+- Cita · FRACTALIDAD_ACOTADA.md §3, §9.
+- Significado · restringida al dominio contable.
+- Distinción · no confundir con "acotado" en sentido métrico
+  (Mandelbrot 1975 L3863 · "contenido en una bola finita").
+
+**EN CASCADA**
+- Fuente · Mandelbrot 1975, L732, L746, L1392.
+- Cita · "Dos conceptos intuitivos esenciales: homotecia interna
+  y cascada" (L732).
+- Significado · proceso generativo iterado.
+
+**FUNCIONAL**
+- Fuente derivada · Mandelbrot 1982, L9482.
+- Cita · "no de una operación que se realiza, luego se repite, etc.
+  Esas funciones iteradas son..."
+- Significado · opera sobre funciones, no sobre formas geométricas.
+
+Formulación completa adoptada:
+
+> Fractalidad **escalante**, **acotada** al dominio contable,
+> **en cascada**, **funcional**.
+
+---
+
+### §2-ter · Los tres operadores
+
+La fractalidad escalante acotada al dominio contable no opera con un
+solo operador. Opera con tres, iterados en cascada.
+
+    Dogma       ↔ XNOR              · la ley que se sostiene
+    Disciplina  ↔ Baldor            · cómo se calcula el monto
+    Economía    ↔ Motor epistémico  · qué se materializa
+
+Anclaje Rodríguez §2.1 (raw L1312–1314):
+
+> "Toda operacion se funda en un Dogma,
+>  se rige por una Disciplina propia del Dogma,
+>  y se ejecuta con una Economía propia de la Disciplina."
+
+Correspondencia propuesta:
+
+    Dogma      · XNOR     · decide ubicación DEBE/HABER (U = N ⊙ M).
+    Disciplina · Baldor   · calcula el monto aritmético.
+    Economía   · Motor    · materializa el asiento (efecto físico).
+
+Los tres son iterados en cascada contable:
+
+    partida → asiento → período → consolidación.
+
+En cada nivel, los tres operan con la misma estructura.
+
+**Nota de estatuto.** Esta articulación de tres operadores es
+propuesta del Giro 05. No tiene canon directo en el corpus
+(verificado por falsación material: greps vacíos de "Dogma.*XNOR",
+"Disciplina.*Baldor", "Motor.*Economía", "tres operadores").
+
+Coexiste con la correspondencia IPVE declarada en
+`04_ipve_operacionalizado.md` §2.3:
+
+    Dogma → I · Disciplina → V · Economía → E · Operación → P
+
+Los dos mapeos son ortogonales:
+    - IPVE clasifica la aplicación en letras epistémicas.
+    - Los tres operadores ejecutan la aplicación.
+
+---
+
+## §4. No-borrado
+
+Conforme al principio de no-borrado (SCFV-L §14) y a la advertencia
+de Mandelbrot:
+
+> Mandelbrot 1982, L278:
+> "a menudo tan arraigado que no se borra fácilmente con una
+> redefinición."
+
+La presente enmienda **añade**, no sustituye. El cuerpo original
+§1–§9 de FRACTALIDAD_ACOTADA.md permanece íntegro.
+
+La exclusión de Mandelbrot declarada en §1 del documento original
+se reinterpreta: no era exclusión de Mandelbrot completo, era
+exclusión de la autosimilitud geométrica exacta. Mandelbrot
+escalante sí queda dentro del alcance.
+
+---
+
+## §5. Régimen tripartito
+
+- **IA-1 — Constructor:** redacta, integra y materializa bajo
+  delegación.
+- **IA-2 — Falsador:** verifica hashes y emite constancia.
+- **Operador:** decide, autoriza, firma y determina consecuencias.
+
+
+---
+
+## REGISTRO DE INTEGRIDAD
+
+**SHA-256 previo al registro:** 4baf3b359e0752296406341c11d6f2ea5659c9e32ae8fbd2f62708bcdd16af9b
+
+**SHA-256 final:** se reporta externamente conforme H-EXT-01-ter punto 5.
+
+**Nota:** el hash previo corresponde al cuerpo del acta inmediatamente
+anterior a la incorporación de este bloque. El hash final corresponde al
+documento completo tras la incorporación y se comunica en mensaje
+externo verificable.
+
+---
+
+## FIRMA TRIPARTITA ASIMÉTRICA (§20)
+
+**IA-1 · Constructor**
+Firma: [pendiente]
+Constancia: enmienda redactada conforme al barrido de falsación
+de Mandelbrot (bloques D2-A, D2-B parcial, D-MAN-1).
+Construye y documenta.
+
+**IA-2 · Falsador**
+Firma: [pendiente]
+Constancia: falsación emitida en el barrido. Sin objeciones bloqueantes.
+Observación no bloqueante: la articulación de tres operadores
+(§2-ter) es propuesta sin canon directo. Declarada como tal.
+
+**OPERADOR · Autoridad final**
+Firma: [pendiente]
+Decisión: materializa la enmienda como acto del Giro 05.
+Enmienda FRACTALIDAD_ACOTADA.md con cuatro cualificadores
+y articulación de tres operadores.
+
+════ PARTE II · SAMPIERI Cap 3 · qué es el planteamiento ════
+444-
+445-Parte 2. La ruta de la investigación cuantitativa 37
+446:Capítulo 3. El planteamiento del problema en la ruta
+447-cuantitativa 38
+448-¿Qué implica plantear el problema de investigación bajo el enfoque o ruta cuantitativa?
+449-Criterios para plantear- un problema de investigación cuantitativa 41 ¿Cómo se plantea un
+450-problema de investigación cuantitativa? 41 Errores frecuentes al plantear un problema de
+451-investigación cuantitativo                                                           47
+452-Método gráfico para delimitar el problema 50
+453-xiv   Contenido
+454-
+455-
+456-
+457-             Redacción de planteamientos cuantitativos en protocolos
+458-                  (posicionamiento del destino en la ruta cuantitativa)          51
+459-             La investigación en el desarrollo profesional 56
+460-
+461-
+462-             Capítulo 4. Elaboración del marco teórico en la ruta
+463-             cuantitativa 68
+464-             ¿Qué es el marco teórico? 70
+465-             ¿El marco teórico es necesario en cualquier investigación?         70
+466-             ¿Cuál es la utilidad del marco teórico? 71 ¿Qué fases comprende la
+--
+1015-   corporativa.
+1016-6. Es México, sólo cambié de frontera: de la vida rural al mundo citadino, experiencias de crecimiento
+1017:   personal (planteamiento del problema).
+1018-7. Es México, sólo cambié de frontera: de la vida rural al mundo citadino, una experiencia de
+1019-   crecimiento personal (reporte de biografía cualitativa).
+1020-
+1021-Mixto
+1022-8. Diseño de una escala autoaplicable para la evaluación de la satisfacción sexual en hombres y mujeres
+1023-   mexicanos.
+1024-
+1025-Cuantitativos
+1026-9. Comparativo de instrumentos de evaluación para programas de prevención del abuso sexual infantil
+1027-    en preescolares (PPASI) (experimento).
+1028-10. Estimación de masa en sistemas de control ambiental en aeronaves durante la fase de diseño
+1029-    conceptual.
+1030-11. Análisis de las mejores prácticas empresariales en las áreas de administración, mercadotecnia,
+1031-    manufactura y desarrollo organizacional: un estudio de caso.
+1032-12. Protocolo de investigación: Exploración factorial del clima y la cultura organizacional en el marco del
+1033-    Modelo de los Valores en Competencia.
+1034-13. Exploración factorial del clima y la cultura organizacional en el marco del Modelo de los Valo res en
+1035-    Competencia (artículo publicado).
+1036-
+1037-   Adicionalmente, hay una carpeta titulada UASLP (Universidad Autónoma de San Luis Potosí,
+--
+1623-                                                                                                  • Detectar la literatura pertinente
+1624-                                                                                                                                                                                          Recuadro del proceso que se está estudiando
+1625:                                                                                                  para el planteamiento del problema                                                      para que el alumno lo ubique en el esquema
+1626-                                                                                                  de la Investigación.
+1627-                                                                                                  ■ Obtener la literatura pertinente.                                                     completo de la obra; así como el paso
+1628-                                                                                                  • Revisar la literatura a fondo y                                                       correspondiente en el marco de una
+1629-                        Proceso de investigación                                                  extraer los antecedentes, datos e
+1630-                              cuantitativa                                                        información conveniente para                                                            investigación y las tareas que se deben realizar
+1631-                                                                                                  contextualizar y enmarcar                                                               en ese paso.
+1632-                                                                                                  teóricamente la investigación.
+1633-                                                                                                  • Construir el marco teórico.
+1634-
+
+════ PARTE III · SAMPIERI Cap 3 · preguntas de investigación ════
+1921-                                                                                                                                fuente de las que hemos revisado en capítulos previos, o bien, en el centro de recursos en línea de la obra, en
+1922-                                                                                                                                Centro del Estudiante: Apéndices: Apéndice 1: ‘Publicaciones periódicas más Importantes"). Analiza: ¿Cuál es
+1923:  preguntas y situaciones cuidadosamente                                                                                        el planteamiento del problema del estudio (objetivos y preguntas de Investigación)? ¿Cuál es lo hipótesis que
+1924-                                                                                                                                se busco probar por medio de los resultados del experimento? ¿Cuál es la variable Independiente o cuáles
+1925-  escogidas para ayudar al estudiante a reafirmar                                                                               son las variables Independientes? ¿Cuál es la variable o las variables dependientes? ¿Cuántos casos,
+1926-                                                                                                                                fenómenos o grupos se Incluyen en el experimento? ¿Son equivalentes? ¿Cuál es el diseño específico que el
+1927-  lo expuesto en el capítulo.                                                                                                   autor o autores han elegido? ¿Se controlan las fuentes de Invalidación interna? ¿Se controlan las fuentes de
+1928-                                                                                                                                invalidación externa? ¿Se encontró algún efecto? Presenta un resumen del experimento y tus respuestas a tu
+1929-                                                                                                                                profesor y compañeros. Discutan los ejemplos de todos en grupo.
+1930-                                                                                                                                Ramos (2014) Implementó un diseño cuaslexperimental. Su objetivo fue: demostrar que dos estaciones de
+1931-                                                                                                                                servicio o gasolineras mexicanas en los cuales se Implementara un sistema de gestión
+1932-
+1933-
+1934-
+1935-
+1936-              Ejemplos desarrollados
+1937-
+1938-  Vldeojuegos yjugadores
+--
+2231-                           organizado de manera secuencial para comprobar ciertas suposiciones. Cada fase precede a la siguiente y
+2232-                           no podemos eludir pasos, el orden es riguroso, aunque desde luego, podemos redefinir alguna etapa. Parte
+2233:                           de una idea que se delimita y, una vez acotada, se generan objetivos y preguntas de investigación, se revisa
+2234-                           la literatura y se construye un marco o perspectiva teórica. De las preguntas se derivan hipótesis y
+2235-                           determinan y definen variables; se traza un plan para probar las primeras (diseño, que es como "el mapa
+2236-                           de la ruta"); se seleccionan casos o unidades para medir en estas las variables en un contexto específico
+2237-                           (lugar y tiempo); se analizan y vinculan las mediciones obtenidas (utilizando métodos estadísticos), y se
+2238-                           extrae una serie de conclusiones respecto de la o las hipótesis. Este proceso se representa en la figura 1.2 y
+2239-                           se desplegará en la segunda parte del libro.
+2240-
+2241-
+2242-
+2243-Fase 1                           Fase 2                     Fase 3                       Fase4                     Fase 5
+2244-
+2245-                                                                 Revisión de la             Visualización del      Elaboración de
+2246-                                                                                          alcance del estudio.
+2247-                                      Planteamiento del          literatura y                                      hipótesis y definición de
+2248-           Idea
+--
+2284-                                  En términos generales esta ruta consiste en que:
+2285-                               1. El investigador plantea en un contexto concreto un problema de estudio acotado sobre el fenómeno
+2286:                                  de interés (el qué), aunque en evolución. Sus preguntas de investigación versan sobre cuestiones
+2287-                                  específicas.
+2288-                               2. Una vez planteado el problema, el investigador examina lo que se ha indagado previamente (la
+2289-                                  revisión de la literatura) y construye un marco teórico (la teoría o antecedentes que habrán de
+2290-                                  sustentar y guiar su estudio), del cual deriva una o varias hipótesis (que son suposiciones res-
+2291-                                  paldadas por otras investigaciones anteriores y la teoría) y las somete a prueba (para verificar que
+2292-                                  son verdaderas o no en el contexto particular) mediante el empleo de un diseño de investigación
+2293-                                  apropiado (el mapa). Si los resultados corroboran las hipótesis o son congruentes con estas, se aporta
+2294-                                  evidencia a su favor. Si se refutan, se descartan en busca de mejores explicaciones y nuevas hipótesis.
+2295-                                  Al apoyar las hipótesis se genera confianza en la teoría que las sustenta. Si no es así, se rechazan las
+2296-                                  hipótesis y, eventualmente, la teoría.
+2297-                               3. Las hipótesis se generan antes de recolectar y analizar los datos.
+2298-                               4. Los datos se encuentran en forma de números (cantidades) y, por tanto, su recolección se fun-
+2299-                                  damenta en la medición (en los casos se miden las variables contenidas en las hipótesis). Esta
+2300-                                  recolección se lleva a cabo utilizando procedimientos estandarizados y aceptados por una co-
+2301-                                  munidad científica. Para que un estudio sea creíble y aceptado por otros investigadores, debe
+--
+2884-  Seleccionar a un joven o una joven para un empleo bajo las rutas cuantitativa y cualitativa.
+2885-        Supongamos que un jefe de personal o recursos humanos desea contratar a un joven o una joven para
+2886:  ocupar un puesto en determinada empresa. Su pregunta de investigación en términos coloquiales podría ser:
+
+════ PARTE IV · SAMPIERI Cap 3 · objetivos ════
+4238-      En el capítulo se presenta el proceso de desarrollo y evolución de una idea planteada en un problema de
+4239-      investigación cuantitativa. Asimismo, se incluyen diferentes estrategias para esbozar dicho problema y se explican
+4240:      los componentes básicos del planteamiento: objetivos de investigación, preguntas de investigación, justificación de
+4241-      la investigación, viabilidad de esta y evaluación de las deficiencias en el conocimiento del problema.
+4242-           Adicionalmente, se clasifica a los planteamientos por su propósito y se comentan dificultades y errores
+4243-      frecuentes al plantear el problema de investigación.
+4244-                                                   Sus componentes son:
+4245-                                                   • Objetivos: que constituyen las guías del estudio
+4246-                                                   • Preguntas de investigación: que deben ser claras y son el
+4247-                                                   qué, por qué y cómo del estudio
+4248-Sus criterios son:
+4249-                                                   • Justificación del estudio: el para qué de la investigación
+4250-. Se formula con claridad y sin ambigüedad .
+4251-                                                   • Viabilidad del estudio que implica:
+4252-Incluye formulación como pregunta .
+4253-                                                   • Disponibilidad de recursos
+4254-Posibilidad de ser investigado empíricamente
+4255-                                                   • Alcances
+--
+4474-
+4475-
+4476:         Desde luego, durante la investigación es posible que surjan objetivos adiciona-                                 ^Objetivos de investigación Espe-
+4477-    les, se modifiquen los objetivos iniciales o incluso se sustituyan por nuevos objeti-                                  cifican lo que se pretende conocer
+4478-    vos, según la dirección que tome el estudio.                                                                           como resultado de la investigación
+4479-                                                                                                                           y deben expresarse con claridad,
+4480-                                                                                                                           pues son las guías del estudio.
+4481-    Preguntas de investigación cuantitativa                                                                                Comienzan con un verbo que
+4482-                                                                                                                           conduzca a la acción.
+4483-    Además de definir los objetivos concretos de la investigación, es conveniente plan-
+4484-    tear, por medio de una o varias preguntas, el problema que se estudiará. Esto tiene
+4485-    la ventaja de presentarlo de manera directa, lo cual minimiza la distorsión (Alves-
+4486-    son y Sandberg, 2013 y Christensen, 2006).
+4487-        Frecuentemente las preguntas de investigación se plantean en términos de ¿qué?, ¿por qué? y ¿cómo?
+4488-    (Lewkowicz, 2010 y Blaikie, 2003). Regularmente son los propios objetivos, pero ahora presentados en
+4489-    forma de interrogantes.
+4490-        De acuerdo con O'Brien y DeSisto (2013), Anastasiadis, Rajan y Winchester (2015), Alvesson y
+4491-    Sandberg (2013), Morse (2010) y Ferman y Levin (1979) las preguntas de investigación deben: 2
+--
+4860-                 Ejemplos negativos                                                          Comentario
+4861-
+4862:  Seleccionar un diseño de                      No son objetivos de investigación sino fases o etapas del proceso mismo.
+4863-  investigación, aplicar cierta prueba
+4864-  estadística, relacionar categorías,
+4865-  recolectar datos, determinar la
+4866-  muestra, etcétera.
+4867-
+4868-                    Dificultad: objetivos o preguntas dirigidas a una consecuencia, entregable, producto o impacto de la investigación
+4869-
+4870-                 Ejemplos negativos                                                          Comentario
+4871-
+4872-Promover la productividad de fincas Estos objetivos representan hechos, productos o entregables que pueden resultar de una
+4873-cafetaleras de Córdoba, Veracruz.        investigación, constituyen efectos positivos para un grupo, comunidad, país, región e incluso la
+4874- Generar un nuevo programa para          humanidad. Desde luego y, a fin de cuentas, se investiga en todos los campos del conocimi ento para
+4875- analizar los datos cualitativos.        mejorar nuestras condiciones de vida; pero los ejemplos no son en sí objetivos del estudio, sino
+4876- Desarrollar un procedimiento            productos, por loables que sean (y se incluyen en la justificación). Desde luego, pueden ser objetivos
+4877- innovador para extirpar tejido cerebral de un trabajo de tesis, pero no del estudio que la sustenta.
+--
+5502-del problema                                                 básico     del  estudio  Ruta
+5503-Justificación de la investigación                            cuantitativa Viabilidad de la
+5504:Objetivos de investigación                                   investigación
+
+════ PARTE V · SAMPIERI Cap 3 · justificación ════
+500-             ¿En una investigación se formulan hipótesis de investigación, nula y alternativa?              134
+501-             ¿En una misma investigación se pueden formular' hipótesis de todo tipo? 135 ¿Qué se hace con
+502:             las hipótesis en la ruta cuantitativa? Prueba de hipótesis 135 ¿Para qué sirven las hipótesis?
+503-             ¿Cuáles son sus funciones? 135 ¿Qué ocurre cuando no se aporta evidencia en favor de las
+504-             hipótesis de nuestra investigación? 136 ¿Qué hay de las variables que están contenidas en las
+505-             hipótesis? ¿Debemos definirlas?
+506-                  ¿Cuál es su papel?          136
+507-             Definición conceptual o constitutiva 136
+508-             Definición operacional           137
+509-             La investigación en el desarrollo profesional 140
+510-Capítulo 7. Concepción o elección del diseño de investigación en la
+511-ruta cuantitativa: el mapa específico 148
+512-¿Qué es el diseño de investigación? 150
+513-En la ruta cuantitativa, ¿qué tipos de diseños se utilizan para investigar? 151 Diseños
+514-experimentales 151
+515-¿Cuáles son los requisitos y características distintivas de los diseños experimentales o
+516-     experimentos?          152
+517-Clasificación de los diseños experimentales 161 Diseños factoriales         170
+--
+922-  otras cuestiones es útil para generar documentos que contengan citas en el texto y referencias
+923-  bibliográficas siguiendo el estilo de la American Psychological Association (APA). Este software te
+924:  lleva de la mano para que en tu trabajo cites adecuadamente las fuentes. El documento que elabores
+925-  puede ser exportado a Word.
+926-• El ya conocido software STATS® para el aprendizaje y realización de cálculos estadísticos básicos y
+927-  determinación del tamaño de muestra. Te ayudará a aprender estadística básica.
+928-• Demo del programa Atlas.ti® para análisis cualitativo.
+929-• El demo del programa de mapeo, teoría fundamentada y análisis cualitativo Decision Explorer®.
+930-
+931-
+932-Manuales de software
+933-En esta sección puedes descargar los siguientes manuales:
+934-• Manual de IBM SPSS® (Paquete Estadístico para las Ciencias Sociales).
+935-•   Manual de Atlas.ti®.
+936-•   Manual del Sistema de Información para el Soporte a la Investigación (SISI®).
+937-
+938-
+939-Manuales de estilos editoriales
+940:Para que cites apropiadamente en los documentos que hagas (tesis, artículos, trabajos, etcétera) y
+941-las referencias al final (bibliografía), puedes descargar estos manuales:                          <-
+942-• Manual de introducción al estilo APA para citas y referencias (American Psychological Association),
+
+════ PARTE VI · RODRÍGUEZ · loci operacionalizadores ════
+--- L1312 ---
+Toda operacion se funda en un Dogma,
+--- L5061 ---
+”instrumentos; y, al servirse de ellos, el mal que hacen al que los maneja, por poco que
+--- L5339 ---
+sociedades, y para ello hacer que se recomienden por sí mismas: recomendarse es
+--- L9541 ---
+No hay sino un solo recurso, y por fortuna muy fácil . . . hacer que el Pueblo sea republicano,
+--- L9925 ---
+velaban sobre su conducta, y un Director que trazaba el plan de operaciones y lo hacia ejecutar.
+--- L12373 ---
+El uso autoriza a servirse de ciertas fórmulas, sin pesar el sentido que envuelven:
+--- L12426 ---
+Puede haberse concebido un Error—puede haberse descubierto una verdad.
+--- L13424 ---
+Extender con arte será, no solo hacer que
+--- L14296 ---
+Extender con arte será, nó solo hacer que todos sepan lo que se dispone, sino
+
+════ PARTE VII · RODRÍGUEZ · contexto de L1312 (Dogma/Disciplina/Economía) ════
+”excepto lo que el autor ha querido que sea”
+En este caso, le quedará el recurso del pintor que puso al pié de su cuadro
+este es gallo.
+Por precaucion, dígase desde ahora, que la introducción que se va á leer es un. . . . . . .
+
+53
+
+SIMÓN RODRÍGUEZ
+
+PRODROMO.
+La Lengua y el Gobierno de los Españoles están en el mismo estado. . . .
+
+necesitando reforma y
+pudiendo admitirla
+
+por una parte
+
+y por otra
+tentando de varios modos,
+los Reformadores
+sin dar con el verdadero.
+___________________________
+Toda operacion se funda en un Dogma,
+se rige por una Disciplina, propia del Dogma,
+y se ejecuta con una economia propia de la Disciplina.
+
+PARALELO entre
+		la Lengua 		
+
+y 		
+
+el Gobierno
+
+1.°
+El dogma de cualquier lenguaje es
+
+1.°
+El Dogma de esta función es. . . .
+
+Hablar para entenderse
+
+Llevar una o mas acciones á un fin determinado.
+
+Y el de una lengua nacional es que. . .
+
+2.
+
+Se supone como principio fundamental,
+que gobernar no es un acto simple; sino la reunion de cuatro actos contraidos á un solo
+objeto
+		ordenar
+
+════ PARTE VIII · RODRÍGUEZ · contexto de L9925 (trazar plan) ════
+		de aspiración fundada á la propiedad
+
+lo mandó ejecutar
+Bolívar en Chuquisaca
+
+Expidió un decreto paraque se recojiesen los niños pobres de ámbos sexos . . . nó en Casas de
+misericordia á hilar por cuenta del Estado — nó en Conventos á rogar á Dios por sus bienhechores — nó en
+Cárceles á purgar la miseria ó los vicios de sus padres — nó en Hospicios, a pasar sus primeros años aprendiendo
+á servir, para merecer la preferencia de ser vendidos, a los que buscan criados fieles ó esposas inocentes.
+
+(a)
+
+La Patria.
+251
+
+SIMÓN RODRÍGUEZ
+
+Los niños se habían de recojer en casas cómodas y aseadas, con piezas destinadas á talleres, y estos
+surtidos de instrumentos, y dirijidos por buenos maestros. Los varones debían aprender los tres oficios
+principales, Albañilería, Carpintería y Herrería porque con tierras, maderas y metales se hacen las cosas mas
+necesarias, y porque las operaciones de las artes mecánicas secundarias, dependen del conocimiento de las
+primeras. Las hembras aprendian los oficios propios de su sexo, considerando sus fuerzas — se quitaban, por
+consiguiente, á los hombres, muchos ejercicios que usurpan á las mujeres.
+Todos debian estar decentemente alojados; vestidos, alimentados, curados y recibir instruccion
+moral, social , relijiosa. Tenian, fuera de los maestros de cada oficio, Ajentes que cuidaban de sus personas y
+velaban sobre su conducta, y un Director que trazaba el plan de operaciones y lo hacia ejecutar.
+Se daba ocupacion á los padres de los niños recojidos, si tenian fuerzas para trabajar; y si eran
+inválidos se les socorria por cuenta de sus hijos: con esto se ahorraba la creación de una casa para pobres
+ociosos, y se daba á los niños una lección práctica sobre uno de sus principales deberes.
+El capital empleado en estos gastos era productivo, porque se llevaban cuentas particulares con los
+niños — al fin del quinquenio se cargaban á los existentes, á prorata, los gastos ocasionados por los muertos
+é inválidos — y al salir de aprendizaje cada jóven reconocía una deuda al fondo y pagaba 5 por ciento hasta
+haberla amortizado — De este fondo se sacaba con qué auxiliar socorrer y amparar á los miembros de aquella
+sociedad, por corporaciones, despues de establecidos. Sólo el amparo era una carga — por el auxilio y por el
+socorro pagaban interes al fondo.
+El fondo para gastos de establecimiento se creó, por la 1ª vez, reuniendo bajo una sola
+administracion, en cada Departamento, varias fundaciones, — unas destinadas á cosas inútiles, y otras mal
+aplicadas. No se obedeció á la voluntad del testador, 1º porque si su alma hubiese estado en este
+mundo, habria aprobado (sin duda) el nuevo destino que se daba al caudal que dejó á rédito, para vivir con
+descanso en la otra vida: 2º porque los vivos de estos tiempos, mejor instruidos que los de los pasados, ya no
+creen deber consultar sus negocios con los difuntos.
+
+════ PARTE IX · RODRÍGUEZ · contexto de L13424 (extender con arte) ════
+Instruir no es educar
+
+ni la Instruccion puede ser un equivalente de la Educación
+aunque Instruyendo se Eduque
+En prueba de que con acumular conocimientos, extraños al arte de vivir, nada se
+ha hecho para formar la conducta social—véanse los muchísimos sabios mal criados, que
+pueblan el pais de las ciencias. Un filólogo puede hablar de la estratejia con propiedad, y
+no ser, por eso, soldado.
+Tampoco son medios de jeneralizar
+ni pueden suplir por ellos
+los continuos actos de publicacion que se hacen
+enseñando en Escuelas, Colejios y Universidades,
+ni los de divulgacion
+que se hacen por la prensa
+lo que no es jeneral
+sin excepcion
+no es verdaderamente publico
+y
+lo que no es publico no es social
+Se divulga todo lo que se difunde en el vulgo
+por medio de pregones, carteles ó gacetas
+pero no se jeneraliza sino lo que se extiende
+CON ARTE paraque llegue SIN EXCEPCION
+á todos los individuos de un cuerpo.
+Extender con arte será, no solo hacer que
+TODOS
+sepan lo que se dispone
+sino proporcionar
+JENERALMENTE
+medios de hacer efectivo lo dispuesto:
+y todavía, será menester declarar que
+la posesion de los medios
+impone la obligacion de hacer uso de ellos
+350
+
+OBRAS COMPLETAS
+
+Todos los Gobiernos saben (cuando quieren) jeneralizar lo que es, ó lo que les
+parece conveniente; pero solo un Gobierno ilustrado puede jeneralizar la Instruccion...
+dígase mas...., lo debe: porque sus luces lo obligan, á emprender la obra de la ilustracion
+con otros—y le dan fuerzas que oponer, á la resistencia que le hacen los protectores de
+
+════ PARTE X · ideas.md · qué es la idea precisa (§5) ════
+§5 · IDEA PRECISA
+
+El Giro 05 construye una iteración mínima del SCFV_DSR.
+
+    BUILD ·
+        Copiar xnor.py al SCFV_DSR.
+        Crear FRACTAL NIC2 mínimo (1 operación).
+        Conectar parser → motor.
+
+    EVALUATE ·
+        Correr sobre 1 evento del corpus (event_store.id=1).
+        Reportar bloqueantes.
+
+    REFINE ·
+        Corregir y registrar bloqueantes reales.
+
+El acto no declara el DSR como fractal (06_diseno §6.4, §12.3).
+Ensaya si la fractalidad escalante se materializa.
+
+La idea precisa se sostiene sobre tres condiciones:
+
+    comunicable · la iteración mínima se puede describir.
+    ordenada    · los pasos están encadenados.
+    material    · la evidencia es física (archivo + hash + registro).
+
+────────────────────────────────────────────────────────────────────────
+
+§6 · ANTECEDENTES
+
+════ PARTE XI · prompt v6 · §9 alcance (qué entra y qué no) ════
+
+════ PARTE XII · prompt v6 · §17 modus operandi ════
+§17 · MODUS OPERANDI DEL GIRO 05
+
+Movimiento 1 · citas rodriguianas · ya dadas (§3).
+
+Movimiento 2 · iteración mínima (Hevner · Iteración 1 real)
+    BUILD ·
+        Copiar xnor.py al DSR.
+        Crear FRACTAL NIC2 mínimo (1 operación).
+        Conectar parser → motor.
+    EVALUATE ·
+        Correr sobre 1 evento del corpus.
+        Reportar bloqueantes.
+    REFINE ·
+        Corregir. Registrar bloqueantes reales.
+
+────────────────────────────────────────────────────────────────────────
+
+§18 · DIMENSIONES EMERGENTES
+
+════ PARTE XIII · prompt v6 · §16 deudas vigentes ════
+§16 · DEUDAS DECLARADAS Y CLASIFICADAS
+
+Bloqueantes duras:
+    - D-HASH-1 · Convención de hashes no reconstruible.
+
+Bloqueantes soft:
+    - D-FRAC-2 · Fractales clausurados en S0.
+    - D-SAGA-1 · Sagas huérfanas.
+    - D-FIS-1..7 · Módulo fiscal roto.
+
+No bloqueantes con efecto:
+    - D-APA-1 · Manual APA completo ausente.
+    - D-AUD-1 · COSO 2013 ausente.
+    - D-AUD-2 · NIA Vol 1 ausente.
+    - D-FRAC-3 · Lawvere / Goldblatt ausentes.
+    - D-EVS-1 · Dimensiones H1, IPVE, auditoría no persistidas.
+    - D-EVS-2 · Fowler ausente.
+    - D-PAC-1 · Pacioli raw citable ausente.
+    - D-VEN-1 · VEN NIF parcial.
+    - D-CONF-1 · Activación de cambio de versión.
+    - D-CONF-3 · Fuente metodológica del régimen de conflicto.
+    - D-IES-1 · IES 2019 presente, no declarado.
+    - D-IES-2 · IES 2026 ausente.
+    - D-BOOLE-1 · Boole 1854 ausente.
+    - D-BOOLE-2 · Boole no nombra XNOR.
+    - D-NUC-1 · Baldor no operativo.
+    - D-NUC-3 · Motor como autoridad de escritura.
+    - D-SAM-1 · Sampieri Cap 5 no explotado.
+    - D-TERM-1 · «Extender con arte» como término canónico.
+    - D-PROMPT-1 · Criterio de «equivalente funcional».
+    - D-PROMPT-2 · Cláusula anti-dogmatismo.
+    - D-PROTO-1 · §20-bis no en Protocolo formal.
+    - D-PROTO-3 · Acta no propaga enmiendas al Protocolo.
+    - D-PROTO-5 · §19.3-ter fantasma.
+    - D-PROTO-6 · Cuatro hashes en disputa para Acto 17.
+    - D-ACT17-1 · Acto 17 declarado firmado, no firmado.
+    - D-FRAC-4 · «Cascada» no incorporado al corpus.
+
+No bloqueantes puras:
+    - D-NIIF-1 · NIIF Pymes metadata.
+    - D-CANON-2 · Precisión de "canon".
+    - D-CANON-3 · Auditoría de lenguaje.
+    - D-CANON-4 · Canon bibliográfico/material/procedimental.
+    - D-PROTO-2 · H-EXT-01-ter bajo §19.3-bis, no sección.
+
+Metadeudas:
+    - D-META-2 · Criterio formal para clasificar dimensión emergente.
+    - D-META-3 · Quién decide si un ejemplo es emergente.
+
+Resueltas en este giro (por canon o declaración):
+    - D2-A · Fractal escalante acotado (Mandelbrot).
+    - D3   · Transiciones canon (ACTA_ACTIVACION_HEVNER).
+    - D7-A · Jerarquía contable (NIC 8 + VN4).
+    - D8   · Detección emergencia (Gadamer/Popper/Lakatos/Rodríguez).
+    - D11  · Quién decide emergente (MARCO_IPVE L102, L138).
+    - D-MAN-1 · Reutilización abstracta (caso «tablero», «IPVE»).
+    - D-EMG-1 · S1 = SCFV_DSR (declaración del Operador).
+
+────────────────────────────────────────────────────────────────────────
+
+
+════ PARTE XIV · CITAS_CANON · loci Sampieri Cap 3 disponibles ════
+Sampieri, R. (2018). Metodología de la investigación. McGraw-Hill.
+
+    L431     · "Capítulo 2. La idea de investigación"
+    L705     · "el origen de las rutas de la indagación científica"
+    L923     · "estilo de la American Psychological Association (APA)"
+    L942     · "Manual de introducción al estilo APA para citas y
+                referencias"
+    L2116    · "Toda investigación se inicia con una idea"
+    L3540    · "fuentes de ideas para una investigación"
+    L3557    · "las fuentes que originan las ideas no necesariamente
+                se relacionan con la calidad"
+    L3651    · "Necesidad de afinar o precisar la idea"
+    L3743    · "revisar estudios, investigaciones y trabajos anteriores"
+    L38631   · "fuentes primarias consultadas y utilizadas por ti
+                para elaborar el documento"
+    L38632   · "ordenadas alfabéticamente"
+    L38655   · "citar las referencias en el texto del informe e
+                incluirlas en la bibliografía"
+    L38660   · "1. APA (American Psychological Association)"
+
+────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,65 @@
+=== B8 · estatuto de _legacy · 2026-09-24 ===
+--- config pytest ---
+--- _legacy · estructura ---
+total 14
+drwx------.  4 u0_a288 u0_a288 3452 Sep  2 17:15 .
+drwx------. 31 u0_a288 u0_a288 3452 Sep 22 08:17 ..
+drwx------.  3 u0_a288 u0_a288 3452 Sep  2 11:43 migraciones
+drwx------.  3 u0_a288 u0_a288 3452 Sep  6 16:47 tests_src_legacy
+total 95
+drwx------. 3 u0_a288 u0_a288  3452 Sep  6 16:47 .
+drwx------. 4 u0_a288 u0_a288  3452 Sep  2 17:15 ..
+drwx------. 2 u0_a288 u0_a288  3452 Sep  6 16:47 __pycache__
+-rw-------. 1 u0_a288 u0_a288  1777 Aug 31 16:00 test_caos.py
+-rw-------. 1 u0_a288 u0_a288  4755 Aug 31 16:00 test_compras.py
+-rw-------. 1 u0_a288 u0_a288  4911 Aug 31 16:00 test_epistemic.py
+-rw-------. 1 u0_a288 u0_a288  8510 Aug 31 16:00 test_fiscal.py
+-rw-------. 1 u0_a288 u0_a288  7449 Aug 31 16:00 test_inventario.py
+-rw-------. 1 u0_a288 u0_a288 10813 Aug 31 16:00 test_motor.py
+-rw-------. 1 u0_a288 u0_a288   368 Sep  2 16:28 test_motor_v82_patch.py
+-rw-------. 1 u0_a288 u0_a288  9091 Aug 31 16:00 test_orchestrator.py
+-rw-------. 1 u0_a288 u0_a288  5433 Aug 31 16:00 test_seguridad.py
+-rw-------. 1 u0_a288 u0_a288  6421 Aug 31 16:00 test_ventas.py
+--- ¿git rastrea _legacy? ---
+--- naturaleza de los 39 errores (muestra) ---
+Traceback:
+../../usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_legacy/tests_src_legacy/test_ventas.py:15: in <module>
+    from src.infrastructure.event_store import EventStoreRepository
+E   ModuleNotFoundError: No module named 'src'
+=========================== short test summary info ============================
+ERROR _legacy/tests_src_legacy/test_caos.py
+ERROR _legacy/tests_src_legacy/test_compras.py
+ERROR _legacy/tests_src_legacy/test_epistemic.py
+ERROR _legacy/tests_src_legacy/test_fiscal.py
+ERROR _legacy/tests_src_legacy/test_inventario.py
+ERROR _legacy/tests_src_legacy/test_motor.py
+ERROR _legacy/tests_src_legacy/test_motor_v82_patch.py - NameError: name 'Ver...
+ERROR _legacy/tests_src_legacy/test_orchestrator.py
+ERROR _legacy/tests_src_legacy/test_seguridad.py
+ERROR _legacy/tests_src_legacy/test_ventas.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 10 errors during collection !!!!!!!!!!!!!!!!!!!
+no tests collected, 10 errors in 0.65s
+--- raíz del problema: ¿importa algo del proyecto? ---
+"""
+SCFV v6 — Pruebas del Motor Contable
+Autor: Domingo E. Díaz N. (C.P.C. Nº 183594)
+Fecha: 2026-08-26
+Propósito: Validar el funcionamiento del Motor Contable.
+"""
+
+import sys
+import os
+import sqlite3
+import uuid
+from datetime import datetime
+
+# Añadir src al path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+from src.core.motor_contable.motor import MotorContable
+
+
+def crear_base_prueba():

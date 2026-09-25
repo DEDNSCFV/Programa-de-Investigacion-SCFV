@@ -1,0 +1,47 @@
+════════════════════════════════════════════════════════════════
+ ETAPA 2 · OCR pp.51-287 · Thu Sep 24 20:16:35 -04 2026
+════════════════════════════════════════════════════════════════
+[20:19:45] 10/237 (060) · OK · ritmo 18.90s/pag · ETA 71m30s
+[20:22:11] 20/237 (070) · OK · ritmo 16.75s/pag · ETA 60m34s
+[20:24:53] 30/237 (080) · OK · ritmo 16.60s/pag · ETA 57m16s
+[20:27:31] 40/237 (090) · OK · ritmo 16.40s/pag · ETA 53m50s
+[20:30:11] 50/237 (100) · OK · ritmo 16.30s/pag · ETA 50m48s
+[20:32:41] 60/237 (110) · OK · ritmo 16.08s/pag · ETA 47m26s
+[20:35:04] 70/237 (120) · OK · ritmo 15.84s/pag · ETA 44m5s
+[20:37:24] 80/237 (130) · OK · ritmo 15.61s/pag · ETA 40m50s
+[20:39:57] 90/237 (140) · OK · ritmo 15.58s/pag · ETA 38m10s
+[20:42:36] 100/237 (150) · OK · ritmo 15.61s/pag · ETA 35m38s
+[20:44:57] 110/237 (160) · OK · ritmo 15.47s/pag · ETA 32m44s
+[20:47:01] 120/237 (170) · OK · ritmo 15.22s/pag · ETA 29m40s
+[20:49:17] 130/237 (180) · OK · ritmo 15.09s/pag · ETA 26m54s
+[20:51:58] 140/237 (190) · OK · ritmo 15.16s/pag · ETA 24m30s
+[20:54:31] 150/237 (200) · OK · ritmo 15.17s/pag · ETA 21m59s
+[20:56:52] 160/237 (210) · OK · ritmo 15.11s/pag · ETA 19m23s
+[20:59:19] 170/237 (220) · OK · ritmo 15.08s/pag · ETA 16m50s
+[21:01:40] 180/237 (230) · OK · ritmo 15.03s/pag · ETA 14m16s
+[21:04:03] 190/237 (240) · OK · ritmo 14.99s/pag · ETA 11m44s
+[21:06:12] 200/237 (250) · OK · ritmo 14.88s/pag · ETA 9m10s
+[21:08:18] 210/237 (260) · OK · ritmo 14.78s/pag · ETA 6m39s
+[21:13:15] 220/237 (270) · OK · ritmo 15.45s/pag · ETA 4m22s
+[21:18:51] 230/237 (280) · OK · ritmo 16.24s/pag · ETA 1m53s
+[21:21:43] 237/237 (287) · OK · ritmo 16.49s/pag · ETA 0m0s
+
+[21:21:43] OCR completo · duración 65m8s
+
+════ VERIFICACIÓN ════
+Total OCR en ~/.baldor_ocr/: 287 (esperado 287)
+
+Últimas 5 páginas OCR:
+/data/data/com.termux/files/home/.baldor_ocr/pag-283.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-284.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-285.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-286.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-287.txt
+
+Primeras 3 nuevas (pp.51-53):
+-rw-------. 1 u0_a288 u0_a288 2173 Sep 24 20:17 /data/data/com.termux/files/home/.baldor_ocr/pag-051.txt
+-rw-------. 1 u0_a288 u0_a288 3110 Sep 24 20:17 /data/data/com.termux/files/home/.baldor_ocr/pag-052.txt
+-rw-------. 1 u0_a288 u0_a288 2236 Sep 24 20:18 /data/data/com.termux/files/home/.baldor_ocr/pag-053.txt
+
+Archivos sospechosos (< 200 bytes):
+-rw-------. 1 u0_a288 u0_a288 22 Sep 22 23:39 /data/data/com.termux/files/home/.baldor_ocr/pag-001.txt

@@ -1,0 +1,164 @@
+=== B24 · conjetura · H6 · validación cruzada · 2026-09-24 ===
+════ I · subclases de BaseFractal ════
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/ventas/ventas.py:5:from DOMINIOS.base_fractal import BaseFractal
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/ventas/ventas.py:7:class FractalVentas(BaseFractal):
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/compras/compras.py:2:from DOMINIOS.base_fractal import BaseFractal
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/compras/compras.py:4:class FractalCompras(BaseFractal):
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/inventario/inventario.py:2:from DOMINIOS.base_fractal import BaseFractal
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/inventario/inventario.py:4:class FractalInventario(BaseFractal):
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/fiscal/fiscal.py:12:from DOMINIOS.base_fractal import BaseFractal
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/fiscal/fiscal.py:15:class FractalFiscal(BaseFractal):
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/fiscal/fiscal.py:281:    # MÉTODOS REQUERIDOS POR BaseFractal
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/base_fractal.py:3:BaseFractal - Clase base para todos los fractales (v8.1 con I6)
+/data/data/com.termux/files/home/scfv_v6/DOMINIOS/base_fractal.py:7:class BaseFractal:
+════ II · H6_CIERRE.md · qué es H6.10 ════
+4:**Rango:** H6.1 → H6.10.
+165:## H6.10-a′/b′ — Preservación bajo agregación aditiva
+182:## H6.10-c — Consolidación con eliminación intercompañía
+186:- **HYPOTHESIS (H6.10-HYP-c, declarada antes de ejecutar):**
+197:- **FALSATION:** H6.10-HYP-c es FALSADA por el resultado. Existe morfismo
+240:### H6.10-FINDING-SCHEMA-001
+245:### H6.10-FINDING-REF-001
+266:| H6.10-a/b (intento 1) | Invariante escalar `I` | FALSADO como evidencia (tautológico) |
+267:| H6.10-HYP-c | Predicción de ruptura en consolidación | FALSADO (existe morfismo) |
+**Rango:** H6.1 → H6.10.
+**Fecha:** 2026-09-12.
+**Autoridad:** acuerdo I1/I2.
+
+**Función de este documento:**
+Responder una sola pregunta: *¿qué quedó efectivamente demostrado en H6,
+mediante qué evidencia, con qué alcance, y cuáles son sus fronteras?*
+
+No es el tratado teórico (ver `FRACTALIDAD_ACOTADA.md`).
+No es el cierre de SCFV Motor (ver `SCFV_MOTOR_CIERRE.md`).
+
+**Vocabulario de clasificación usado en cada hito:**
+CONTRACT / IMPLEMENTATION / EVIDENCE / HYPOTHESIS / FALSATION /
+VALIDATION / DESIGN DECISION / VERDICT.
+
+---
+
+## H6.1 — Localización del ensamblaje v8.2
+
+- **CONTRACT:** identificar todos los componentes de la cadena
+  `H1 → H2 → DP → VA → PA → NC → PC → MC → ASENTADO → EventStore`.
+- **IMPLEMENTATION:** grep forense + lectura AST de firmas.
+- **EVIDENCE:** `generador_propuesta`, `h2`, `decision_provider`,
+  `verificador_autorizacion`, `puente_autorizacion`,
+  `puente_consecuencias`, `nucleo_consecuencias`, `motor_contable`,
+  `maquina_estados_asiento`.
+- **VALIDATION:** firmas leídas, todas presentes.
+- **VERDICT:** CERRADO. Componentes localizados con firma explícita.
+
+---
+
+## H6.2 — Definición del ensamblaje
+
+- **CONTRACT:** especificar el orquestador que encadena los componentes.
+- **IMPLEMENTATION:** diseño de `ejecutar_ciclo_v82`.
+- **DESIGN DECISION:** orquestador nuevo, archivo separado, sin tocar
+  `integrador.py`.
+- **VERDICT:** CERRADO.
+
+---
+
+## H6.3 — Ensamblaje ejecutable aislado
+
+- **CONTRACT:** el orquestador produce asiento end-to-end en memoria.
+- **IMPLEMENTATION:** `PODERES/PROFESIONAL/orquestador_v82.py`.
+- **EVIDENCE:** `test_orquestador_v82_contrato` verde.
+- **VALIDATION:** C1–C9 verificados (estructura, partidas, totales,
+  `correlation_id`, determinismo, `DECISION_H2`, `version_contexto`,
+  `ASENTADO`, `ASIENTO_REGISTRADO`).
+- **VERDICT:** CERRADO.
+
+---
+
+## H6.4 — CLI expone `v82`
+
+- **CONTRACT:** añadir comando `v82` al CLI sin alterar legacy.
+- **IMPLEMENTATION:** subparser en `main.py`; `cmd_v82`.
+- **EVIDENCE:** `v82 --help` muestra `--input`; legacy `venta` intacto.
+- **VALIDATION:** `py_compile OK`, `--help` funcional, seis tests
+  regresión verdes.
+════ III · tests existentes del FRACTAL ════
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/test_compatibilidad_s0.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/tests/__pycache__/test_compatibilidad_s0.cpython-313-pytest-9.1.1.pyc
+/data/data/com.termux/files/home/SCFV_DSR/dsl/README.md
+/data/data/com.termux/files/home/SCFV_DSR/dsl/grammar.lark
+/data/data/com.termux/files/home/SCFV_DSR/dsl/parser.py
+/data/data/com.termux/files/home/SCFV_DSR/dsl/__pycache__/parser.cpython-313.pyc
+════ IV · evento id=1 completo (payload entero) ════
+{
+    "id": "372bed8b-158c-4083-8a81-4037c5d39ac6",
+    "partidas": [
+        {
+            "cuenta": "110101",
+            "naturaleza": "DEUDORA",
+            "movimiento": "AUMENTA",
+            "monto": 1000.0,
+            "moneda": "VES"
+        },
+        {
+            "cuenta": "410101",
+            "naturaleza": "ACREEDORA",
+            "movimiento": "AUMENTA",
+            "monto": 1000.0,
+            "moneda": "VES"
+        }
+    ],
+    "total_debe": 1000.0,
+    "total_haber": 1000.0,
+    "evidencia": {
+        "factura": "FAC-001",
+        "rif": "J-12345678",
+        "monto": 1000.0,
+        "fecha": "2026-09-01",
+        "tipo": "venta",
+        "producto": "PROD-A",
+        "cantidad": 2,
+        "costo_unitario": 500.0
+    },
+    "normas_aplicadas": [
+        "LIVA_Art4",
+        "NIC_29"
+    ],
+    "conflictos": [],
+    "justificacion_h2": null
+}
+════ V · proyeccion_decisiones_h2 · fila del evento 1 ════
+1|372bed8b-158c-4083-8a81-4037c5d39ac6|2c3cb784-6b9d-483f-920f-1d1f2bcb3fb1||0|["LIVA_Art4","NIC_29"]|2026-09-02
+════ VI · justificacion_h2 vacía en todos los eventos ════
+1|
+2|
+3|
+4|
+5|
+6|
+7|
+8|
+9|
+10|
+════ VII · ¿existe V' o T_agregación en código? ════
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:189:- **IMPLEMENTATION:** dos escenarios con `V` grueso idéntico y `V'`
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:194:  - `V'` refinado distingue escenarios.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:195:  - `V'_consolidado == E_refinado(V'_A, V'_B)` en ambos escenarios.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:224:- Suficiencia de `V'` frente a transformaciones no ensayadas.
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:246:El refinamiento `V'` fue definido sin ajuste post-hoc al resultado y sin
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:251:    V' --E_consolidación--> V'    DEMOSTRADO
+/data/data/com.termux/files/home/scfv_v6/DOCS/H6_CIERRE.md:252:    V' --E_1, E_2, ..., E_n--> V' ABIERTO
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:62:    V'(S) = {(cuenta, interno) → Σ signo·monto}
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:65:`V'` es refinado (dos componentes por cuenta: interno y externo).
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:68:La forma concreta en que se expresa el invariante. `V` y `V'` son
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:94:Ejemplo: `V'` es un refinamiento de `V`, con
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:180:**Escenarios.** Dos configuraciones con `V` grueso idéntico pero `V'`
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:189:    V'_consolidado ==  E_refinado(V'_A, V'_B)  (V' refinado suficiente)
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:191:**Control negativo.** Manipulación de una componente de `V'_estimado`
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:198:consolidación contable real, ni suficiencia de `V'` frente a
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:230:**Aplicación a `V'`:**
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:232:- `V'` cumple (1). Fue definido antes de ensayar la consolidación.
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:233:- `V'` cumple (2). La dimensión interno/externo es estructural, no
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:235:- `V'` **no cumple (3) todavía.** Solo ha sido validado contra el
+/data/data/com.termux/files/home/scfv_v6/DOCS/FRACTALIDAD_ACOTADA.md:256:La conjetura **no** afirma que `V'` baste para todas esas operaciones.
+════ VIII · relación Acto 2 ↔ FRACTALIDAD_ACOTADA.md ════
+34:- Fractalidad geométrica (Mandelbrot, autosimilitud exacta).

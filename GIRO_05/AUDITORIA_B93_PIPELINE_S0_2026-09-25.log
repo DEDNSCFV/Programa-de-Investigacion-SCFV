@@ -1,0 +1,257 @@
+════ B93 · pipeline S0 · Fri Sep 25 09:20:44 -04 2026 ════
+
+════ I · piezas del pipeline ════
+-rw-------. 1 u0_a288 u0_a288     0 Aug 31 16:00 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/__init__.py
+-rw-------. 1 u0_a288 u0_a288  2481 Sep  2 21:02 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/decision_provider.py
+-rw-------. 1 u0_a288 u0_a288  1756 Sep 13 11:23 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/estados.py
+-rw-------. 1 u0_a288 u0_a288  3841 Sep 13 08:12 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/examinador.py
+-rw-------. 1 u0_a288 u0_a288 10134 Sep 13 12:07 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/importador_s0.py
+-rw-------. 1 u0_a288 u0_a288  7551 Sep  3 11:11 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/maquina_estados_asiento.py
+-rw-------. 1 u0_a288 u0_a288  1450 Sep  2 16:22 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/modelos.py
+-rw-------. 1 u0_a288 u0_a288  9476 Sep 11 22:49 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/nucleo_consecuencias.py
+-rw-------. 1 u0_a288 u0_a288  4657 Sep  3 12:17 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/puente_autorizacion.py
+-rw-------. 1 u0_a288 u0_a288  5278 Sep  3 14:30 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/puente_consecuencias.py
+-rw-------. 1 u0_a288 u0_a288  5539 Sep 12 21:54 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/reportes_motor.py
+-rw-------. 1 u0_a288 u0_a288  3933 Sep 13 07:09 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/reticulo.py
+-rw-------. 1 u0_a288 u0_a288  3232 Sep  3 11:06 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/verificador_autorizacion.py
+-rw-------. 1 u0_a288 u0_a288  2375 Sep 11 22:37 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/xnor.py
+-rw-------. 1 u0_a288 u0_a288    0 Aug 31 16:00 /data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/__init__.py
+-rw-------. 1 u0_a288 u0_a288 3342 Sep  5 13:19 /data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/h2.py
+-rw-------. 1 u0_a288 u0_a288 2987 Sep  2 09:27 /data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/h2.v81.bak.py
+-rw-------. 1 u0_a288 u0_a288 3155 Sep  2 12:23 /data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/h2.v81.fase1_pre.bak.py
+-rw-------. 1 u0_a288 u0_a288 4296 Sep 12 20:31 /data/data/com.termux/files/home/scfv_v6/PODERES/PROFESIONAL/orquestador_v82.py
+-rw-------. 1 u0_a288 u0_a288    0 Aug 31 16:00 /data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/__init__.py
+-rw-------. 1 u0_a288 u0_a288 6973 Sep  5 10:31 /data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/generador_propuesta.py
+
+════ II · firmas clave ════
+--- NC.construir_consecuencia_autorizada ---
+78:    def construir_consecuencia_autorizada(
+79-        self,
+80-        decision: DecisionProfesional,
+81-        consecuencia_candidata: List[Dict],
+82-        evidencia_hash: str,
+83-        correlation_id: str,
+84-        contexto_contable: ContextoContable,
+85-        fecha: str,
+86-        periodo_id: str,
+87-        estado_actual: str = "ADMITIDO"
+88-    ) -> ConsecuenciaAutorizada:
+89-        """
+90-        Construye una ConsecuenciaAutorizada.
+91-
+92-        Precondiciones:
+93-
+
+--- Motor.generar_asiento ---
+95:    def generar_asiento(
+96-        self,
+97-        consecuencia: ConsecuenciaAutorizada,
+98-        verificador: VerificadorAutorizacion,
+99-        estado_actual: str,
+100-        catalogo_normas: Optional[List[Dict]] = None
+101-    ) -> Dict:
+102-        """
+103-        Genera un asiento contable técnico a partir de una consecuencia autorizada.
+104-        """
+105-        # 1. Barrera de autorización
+106-        if verificador is None:
+107-            raise ValueError("MOTOR_VIOLACION: Motor sin verificador de autorización")
+108-
+109-        if not verificador.esta_autorizado(
+110-            propuesta_id=consecuencia.propuesta_id,
+111-            decision_id=consecuencia.decision_id,
+112-            firma_h2=consecuencia.firma_h2,
+113-            correlation_id=consecuencia.correlation_id,
+114-            estado_actual=estado_actual
+115-        ):
+
+--- MaquinaEstadosAsiento ---
+20:class Transicion:
+32:    def hash(self) -> str:
+38:class MaquinaEstadosAsiento:
+68:    def __init__(self, estado_inicial: EstadoAsiento = EstadoAsiento.PROPUESTO):
+74:    def transicionar(
+138:    def es_terminal(self) -> bool:
+142:    def obtener_historial(self) -> List[Dict]:
+161:    def _describir_precondicion(desde: EstadoAsiento, hasta: EstadoAsiento) -> str:
+174:    def puede_asentar(self) -> bool:
+178:    def puede_anular(self) -> bool:
+
+--- EventStore ---
+32:class EventStore:
+42:    def __init__(self, db_path: str = "scfv.db"):
+48:    def _init_tables(self):
+67:    def guardar(
+205:    def obtener_hash_final(self) -> str:
+225:    def verificar_cadena(self) -> tuple:
+284:    def obtener_por_id(
+326:    def obtener_por_tipo(
+409:    def cerrar(self):
+412:    def obtener_por_correlation(
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/event_store
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/event_store/event_store.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/event_store/__pycache__/event_store.cpython-313.pyc
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/event_store/event_store.v81.d3.bak.py
+/data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/event_store/event_store.d2.bak.py
+
+--- VerificadorAutorizacion ---
+31:class VerificadorAutorizacion:
+33:    def __init__(self, decision_provider):
+47:    def esta_autorizado(
+
+--- PuenteAutorizacion ---
+35:class PuenteAutorizacion:
+44:    def __init__(self, maquina: MaquinaEstadosAsiento):
+48:    def _es_aceptar(tipo_decision) -> bool:
+57:    def autorizar_admitido(
+
+--- PuenteConsecuencias ---
+48:class PuenteConsecuencias:
+53:    def __init__(
+61:    def construir_consecuencia_autorizada(
+
+--- DecisionProvider ---
+24:class DecisionProvider:
+32:    def __init__(self, event_store: EventStore):
+35:    def obtener_decision(
+
+--- OrquestadorV82 ---
+24:def ejecutar_ciclo_v82(
+25-    observacion,
+26-    contexto_version,
+27-    store,
+28-    pcu: Dict[str, Any],
+29-    catalogo_normas: Dict[str, Any],
+30-    consecuencia_candidata: List[Dict[str, Any]],
+31-    contexto_contable,
+32-    fecha: str,
+33-    periodo_id: str,
+34-    evidencia_hash: str,
+35-    justificacion: str = None,
+36-    decision_externa=None,
+37-    inflacion_anual: float = 0.0,
+38-) -> Dict[str, Any]:
+39-    """Ejecuta el ciclo contable v8.2 en modo supervisado."""
+40-
+41-    # 1-2. H1 + H2, o reutilizar decision_externa
+42-    propuesta = None
+43-    if decision_externa is not None:
+44-        decision = decision_externa
+45-        propuesta_id = decision.propuesta_h1_id
+46-    else:
+47-        propuesta = generar_propuesta_h1(observacion, inflacion_anual)
+48-        h2 = H2Decision()
+49-        resultado_h2 = h2.decidir(
+50-            propuesta, [], contexto_version, store,
+51-            modo_auto=False,
+52-            justificacion=justificacion,
+53-        )
+54-        propuesta_id = propuesta.propuesta_id
+
+════ III · modelos clave ════
+13:@dataclass
+14:class ContextoContable:
+20:@dataclass
+21:class ConsecuenciaAutorizada:
+41:@dataclass
+42:class PartidaAutorizada:
+
+════ IV · modelos del núcleo epistémico ════
+/data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/modelos/models.py
+--- /data/data/com.termux/files/home/scfv_v6/PODERES/EPISTEMOLOGICO/modelos/models.py ---
+12:@dataclass
+13:class MetricasH1:
+21:@dataclass
+22:class EntidadExtraida:
+28:@dataclass
+29:class ObservacionH1:
+41:@dataclass
+42:class HechoEconomico:
+55:@dataclass
+56:class PropuestaH1:
+71:@dataclass
+72:class DecisionProfesional:
+84:@dataclass
+85:class Tetrada:
+
+════ V · test del orquestador (contrato) ════
+62:    def test_contrato_completo(self):
+63-        anterior = os.environ.get("SCFV_MODO_PRUEBA")
+64-        os.environ["SCFV_MODO_PRUEBA"] = "1"
+65-        try:
+66-            with tempfile.TemporaryDirectory() as tmp:
+67-                db_path = os.path.join(tmp, "contrato.db")
+68-                store = EventStore(db_path)
+69-                obs, ctx, pcu, candidata, cctx = self._datos(store)
+70-
+71-                kwargs = dict(
+72-                    observacion=obs,
+73-                    contexto_version=ctx,
+74-                    store=store,
+75-                    pcu=pcu,
+76-                    catalogo_normas={},
+77-                    consecuencia_candidata=candidata,
+78-                    contexto_contable=cctx,
+79-                    fecha="2026-09-03",
+80-                    periodo_id="2026-09",
+81-                    evidencia_hash="hash-contrato-001",
+82-                    justificacion="Justificación de prueba contrato",
+83-                )
+84-
+85-                r = ejecutar_ciclo_v82(**kwargs)
+86-                asiento = r["asiento"]
+87-
+88-                # --- C1: asiento es dict con partidas ---
+89-                self.assertIsInstance(asiento, dict)
+90-                partidas = asiento["partidas"]
+91-                self.assertEqual(len(partidas), 2)
+92-
+93-                # --- C2: partidas coinciden con la candidata ---
+94-                codigos = [p.get("cuenta_codigo") or p.get("cuenta") for p in partidas]
+95-                self.assertIn("110101", codigos)
+96-                self.assertIn("410101", codigos)
+97-
+98-                # --- C3: totales cuadran ---
+99-                self.assertEqual(asiento.get("total_debe"), 1000.0)
+100-                self.assertEqual(asiento.get("total_haber"), 1000.0)
+101-
+102-                # --- C4: correlation_id propagado ---
+
+════ VI · event_store → schema ════
+CREATE TABLE event_store (
+                id INTEGER PRIMARY KEY,
+                tipo_evento TEXT NOT NULL,
+                payload TEXT NOT NULL,
+                correlation_id TEXT NOT NULL,
+                idempotency_key TEXT UNIQUE NOT NULL,
+                hash_previo TEXT NOT NULL,
+                hash_actual TEXT NOT NULL,
+                timestamp INTEGER NOT NULL,
+                version_contexto TEXT
+            );
+CREATE TRIGGER actualizar_decisiones_h2
+AFTER INSERT ON event_store
+WHEN NEW.tipo_evento = 'ASIENTO_REGISTRADO'
+BEGIN
+    INSERT INTO proyeccion_decisiones_h2 (
+        evento_id,
+        asiento_id,
+        correlation_id,
+        justificacion,
+        conflictos_detectados,
+        normas_aplicadas,
+        fecha_decision
+    )
+    SELECT
+        NEW.id,
+        json_extract(NEW.payload, '$.id'),
+        NEW.correlation_id,
+        json_extract(NEW.payload, '$.justificacion_h2'),
+        (SELECT COUNT(*) FROM json_each(NEW.payload, '$.conflictos')),
+        json_extract(NEW.payload, '$.normas_aplicadas'),
+        date(NEW.timestamp, 'unixepoch')
+    FROM (SELECT 1) AS dummy;
+END;
+
+════ VII · ¿el DSR tiene ya puente al S0? ════
+1:"""Evaluador de reglas de fractales. Activa por marco. No decide (H2)."""

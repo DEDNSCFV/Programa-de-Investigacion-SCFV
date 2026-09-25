@@ -1,0 +1,163 @@
+════ B111 · limpieza · Fri Sep 25 10:51:32 -04 2026 ════
+
+════ I · estado antes ════
+Nivel raíz:
+total 131
+drwx------. 12 u0_a288 u0_a288  3452 Sep 25 10:50 .
+drwx------. 36 u0_a288 u0_a288 20480 Sep 25 10:17 ..
+drwx------.  3 u0_a288 u0_a288  3452 Sep 24 12:32 .pytest_cache
+drwx------.  2 u0_a288 u0_a288  3452 Sep 22 17:19 DOCS
+-rw-------.  1 u0_a288 u0_a288 14382 Sep 25 10:50 HASHES.txt
+-rw-------.  1 u0_a288 u0_a288  1508 Sep 25 10:49 README.md
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 09:30 __pycache__
+-rw-------.  1 u0_a288 u0_a288 28106 Sep 25 07:11 baldor.py
+drwx------.  6 u0_a288 u0_a288  3452 Sep 22 20:18 dsl
+drwx------.  5 u0_a288 u0_a288  3452 Sep 22 17:19 evaluacion
+-rw-------.  1 u0_a288 u0_a288  5699 Sep 25 09:12 evaluador.py
+-rw-------.  1 u0_a288 u0_a288  2679 Sep 25 09:32 extractor_evento.py
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 09:30 fractales
+-rw-------.  1 u0_a288 u0_a288  5769 Sep 25 09:22 integrador_s0.py
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 07:57 kernel
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 10:47 perfiles
+-rw-------.  1 u0_a288 u0_a288   497 Sep 25 10:49 pyproject.toml
+drwx------. 10 u0_a288 u0_a288  3452 Sep 25 10:49 scfv_dsr
+-rw-------.  1 u0_a288 u0_a288   463 Sep 24 19:21 test_h1.py
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 10:50 var
+
+Nivel paquete:
+total 59
+drwx------. 10 u0_a288 u0_a288 3452 Sep 25 10:49 .
+drwx------. 12 u0_a288 u0_a288 3452 Sep 25 10:50 ..
+-rw-------.  1 u0_a288 u0_a288    0 Sep 25 10:47 __init__.py
+drwx------.  2 u0_a288 u0_a288 3452 Sep 25 10:49 __pycache__
+-rw-------.  1 u0_a288 u0_a288 3192 Sep 25 10:49 cli.py
+drwx------.  3 u0_a288 u0_a288 3452 Sep 25 10:49 contable
+drwx------.  5 u0_a288 u0_a288 3452 Sep 25 10:47 dsl
+drwx------.  3 u0_a288 u0_a288 3452 Sep 25 10:49 epistemologico
+-rw-------.  1 u0_a288 u0_a288 5699 Sep 25 10:47 evaluador.py
+-rw-------.  1 u0_a288 u0_a288 2623 Sep 25 10:47 extractor.py
+drwx------.  2 u0_a288 u0_a288 3452 Sep 25 10:47 fractales
+drwx------.  3 u0_a288 u0_a288 3452 Sep 25 10:49 infraestructura
+-rw-------.  1 u0_a288 u0_a288 5711 Sep 25 10:49 integrador.py
+drwx------.  3 u0_a288 u0_a288 3452 Sep 25 10:47 kernel
+drwx------.  3 u0_a288 u0_a288 3452 Sep 25 10:49 profesional
+
+════ II · eliminar duplicados (el paquete es la fuente) ════
+Limpieza hecha.
+
+════ III · estado después ════
+total 89
+drwx------.  7 u0_a288 u0_a288  3452 Sep 25 10:51 .
+drwx------. 36 u0_a288 u0_a288 20480 Sep 25 10:17 ..
+drwx------.  2 u0_a288 u0_a288  3452 Sep 22 17:19 DOCS
+-rw-------.  1 u0_a288 u0_a288 14382 Sep 25 10:50 HASHES.txt
+-rw-------.  1 u0_a288 u0_a288  1508 Sep 25 10:49 README.md
+-rw-------.  1 u0_a288 u0_a288 28106 Sep 25 07:11 baldor.py
+drwx------.  5 u0_a288 u0_a288  3452 Sep 22 17:19 evaluacion
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 10:47 perfiles
+-rw-------.  1 u0_a288 u0_a288   497 Sep 25 10:49 pyproject.toml
+drwx------. 10 u0_a288 u0_a288  3452 Sep 25 10:49 scfv_dsr
+drwx------.  2 u0_a288 u0_a288  3452 Sep 25 10:50 var
+
+════ IV · verificar que sigue funcionando ════
+  ARRENDAMIENTOS.scfv
+  COMBINACIONES.scfv
+  HIPERINFLACION.scfv
+  INTANGIBLES.scfv
+  INVENTARIOS.scfv
+  MONEDA.scfv
+  PPE.scfv
+  PROVISIONES.scfv
+  SUBVENCIONES.scfv
+  VENTAS.scfv
+
+════ V · ¿coinciden los hashes entre original y paquete? ════
+8f77a5f801f0706354f63ff5bf38beaff74a7d9aed6804da4c2cd4ec9e95d90e  /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/baldor.py
+4f6bc5b1f73fd1285f90721236ceee6e883e936593972e4f278a8ddbb3d180d6  /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/evaluador.py
+d4d6b540c6d4ed5c072ddaf95d0be2bcaa941bf804bc3f80c32e900cb7602983  /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py
+5d41eff07c0488030aadf5f927cac286b035304f9444b749f9576b9426185ea9  /data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/extractor.py
+
+════ VI · estructura limpia ════
+/data/data/com.termux/files/home/SCFV_DSR/HASHES.txt
+/data/data/com.termux/files/home/SCFV_DSR/README.md
+/data/data/com.termux/files/home/SCFV_DSR/baldor.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/lectura/leer_eventos_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/normalizacion/normalizar_partidas_para_saldos.py
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/REGISTRO_OBSERVACION.log
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/observacion_useq_01_20260923T110658Z.json
+/data/data/com.termux/files/home/SCFV_DSR/evaluacion/verificacion/test_soporte_minimo.py
+/data/data/com.termux/files/home/SCFV_DSR/pyproject.toml
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/cli.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/decision_provider.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/estados.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/event_store.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/examinador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/maquina_estados_asiento.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/modelos.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/motor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/nucleo_consecuencias.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/puente_autorizacion.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/puente_consecuencias.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/reportes_motor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/reticulo.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/contable/verificador_autorizacion.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/README.md
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/ejemplos/ejemplo_asiento.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/ejemplos/ejemplo_contrato.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/ejemplos/ejemplo_integrado.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/ejemplos/ejemplo_invariante.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/grammar.lark
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/parser.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_asiento_declarado_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_compatibilidad_s0.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_contract_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_grammar_lalr.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/dsl/tests/test_invariant_def.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/dictum.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/evidencia.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/generador_propuesta.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/intellectus.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/models.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/epistemologico/perceptum.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/evaluador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/extractor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/ARRENDAMIENTOS.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/COMBINACIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/HIPERINFLACION.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/INTANGIBLES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/INVENTARIOS.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/MONEDA.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/PPE.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/PROVISIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/SUBVENCIONES.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/VENTAS.scfv
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/fractales/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/infraestructura/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/infraestructura/serializador_canonico.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/integrador.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/baldor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/categorias.json
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/cuentas.json
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/operaciones.json
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/puente.json
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/kernel/xnor.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/__init__.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/h2.py
+/data/data/com.termux/files/home/SCFV_DSR/scfv_dsr/profesional/orquestador.py
+/data/data/com.termux/files/home/SCFV_DSR/var/scfv.db
+
+════ VII · regenerar HASHES.txt ════
+71 /data/data/com.termux/files/home/SCFV_DSR/HASHES.txt
+aef8992f4403070e48a59cdf4f5bb065c848e5416ceac0f04e5bc7b4fe4d4351  /data/data/com.termux/files/home/SCFV_DSR/HASHES.txt
+
+════ VIII · test final post-limpieza ════
+D.3: EventStore preparado para persistencia canónica.
+Asiento: 0e7fc93f-06f2-42eb-bdbc-4491dd07be2b
+  D=850.0  H=850.0  partidas=2
+  Cadena: (True, 'CADENA_INTEGRA')

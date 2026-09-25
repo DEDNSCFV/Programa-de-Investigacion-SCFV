@@ -1,0 +1,45 @@
+════ B99 · integración con evento real · Fri Sep 25 09:30:37 -04 2026 ════
+
+D.3: EventStore preparado para persistencia canónica.
+── Evento real id=1 ──
+  factura:  FAC-001
+  tipo:     venta
+  monto:    1000.0
+
+── Perceptum ──
+  observacion_id: b3d49bca-c5c…
+  entidades:      8
+    factura: FAC-001
+    rif: J-12345678
+    monto: 1000.0
+    fecha: 2026-09-01
+    tipo: venta
+    producto: PROD-A
+    cantidad: 2
+    costo_unitario: 500.0
+
+── Evidencia para fractal ──
+  activo_es_compra: False
+  activo_es_intangible: False
+  activo_es_inventario: False
+  activo_es_ppe: False
+  activo_es_venta: True
+  cantidad: 2
+  costo: 1000.0
+  costo_unitario: 500.0
+  economia_hiperinflacionaria: False
+  factura: FAC-001
+  fecha: 2026-09-01
+  monto: 1000.0
+  producto: PROD-A
+  rif: J-12345678
+  tipo: venta
+  transaccion_moneda_extranjera: False
+
+── Asiento ──
+  id:          89c78fbd-91c7-42be-8420-723e8a56c9a8
+  total_debe:  1000.0
+  total_haber: 1000.0
+  partidas:    2
+
+Cadena íntegra: (True, 'CADENA_INTEGRA')

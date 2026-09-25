@@ -1,0 +1,164 @@
+=== AUDITORÍA B3 · 2026-09-24 · IA-2 ===
+--- 1 · §10 · cuerpo operativo ---
+-rw-------. 1 u0_a288 u0_a288 2375 Sep 11 22:37 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/xnor.py
+2375 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/xnor.py
+-rw-------. 1 u0_a288 u0_a288 110592 Sep 11 23:42 /data/data/com.termux/files/home/scfv_v6/scfv.db
+event_store     negocio_diario     proyeccion_decisiones_h2     proyeccion_integridad_hash     proyeccion_resumen_eventos     trabajos_realizados     trabajos_solicitados
+10
+ASIENTO_REGISTRADO|10
+-rw-------. 1 u0_a288 u0_a288 11353 Sep 12 20:06 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/motor_contable/motor.py
+-rw-------. 1 u0_a288 u0_a288 9476 Sep 11 22:49 /data/data/com.termux/files/home/scfv_v6/PODERES/CONTABLE/nucleo_consecuencias.py
+total 34
+drwx------.  5 u0_a288 u0_a288  3452 Sep 22 20:01 .
+drwx------. 36 u0_a288 u0_a288 20480 Sep 23 13:58 ..
+drwx------.  2 u0_a288 u0_a288  3452 Sep 22 17:19 DOCS
+-rw-------.  1 u0_a288 u0_a288  1066 Sep 22 17:19 README.md
+drwx------.  6 u0_a288 u0_a288  3452 Sep 22 20:18 dsl
+drwx------.  5 u0_a288 u0_a288  3452 Sep 22 17:19 evaluacion
+total 45
+drwx------. 6 u0_a288 u0_a288  3452 Sep 22 20:18 .
+drwx------. 5 u0_a288 u0_a288  3452 Sep 22 20:01 ..
+drwx------. 3 u0_a288 u0_a288  3452 Sep 22 20:02 .pytest_cache
+-rw-------. 1 u0_a288 u0_a288  3934 Sep 22 20:01 README.md
+-rw-------. 1 u0_a288 u0_a288     0 Sep 22 20:01 __init__.py
+drwx------. 2 u0_a288 u0_a288  3452 Sep 22 20:03 __pycache__
+drwx------. 2 u0_a288 u0_a288  3452 Sep 22 20:18 ejemplos
+-rw-------. 1 u0_a288 u0_a288  1841 Sep 22 20:01 grammar.lark
+-rw-------. 1 u0_a288 u0_a288 12894 Sep 22 20:03 parser.py
+drwx------. 3 u0_a288 u0_a288  3452 Sep 22 20:02 tests
+--- 2 · §10 · 228 tests motor ---
+
+no tests collected in 0.08s
+--- 3 · SCFV_DSR · 7 tests ---
+./evaluacion/verificacion/test_soporte_minimo.py
+./dsl/tests/test_grammar_lalr.py
+./dsl/tests/test_compatibilidad_s0.py
+./dsl/tests/test_contract_def.py
+./dsl/tests/test_invariant_def.py
+./dsl/tests/test_asiento_declarado_def.py
+evaluacion/verificacion/test_soporte_minimo.py::test_rechaza_naturaleza_desconocida
+evaluacion/verificacion/test_soporte_minimo.py::test_rechaza_movimiento_desconocido
+evaluacion/verificacion/test_soporte_minimo.py::test_detecta_descuadre
+
+14 tests collected in 0.30s
+--- 4 · Firmas tripartitas en actas recientes ---
+169:- **Operador:** decide, autoriza, firma y determina consecuencias.
+--- 5 · §6 prompt · canon nombrado ---
+28:Cerrado por el canon fundacional (§6).
+29-
+30-El prompt se modifica por iteración.
+31-Cada modificación se traza y cita deuda o acto.
+32-
+33-El prompt se rige por el motor rodriguiano.
+34-Es parte del corpus. El motor lo extiende.
+35-
+36-No inventa reglas. No sustituye protocolos.
+37-Coordina la iteración entre el Programa SCFV y el Operador.
+38-Su materialización es acto del Operador (§20).
+39-
+40-────────────────────────────────────────────────────────────────────────
+41-
+42-§0.1 · MÉTODO DE ESTA ITERACIÓN
+43-
+44-El Giro 05 articula cuatro niveles:
+45-
+46-    METODOLOGÍA · Sampieri
+47-        Diseño de investigación (fases, variables, hipótesis).
+48-        No ejecuta. No procedimenta.
+--
+241:§6 · CANON · LOCUS Y FUNCIONES
+242-
+243-Locus material:
+244-    raw para canon bibliográfico.
+245-    código para canon material.
+246-    actas para canon procedimental por enmienda.
+247-
+248-El prompt cita. El raw sostiene.
+249-El prompt no contiene canon. Lo declara.
+250-
+251-Funciones del canon:
+252-    fundacional   · define el marco
+253-    metodológico  · define cómo investigar
+254-    procedimental · define cómo construir
+255-    estructural   · define cómo iterar
+256-    contable      · define la disciplina
+257-    normativo     · define leyes
+258-    técnico       · define herramientas
+46:    METODOLOGÍA · Sampieri
+50:    MÉTODO · Hevner + Mandelbrot
+51:        Hevner     · nivel artefacto
+53:        Mandelbrot · nivel fractalidad
+63:    KERNEL · XNOR + Baldor
+117:Hevner
+121:Mandelbrot
+126:Sampieri
+189:    XNOR · operador booleano definido sobre {0,1}×{0,1} → {0,1}.
+195:        Deuda D-BOOLE-2 (Boole no nombra XNOR).
+197:    Baldor · operador aritmético.
+202:    Estado: XNOR operativo, Baldor no operativo.
+263:    Rodríguez   · motor epistemológico
+264:    XNOR        · conjetura algebraica
+265:    Baldor      · estructura operacional
+266:    Hevner      · procedimiento (nivel artefacto)
+267:    Mandelbrot  · método estructural (nivel fractalidad)
+268:    Sampieri    · metodología
+315:§9 · RÉGIMEN DE CONSTRUCCIÓN (Hevner)
+346:§10 · RÉGIMEN DE DISEÑO (Sampieri)
+165:Correspondencia IPVE (cita B):
+228:    y al caso "IPVE" (04_ipve §0.2).
+350:    Metodología · ruta externa para rigor (MARCO_IPVE §1).
+467:    H1 · IPVE · auditoría (D-EVS-1).
+510:    - D-EVS-1 · Dimensiones H1, IPVE, auditoría no persistidas.
+549:    - D11  · Quién decide emergente (MARCO_IPVE L102, L138).
+550:    - D-MAN-1 · Reutilización abstracta (caso «tablero», «IPVE»).
+--- 6 · Git · estado ---
+9aa3b63 biblioteca: reorganiza INVENTARIO.md (39 entradas, 6 secciones)
+7f09f96 biblioteca: agrega 12 NIIF/IFRS/NIAS (normativa contable)
+72e0b5a biblioteca: agrega Mandelbrot 1975 + 1982 (fractalidad acotada, §9)
+4ec0ab4 biblioteca: declara régimen de materialización
+e76d2df biblioteca: reformula Gadamer (CITAS canónico + INDICE con 16 anclajes)
+?? ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+?? GIRO_05/
+--- 7 · Biblioteca · conteo real ---
+40
+AccountingTheory_2004
+Aho_2007
+Angrisani_2019
+BAVENNIF_8
+Cervantes_2023
+Cosmovision_2004
+Diaz_Navarro_2014
+Gadamer_VM
+GarciaCasella_LaLey_SF
+GonzalezRodriguez_UO_2001
+Hevner_Chatterjee_2010
+Huck_SistemasContables_2024
+IFRS_Annotated_2025
+IFRS_S1_2023
+IFRS_S2_2023
+INVENTARIO.md
+Lakatos_1976
+Lakatos_1989
+Mandelbrot_1975
+Mandelbrot_1982
+Merkle_1979
+NIAS_2021_Vol2
+NIAS_2021_Vol3
+NIIF18_2024
+NIIF18_KPMG_2025
+NIIF1_2024
+NIIF_Compilado_2026
+NIIF_Peru_2025
+NIIF_Pymes_3raEd
+NIST_FIPS_180_4
+Pacioli_1494
+Popper_1980
+ProGit_2014
+REGISTRO_ENTRADAS.log
+Reynoso_Kicillof
+Rodriguez_2016
+RomeroLopez_2010
+Romney_15thEd
+Sampieri_2018
+Sommerville_2005
+Thain_2ndEd

@@ -1,0 +1,149 @@
+════ B53 · categorías en raws · Thu Sep 24 22:48:46 -04 2026 ════
+════ I · NIIF Pymes · categorías enumeradas ════
+8  · efectivo y equivalentes
+72  · inventarios
+59  · Propiedades, planta y equipo
+28  · Activos intangibles
+17  · Cuentas por cobrar
+6  · Cuentas por pagar
+346  · Patrimonio
+54  · Ingresos de actividades ordinarias
+111  · Gastos
+271  · Pasivos
+
+════ II · NIIF completas (Perú) · categorías ════
+457  · Activos financieros
+233  · Pasivos financieros
+121  · Propiedades de inversión
+72  · Activos biológicos
+233  · Arrendamientos
+140  · Impuesto a las ganancias
+
+════ III · NIIF S1/S2 · sostenibilidad ════
+/data/data/com.termux/files/home/.ifrs_s1_2023_raw.txt:5
+/data/data/com.termux/files/home/.ifrs_s2_2023_raw.txt:20
+
+════ IV · BAVEN_NIF · categorías ════
+14
+
+════ V · ¿el raw Pymes enumera categorías explícitamente? ════
+3712-
+3713-Una entidad presentará sus activos corrientes y no corrientes, y sus pasivos
+3714:corrientes y no corrientes, como categorías separadas en su estado de
+3715-situación financiera, de acuerdo con los párrafos 4.5 a 4.8, excepto cuando una
+3716-presentación basada en el grado de liquidez proporcione una información
+3717-fiable que sea más relevante. Cuando se aplique tal excepción, todos los activos
+3718-y pasivos se presentarán de acuerdo con su liquidez aproximada (ascendente o
+3719-descendente).
+3720-
+3721-Activos corrientes
+3722-4.5
+3723-
+3724-4.6
+3725-
+3726-Una entidad clasificará un activo como corriente cuando:
+3727-(a)
+3728-
+3729-espera realizarlo o tiene la intención de venderlo o consumirlo en su
+--
+3932-societaria o fiduciaria, revelará información equivalente a la requerida en el
+3933-párrafo 4.12(a), mostrando los cambios producidos durante el periodo en cada
+3934:una de las categorías que componen el patrimonio y los derechos, privilegios y
+3935-restricciones asociados a cada una.
+3936-
+3937-4.14
+3938-
+3939-Si, en la fecha sobre la que se informa, una entidad tiene un acuerdo
+3940-vinculante de venta para una disposición importante de activos, o de un grupo
+3941-de activos y pasivos, la entidad revelará la siguiente información:
+3942-(a)
+3943-
+3944-una descripción de los activos o el grupo de activos y pasivos;
+3945-
+3946-(b)
+3947-
+3948-una descripción de los hechos y circunstancias de la venta; y
+3949-
+--
+4547-(b)
+4548-
+4549:el método directo, según el cual se revelan las principales categorías de
+4550-cobros y pagos en términos brutos.
+4551-
+4552-Método indirecto
+4553-7.8
+4554-
+4555-En el método indirecto, el flujo neto por actividades de operación se determina
+4556-corrigiendo la ganancia o la pérdida por los efectos de:
+4557-(a)
+4558-
+4559-los cambios habidos durante el periodo en los inventarios y en las
+4560-partidas por cobrar y por pagar derivadas de las actividades de
+4561-operación;
+4562-
+4563-(b)
+4564-
+--
+4584-
+4585-En el método directo, el flujo de efectivo neto de las actividades de operación
+4586:se presenta revelando información sobre las principales categorías de cobros y
+
+════ VI · estado del arte · ¿existe un catálogo de categorías? ════
+
+════ VII · PCU vigente · consolidado de todas las copias ════
+--- integrador.py ---
+25:        # Inicializar Motor Contable con PCU (simplificado)
+26:        pcu = {
+27-            "110101": {"nombre": "Caja", "naturaleza": "DEUDORA", "marcos": ["NIIF_Completas", "NIIF_PYMES"]},
+28-            "410101": {"nombre": "Ventas", "naturaleza": "ACREEDORA", "marcos": ["NIIF_Completas"]},
+29-        }
+30-        self.motor = MotorContable(None, pcu, moneda_funcional="VES")
+31-
+32-    def procesar_evidencia(self, evidencia: Dict, justificacion: Optional[str] = None) -> Dict:
+33-        """
+34-        STUB: procesa una evidencia asumiendo una venta al contado
+35-        con Caja/Ventas.
+36-
+37-        NO atraviesa la cadena operacional v8.2 (H1 → H2 → autorización
+38-        → consecuencia). Para esa ruta, ver
+39-        PODERES/PROFESIONAL/orquestador_v82.py.
+40-
+41-        Las partidas contables son hardcodeadas y no se derivan
+42-        de la evidencia. MotorContable se utiliza únicamente para
+43-        validaciones de forma antes de registrar ASIENTO_REGISTRADO.
+44-        """
+45-        # 1. Construir mapa normativo (H₁)
+46-        mapa = Intellectus.interpretar(evidencia, self.perfil, self.normas)
+47-
+48-        # 2. Orientación (Dictum)
+49-        mensaje = Dictum.orientar(mapa)
+50-        print(mensaje)
+51-
+52-        # 3. Verificar I4: si hay conflictos, exigir justificación
+53-        if mapa.get("conflictos") and not justificacion:
+54-            return {
+55-                "estado": "pendiente_justificacion",
+56-                "mensaje": "Se detectaron conflictos normativos. Debes proporcionar una justificación.",
+--- orquestador_v82.py ---
+
+════ VIII · PCU en pruebas · qué cuentas y marcos ════
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_externa.py:53:            PCU_version="PCU-DE", reglas_version="REG-DE",
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_externa.py:62:            PCU_version="PCU-DE", reglas_version="REG-DE",
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_externa.py:68:            "110101": {"nombre": "Caja", "naturaleza": "DEUDORA",
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_externa.py:70:            "410101": {"nombre": "Ventas", "naturaleza": "ACREEDORA",
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_externa.py:76:            {"cuenta": "110101", "monto": 1000.0,
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_externa.py:78:            {"cuenta": "410101", "monto": 1000.0,
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_decision_provider.py:44:                    "PCU_version": "PCU-E1",
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:15:PCU = {
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:16:    "110101": {"naturaleza": "DEUDORA",   "marcos": ["NIIF_Completas", "NIIF_PYMES"]},
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:17:    "410101": {"naturaleza": "ACREEDORA", "marcos": ["NIIF_Completas"]},
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:21:PCU_CON_NATURALEZA_INVALIDA = {
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:22:    "110101": {"naturaleza": "MIXTA", "marcos": ["NIIF_Completas"]},
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:27:    return ExaminadorEvidencia(pcu or PCU)
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:34:            {"cuenta_codigo": "110101", "movimiento": "AUMENTA"},
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:35:            {"cuenta_codigo": "410101", "movimiento": "AUMENTA"},
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:41:        r = _ex(PCU_CON_NATURALEZA_INVALIDA).nivel_linea([
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:42:            {"cuenta_codigo": "110101", "movimiento": "AUMENTA"},
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:61:        """cuenta_codigo presente pero no en PCU → cuenta_ausente."""
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:73:            {"cuenta_codigo": "110101", "movimiento": "FLUCTUA"},
+/data/data/com.termux/files/home/scfv_v6/TESTS/test_examinador.py:80:        r = _ex().nivel_conjunto(["110101", "410101"], marco="NIIF_Completas")

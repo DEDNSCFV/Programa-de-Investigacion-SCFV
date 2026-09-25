@@ -1,0 +1,792 @@
+=== B30 · ADL-SCFV · flujo completo · 2026-09-24 ===
+════ I · 16_correspondencia_arquitectura_ejecucion.md ════
+════════════════════════════════════════════════════════════════════════
+ACTA DE VERIFICACIÓN DE CORRESPONDENCIA
+ARQUITECTURA ↔ EJECUCIÓN EN ADL-SCFV
+
+Programa: Investigación SCFV
+Giro: 04 · Sesión: 4 · Acto: 16
+Documento: GIRO_04/16_correspondencia_arquitectura_ejecucion.md
+Versión: C
+Estado efectivo: MATERIALIZADO Y FIRMADO
+Fecha: 2026-09-22
+Autoridad: Operador (DEDN, C.P.C. Nº 183594)
+
+Ciclo bilateral: IA-1 (constructor) ↔ IA-2 (falsador)
+Falsación cerrada: APTO SIN BLOQUEANTES.
+
+Correcciones aplicadas sobre Versión B:
+  O-401: §8.1 declara el estatuto de la evidencia empírica (producida en
+         ciclo bilateral previo, reproducible por terceros).
+  O-402: §10 nota al pie sobre el estado de verificación del checklist.
+  O-403: §9 reformula la cláusula final —el cierre formal corresponde al
+         veredicto IA-2 y a la materialización bajo §19.3-bis.
+
+Estatuto: verifica correspondencia arquitectura ↔ ejecución.
+Cierra D-12.3. No cierra I-3. No cierra Giro 04. No modifica S0.
+
+Hash previo al registro: 62947de4ee082c39ea0890afa8b1b63018abdc4cafbd0474a76c5751640b8f74
+Hash final registrado:   57cfc8b5aa5bc45824e778799e69aa352b64349dd6fff2ab973244457da38793
+════════════════════════════════════════════════════════════════════════
+
+
+────────────────────────────────────────────────────────────────────────
+§1. OBJETO
+────────────────────────────────────────────────────────────────────────
+
+Verificar la correspondencia entre CONTRATO, INVARIANTE y ASIENTO_DECLARADO
+declarados en Acto 10 §5.0-bis, sus producciones sintácticas (contract_def,
+invariant_def, asiento_declarado_def) materializadas en el módulo del Acto
+14, y sus instancias documentales (Acto 15).
+
+Cierra D-12.3.
+
+Nota de trazabilidad: en la materialización del Acto 14, §8.6 quedó
+comprimido dentro de §8 sin encabezado independiente. La referencia a
+Acto 14 §8.6 se realiza por contenido.
+
+
+────────────────────────────────────────────────────────────────────────
+§2. ANTECEDENTES
+────────────────────────────────────────────────────────────────────────
+
+Acto 10   22996478933e948ef190ee88b1d22a9c000052e36f7a4db7fa6911eed32ac5b4
+Acto 13   3fc8e7bd98ab49733bceeb673998337604f4f2721070c0cf3cf1cb0d0f0647ee
+Acto 14   8309e2fc0b31716579653f7d2cab2c9d49ad2a05f9e1bcf6a946b60839619869
+Acto 15   49738e83b10e34ce68bbbcb1529876a43b8017e29efe9f474077020bf018abca
+
+parser.py módulo     94bdaa939fb4fa810815e13b69717fc856469479dd0d968b4b9b02bc676d9fa2
+grammar.lark módulo  4129fca2f6f02ef7fb4b386f3a3bcd0369f74d9931c43d5cc38633b5f592e7e7
+
+Documentos sintéticos:
+ejemplo_contrato.scfv    3719c198119a3ce2e121d08128c3912882ed26b3a3052d0a72a3ad41db067dc4
+ejemplo_invariante.scfv  6de771eb8cacb3b83bcf189e230bfe5b81ee739e6530b12dde26adbabe5e82f8
+ejemplo_asiento.scfv     fef6d977c1dca957f0e834eef5ed3bfc0084eeace743e2185cf0c26a37f1bd17
+ejemplo_integrado.scfv   8f44d360693514aa9af0c58198fd2166d975e91cf823ae148424cd8c7b6f1331
+
+
+────────────────────────────────────────────────────────────────────────
+§3. ESTATUTO DEL ACTO
+────────────────────────────────────────────────────────────────────────
+
+No modifica grammar.lark, parser.py, S0, históricos, Motor Contable,
+Diario, Mayor.
+
+§3.1. Nivel estructural
+Los componentes de Acto 10 tienen representación en Acto 13 y en Acto 15.
+
+§3.2. Nivel semántico delimitado
+El parser verifica sintaxis y produce representación de datos. No valida
+semántica contable. La separación tiene antecedente en Acto 11 §§10.3-10.4
+y Acto 14 §7.4.
+
+
+────────────────────────────────────────────────────────────────────────
+§4. MATRIZ — CONTRATO
+────────────────────────────────────────────────────────────────────────
+
+Componente                Acto 10 §5.4     Acto 13 §5.1        Acto 15
+nombre                    nombre           CONTRATO NAME       CONTROL_VENTA
+objeto                    objeto           OBJETO: NAME        OBJETO: REGISTRO
+precondiciones (cond.)    cuando corresp.  [PRE: expr]         PRE: VENTA
+postcondiciones (cond.)   cuando corresp.  [POST: expr]        POST: VALIDADA
+invariantes asociadas     invariantes      INVARIANTE: NAME+   INVARIANTE: MONTO_POSITIVO
+elementos del sistema     elementos        ELEMENTO: NAME+     ELEMENTO: MONTO VENTA
+evidencia (cond.)         cuando sosten.   [EVIDENCIA: NAME+]  EVIDENCIA: FACTURA
+
+Correspondencia: 7/7 CORRESPONDE.
+
+Evidencia material: ejemplo_contrato.scfv (hash en §2).
+
+
+────────────────────────────────────────────────────────────────────────
+§5. MATRIZ — INVARIANTE
+────────────────────────────────────────────────────────────────────────
+
+Componente                   Acto 10 §5.5    Acto 13 §6.1        Acto 15
+objeto                       objeto          OBJETO: NAME        OBJETO: REGISTRO
+expresión                    expresión       EXPRESION: expr     EXPRESION: MONTO
+dominio                      dominio         DOMINIO: NAME       DOMINIO: REGISTRO
+condición de satisfacción    satisfacción    SATISFACCION: expr  SATISFACCION: VALIDADA
+procedimiento verificación   verificación    VERIFICACION: NAME  VERIFICACION: PRUEBA
+evidencia                    evidencia       EVIDENCIA: NAME+    EVIDENCIA: FACTURA
+
+Correspondencia: 6/6 CORRESPONDE.
+
+Evidencia material: ejemplo_invariante.scfv (hash en §2).
+
+
+────────────────────────────────────────────────────────────────────────
+§6. MATRIZ — ASIENTO_DECLARADO
+────────────────────────────────────────────────────────────────────────
+
+Nivel                    Acto 10 §5.6        Acto 13 §7           Acto 15 §8
+distinción vs REGISTRADO declarada           sin colisión         declarada
+forma sintáctica         no fijada           ASIENTO_DECLARADO    conforme
+                                             NAME ":" NAME+
+relación con Motor       distinta            no ejecuta           no ejecuta
+
+§6.1. Límite
+No se atribuye a Acto 13 §7 una estructura de débito/crédito ni semántica
+contable específica. La correspondencia es conceptual + forma mínima.
+
+Evidencia material: ejemplo_asiento.scfv (hash en §2).
+
+
+────────────────────────────────────────────────────────────────────────
+§7. CASO INTEGRADO
+────────────────────────────────────────────────────────────────────────
+
+ejemplo_integrado.scfv contiene simultáneamente CONTRATO, INVARIANTE y
+ASIENTO_DECLARADO. Hash: 8f44d360693514aa9af0c58198fd2166d975e91cf823ae148424cd8c7b6f1331.
+
+Nota: §8.6 del Acto 14 fue subsección comprimida. La referencia se mantiene
+por contenido.
+
+Cadena:
+  Acto 10 (declaración) → Acto 13 (sintaxis) → Acto 14 (parser) →
+  Acto 15 (ejemplo_integrado.scfv) → Acto 16 (verificación).
+
+
+────────────────────────────────────────────────────────────────────────
+§8. VERIFICACIÓN EMPÍRICA
+────────────────────────────────────────────────────────────────────────
+
+§8.1. Estatuto de la evidencia
+
+La evidencia empírica consignada a continuación procede de la verificación
+efectuada durante el ciclo bilateral previo a la materialización. La
+evidencia es reproducible por terceros contra los hashes consignados en §2
+y §8.3.
+
+§8.2. Documentos extendidos
+
+OK  ejemplo_contrato:   ['contratos']
+OK  ejemplo_invariante: ['invariantes']
+OK  ejemplo_asiento:    ['asientos_declarados']
+OK  ejemplo_integrado:  ['contratos', 'invariantes', 'asientos_declarados']
+
+Caso integrado: coexistencia de los tres constructos confirmada.
+
+§8.3. Documentos históricos
+
+OK  ventas:     históricas=True extendidas_vacías=True
+OK  compras:    históricas=True extendidas_vacías=True
+OK  inventario: históricas=True extendidas_vacías=True
+OK  fiscal:     históricas=True extendidas_vacías=True
+
+Las cinco claves históricas (fractales, contexto, mandante, tetrada,
+booleano) preservadas. Las tres claves extendidas vacías.
+
+§8.4. Integridad de S0 y módulo
+
+S0 grammar.lark   3e859e0275656ef60ed20d67bbe0e080f2f9c3694cbcc098f7e0ec8da50d6850
+S0 parser.py      eebba48b751c0caf412cf9f09f712b2d393cc902ed0e46c210ecd50788f41e83
+Módulo grammar    4129fca2f6f02ef7fb4b386f3a3bcd0369f74d9931c43d5cc38633b5f592e7e7
+Módulo parser     94bdaa939fb4fa810815e13b69717fc856469479dd0d968b4b9b02bc676d9fa2
+
+Todos coinciden con las baselines. Sin modificación.
+
+
+────────────────────────────────────────────────────────────────────────
+§9. REGISTRO DE EVIDENCIA Y CONDICIONES
+────────────────────────────────────────────────────────────────────────
+
+Verificación                              Resultado      Evidencia
+CONTRATO ↔ contract_def                   PASS           matriz §4
+INVARIANTE ↔ invariant_def                PASS           matriz §5
+ASIENTO_DECLARADO ↔ asiento_declarado_def PASS           matriz §6
+Caso integrado                            PASS           §7
+Cuatro ejemplos parsean                   PASS           §8.2
+Cuatro históricos parsean                 PASS           §8.3
+Cinco claves históricas preservadas       PASS           §8.3
+Tres claves extendidas                    PASS           §8.2–§8.3
+S0 intacto                                PASS           §8.4
+Módulo intacto                            PASS           §8.4
+Constructos no declarados                 ninguno        §§4–§7
+Ejecución contable                        no existe      §12
+
+Condiciones de cierre: las nueve condiciones de §9.1 quedan respaldadas por
+la evidencia consignada. La constancia de cumplimiento efectivo corresponde
+al veredicto de falsación IA-2 y a la materialización bajo §19.3-bis.
+
+
+────────────────────────────────────────────────────────────────────────
+§10. FALSACIÓN IA-2
+────────────────────────────────────────────────────────────────────────
+
+[x] correspondencia CONTRATO ↔ contract_def
+[x] correspondencia INVARIANTE ↔ invariant_def
+[x] correspondencia ASIENTO_DECLARADO ↔ asiento_declarado_def
+[x] siete componentes de CONTRATO
+[x] seis componentes de INVARIANTE
+[x] correspondencia conceptual y sintáctica delimitada de ASIENTO_DECLARADO
+[x] ejecución de los cuatro ejemplos
+[x] ejecución de los cuatro históricos
+[x] no regresión de las cinco claves históricas
+[x] coexistencia de los tres constructos en el integrado
+[x] cobertura de Acto 14 §8.6 por contenido
+[x] hashes del módulo sin modificación
+[x] elementos de S0 sin modificación
+[x] ausencia de constructos no declarados
+[x] ausencia de ejecución contable
+
+Nota: los puntos anteriores fueron verificados por IA-2 durante la falsación
+de la Versión A y re-verificados en la falsación de la Versión B. El cierre
+formal corresponde a la materialización del Acto.
+
+
+────────────────────────────────────────────────────────────────────────
+§11. CONDICIONES DE MATERIALIZACIÓN
+────────────────────────────────────────────────────────────────────────
+
+§19.3-bis del Protocolo de Revisión de Actos, incorporado por
+ACTAS/ACTA_ENMIENDA_PROTOCOLO_19_3_BIS.md.
+
+Dos dimensiones: verificación documental (§§4–§7) y verificación empírica
+(§8).
+
+
+────────────────────────────────────────────────────────────────────────
+§12. LÍMITES
+────────────────────────────────────────────────────────────────────────
+
+No cierra I-3. No cierra Giro 04. No modifica S0, grammar, parser, históricos.
+No redefine los constructos. No ejecuta operaciones contables. No atribuye
+autoridad profesional al parser. No resuelve D-13.2.
+
+
+────────────────────────────────────────────────────────────────────────
+§13. DEUDAS
+────────────────────────────────────────────────────────────────────────
+
+D-12.3  cerrada por este Acto (evidencia §9)
+D-13.2  abierta
+D-11.x  abierta
+
+
+────────────────────────────────────────────────────────────────────────
+§14. CADENA DE ACTOS
+────────────────────────────────────────────────────────────────────────
+
+Acto 10 → Acto 13 → Acto 14 → Acto 15 → Acto 16 → cierre D-12.3.
+Giro 04 no cerrado.
+
+
+────────────────────────────────────────────────────────────────────────
+§15. ESTADO
+────────────────────────────────────────────────────────────────────────
+
+VERSIÓN C — MATERIALIZADA.
+O-401, O-402, O-403 aplicadas.
+
+
+────────────────────────────────────────────────────────────────────────
+§16. FIRMAS
+────────────────────────────────────────────────────────────────────────
+
+IA-1: Versión C materializada.
+IA-2: APTO SIN BLOQUEANTES.
+OPERADOR: Materializado y firmado.
+
+────────────────────────────────────────────────────────────────────────
+REGISTRO DE INTEGRIDAD
+────────────────────────────────────────────────────────────────────────
+
+Hash previo al registro: 62947de4ee082c39ea0890afa8b1b63018abdc4cafbd0474a76c5751640b8f74
+Acta de referencia:      ACTA_MATERIALIZACION_16_CORRESPONDENCIA_2026-09-22
+Hash final:              57cfc8b5aa5bc45824e778799e69aa352b64349dd6fff2ab973244457da38793
+
+════════════════════════════════════════════════════════════════════════
+FIN DEL ACTO 16 — CORRESPONDENCIA ARQUITECTURA ↔ EJECUCIÓN — Versión C
+════════════════════════════════════════════════════════════════════════
+
+════ II · 13_sintaxis_concreta_adl.md · esquema ════
+════════════════════════════════════════════════════════════════════════
+ACTA DE ESPECIFICACIÓN DE LA SINTAXIS CONCRETA ADL-SCFV
+Y README DEL MÓDULO DE GRAMÁTICA EXTENDIDA
+
+Programa: Investigación SCFV
+Giro: 04 · Sesión: 4 · Acto: 13
+Documento: GIRO_04/13_sintaxis_concreta_adl.md
+Versión: E
+Estado efectivo: MATERIALIZADO Y FIRMADO
+Fecha: 2026-09-22
+Autoridad: Operador (DEDN, C.P.C. Nº 183594)
+
+Ciclo bilateral: IA-1 (constructor) ↔ IA-2 (falsador)
+Falsación cerrada: APTO SIN BLOQUEANTES.
+
+Estatuto: este acto declara la especificación de la sintaxis concreta
+ADL-SCFV. No modifica S0. No materializa código. No cierra I-3.
+No cierra D-12.2 ni D-12.3. No cierra Giro 04.
+
+Hash previo al registro: 5bfda4c9f9726d3b84fe79eb34c62aaaa7c54aaca26fe79844fa537c56dd17da
+Hash final registrado:   3fc8e7bd98ab49733bceeb673998337604f4f2721070c0cf3cf1cb0d0f0647ee
+════════════════════════════════════════════════════════════════════════
+
+
+────────────────────────────────────────────────────────────────────────
+§1. OBJETO
+────────────────────────────────────────────────────────────────────────
+
+El presente Acto declara la especificación concreta de la sintaxis ADL-SCFV
+que deberá materializarse posteriormente en el módulo de gramática
+extendida.
+
+La especificación comprende:
+
+1. "contract_def";
+2. "invariant_def";
+3. "asiento_declarado_def";
+4. la extensión de "start";
+5. el contenido mínimo del "README" del módulo "~/SCFV_DSR/dsl/";
+6. las condiciones PRE, POST e INVARIANTE de las nuevas producciones;
+7. los criterios de compatibilidad con la gramática S0.
+
+Este Acto no materializa código.
+
+Su función es declarar la especificación que permitirá cerrar, previa
+falsación y materialización, las deudas declaradas en los Actos anteriores,
+particularmente las derivadas del Acto 10 §5.12 y §6.2.
+
+
+────────────────────────────────────────────────────────────────────────
+§2. ANTECEDENTES
+────────────────────────────────────────────────────────────────────────
+
+La especificación se deriva de:
+
+- Acto 10, especialmente §5.0-bis, §5.4, §5.12 y §6.2;
+- Acto 11 §5-bis;
+- Acto 12, extensión de la gramática ".scfv";
+- ADR-003: especificación antes de implementación;
+- gramática "grammar.lark" de S0;
+- "parser.py" de S0;
+- Aho, Lam, Sethi y Ullman, §§4.5.4, 4.7.4, 4.7.5 y 4.8.1;
+- Thain, §4.4.5.
+
+La gramática S0 de referencia mantiene:
+
+    fractal_def: "FRACTAL" NAME "DOMINIO" "CONTABLE" ":" rule+
+
+y constituye el precedente estructural inmediato para la extensión.
+
+El Acto 12 estableció, además, que la extensión deberá mantener
+compatibilidad hacia atrás con los ".scfv" válidos de S0.
+
+
+────────────────────────────────────────────────────────────────────────
+§3. NATURALEZA DE LA ESPECIFICACIÓN
+────────────────────────────────────────────────────────────────────────
+
+La presente Acta define una especificación, no una implementación.
+
+
+════ III · 14_materializacion_dsl_adl.md · qué se materializó ════
+════════════════════════════════════════════════════════════════════════
+ACTA DE MATERIALIZACIÓN DEL MÓDULO DE GRAMÁTICA EXTENDIDA Y PARSER ADL-SCFV
+
+Programa: Investigación SCFV
+Giro: 04 · Sesión: 4 · Acto: 14
+Documento: GIRO_04/14_materializacion_dsl_adl.md
+Versión: C
+Estado efectivo: MATERIALIZADO Y FIRMADO
+Fecha: 2026-09-22
+Autoridad: Operador (DEDN, C.P.C. Nº 183594)
+
+Ciclo bilateral: IA-1 (constructor) ↔ IA-2 (falsador)
+Falsación cerrada: APTO SIN BLOQUEANTES.
+
+Correcciones aplicadas sobre Versión B:
+  O-378: §8.3 reformulado — igualdad por == sin exigir orden de claves.
+  O-379: §11.16 fusionado en la lista numerada como punto 16.
+  O-380: §7.4 precisa heredar SyntaxError con el mismo patrón de S0.
+
+Estatuto: ejecuta D-12.2 y D-13.1. No modifica S0.
+No escribe .scfv extendidos (eso es Acto 15). No cierra Giro 04.
+
+Hash previo al registro: cb63154a5c34626524ffe6d810861c410182fdd3d327bb049d1ae626a6e88269
+Hash final registrado:   8309e2fc0b31716579653f7d2cab2c9d49ad2a05f9e1bcf6a946b60839619869
+════════════════════════════════════════════════════════════════════════
+
+
+────────────────────────────────────────────────────────────────────────
+§1. OBJETO
+────────────────────────────────────────────────────────────────────────
+
+Materializar el módulo ~/SCFV_DSR/dsl/ conforme al Acto 13, en dos fases
+ADR-003: Fase A (README) y Fase B (código + pruebas).
+
+Cierra D-12.2 y D-13.1, sujeto a verificación efectiva.
+
+
+────────────────────────────────────────────────────────────────────────
+§2. ANTECEDENTES Y BASELINES
+────────────────────────────────────────────────────────────────────────
+
+- Acto 12 — declarado: 3e284483460a9d0cfd5506984e12b7027ce9f822417e0ec67d74cfae4018e49c
+            en disco:  7182cb2892ce34cf54494494fc92fa00bff5910b22a34b84e44d6c775e86a844
+- Acto 13 — declarado: 3fc8e7bd98ab49733bceeb673998337604f4f2721070c0cf3cf1cb0d0f0647ee
+            en disco:  e140099c9ea6d63661dd4a15f4d75374cc8a6b1c0a7bbd14536ab8d7cc853be0
+- grammar.lark S0: 3e859e0275656ef60ed20d67bbe0e080f2f9c3694cbcc098f7e0ec8da50d6850
+- parser.py S0:    eebba48b751c0caf412cf9f09f712b2d393cc902ed0e46c210ecd50788f41e83
+
+Baselines .scfv históricos:
+  ventas     ba647a58f9e210bed46109bf52c2247d971ae5c7e91e8a663c8a826c08cde16f
+  compras    9e834aa220d94945c617ec3f2e9be7999dcbfcb57d121c6ec161d2cc55cdd339
+  inventario 016fb0d2123efbfcbd0e3185b4544200e437b837c21fd84d9749542f15b1d058
+  fiscal     f7e37f713f178dba9b7d03623dfbb3211e3e011ad929986205972d4cfdad8d1a
+
+
+────────────────────────────────────────────────────────────────────────
+§3. ESTATUTO Y SECUENCIA INTERNA — ADR-003
+────────────────────────────────────────────────────────────────────────
+
+§3.1 Fase A: README.md del módulo (artefacto especificativo aprobable).
+§3.2 Fase B: grammar.lark + parser.py + __init__.py + tests/, tras aprobación
+     del README.
+§3.3 Falsación IA-2 puede ocurrir en dos tiempos: sobre el README y sobre
+     el código.
+
+
+────────────────────────────────────────────────────────────────────────
+§4. ESTRUCTURA FÍSICA DEL MÓDULO
+────────────────────────────────────────────────────────────────────────
+
+~/SCFV_DSR/dsl/
+├── README.md
+├── grammar.lark
+├── parser.py
+├── __init__.py        (archivo vacío, coherente con S0)
+└── tests/
+    ├── test_grammar_lalr.py
+    ├── test_compatibilidad_s0.py
+    ├── test_contract_def.py
+    ├── test_invariant_def.py
+    └── test_asiento_declarado_def.py
+
+Divergencia deliberada respecto de S0: S0 no tiene tests/ dentro de dsl/;
+los coloca en ~/scfv_v6/TESTS/. El Acto 14 adopta ~/SCFV_DSR/dsl/tests/
+por el principio de módulo autocontenido.
+
+
+────────────────────────────────────────────────────────────────────────
+§5. README DEL MÓDULO — FASE A
+────────────────────────────────────────────────────────────────────────
+
+Declarará, como mínimo: propósito; autoridad y límites (parser no decide,
+no contabiliza, no modifica); entradas y salidas (Dict[str, Any] con las
+cinco claves históricas más contratos, invariantes, asientos_declarados);
+invariantes del módulo; dependencias permitidas y prohibidas; pruebas
+requeridas; bloques PRE/POST/INVARIANTE por producción.
+
+
+────────────────────────────────────────────────────────────────────────
+§6. GRAMMAR.LARK EXTENDIDO — FASE B
+────────────────────────────────────────────────────────────────────────
+
+Copia local de S0 más extensión aditiva. Una producción por línea (Acto
+13 §11.4). Sin %import. No modifica S0 salvo start.
+
+
+────────────────────────────────────────────────────────────────────────
+§7. PARSER.PY EXTENDIDO — FASE B
+────────────────────────────────────────────────────────────────────────
+
+Copia local del parser S0 con extensión en _transform_tree para
+contract_def, invariant_def, asiento_declarado_def. Conserva las cinco
+claves históricas y añade contratos, invariantes, asientos_declarados.
+
+§7.4 Errores: hereda el patrón de S0 —SyntaxError con mensaje
+"Error de sintaxis en {filepath}: {e}" y "Error de sintaxis: {e}"—.
+No silencia, no convierte entrada inválida en salida aparentemente válida,
+no produce estructura parcial como sustituto silencioso.
+
+
+────────────────────────────────────────────────────────────────────────
+§8. PRUEBAS — FASE B
+────────────────────────────────────────────────────────────────────────
+
+§8.1 construcción LALR; §8.2 ausencia de conflictos registrada;
+§8.3 compatibilidad S0 (equivalencia = igualdad por == de los Dict
+limitados a las cinco claves históricas, sin exigir orden de claves);
+§8.4 casos positivos (contract e invariant heredan ejemplos del Acto 13;
+asiento se construye in-acto); §8.5 casos negativos; §8.6 caso integrado.
+
+
+────────────────────────────────────────────────────────────────────────
+§9. VERIFICACIÓN LALR EFECTIVA
+────────────────────────────────────────────────────────────────────────
+
+Construcción por éxito/falla de lark.Lark(grammar, start="start",
+parser="lalr"). El número de estados del autómata no es expuesto por Lark
+1.3.1 en la interfaz pública. Cuando la métrica no sea observable, se
+registra la ausencia de observación, no se inventa métrica.
+
+
+────────────────────────────────────────────────────────────────────────
+§10. COMPATIBILIDAD CON LOS CUATRO .scfv HISTÓRICOS
+────────────────────────────────────────────────────────────────────────
+
+Reproducción de baseline. Comparación contra salida de S0 conforme §8.3.
+
+
+────────────────────────────────────────────────────────────────────────
+§11. FALSACIÓN IA-2
+────────────────────────────────────────────────────────────────────────
+
+Checklist de 16 puntos, incluyendo:
+
+16. ejecución efectiva de la suite de pruebas declarada en §8. La mera
+    existencia de archivos no constituye evidencia de ejecución.
+
+
+────────────────────────────────────────────────────────────────────────
+§12. CONDICIONES DE MATERIALIZACIÓN
+────────────────────────────────────────────────────────────────────────
+
+§12.1 Fase A: emisión y aprobación del README.
+§12.2 Fase B: materialización del código y ejecución de pruebas.
+
+Régimen de §19.3-bis del Protocolo de Revisión de Actos, incorporado por
+ACTAS/ACTA_ENMIENDA_PROTOCOLO_19_3_BIS.md.
+
+
+────────────────────────────────────────────────────────────────────────
+§13. LÍMITES
+────────────────────────────────────────────────────────────────────────
+
+No cierra I-3, D-12.3, H-EMG-1, H-EMG-2, D-13.2. No modifica S0. No
+escribe .scfv extendidos (Acto 15).
+
+
+────────────────────────────────────────────────────────────────────────
+§14. DEUDAS Y REGISTRO DE CIERRE
+────────────────────────────────────────────────────────────────────────
+
+D-12.2 cerrada cuando materialización verificada y aceptada.
+D-13.1 cerrada cuando construcción LALR efectiva verificada y aceptada.
+El cierre se registra en el acta de materialización del Acto 14.
+D-12.3 y D-13.2 permanecen abiertas.
+
+
+────────────────────────────────────────────────────────────────────────
+§15. CADENA DE ACTOS
+────────────────────────────────────────────────────────────────────────
+
+Acto 11 → 12 → 13 → 14 → 15 → 16. Acto 14 es el paso entre
+especificación sintáctica cerrada y materialización verificable.
+
+
+────────────────────────────────────────────────────────────────────────
+§16. ESTADO
+────────────────────────────────────────────────────────────────────────
+
+VERSIÓN C — MATERIALIZADA.
+
+§17. FIRMAS
+IA-1: Versión C materializada.
+IA-2: APTO SIN BLOQUEANTES.
+OPERADOR: Materializado y firmado.
+
+────────────────────────────────────────────────────────────────────────
+REGISTRO DE INTEGRIDAD
+────────────────────────────────────────────────────────────────────────
+
+Hash previo al registro: cb63154a5c34626524ffe6d810861c410182fdd3d327bb049d1ae626a6e88269
+Acta de referencia:      ACTA_MATERIALIZACION_14_DSL_ADL_2026-09-22
+Hash final:              8309e2fc0b31716579653f7d2cab2c9d49ad2a05f9e1bcf6a946b60839619869
+
+════════════════════════════════════════════════════════════════════════
+FIN DEL ACTO 14 — MATERIALIZACIÓN DEL MÓDULO DSL ADL-SCFV — Versión C
+════════════════════════════════════════════════════════════════════════
+
+════ IV · 06_diseno.md · §6.4 · §12.3 · L516 ════
+371:§6.4 — Fractalidad acotada del artefacto
+551:§12.3 — Estatuto en el SCFV_DSR. Hipótesis a ensayar por el design cycle. No propiedad declarada.
+§6.4 — Fractalidad acotada del artefacto
+
+Conforme a §1.2. El SCFV_DSR ensayará si determinados invariantes se preservan bajo las transformaciones que materialice. No se declara que el SCFV_DSR sea fractal acotado. Es hipótesis a evaluar.
+
+§7 — Usuarios y contexto de uso
+
+§7.1 — Usuarios como interpretación del Fundacional §4
+
+El Fundacional §4 declara que quien investiga no es neutral, participa con historia, lenguaje, conocimientos, expectativas, intereses, herramientas, limitaciones, interpretaciones y decisiones.
+
+Los usuarios del artefacto se determinan a partir de esa interpretación:
+
+- CPC (Contador Público Certificado) — conductor principal.
+- Arquitecto — configura estructura.
+- Programador — extiende motor.
+- Auditores — inspeccionan trayectoria.
+- Entes interesados — externos.
+
+Esta identificación no constituye afirmación empírica. Es decisión de diseño derivada del contexto del Fundacional.
+
+§7.2 — Uso previsto
+
+El artefacto se diseña para permitir que un usuario pueda:
+
+- Observar una sucesión de estados.
+- Identificar los movimientos que producen transiciones.
+- Representar la sucesión explícitamente.
+- Formular propiedades de evaluación.
+- Examinar la trayectoria frente a esas condiciones.
+- Documentar los resultados.
+- Confrontar los resultados mediante evidencia reproducible.
+
+Pregunta operacional del diseño:
+
+«¿Qué puede determinarse sobre una trayectoria a partir de sus estados, movimientos, relaciones y evidencias disponibles, sin convertir la inferencia de intención en condición necesaria de la verificación?»
+
+§8 — Ciclos de Design Science Research
+
+§8.1 — Relevance cycle
+
+Hevner L1582:
+
+«The Relevance Cycle bridges the contextual environment of the research project with the design science activities.»
+
+Traducción propia: [El Ciclo de Relevancia conecta el entorno contextual del proyecto de investigación con las actividades de ciencia del diseño.]
+
+En el Giro, la relevancia surge de la indeterminación identificada en el planteamiento. El diseño responde construyendo artefactos capaces de hacer observable y evaluable aquello que actualmente es pregunta de investigación.
+
+§8.2 — Rigor cycle
+
+Nota de estatuto: el pipeline perceptum → intellectus → dictum se declara como interpretación del diseñador sobre la arquitectura de S0. No es estructura declarada explícitamente por S0. El orquestador que integra las tres clases vive en PODERES/PROFESIONAL/interfaces/cli/, no en PODERES/EPISTEMOLOGICO/.
+
+Hevner L1615:
+
+«The Rigor Cycle connects the design science activities with the knowledge base of scientific foundations, experience, and expertise that informs the research project.»
+
+El rigor cycle se ancla en la ruta canónica v8.2 de SCFV Motor 9.0.0, conforme a migracion_v82.md:
+
+orquestador_v82 → H1 → H2 → autorización → consecuencia → MotorContable → ASIENTO_REGISTRADO
+
+§12.3 — Estatuto en el SCFV_DSR. Hipótesis a ensayar por el design cycle. No propiedad declarada.
+
+§12.4 — Acotación. Cualquier afirmación sobre preservación de invariantes queda limitada al dominio de materializaciones y transformaciones efectivamente ensayadas.
+§11 — Componentes del artefacto
+
+§11.1 — Tablero de estados observables
+
+Representación espacial o estructurada de los estados que pueden observarse en una trayectoria.
+
+Nota de estatuto (T2): el término «tablero» se adopta como denominación funcional del componente del artefacto. En 01_idea.md §8 el término aparecía como recurso heurístico (analogía del tablero). En el presente diseño el término pasa de analogía a componente operativo. Esta transformación de estatuto se declara expresamente. No se invoca la analogía del ajedrez ni ninguna otra analogía del Operador como fundamento.
+
+§11.2 — Modelo de secuencia. Representa estado → movimiento → estado siguiente. Distingue estado previo, movimiento, estado resultante, evidencia asociada y condiciones de evaluación.
+
+§11.3 — Evaluación de trayectorias. Método de examen. Objeto: propiedades observables de la sucesión. No inferir intención.
+
+§11.4 — §2.2 operacionalizado. Producción de objetos susceptibles de ejercicio, confrontación, apropiación, demostración o examen.
+
+§11.5 — PCU relacional. Representación que hace explícitas las relaciones necesarias para examinar una trayectoria.
+
+§11.6 — Cadena funcional. Organización propuesta por el diseño: tablero → secuencia → trayectoria → evaluación → demostración. No es declaración retrospectiva de arquitectura existente en S0.
+
+§11.7 — Reuso de componentes S0.
+
+- xnor.py (kernel de producto).
+
+════ V · 10_adl_scfv.md · estructura ════
+════════════════════════════════════════════════════════════════════════
+DOCUMENTO 10 — ADL-SCFV
+Extensión del lenguaje ".scfv" como formato declarativo de contratos
+arquitectónicos para SCFV_DSR
+
+Programa: Investigación SCFV
+Giro: 04 · Sesión: 4 · Acto: 10
+Versión: A
+Estado efectivo: MATERIALIZADO Y FIRMADO
+Fecha: 2026-09-22
+Autoridad: Operador (DEDN, C.P.C. Nº 183594)
+
+Ciclo bilateral: IA-1 (constructor) ↔ IA-2 (falsador)
+Falsación cerrada sin bloqueantes activos.
+
+Decisiones operativas incorporadas:
+  A — Referente de FRACTAL: Fractalidad Acotada.
+  B — Régimen gramatical: α, extensión compatible.
+
+Estatuto: este documento es una especificación de la extensión.
+No modifica S0, ni grammar.lark, ni parser.py.
+No valida SCFV_DSR.
+No demuestra Fractalidad Acotada ni H-EMG-1.
+
+Deudas internas declaradas (§5.12, §6.2, §9.2, §16.2) preservadas
+como trazables. La firma certifica el texto con sus deudas, no su
+resolución.
+
+Hash previo al registro: 20989db3f08a04aa86abdedac295422071a80cdeb4fb7bc60f76048fdff2fd88
+Hash final registrado:   22996478933e948ef190ee88b1d22a9c000052e36f7a4db7fa6911eed32ac5b4
+════════════════════════════════════════════════════════════════════════
+
+
+────────────────────────────────────────────────────────────────────────
+§0. TRAZABILIDAD
+────────────────────────────────────────────────────────────────────────
+
+§0.1–§0.3 — [Texto cerrado en Bloque 1 del ciclo. No disponible
+textualmente en esta ventana. Se conserva por referencia al bloque 1
+firmado del ciclo bilateral.]
+
+§0.4 — Forma de argumentación externa
+
+Cuando se invoque una fuente externa para justificar una decisión
+concreta, se utilizará, cuando corresponda, la siguiente trazabilidad:
+
+fuente externa → problema concreto → concepto invocado → contraste →
+decisión de diseño.
+
+La fuente externa se clasifica en una de tres categorías:
+
+- extracto literal;
+- paráfrasis;
+- sustrato conceptual.
+
+No constituye un nuevo canon del Programa.
+
+
+────────────────────────────────────────────────────────────────────────
+§1. OBJETO
+
+════ VI · 12_extension_gramatica_adl.md · qué extiende ════
+
+════ VII · ADL en parser.py · ¿hay evaluación prevista? ════
+11:class SCFVParser:
+12:    def __init__(self):
+18:    def parse_file(self, filepath: str) -> Dict[str, Any]:
+27:    def parse_string(self, text: str) -> Dict[str, Any]:
+38:    def _get_node_value(self, node):
+52:    def _is_token(self, node):
+55:    def _token_str(self, node):
+58:    def _expr_to_str(self, node) -> str:
+96:    def _as_expr_node(self, node):
+110:    def _transform_tree(self, tree: lark.Tree) -> Dict[str, Any]:
+140:    def _handle_fractal(self, child, result):
+142:        rules = []
+144:            if hasattr(node, 'data') and node.data == "rule":
+145:                rule_name = self._get_node_value(node.children[0])
+147:                actions = self._extract_actions(node)
+148:                rules.append({"name": rule_name, "condition": cond_expr,
+149:                              "actions": actions})
+150:        result["fractales"][name] = rules
+152:    def _handle_assignments(self, child, item_data, target):
+159:    # ---- contract_def -----------------------------------------------
+161:    def _extraer_por_keywords(self, tokens, keywords):
+184:    def _handle_contract(self, child, result):
+222:    # ---- invariant_def ----------------------------------------------
+224:    def _handle_invariant(self, child, result):
+262:    # ---- asiento_declarado_def --------------------------------------
+264:    def _handle_asiento_declarado(self, child, result):
+276:    # ---- rules (heredado de S0) -------------------------------------
+278:    def _extract_condition(self, node) -> str:
+292:    def _extract_actions(self, node) -> List[str]:
+293:        actions = []
+295:            if hasattr(child, 'data') and child.data == "action":
+302:                    actions.append(f"{name} = {value}")
+306:                    actions.append(f"GENERAR CONSECUENCIA ({acciones_str})")
+307:        return actions
+309:    def _extract_param_list(self, node) -> Dict[str, str]:

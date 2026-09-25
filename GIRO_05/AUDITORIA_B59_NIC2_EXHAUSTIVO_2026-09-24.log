@@ -1,0 +1,245 @@
+════ B59 · NIC 2 exhaustivo · Thu Sep 24 23:08:06 -04 2026 ════
+
+════ I · comparar raw vs PDF · cobertura ════
+--- PDF páginas ---
+Pages:           1308
+--- PDF líneas de texto ---
+109629
+--- raw niif_peru_2025 ---
+109629 /data/data/com.termux/files/home/.niif_peru_2025_raw.txt
+--- ratio ---
+
+════ II · búsqueda con múltiples patrones ════
+--- NIC 2 sin anclaje ---
+0
+--- 'Existencias' como encabezado ---
+--- 'Inventarios' como encabezado de sección ---
+--- 'NIC 2' seguido de salto de página ---
+
+════ III · buscar 'Objetivo' + 'inventarios' cercanos ════
+
+════ IV · índice general del PDF ════
+Marco Conceptual
+
+El Marco Conceptual para la Información Financiera
+El Marco Conceptual para la Información Financiera fue emitido por el Consejo de Normas Internacionales de
+Contabilidad en septiembre de 2010. Fue revisado en marzo de 2018.
+
+© IFRS Foundation
+
+1
+
+Marco Conceptual
+
+ÍNDICE
+desde el párrafo
+ESTATUS Y PROPÓSITO DEL MARCO CONCEPTUAL
+
+SP1.1
+
+CAPÍTULO 1—EL OBJETIVO DE LA INFORMACIÓN
+FINANCIERA CON PROPÓSITO GENERAL
+INTRODUCCIÓN
+
+1.1
+
+OBJETIVO, UTILIDAD Y LIMITACIONES DE LA INFORMACIÓN FINANCIERA
+CON PROPÓSITO GENERAL
+
+1.2
+
+INFORMACIÓN SOBRE LOS RECURSOS ECONÓMICOS, LOS DERECHOS
+DE LOS ACREEDORES CONTRA LA ENTIDAD Y LOS CAMBIOS EN ESTOS
+DE LA ENTIDAD QUE INFORMA
+
+1.12
+
+Recursos económicos y derechos de los acreedores
+
+1.13
+
+Cambios en los recursos económicos y en los derechos
+
+1.15
+
+Rendimiento financiero reflejado por la contabilidad de acumulación (o
+devengo)
+
+1.17
+
+Rendimiento financiero reflejado por los flujos de efectivo pasados
+
+1.20
+
+Cambios en los recursos económicos y en los derechos que no proceden
+del rendimiento financiero
+
+1.21
+
+INFORMACIÓN SOBRE EL USO DE LOS RECURSOS ECONÓMICOS DE LA
+ENTIDAD
+
+1.22
+
+CAPÍTULO 2—CARACTERÍSTICAS CUALITATIVAS DE LA
+INFORMACIÓN FINANCIERA ÚTIL
+INTRODUCCIÓN
+
+2.1
+
+CARACTERÍSTICAS CUALITATIVAS DE LA INFORMACIÓN FINANCIERA
+ÚTIL
+
+2.4
+
+Características cualitativas fundamentales
+
+2.5
+
+Características cualitativas de mejora
+
+2.23
+
+LA RESTRICCIÓN DEL COSTO SOBRE LA INFORMACIÓN FINANCIERA
+ÚTIL
+
+2.39
+
+CAPÍTULO 3—ESTADOS FINANCIEROS Y LA ENTIDAD QUE
+INFORMA
+ESTADOS FINANCIEROS
+
+3.1
+
+Objetivo y alcance de los estados financieros
+
+3.2
+
+Periodo sobre el que se informa
+
+3.4
+
+
+════ V · ¿qué páginas contienen 'inventarios' como tema principal? ════
+Páginas 101-151: 109 ocurrencias
+
+════ VI · NIC 2 en PDF por página específica ════
+Página 1: 0 menciones NIC 2
+Página 50: 0 menciones NIC 2
+Página 100: 0 menciones NIC 2
+Página 200: 2 menciones NIC 2
+Página 300: 1 menciones NIC 2
+Página 400: 0 menciones NIC 2
+Página 500: 0 menciones NIC 2
+Página 600: 0 menciones NIC 2
+Página 700: 0 menciones NIC 2
+Página 800: 0 menciones NIC 2
+Página 900: 2 menciones NIC 2
+Página 1000: 0 menciones NIC 2
+Página 1100: 0 menciones NIC 2
+Página 1200: 0 menciones NIC 2
+Página 1300: 4 menciones NIC 2
+
+════ VII · ¿existe un índice de normas al final? ════
+NIIF 17
+razón por la que la exposición al final del periodo no es representativa, e información adicional que sea
+representativa de su exposición al riesgo durante el periodo.
+124
+
+125
+
+126
+
+Para cada tipo de riesgo que surge de los contratos dentro del alcance de la NIIF 17, una entidad revelará:
+(a)
+
+las exposiciones a los riesgos y la forma en que éstas surgen;
+
+(b)
+
+los objetivos, políticas y procesos para la gestión del riesgo de la entidad, así como los métodos
+utilizados para medirlos; y
+
+(c)
+
+cualesquiera cambios habidos en (a) o (b) desde el período precedente.
+
+Para cada tipo de riesgo que surge de los contratos dentro del alcance de la NIIF 17, una entidad revelará:
+(a)
+
+Información cuantitativa resumida acerca de su exposición al riesgo al final del periodo sobre el
+que se informa. Esta información a revelar se basará en información proporcionada internamente
+al personal clave de la gerencia de la entidad.
+
+(b)
+
+La información a revelar requerida por los párrafos 127 a 132, en la medida en que no se haya
+proporcionado aplicando el apartado (a) de este párrafo.
+
+Una entidad revelará información sobre el efecto de los marcos de regulación en que opera, por ejemplo, los
+requerimientos de capital mínimo o garantías de tasa de interés requerida. Si una entidad aplica el párrafo
+20 para determinar los grupos de contratos de seguro a los que se aplican los requerimientos de
+reconocimiento y medición de la NIIF 17, revelará ese hecho.
+
+Todos los tipos de riesgo—concentraciones del riesgo
+127
+
+Una entidad revelará información sobre concentraciones de riesgos que surgen de contratos dentro del
+alcance de la NIIF 17, incluyendo una descripción de la forma en que la entidad determina las
+concentraciones, y una descripción de la característica compartida que identifica cada concentración (por
+ejemplo, el tipo de suceso asegurado, sector industrial, área geográfica, o moneda). Concentraciones del
+riesgo financiero pueden surgir, por ejemplo, de garantías de tasas de interés que sean efectivas al mismo
+nivel para un gran número de contratos. Las concentraciones de riesgo financiero pueden también surgir de
+concentraciones de riesgo no financiero; por ejemplo, si una entidad proporciona protección de
+responsabilidad de productos a compañías farmacéuticas y también mantiene inversiones en esas
+compañías.
+
+Seguros y riesgos de mercado—análisis de sensibilidad
+128
+
+Una entidad revelará información sobre la sensibilidad a cambios en las variables de riesgo que surgen de
+contratos dentro del alcance de la NIIF 17. Para cumplir con este requerimiento, una entidad revelará:
+(a)
+
+129
+
+Un análisis de sensibilidad que muestre cómo podría haberse visto afectado el resultado del
+periodo y el patrimonio por cambios en las variables de riesgo, que fueran razonablemente
+posibles al final del periodo sobre el que se informa:
+(i)
+
+para el riesgo de seguro—mostrando el efecto para los contratos de seguro emitidos,
+antes y después de la reducción del riesgo por contratos de reaseguro mantenidos; y
+
+(ii)
+
+para cada tipo de riesgo de mercado—de forma que explique la relación entre la
+sensibilidad al cambio en las variables de riesgo que surgen de contratos de seguro y
+las que surgen de activos financieros mantenidos por la entidad.
+
+(b)
+
+los métodos e hipótesis utilizados al elaborar el análisis de sensibilidad; y
+
+(c)
+
+los cambios habidos desde el período anterior en los métodos y suposiciones utilizados para
+preparar los análisis de sensibilidad, y las razones de estos cambios.
+
+Si una entidad prepara un análisis de sensibilidad que muestre la forma en que importes diferentes de los
+especificados en el párrafo 128(a) se ven afectados por cambios en las variables de riesgo y usa ese análisis
+de sensibilidad para gestionar riesgos que surgen de contratos dentro del alcance de la NIIF 17, puede
+utilizar ese análisis de sensibilidad en lugar del especificado en el párrafo 128(a). La entidad revelará
+también:
+(a)
+
+una explicación del método utilizado al elaborar dicho análisis de sensibilidad, así como de los
+principales parámetros y supuestos subyacentes en la información suministrada; y
+
+(b)
+
+una explicación del objetivo del método utilizado y de las limitaciones que puedan dar lugar a la
+información proporcionada.
+
+
+════ VIII · búsqueda en el raw por 'Existencias' ════

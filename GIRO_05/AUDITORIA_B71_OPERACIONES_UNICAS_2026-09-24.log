@@ -1,0 +1,68 @@
+════ B71 · operaciones únicas · Fri Sep 25 07:26:02 -04 2026 ════
+
+════ I · fórmulas con '=' en el raw Pymes ════
+6969:5 = 950
+13090:= 0 u. m.
+13094:= 18.000 u. m.
+13098:= 28.000 u. m.
+13102:= 46.000 u. m.
+13857:(u. m.) = 6% x
+13859:(e) ( (u. m.) = (b) –
+13867:(u. m.) = (d) –
+13872:(u. m.) = 50.000 –
+13960:50.000 u. m./(1,06)^5 = 37.363 u. m.
+13961:Valor presente de la anualidad por intereses de 2.000 u. m. (= 50.000 u. m. × 4 por ciento) a pagar al
+13970:(2.000/,06) × [1 – [(1/1,06)^5] = 8.425 u. m.
+
+════ II · patrones 'menor entre' / 'mayor entre' / 'diferencia' ════
+7057:párrafo 11.14(a), la pérdida por deterioro es la diferencia entre el
+7069:deterioro es la diferencia entre el importe en libros del activo y la
+7230:calculada como la diferencia entre el importe en libros de las cuentas por
+7849:respecta a la diferencia entre la tasa de contado (a la que se mide el pasivo) y
+9169:los resultados la diferencia entre, por una parte, la suma de los
+11163:párrafo 19.22(b) exceda la suma de los importes especificados en el
+11196:contraprestación transferida como la suma de los valores razonables en la
+12296:arrendamiento. La inversión bruta en el arrendamiento es la suma de:
+12546:ingreso cualquier exceso del producto de la venta sobre el importe en libros.
+13977:Este es equivalente a la suma de los valores presentes de los cinco pagos de 2.000 u. m.
+14424:el método del valor esperado—la suma de los importes ponderados por
+14508:reconocerá la diferencia entre el compromiso de contraprestación y el valor
+14600:un cliente recibe un descuento si la suma de los precios de venta
+15332:nuevo contrato es la suma de:
+15456:la diferencia entre:
+16277:El valor razonable incremental concedido es la diferencia entre el valor
+16499:recibir) no identificables como la diferencia entre el valor razonable del pago
+16691:libros sea el menor entre el costo y el precio de venta revisado menos los
+18448:transacciones o sucesos pasados. Este impuesto surge de la diferencia entre los
+18606:diferencia temporaria es la diferencia entre el importe en libros del
+19041:el valor esperado—la suma de los importes ponderados por su
+21990:la suma de los importes en libros en la fecha de aplicación inicial de los
+24232:garantizado con la suma de (i) el valor razonable del activo
+25311:de tales (igual a la suma de los resultados del periodo y otro
+
+════ III · conceptos compuestos únicos (cada uno = 1 operación) ════
+1 · valor neto realizable
+348 · valor razonable
+47 · valor presente
+33 · costo amortizado
+0 · depreciación lineal
+0 · amortización lineal
+2 · valor esperado
+16 · valor en uso
+31 · importe recuperable
+2 · costo de venta
+1 · margen bruto
+13 · interés efectivo
+9 · tasa de descuento
+
+════ IV · count de operaciones compuestas únicas ════
+Operaciones compuestas con >0 menciones:
+  ✓ valor neto realizable
+  ✓ valor razonable
+  ✓ valor presente
+  ✓ costo amortizado
+  ✓ valor esperado
+  ✓ importe recuperable
+  ✓ interés efectivo
+  ✓ tasa de descuento
+  ✓ costo de venta

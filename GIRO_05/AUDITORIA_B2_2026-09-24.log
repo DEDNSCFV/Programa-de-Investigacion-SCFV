@@ -1,0 +1,233 @@
+=== AUDITORÍA REDUCTIBILIDAD · B2 · 2026-09-24 · IA-2 ===
+
+--- B2-bis · Mandelbrot: ¿existe acta de activación? (D2) ---
+BIBLIOTECA/Mandelbrot_1975/:
+total 19
+drwx------.  2 u0_a288 u0_a288 3452 Sep 23 12:13 .
+drwx------. 41 u0_a288 u0_a288 3452 Sep 23 12:15 ..
+-rw-------.  1 u0_a288 u0_a288   31 Sep 23 12:13 CITAS.md
+-rw-------.  1 u0_a288 u0_a288  877 Sep 23 12:14 FICHA.md
+-rw-------.  1 u0_a288 u0_a288   32 Sep 23 12:13 INDICE.md
+
+BIBLIOTECA/Mandelbrot_1982/:
+total 19
+drwx------.  2 u0_a288 u0_a288 3452 Sep 23 12:13 .
+drwx------. 41 u0_a288 u0_a288 3452 Sep 23 12:15 ..
+-rw-------.  1 u0_a288 u0_a288   31 Sep 23 12:13 CITAS.md
+-rw-------.  1 u0_a288 u0_a288  896 Sep 23 12:14 FICHA.md
+-rw-------.  1 u0_a288 u0_a288   32 Sep 23 12:13 INDICE.md
+# FICHA — Mandelbrot, Los objetos fractales
+
+## Identificación
+- Autor: Benoît Mandelbrot
+- Obra original: *Les objets fractals: forme, hasard et dimension* (1975)
+- Título en español: Los objetos fractales
+- Edición: verificar en el PDF (probable traducción Tusquets, 1987)
+- Año de esta edición: verificar
+- Páginas: 191
+
+## Fuente material
+- PDF: `~/storage/downloads/Los objetos fractales - Benoit Mandelbrot.pdf`
+- SHA-256: `35ec85f56195d02e02ab690440c4a404eb5e70a188b43defb98910f5b25b2321`
+- Tamaño: 3 582 961 b
+- Raw: `~/.mandelbrot_1975_raw.txt` (5 809 líneas)
+
+## Estatuto en el Programa
+`metodológico` — sostiene el componente «fractalidad acotada» del núcleo firme §9
+del prompt de apertura del Giro 05.
+
+## Deudas
+- Verificar edición y año de la traducción.
+- Verificar si el raw preserva fórmulas matemáticas o si el OCR las ha degradado.
+# FICHA — Mandelbrot, La geometría fractal de la naturaleza
+
+## Identificación
+- Autor: Benoît Mandelbrot
+- Obra original: *The Fractal Geometry of Nature* (1982)
+- Título en español: La geometría fractal de la naturaleza
+- Edición: verificar en el PDF (probable Tusquets, 1993)
+- Año de esta edición: verificar
+- Páginas: 658
+
+## Fuente material
+- PDF: `~/storage/downloads/La geometria fractal de la natu - Benoit Mandelbrot (1).pdf`
+- SHA-256: `91b073b9533587fceccc06131ef14f2f7d2342de41c8153497f5d5efb49ec3db`
+- Tamaño: 12 150 661 b
+- Raw: `~/.mandelbrot_1982_raw.txt` (19 653 líneas)
+
+## Estatuto en el Programa
+`metodológico` — sostiene el componente «fractalidad acotada» del núcleo firme §9
+del prompt de apertura del Giro 05.
+
+## Deudas
+- Verificar edición y año de la traducción.
+- Obra magna del autor: contiene la exposición completa del concepto de fractal.
+
+--- B3-bis · Hevner: ¿ámbito restringido a Giro 03? (D3) ---
+279 ACTAS/ACTA_ACTIVACION_HEVNER_GIRO_03.md
+3:**Giro 03 — Programa de Investigación SCFV**
+7:- **Ámbito:** Giro 03
+15:Se activa formalmente, para el Giro 03, Hevner & Chatterjee (2010) como canon metodológico externo de contraste.
+19:Su función es aportar criterios metodológicos explícitos para examinar construcción, pertinencia y evaluación de artefactos dentro del Giro 03.
+33:> *SCFV utilizará Hevner & Chatterjee como canon metodológico externo de contraste durante el Giro 03, sin adoptar DSR como metodología total o exclusiva del Programa.*
+38:- **Utilizar Hevner como canon metodológico externo de contraste** significa emplear determinados conceptos y criterios de Hevner para examinar objetos concretos del Giro 03, manteniendo al Protocolo, al horizonte epistemológico del SCFV y a la autoridad del Operador fuera de la sustitución por ese canon.
+58:   - el Giro 03 activa posteriormente Hevner como canon externo de contraste;
+118:La activación corresponde exclusivamente al Giro 03.
+126:La no retroactividad declarada en este acto deriva, por tanto, del límite explícito del propio acto: su alcance se restringe al Giro 03 y no pretende reabrir actos cerrados.
+140:La nota histórica que menciona Giro 02 deberá corregirse cuando corresponda, para reflejar el horizonte real de uso en Giro 03.
+172:## 10. Aplicación durante Giro 03
+259:- Este acto: Hevner activo como canon externo de contraste para Giro 03.
+1. Falsación por IA-2 — concluida.
+2. Integración de objeciones — concluida (O1–O6, OR1, OR2).
+3. Decisión del Operador — adoptada.
+4. Suscripción del Operador — registrada.
+5. Materialización documental — este acto.
+6. Coordinación de la corrección de L80 — pendiente, acto paralelo.
+7. Verificación de §23 — cumplida.
+
+**Mientras la corrección de L80 no se materialice, coexisten dos estados:**
+- Este acto: Hevner activo como canon externo de contraste para Giro 03.
+- Acta Viva L80: declaración previa que no contradice a este acto (por la distinción "metodología rectora" vs "canon externo"), pero que debe actualizarse para reflejar el nuevo estado.
+
+---
+
+## 14. Constancia de IA-2
+
+IA-2 verificó: distinción DSR/Hevner, mecanismo L80, destino documental, CITAS.md, C1–C4, IPVE, no retroactividad, no fusión.
+
+Veredicto: **APTO CON OBJECIONES NO BLOQUEANTES** (OR1, OR2 integradas en ronda 3).
+
+---
+
+## Firmas
+
+- **Operador:** _______________________ Fecha: __________
+- **IA-1 (constructor):** constancia de construcción. Fecha: 2026-09-19.
+- **IA-2 (falsador):** constancia de no objeción pendiente. Fecha: 2026-09-19.
+
+**Fin del acto.**
+
+
+--- B4-bis · Hash provisional vs final (D4, auxiliar) ---
+3:2026-09-23T10:43:19Z | ACTA_DECISION_USEQ_01 | HASH_POST_FIRMA=0b045c6c59f0584f607b6b8ff63fd0e683daae62190eaff1a265d92166ca5b5c
+4:2026-09-23T10:44:17Z | ACTA_DECISION_USEQ_01 | HASH_POST_FIRMA_REAL=0b045c6c59f0584f607b6b8ff63fd0e683daae62190eaff1a265d92166ca5b5c
+5:2026-09-23T10:47:20Z | ACTA_DECISION_USEQ_01 | FIRMA_EFECTIVA=OK | HASH_POST_FIRMA_EFECTIVA=c5ff667ec6cf6e391bc800affa7c7bbfee54df2fab4e766323979508dfe80093
+530:    - D-ACT17-1 · Acto 17 declarado firmado, no firmado.
+615:    Sin canon, no hay afirmación.
+642:    - Se firma tripartitamente (§20).
+681:FIRMA TRIPARTITA ASIMÉTRICA (§20)
+
+--- B5-bis · Bytes Acto 2 (D5) ---
+ 205 6488 ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+900d23cf0e475b614e5583121f6e6f3405a101eee08fa3330414ae7ec5889b0b  ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+
+--- B6-bis · MARCO_IPVE · contexto L96–L144 (D6) ---
+- Janus opera como metamarco transversal.
+
+Un objeto investigado puede no operacionalizar todos los elementos
+de todos los componentes. Es posible operar con IPVE solo, o con
+IPVE + Janus, o con los tres.
+
+Lo que sí es condición: el reconocimiento cognitivo del Operador
+sobre la operación realizada. Ese reconocimiento se somete a
+falsación. Su legitimidad se determina como legítimo o como
+interpretación privada.
+
+---
+
+## 4. Dependencia metodológica
+
+El método IPVE **depende** de la ruta metodológica de Sampieri para
+conducir y cerrar investigativamente los problemas del Programa.
+
+Esta dependencia se declara aquí. No se declara en Sampieri.
+
+Sampieri aporta rigor metodológico externo. IPVE aporta estructura
+interna de operación del conocimiento.
+
+---
+
+## 5. Estatus epistémico
+
+Este marco es **emergente**. Emerge de la epistemología situada del
+Operador.
+
+No se estabiliza por acumulación de giros. Su estabilización
+requeriría investigación separada que establezca teoría.
+
+Mientras no exista esa investigación, el marco opera como **línea de
+fuga**: legítimo en su operación, no consolidado como teoría.
+
+---
+
+## 6. Consecuencias operativas
+
+- Instrumentos emergen de la ruta sampieriana mixta.
+- El método se aplica al objeto según su naturaleza.
+- El reconocimiento cognitivo del Operador queda sujeto a falsación.
+- La genealogía del marco se establece por fuentes, no por este documento.
+
+---
+
+## 7. Estado
+
+
+--- B7-bis · Deudas emergentes en corpus (D7, auxiliar) ---
+== D-RED-1 ==
+./GIRO_05/AUDITORIA_B2_2026-09-24.log
+== D-CITA-1 ==
+./GIRO_05/AUDITORIA_B2_2026-09-24.log
+== D-EST-1 ==
+./GIRO_05/AUDITORIA_B2_2026-09-24.log
+== D-RAW-1 ==
+./GIRO_05/AUDITORIA_B2_2026-09-24.log
+== D-ABS-1 ==
+./GIRO_05/AUDITORIA_B2_2026-09-24.log
+== D-SIM-1 ==
+./GIRO_05/AUDITORIA_B2_2026-09-24.log
+== D-EST-2 ==
+./GIRO_05/AUDITORIA_B2_2026-09-24.log
+== D-CANON-5 ==
+./GIRO_05/AUDITORIA_B2_2026-09-24.log
+./ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md:192:de Mandelbrot (bloques D2-A, D2-B parcial, D-MAN-1).
+./GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md:545:    - D2-A · Fractal escalante acotado (Mandelbrot).
+./GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md:547:    - D7-A · Jerarquía contable (NIC 8 + VN4).
+./GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md:550:    - D-MAN-1 · Reutilización abstracta (caso «tablero», «IPVE»).
+./GIRO_05/PROMPT_AVANZADO_GIRO_05_AI1_AI2.md:551:    - D-EMG-1 · S1 = SCFV_DSR (declaración del Operador).
+
+--- B8-bis · Cita A: raw literal vs §7 del prompt (D-CITA-1) ---
+RAW:
+Toda operacion se funda en un Dogma,
+se rige por una Disciplina, propia del Dogma,
+y se ejecuta con una economia propia de la Disciplina.
+PROMPT §7:
+148:Cita A · fundacional · L1312–1314
+149-    "Toda operacion se funda en un Dogma,
+150-     se rige por una Disciplina propia del Dogma,
+151-     y se ejecuta con una Economía propia de la Disciplina."
+152-
+Diferencia byte a byte:
+
+--- B9 · Registro de entradas biblioteca (auxiliar) ---
+30 BIBLIOTECA/REGISTRO_ENTRADAS.log
+139 BIBLIOTECA/INVENTARIO.md
+2026-09-23T14:48:16Z | AccountingTheory_2004 | Accounting Theory-M. Com. .pdf | 23213761899777f818cb3e03a2f6a9375d1df3ef81c2c94340ac0e419c530f2d | 3842042
+2026-09-23T14:48:16Z | Aho_2007 | Alfred-V.-Aho-Monica-S.-Lam-Ravi-Sethi-Jeffrey-D.-Ullman-Compilers-Principles-Techniques-and-Tools-Pearson_Addison-Wesley-2007.pdf | 82c1c233f3ae351e12ae39c70b8ed5d4e8cd6a582ee7fe075ab2cf10b94b2a24 | 5570988
+2026-09-23T14:48:16Z | Cervantes_2023 | 648e625c1a4cb5f7b35322d92fb8f4d20055d38c.pdf | fb7aa670f1bd6848b7e1e695e5c7aa50ac9f954da4586d1cea3850a8cc05a1a7 | 25294055
+2026-09-23T14:48:17Z | Cosmovision_2004 | LIBRO COSMOVISION.pdf | 33b899870d91a727c44762a5491eb6b7635955cfee8148b740cfa3b3ba037034 | 3086313
+2026-09-23T14:48:17Z | GarciaCasella_LaLey_SF | AC_U3_1_CLGC.pdf | a5e948b7d3653cd06093c5ff988c761391ca692b2a163f477f3d22b6178aef1b | 334982
+40
+
+--- B10 · Git · estado real del Giro 05 ---
+9aa3b63 biblioteca: reorganiza INVENTARIO.md (39 entradas, 6 secciones)
+7f09f96 biblioteca: agrega 12 NIIF/IFRS/NIAS (normativa contable)
+72e0b5a biblioteca: agrega Mandelbrot 1975 + 1982 (fractalidad acotada, §9)
+4ec0ab4 biblioteca: declara régimen de materialización
+e76d2df biblioteca: reformula Gadamer (CITAS canónico + INDICE con 16 anclajes)
+0fc7b27 biblioteca: aplica cambios al INVENTARIO declarados en f9a4f65
+f9a4f65 biblioteca: puebla Gadamer_VM/CITAS.md — cierra OBS-MAT-13 (excepción)
+c348019 biblioteca: cierra Bloque 4 — raws extraídos a HOME
+8fa93f1 biblioteca: puebla INVENTARIO.md con estado de las 25 entradas
+97ed4e4 biblioteca: consolida estructura (25 entradas) + registro de hashes de PDFs origen
+?? ACTAS/ACTA_ENMIENDA_FRACTALIDAD_ACOTADA_MD_2026-09-24.md
+?? GIRO_05/

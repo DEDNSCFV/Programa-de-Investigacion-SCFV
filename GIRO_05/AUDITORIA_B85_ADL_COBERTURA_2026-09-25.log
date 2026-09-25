@@ -1,0 +1,46 @@
+════ B85 · ¿el ADL cubre Pymes operacionalizable? · Fri Sep 25 08:12:42 -04 2026 ════
+
+─── CASO 1 · múltiples consecuencias por regla ───
+  ✓ PARSEA · 1 fractal · 1 regla(s)
+    VENTA: 2 acción(es)
+      → GENERAR CONSECUENCIA (categoria="efectivo_equivalentes", operacion="suma_montos"...
+      → GENERAR CONSECUENCIA (categoria="ingresos_ordinarios", operacion="suma_montos")
+
+─── CASO 2 · cuenta directa en la consecuencia ───
+  ✓ PARSEA · 1 fractal · 1 regla(s)
+    VENTA: 2 acción(es)
+      → GENERAR CONSECUENCIA (cuenta="110101", naturaleza="DEUDORA", movimiento="AUMENTA...
+      → GENERAR CONSECUENCIA (cuenta="410101", naturaleza="ACREEDORA", movimiento="AUMEN...
+
+─── CASO 3 · categoría + operación + parámetros múltiples ───
+  ✓ PARSEA · 1 fractal · 1 regla(s)
+    MEDICION: 1 acción(es)
+      → GENERAR CONSECUENCIA (fuente="S13.4", categoria="inventarios", operacion="menor_...
+
+─── CASO 4 · condición compuesta con OR ───
+  ✓ PARSEA · 1 fractal · 1 regla(s)
+    DEPRECIAR: 1 acción(es)
+      → GENERAR CONSECUENCIA (categoria="costo_ventas", operacion="depreciacion_lineal")
+
+─── CASO 5 · condición con 3 ANDs ───
+  ✓ PARSEA · 1 fractal · 1 regla(s)
+    PROVISIONAR: 1 acción(es)
+      → GENERAR CONSECUENCIA (categoria="cxp_comerciales", operacion="valor_esperado")
+
+─── CASO 6 · consecuencia con lista ───
+  ✓ PARSEA · 1 fractal · 1 regla(s)
+    PROVISIONAR: 1 acción(es)
+      → GENERAR CONSECUENCIA (categoria="cxp_comerciales", operacion="valor_esperado", d...
+
+─── CASO 7 · consecuencia con cuenta fija + categoría ───
+  ✓ PARSEA · 1 fractal · 1 regla(s)
+    MIXTA: 1 acción(es)
+      → GENERAR CONSECUENCIA (cuenta="110101", categoria="efectivo_equivalentes", operac...
+
+─── CASO 8 · dos reglas mismo nombre (¿colisión?) ───
+  ✓ PARSEA · 1 fractal · 2 regla(s)
+    DUP: 1 acción(es)
+      → GENERAR CONSECUENCIA (categoria="x", operacion="y")
+    DUP: 1 acción(es)
+      → GENERAR CONSECUENCIA (categoria="z", operacion="w")
+

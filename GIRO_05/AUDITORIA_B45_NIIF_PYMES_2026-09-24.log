@@ -1,0 +1,452 @@
+════ B45 · NIIF Pymes · mapeo · Thu Sep 24 22:27:05 -04 2026 ════
+
+════ I · dimensiones ════
+ 25588 846731 /data/data/com.termux/files/home/.niif_pymes_3ra_raw.txt
+NIIF para las PYMES
+®
+
+Norma de Contabilidad
+Tercera Edición | Febrero 2025
+
+Consejo de Normas Internacionales de Contabilidad
+
+Norma de Contabilidad
+NIIF® para las PYMES
+Tercera Edición
+
+The third edition of the IFRS for SMEs Accounting Standard is issued by the International Accounting
+Standards Board (IASB).
+Disclaimer: To the extent permitted by applicable law, the IASB and the IFRS Foundation
+(Foundation) expressly disclaim all liability howsoever arising from this publication or any
+translation thereof whether in contract, tort or otherwise to any person in respect of any claims or
+losses of any nature including direct, indirect, incidental or consequential loss, punitive damages,
+penalties or costs.
+Information contained in this publication does not constitute advice and should not be substituted
+for the services of an appropriately qualified professional.
+© 2025 IFRS Foundation
+ISBN for this part: 978-1-915712-28-8
+ISBN for complete publication (two parts): 978-1-915712-27-1
+Reproduction and use rights are strictly limited. Please contact the Foundation for further details
+at permissions@ifrs.org.
+Any other use, such as—but not limited to—reporting software, investment analysis, data services
+and product development is not permitted without written consent.
+Copies of IASB publications may be ordered from the Foundation
+customerservices@ifrs.org or by visiting our shop at https://shop.ifrs.org.
+
+════ II · índice general · secciones ════
+96:Sección
+330:Sección
+340:Sección revisada para reflejar las actualizaciones al
+349:Sección 1
+358:Sección 2
+364:Sección revisada para la alineación con el Marco
+367:Sección 3
+405:Sección
+409:Sección 4
+430:Sección 5
+439:Sección 6
+456:Sección 7
+481:Sección
+485:Sección 8
+550:Sección 9
+563:Sección
+567:Sección 10
+587:Sección 11
+626:Sección
+639:Sección 23 revisada (ver párrafos 11.13 y 11.13A).
+665:Sección 12 Otros Temas relacionados con los Instrumentos Financieros a una parte separada de esta
+666:sección (Parte II Otros Temas relacionados con los
+677:Sección 12
+687:Sección 13
+703:Sección
+707:Sección 14
+717:Sección 15
+752:Sección 19 (véase el párrafo 16.3A).
+765:Sección 16
+777:Sección
+781:Sección 17
+809:Sección 23 revisada (véase el párrafo 17.29).
+817:Sección 18
+822:sección (véase la nota a pie de página del
+832:Sección 19
+838:Sección revisada para alinearse con la NIIF 3 (2008)
+843:Sección 20
+858:Sección
+862:Sección 21
+869:sección (véase la nota a pie de página del
+1:NIIF para las PYMES
+1329:NIIF para las PYMES y describe cómo se mantiene la Norma.
+1344:PYMES
+1424:NIIF para las PYMES cumplan completamente con todas las mediciones
+1455:NIIF para las PYMES.
+3204:PYMES, con información adicional a revelar cuando sea necesario, dará
+3280:PYMES establecido en la Sección 2, pero el marco regulador prohibiera dejar
+20918:PYMES involucradas en tres tipos de actividades especiales—actividades
+21349:PYMES aplicará esta sección en sus primeros estados financieros preparados
+21495:PYMES [o a partir de la primera fecha en que se aplique esta Norma
+
+════ III · capítulos/estructura ════
+202
+
+════ IV · ficha de biblioteca ════
+total 19
+drwx------.  2 u0_a288 u0_a288 3452 Sep 23 12:15 .
+drwx------. 41 u0_a288 u0_a288 3452 Sep 24 21:44 ..
+-rw-------.  1 u0_a288 u0_a288   32 Sep 23 12:15 CITAS.md
+-rw-------.  1 u0_a288 u0_a288  538 Sep 23 12:17 FICHA.md
+-rw-------.  1 u0_a288 u0_a288   33 Sep 23 12:15 INDICE.md
+# FICHA — NIIF para las Pymes, 3.ª edición
+
+## Identificación
+- Emisor: IFRS Foundation
+- Título: NIIF para las PYMES (tercera edición)
+- Año: verificar (PDF 2025-09-22)
+- Páginas: 360
+
+## Fuente material
+- PDF: `~/storage/downloads/NIIF-para-Pymes-–-Tercera-edicion.pdf`
+- SHA-256: `fdc8f32466680b28d72fd73eb9f110867da6d6af02b9a2ad6670d1fe140ab097`
+- Tamaño: 1 360 292 b
+- Raw: `~/.niif_pymes_3ra_raw.txt` (25 588 líneas)
+
+## Estatuto
+`contable` — normativa IFRS para entidades sin obligación pública de rendir cuentas.
+--- CITAS ---
+# CITAS.md — NIIF_Pymes_3raEd
+--- INDICE ---
+# INDICE.md — NIIF_Pymes_3raEd
+
+════ V · normas específicas presentes ════
+--- NIIF completas ---
+838:Sección revisada para alinearse con la NIIF 3 (2008)
+926:Sección revisada para la alineación con la NIIF 15
+--- NIC ---
+575:de reconocimiento y medición de la NIC 39
+593:NIC 39 (véase el párrafo 11.2).
+22028:Transición de la NIC 39 Instrumentos Financieros:
+22033:reconocimiento y medición de la NIC 39 Instrumentos Financieros: Reconocimiento
+22040:acuerdo con la NIC 39 antes de la fecha de aplicación inicial. Si la
+22042:la NIC 39 que se habrían dado de baja de acuerdo con la Sección 11 en
+
+════ VI · estructura de una sección · ejemplo ════
+Sección comienza en L567
+Sección 10
+Políticas Contables,
+Estimaciones y Errores
+
+24.
+
+Modificaciones consiguientes que surgen de la
+eliminación de la opción de aplicar los requerimientos
+de reconocimiento y medición de la NIC 39
+Instrumentos Financieros: Reconocimiento y Medición
+que anteriormente se encontraba en las Secciones 11
+y 12 (véase el párrafo 10.11).
+
+25.
+
+Modificación para introducir la definición de "estimación contable" para ayudar a las entidades a distinguir
+los cambios en las estimaciones contables de los
+cambios en las políticas contables (véanse los párrafos
+10.14A a 10.15).
+
+Sección 11
+26.
+Instrumentos Financieros
+
+Eliminación de la opción de que una entidad aplique
+los requerimientos de reconocimiento y medición de la
+NIC 39 (véase el párrafo 11.2).
+
+27.
+
+Modificación para excluir del alcance de esta sección
+los contratos de garantía financiera emitidos a título
+gratuito cuando el deudor especificado sea otra
+entidad del grupo, y también aclarar que otros contratos de garantía financiera emitidos están dentro del
+alcance de esta sección [véanse los párrafos 11.6(g) y
+11.49(k)].
+
+28.
+
+Aclaración de que los instrumentos de deuda que
+tienen características de cancelación anticipada con
+pagos de compensación negativos pueden seguir
+cumpliendo los criterios para ser medidos al costo
+amortizado [véase el párrafo 11.9(b)].
+
+29.
+
+Adición de un principio complementario para clasificar
+los instrumentos de deuda en función de sus características de flujo de efectivo contractuales (véase el
+párrafo 11.9ZA).
+continúa...
+
+© IFRS Foundation
+
+9
+
+FEBRERO 2025
+...continuación
+
+Sección
+
+Objeto de la modificación
+30.
+
+Aclaración de los requerimientos de la reclasificación
+de los instrumentos financieros (véase el
+párrafo 11.11A).
+
+31.
+
+Modificaciones consiguientes a los requerimientos de
+medición iniciales en esta sección que surgen de la
+Sección 23 revisada (ver párrafos 11.13 y 11.13A).
+
+32.
+
+Traslado a esta sección de los requerimientos de la
+anterior Sección 23 Ingresos de Actividades Ordinarias sobre el reconocimiento de ingresos de actividades ordinarias por dividendos (véanse los párrafos
+11.14A y 11.55).
+
+33.
+
+════ VII · vocabulario ADL-compatible ════
+--- SI / ENTONCES ---
+0
+--- GENERAR CONSECUENCIA / asiento ---
+1568:cooperativas de crédito, compañías de seguros, comisionistas,
+4788:ejemplo, garantías financieras, incluidas cartas de crédito utilizadas
+4795:en la que una entidad utiliza una tarjeta de crédito para liquidar el
+6503:dinero, el riesgo de crédito y otros riesgos y costos básicos de los préstamos—
+6643:crédito sin interés a un comprador por la venta de bienes, o se financia a una
+6665:Para los bienes vendidos a un cliente con crédito a corto plazo, se
+6672:Para una partida vendida a un cliente con un crédito a dos años sin
+6696:Para bienes comprados a un proveedor a crédito a corto plazo, se
+8525:diferenciales de crédito.
+8722:de crédito y el importe de pago aplazado. En estos casos, la diferencia se
+9642:términos normales de crédito, el costo es el valor presente de todos los pagos
+9979:allá de los términos normales de crédito, el costo es el valor presente de todos
+13784:ilustran los cálculos y los asientos en el libro diario:
+13808:El emisor de los bonos realiza el siguiente asiento en el libro diario por la emisión
+13822:modo que el asiento también podría mostrarse como “bruto”:
+--- REGLA ---
+289:REGLAS DEL MODELO DEL SEGUNDO PILAR—MODIFICACIONES
+13501:reglamento o por los estatutos de la entidad.
+18000:reglamentaria o contractual) sobre la capacidad de la entidad para
+
+════ VIII · comparación con NIC_29.json ════
+{
+  "id": "NIC_29",
+  "nombre": "Reexpresión por inflación",
+  "tipo": "norma_internacional",
+  "jurisdiccion": "internacional",
+  "jerarquia": 4,
+  "fuente": "NIC 29 (IAS 29)",
+  "fecha_publicacion": "2024-01-01",
+  "texto_completo": "En economías hiperinflacionarias, los estados financieros deben reexpresarse en moneda de poder adquisitivo constante al cierre del período.",
+  "condiciones_activacion": {
+    "economia_hiperinflacionaria": true
+  },
+  "accion_sugerida": {
+    "tipo": "activar_reexpresion",
+    "metodo": "NIC_29"
+  },
+  "relaciones": {
+    "es_complementada_por": ["BA_VEN_NIF_01"]
+  },
+  "prioridad_sobre_normas_nacionales": true,
+  "nota_para_el_contador": "La NIC 29 tiene prioridad sobre cualquier norma nacional que contradiga el método de reexpresión."
+}
+
+════ IX · ¿schema NIC compatible? ════
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NormaSCFV_v8.2.1",
+  "description": "Esquema de validación para normas del SCFV v8.2.1 (evolución epistemológica-normativa)",
+  "type": "object",
+  "required": [
+    "id",
+    "nombre",
+    "tipo",
+    "jurisdiccion",
+    "jerarquia",
+    "fuente",
+    "fecha_publicacion",
+    "version_norma",
+    "texto_completo"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]+_[A-Za-z0-9_]+$",
+      "description": "Identificador único de la norma. Formato: PREFIJO_NOMBRE"
+    },
+    "nombre": {
+      "type": "string",
+      "description": "Nombre legible de la norma"
+    },
+    "tipo": {
+      "type": "string",
+      "enum": ["ley_organica", "decreto", "resolucion", "norma_tecnica", "doctrina"],
+      "description": "Tipo de norma según su origen"
+    },
+    "jurisdiccion": {
+      "type": "string",
+      "description": "Ámbito geográfico o institucional (ej. nacional, estadal, sectorial)"
+    },
+    "jerarquia": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Nivel jerárquico (1=máximo, 5=mínimo)"
+    },
+    "fuente": {
+      "type": "string",
+      "description": "Referencia legal o técnica (ej. LIVA Artículo 62)"
+    },
+    "fecha_publicacion": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha de publicación oficial en Gaceta Oficial"
+    },
+    "version_norma": {
+      "type": "string",
+      "description": "Identificación jurídica concreta de la versión normativa (ej. LIVA_REFORMA_2014_GOE_6152)"
+    },
+    "fecha_vigencia": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha desde la cual la norma es aplicable (opcional)"
+    },
+    "fecha_derogacion": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha en que la norma deja de ser aplicable (opcional)"
+    },
+    "texto_completo": {
+      "type": "string",
+      "description": "Texto literal o resumen fiel de la norma"
+    },
+    "nota_para_el_contador": {
+      "type": "string",
+      "description": "Orientación profesional para H₂ (comentario no vinculante)"
+    },
+    "condiciones_activacion": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": {
+            "type": ["string", "number", "boolean"]
+          },
+          "description": "Condiciones simples (clave-valor)"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "AND": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": ["string", "number", "boolean"]
+                }
+              }
+            },
+            "OR": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": ["string", "number", "boolean"]
+                }
+              }
+            }
+          },
+          "additionalProperties": false,
+          "description": "Condiciones compuestas (AND/OR)"
+        }
+      ],
+      "description": "Conjunto de condiciones que activan la norma (opcional)"
+    },
+    "accion_sugerida": {
+      "type": "object",
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": ["aplicar_tasa", "calcular_retencion", "acumular_partida", "recomendar_tratamiento"]
+        },
+        "parametros": {
+          "type": "object",
+          "additionalProperties": {
+            "type": ["string", "number", "boolean"]
+          }
+        },
+        "impacto_contable": {
+          "type": "object",
+          "properties": {
+            "debito": { "type": "string" },
+            "credito": { "type": "string" }
+          },
+          "additionalProperties": false,
+          "description": "Orientación opcional de cuentas para H₂ (no ejecutable por XNOR)"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Acción sugerida por H₁ (orientación, no instrucción)"
+    },
+    "relaciones": {
+      "type": "object",
+      "properties": {
+        "enriquece_a": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "IDs de normas que esta norma complementa"
+        },
+        "diverge_con": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "IDs de normas con las que esta norma puede entrar en conflicto"
+        },
+        "es_excepcionada_por": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "IDs de normas que limitan o anulan esta norma"
+        },
+        "justifica_a": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "IDs de normas que esta norma fundamenta"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Declaración de relaciones semánticas con otras normas (opcional)"
+    },
+    "deontica": {
+      "type": "string",
+      "enum": ["obligatorio", "permitido", "prohibido", "omisible"],
+      "description": "Carácter normativo (obligatorio, permitido, prohibido, omisible)"
+    }
+  },
+  "additionalProperties": false
+}
+
+════ X · normas JSON en el corpus ════
+total 14
+drwx------. 4 u0_a288 u0_a288 3452 Sep  1 19:49 .
+drwx------. 5 u0_a288 u0_a288 3452 Sep  2 09:28 ..
+drwx------. 2 u0_a288 u0_a288 3452 Sep  1 19:50 NIC
+drwx------. 2 u0_a288 u0_a288 3452 Sep  1 19:49 NIIF
+total 14
+drwx------. 4 u0_a288 u0_a288 3452 Sep  1 19:49 .
+drwx------. 5 u0_a288 u0_a288 3452 Sep  2 09:28 ..
+drwx------. 2 u0_a288 u0_a288 3452 Sep  1 19:53 BAVEN_NIF
+drwx------. 2 u0_a288 u0_a288 3452 Sep  1 19:49 interpretaciones
+total 21
+drwx------. 6 u0_a288 u0_a288 3452 Sep  1 19:49 .
+drwx------. 5 u0_a288 u0_a288 3452 Sep  2 09:28 ..
+drwx------. 2 u0_a288 u0_a288 3452 Sep  1 19:49 constitucion
+drwx------. 2 u0_a288 u0_a288 3452 Sep  1 19:49 decretos
+drwx------. 2 u0_a288 u0_a288 3452 Sep  2 09:38 leyes_organicas
+drwx------. 2 u0_a288 u0_a288 3452 Sep  1 22:25 providencias

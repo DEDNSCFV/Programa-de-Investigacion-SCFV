@@ -1,0 +1,299 @@
+=== B18 · búsqueda inversa por contenido · 2026-09-24 ===
+
+=== CASO 1 · 'En respuesta a este desafío' · Mandelbrot 1975 ===
+--- Si vacío, pertenece a 1982: ---
+12:“amorfo”. […] En respuesta a este desafío, concebí y desarrollé una nueva
+116:En respuesta a este desafío, concebí y desarrollé una nueva geometría de la
+
+=== CASO 2 · 'Puede haberse concebido un Error' · Rodríguez ===
+12426:Puede haberse concebido un Error—puede haberse descubierto una verdad.
+--- ¿en Mandelbrot 1975? ---
+--- wc Mandelbrot 1975 (¿L12426 existe?) ---
+5809 /data/data/com.termux/files/home/.mandelbrot_1975_raw.txt
+
+=== CASO 3 · Hevner · 'Relevance, Rigor' y '3 ciclos' ===
+412:  3.4    The General Design Cycle . . . . . . . . . . . . . . . . . . .        26
+467:          Disciplined, Rigorous, and Transparent . . . . . . . . . . . . .       53
+474:            the Building Process Disciplined, Rigorous, and Transparent .         55
+1548: • Problems           Relevance Cycle           Design            Rigor Cycle
+1564:overlays a focus on three inherent research cycles. The Relevance Cycle bridges the
+1566:The Rigor Cycle connects the design science activities with the knowledge base of
+1568:The central Design Cycle iterates between the core activities of building and evalu-
+1569:ating the design artifacts and processes of the research. These three cycles must be
+1575:2.4.3.1 The Relevance Cycle
+1603:2.4.3.2 The Rigor Cycle
+1649:2.4.3.3 The Design Cycle
+1997:3.4 The General Design Cycle
+3216:     Rigorous, and Transparent
+3326:     Disciplined, Rigorous, and Transparent
+6272:focus groups (CFGs) to establish the utility of the artifact in field use. Rigorous
+7125:    Rigorously designing, planning, selecting participants, conducting, analyzing,
+9339:13.3.2.2 Criterion 2: Problem Relevance
+9383:13.3.2.5 Criterion 5: Research Rigor
+9634:Cole, R., S. Purao et al. (2005) Being Rigorously Relevant: Design Research and Action Research
+9644:Dennis, A. (2001) Relevance in information systems research, Communications of AIS 6,
+
+=== CASO 4 · Hevner · 'internal design cycle is the heart' ===
+1650:The internal design cycle is the heart of any design science research project. This
+1719:           internal design cycles? What design
+
+=== CASO 5 · Lakatos · 'núcleo firme' / 'cinturón protector' ===
+
+=== CASO 6 · Lakatos · 'heurística negativa' ===
+
+=== CASO 7 · Rodríguez L1312 · literalidad completa ===
+sin dar con el verdadero.$
+___________________________$
+Toda operacion se funda en un Dogma,$
+se rige por una Disciplina, propia del Dogma,$
+y se ejecuta con una economia propia de la Disciplina.$
+$
+PARALELO entre$
+
+=== CASO 8 · Gadamer · 'precomprensión' vs 'prejuicios' ===
+425:tos prejuicios e intereses, Querer sustraer a la
+1240:en sustitución de un empirismo dogmático lleno de prejuicios.
+1638:tituto que era Hegel el prejuicio clasicista de que es en los
+2420:del método del orador consiste «en deshacer los prejuicios», y Oetinger
+3681:acaba Evnnw=n…o la «ctítica del gusto» de todo prejuicio tanto
+5806:prejuicio nominalista el ser estético no se puede concebir más
+6364:E…….…M. C£. R. Odebrechr, o, c. El que Kant, siguiendo un prejuicio cla-
+10427:prejuicio 'de la conciencia estética está condenada en ellas:al
+10820:dominante del planteamiento diltheyano y a los prejuicios:d
+11065:de todos los prejuicios dogmáticos, y ya no se podrá con-
+12793:tras los prejuicios clasicistas siguieran atribuyendo a la anti-
+13406:quí tan sólo un prejuicio
+14262:de un significado ideal-unitario frente a los prejuicios del psico-
+14653:ma de los prejuicios del propio …unnmnbnm..…>m…€…u…on_mw MQ m
+15060:prejuicios filosóficos los que tienen que ser superados al estilo
+16429:voluntad, ni un amañar las cosas según los deseos, prejuicios
+16605:1. El círculo hermenéutico y el problema de los prejuicios
+16799:tituyen nuestra precomprensión de los mismos. También aqui
+16921:prejuicios-n0 percibidos-los-que-con-su .dominio nos vuelven
+16953:E…m.. Pues existe realmente un prejuicio de la Tlustración, que
+
+=== BIBLIOGRAFÍA · Mandelbrot 1975 · encabezado ===
+¿Qué son los objetos fractales? ¿Para qué sirven, cuál es su historia y por
+qué se llaman así? Los fractales representan a la vez una teoría matemática
+y un método para analizar una gran diversidad de fenómenos de la
+naturaleza; precisamente aquellos fenómenos que se nos antojan «sin ley»,
+como la caprichosa forma de una costa, de una nube o, incluso, de una obra
+de arte.
+Benoît Mandelbrot creó los fractales a principios de los años sesenta y hoy
+protagonizan investigaciones que se ocupan de física teórica, geografía,
+economía, biología, etc., de modo que en la actualidad se puede decir que
+existe una concepción y una geometría fractales de la naturaleza. Éstas se
+basan, en esencia, en el concepto de autosimilitud, una propiedad exhibida
+por aquellos sistemas cuyas estructuras permanecen constantes al variar la
+escala de observación; en otras palabras: cuando las partes, por pequeñas
+que éstas sean, se parecen al todo.
+Este libro es el primer ensayo dedicado a exponer la teoría y es también, por
+lo tanto, un documento histórico impregnado de las vivencias directas de este
+científico cuya sorprendente aventura intelectual se desarrolla entre la
+Universidad de Harvard y la IBM.
+
+www.lectulandia.com - Página 2
+
+Benoît Mandelbrot
+
+Los objetos fractales
+Forma, azar y dimensión
+ePub r1.0
+koothrapali 29.10.13
+
+www.lectulandia.com - Página 3
+
+Título original: Les objets fractals. Forme, hasard et dimension
+Benoît Mandelbrot, 1975
+Traducción: Josep Llosa
+Diseño de portada: Piolin
+Editor digital: koothrapali
+ePub base r1.0
+
+www.lectulandia.com - Página 4
+
+In memoriam, B. y C.
+--- busca 'Flammarion' ---
+31:Título original: Les objets fractals. Forme, hasard et dimension
+4476:pretendía ser una traducción de Les objets fractals de 1975, pero creció,
+4596:BACHELIER, L. 1914. Le jeu, la chance et le hasard. Flammarion.
+5311:1975o. Les objets fractals: forme, hasard et dimension.
+5313:Flammarion.
+
+=== BIBLIOGRAFÍA · Mandelbrot 1982 · encabezado ===
+Benoît Mandelbrot es conocido como el «padre de los fractales». Pero
+¿qué es la geometría fractal?
+Concedamos la palabra al propio Mandelbrot: «¿Por qué a menudo se
+describe la geometría como algo “frío” y “árido”? Una de las razones es la
+incapacidad de describir la forma de la nube, una montaña, una costa o un
+árbol, porque ni las nubes son esféricas, ni las montañas cónicas, ni las
+costas circulares, ni el tronco de un árbol cilíndrico, ni un rayo rectilíneo. […]
+Creo que muchas formas de la naturaleza son tan irregulares y fragmentadas
+que la naturaleza no sólo presenta un grado mayor de complejidad, sino que
+ésta se nos revela completamente diferente. […] La existencia de estas
+formas representa un desafío: […] la investigación de la morfología de lo
+“amorfo”. […] En respuesta a este desafío, concebí y desarrollé una nueva
+geometría de la naturaleza y empecé a aplicarla a una serie de campos.
+Permite describir muchas de las formas irregulares y fragmentadas que nos
+rodean, dando lugar a teorías coherentes, identificando una serie de formas
+que llamo fractales. […] Algunos conjuntos fractales [tienen] formas tan
+disparatadas que ni en las ciencias ni en las artes he encontrado palabras
+que lo describieran bien. El lector puede hacerse una idea de ello ahora
+mismo con sólo echar una rápida mirada a las ilustraciones de este libro».
+Y termina: «Contra lo que hubiera podido parecer en un principio, la mayoría
+de mis trabajos han resultado ser los dolores de parto de una nueva
+disciplina científica». Lo son, en efecto, de tal manera que esta nueva
+disciplina, la geometría fractal de la naturaleza, protagonizan hoy múltiples
+investigaciones en todos los campos de la ciencia.
+
+www.lectulandia.com - Página 2
+
+Benoît Mandelbrot
+
+La geometría fractal de la naturaleza
+ePub r1.0
+koothrapali 13.03.14
+
+www.lectulandia.com - Página 3
+
+Título original: The Fractal Geometry of Nature
+Benoît Mandelbrot, 1982
+Traducción: Josep Llosa
+Diseño de portada: TaliZorah
+Editor digital: koothrapali
+--- busca 'Freeman' ---
+36:Título original: The Fractal Geometry of Nature
+5586:Leonard M Blumenthal y Karl Menger, con la autorización de la editorial W. H. Freeman & Co.,
+17609:W.H. Freeman.
+18030:H. Freeman.
+18456:Francisco: W. H. Freeman & Co.
+
+=== BIBLIOGRAFÍA · Baldor · datos editoriales ===
+1175:ae Tbe24 Ze Lim-8—0.20014Lpura,
+1461:(según muestran las tablillas cunciformes que datan de 20001800 A.C.) y los
+1471:representamos el resultado de la medición con un número entero, En el se-
+1475:última medición lo expresamos con un par de números enteros, distintos de
+2275:a= Di+ab, — 2083 +40b+2b1 y 505 — 4ab>— Ga2 —b*—6.
+2368:9. m a? 42004 Imn? — 0; m — p
+2371:10. + 2047
+2402:X -14y*E4n1; Dytie. 2ytE 2047 Gyt-2-9mr4,
+3285:1 —(—0+b)+[—(0+b)—(—20430)+(—b+a—b)].
+4157:(a—by(a>—2ab+b=a0+b), 19 9a%(30—22041)(a—1)(2a—1).
+4523:5. 4x"—-10x*—5x* entre 2x1 12 gepatar10 1202614 entre a*
+4852:305 — 0a** + 19943 — Bgr2 + Ggr am-%+5 _
+4861:20148 4 5912
+4879:12) Dividir X5 — 17822 4 xMa-1 4 304 2443 — 2065 ontro 221 — 2541 — q
+4911:ae 6_G7 184242044 dy204 2422041 entre y1194 11,
+4928:Q 41y 4xtayEe-3—20 02y 24900032041 eptre —yn+2y-1—gxtyr+14. 464 1y0,
+5076:400 7a2+2309—520044201—200% entre at— 3a*—2a.
+5629:(ay +z)(x—y-—2). B (a*-2043)(a>+2a-3), 13, (a?—ab-+b%a?+b3-4ab
+
+=== BIBLIOGRAFÍA · Rodríguez 2016 / UNESR ===
+36:©Copyright 2016 UNESR
+146:Como Universidad Nacional Experimental Simón Rodríguez nos
+155:Caracas, 10 de agosto de 2016
+158:Rectora Unesr
+SIMÓN RODRÍGUEZ
+OBRAS COMPLETAS
+
+Consejo Directivo
+Dra. Ana Alejandrina Reyes Páez
+Rectora
+Dr. Adrián Padilla Fernández
+Vicerrector Académico
+Prof. Pedro Hutman
+Vicerrector Administrativo
+Dr. Oscar Rodríguez Pérez
+Secretario
+Dra. Wintila Guacarán
+Directora de la Secretaría del Consejo Directivo
+Dra. Daissy Trinidad Marcano
+Representante del Ministerio de Educación Universitaria
+Prof. Dionino Berardinelli
+Representante Profesoral
+Br. Juan Ernesto Pinto
+Representante Estudiantil
+
+Simón Rodríguez, Obras Completas
+Msc. Zenobia Marcano
+Directora de Publicaciones y Comunicación
+Luis Durán
+Coordinador de Publicaciones
+Dr. Carlos H. Jorge
+Dr. Juan José Rosales
+Compiladores
+Lic. Alí Viloria Cruz
+Lic. Jesús Everduim Pino
+Editores
+Lic. Alí Viloria Cruz
+Diseño y Diagramación
+
+©Copyright 2016 UNESR
+Diseño y Diagramación
+Dirección de Publicaciones y Comunicación
+Caracas - Venezuela
+Depósito Legal: lf 76720083011925
+ISBN: 978-980-288-033-1
+
+ÍNDICE GENERAL
+
+Presentación
+
+09
+
+Criterios de la Edición
+
+13
+
+Estado actual de la escuela y nuevo establecimiento de ella (1794)
+
+16
+
+Pródromo” a Sociedades Americanas en 1828 (1828)
+
+43
+
+
+=== APA en Sampieri · verificar primacía ===
+L38658:
+                 crédito a las fuentes originales consultadas, así como comunicarle al lector dónde puede localizarlas.
+L38659:
+                      Los principales estilos de publicación son:
+L38660:
+                 1. APA (American Psychological Association)
+L38661:
+                 2. Vancouver
+L38662:
+                 3. Harvard
+
+=== raws son traducciones · confirmar ===
+¿Qué son los objetos fractales? ¿Para qué sirven, cuál es su historia y por
+qué se llaman así? Los fractales representan a la vez una teoría matemática
+y un método para analizar una gran diversidad de fenómenos de la
+naturaleza; precisamente aquellos fenómenos que se nos antojan «sin ley»,
+como la caprichosa forma de una costa, de una nube o, incluso, de una obra
+de arte.
+Benoît Mandelbrot creó los fractales a principios de los años sesenta y hoy
+protagonizan investigaciones que se ocupan de física teórica, geografía,
+economía, biología, etc., de modo que en la actualidad se puede decir que
+existe una concepción y una geometría fractales de la naturaleza. Éstas se
+basan, en esencia, en el concepto de autosimilitud, una propiedad exhibida
+por aquellos sistemas cuyas estructuras permanecen constantes al variar la
+escala de observación; en otras palabras: cuando las partes, por pequeñas
+que éstas sean, se parecen al todo.
+Este libro es el primer ensayo dedicado a exponer la teoría y es también, por
+Benoît Mandelbrot es conocido como el «padre de los fractales». Pero
+¿qué es la geometría fractal?
+Concedamos la palabra al propio Mandelbrot: «¿Por qué a menudo se
+describe la geometría como algo “frío” y “árido”? Una de las razones es la
+incapacidad de describir la forma de la nube, una montaña, una costa o un
+árbol, porque ni las nubes son esféricas, ni las montañas cónicas, ni las
+costas circulares, ni el tronco de un árbol cilíndrico, ni un rayo rectilíneo. […]
+Creo que muchas formas de la naturaleza son tan irregulares y fragmentadas
+que la naturaleza no sólo presenta un grado mayor de complejidad, sino que
+ésta se nos revela completamente diferente. […] La existencia de estas
+formas representa un desafío: […] la investigación de la morfología de lo
+“amorfo”. […] En respuesta a este desafío, concebí y desarrollé una nueva
+geometría de la naturaleza y empecé a aplicarla a una serie de campos.
+Permite describir muchas de las formas irregulares y fragmentadas que nos
+rodean, dando lugar a teorías coherentes, identificando una serie de formas

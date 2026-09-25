@@ -1,0 +1,259 @@
+=== B35 · OCR de Baldor en el teléfono · 2026-09-24 ===
+════ I · PDFs Baldor en todo el sistema ════
+
+════ II · directorios OCR ════
+total 260
+drwx------.  2 u0_a288 u0_a288  3452 Sep 23 00:01 .
+drwx------. 36 u0_a288 u0_a288 20480 Sep 23 13:58 ..
+-rw-------.  1 u0_a288 u0_a288    22 Sep 22 23:39 pag-001.txt
+-rw-------.  1 u0_a288 u0_a288  1104 Sep 22 23:39 pag-002.txt
+-rw-------.  1 u0_a288 u0_a288  4414 Sep 22 23:39 pag-003.txt
+-rw-------.  1 u0_a288 u0_a288  4163 Sep 22 23:40 pag-004.txt
+-rw-------.  1 u0_a288 u0_a288  4794 Sep 22 23:40 pag-005.txt
+-rw-------.  1 u0_a288 u0_a288  5322 Sep 22 23:41 pag-006.txt
+-rw-------.  1 u0_a288 u0_a288  4310 Sep 22 23:41 pag-007.txt
+-rw-------.  1 u0_a288 u0_a288  4407 Sep 22 23:41 pag-008.txt
+-rw-------.  1 u0_a288 u0_a288  3739 Sep 22 23:42 pag-009.txt
+-rw-------.  1 u0_a288 u0_a288  2727 Sep 22 23:42 pag-010.txt
+-rw-------.  1 u0_a288 u0_a288  2635 Sep 22 23:42 pag-011.txt
+-rw-------.  1 u0_a288 u0_a288  1703 Sep 22 23:42 pag-012.txt
+-rw-------.  1 u0_a288 u0_a288  4191 Sep 22 23:43 pag-013.txt
+-rw-------.  1 u0_a288 u0_a288  5707 Sep 22 23:43 pag-014.txt
+-rw-------.  1 u0_a288 u0_a288  5495 Sep 22 23:43 pag-015.txt
+-rw-------.  1 u0_a288 u0_a288  3400 Sep 22 23:44 pag-016.txt
+-rw-------.  1 u0_a288 u0_a288  2849 Sep 22 23:44 pag-017.txt
+-rw-------.  1 u0_a288 u0_a288  2124 Sep 22 23:44 pag-018.txt
+-rw-------.  1 u0_a288 u0_a288  4018 Sep 22 23:44 pag-019.txt
+-rw-------.  1 u0_a288 u0_a288  2524 Sep 22 23:45 pag-020.txt
+-rw-------.  1 u0_a288 u0_a288  3298 Sep 22 23:51 pag-021.txt
+-rw-------.  1 u0_a288 u0_a288  3106 Sep 22 23:52 pag-022.txt
+-rw-------.  1 u0_a288 u0_a288  2850 Sep 22 23:52 pag-023.txt
+-rw-------.  1 u0_a288 u0_a288  4000 Sep 22 23:53 pag-024.txt
+-rw-------.  1 u0_a288 u0_a288  3228 Sep 22 23:53 pag-025.txt
+-rw-------.  1 u0_a288 u0_a288  2611 Sep 22 23:53 pag-026.txt
+-rw-------.  1 u0_a288 u0_a288  4528 Sep 22 23:54 pag-027.txt
+-rw-------.  1 u0_a288 u0_a288  2884 Sep 22 23:54 pag-028.txt
+-rw-------.  1 u0_a288 u0_a288  3238 Sep 22 23:54 pag-029.txt
+-rw-------.  1 u0_a288 u0_a288  3814 Sep 22 23:54 pag-030.txt
+-rw-------.  1 u0_a288 u0_a288  2549 Sep 22 23:55 pag-031.txt
+-rw-------.  1 u0_a288 u0_a288  3684 Sep 22 23:55 pag-032.txt
+-rw-------.  1 u0_a288 u0_a288  2828 Sep 22 23:55 pag-033.txt
+-rw-------.  1 u0_a288 u0_a288  2830 Sep 22 23:56 pag-034.txt
+-rw-------.  1 u0_a288 u0_a288  3019 Sep 22 23:56 pag-035.txt
+-rw-------.  1 u0_a288 u0_a288  3007 Sep 22 23:56 pag-036.txt
+-rw-------.  1 u0_a288 u0_a288  3593 Sep 22 23:57 pag-037.txt
+-rw-------.  1 u0_a288 u0_a288  3112 Sep 22 23:57 pag-038.txt
+-rw-------.  1 u0_a288 u0_a288  2594 Sep 22 23:57 pag-039.txt
+-rw-------.  1 u0_a288 u0_a288  2662 Sep 22 23:58 pag-040.txt
+-rw-------.  1 u0_a288 u0_a288  2641 Sep 22 23:58 pag-041.txt
+-rw-------.  1 u0_a288 u0_a288  3792 Sep 22 23:58 pag-042.txt
+-rw-------.  1 u0_a288 u0_a288  3678 Sep 22 23:58 pag-043.txt
+-rw-------.  1 u0_a288 u0_a288  3077 Sep 22 23:59 pag-044.txt
+-rw-------.  1 u0_a288 u0_a288  2692 Sep 22 23:59 pag-045.txt
+-rw-------.  1 u0_a288 u0_a288  3715 Sep 22 23:59 pag-046.txt
+-rw-------.  1 u0_a288 u0_a288  3027 Sep 23 00:00 pag-047.txt
+-rw-------.  1 u0_a288 u0_a288  2866 Sep 23 00:00 pag-048.txt
+-rw-------.  1 u0_a288 u0_a288  2040 Sep 23 00:01 pag-049.txt
+-rw-------.  1 u0_a288 u0_a288  3291 Sep 23 00:01 pag-050.txt
+total 15420
+drwx------.  2 u0_a288 u0_a288    3452 Sep 22 23:38 .
+drwx------. 36 u0_a288 u0_a288   20480 Sep 23 13:58 ..
+-rw-------.  1 u0_a288 u0_a288  820974 Sep 22 23:38 p-001.png
+-rw-------.  1 u0_a288 u0_a288 1153558 Sep 22 23:38 p-002.png
+-rw-------.  1 u0_a288 u0_a288 2826501 Sep 22 23:38 p-003.png
+-rw-------.  1 u0_a288 u0_a288 2791226 Sep 22 23:38 p-004.png
+-rw-------.  1 u0_a288 u0_a288 2844314 Sep 22 23:38 p-005.png
+-rw-------.  1 u0_a288 u0_a288 3007646 Sep 22 23:38 p-006.png
+-rw-------.  1 u0_a288 u0_a288 2310144 Sep 22 23:38 p-007.png
+/data/data/com.termux/files/home/.baldor_ocr/pag-001.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-002.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-003.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-004.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-005.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-006.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-007.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-008.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-009.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-010.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-011.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-012.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-013.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-014.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-015.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-016.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-017.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-018.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-019.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-020.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-021.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-022.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-023.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-024.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-025.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-026.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-027.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-028.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-029.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-030.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-031.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-032.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-033.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-034.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-035.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-036.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-037.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-038.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-039.txt
+/data/data/com.termux/files/home/.baldor_ocr/pag-040.txt
+
+════ III · otras OCR en HOME ════
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/scripts/facsimiles_ocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/temp_ocr_niif
+/data/data/com.termux/files/home/lakatos_ocr
+/data/data/com.termux/files/home/gadamer_ocr
+/data/data/com.termux/files/home/.baldor_ocr_tmp
+/data/data/com.termux/files/home/.baldor_ocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/SOR/resultados/1828/1828_1779539307364.hocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/SOR/resultados/1828/temp_1779539307364.hocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/imágenes de validación/salida_prueba.hocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/texto_pdf_ocr.txt
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/grafo_pdf_ocr_grafo.dot
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/texto_pdf_ocr.txt
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/procesar_pdf_ocr.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/grafo_pdf_ocr_grafo.dot
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/grafo_pdf_ocr_grafo.png
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/grafo_pdf_ocr_grafo.png
+/data/data/com.termux/files/home/Programa-de-Investigacion-SCFV/GIRO_05/AUDITORIA_B35_OCR_BALDOR_2026-09-24.log
+
+════ IV · storage/downloads · Baldor o álgebra ════
+total 799155
+-rw-rw----.  1 u0_a216 media_rw        32 Dec 31  2025 .exmu-cfg1.data
+drwxrws---.  2 u0_a216 media_rw      3452 Aug 23 15:25 .tdd42df_13EB1E1449656E198219F281C6404FA7989859255674898F6A3C466F2E55A5732E0FFE1F358DBEEE743305C8606002C3
+-rwxrwx---.  1 u0_a216 media_rw   5711693 Sep 16 09:10 .trashed-1792157671-preview-9781292353289_A41441360.pdf
+-rwxrwx---.  1 u0_a216 media_rw    409037 Sep 16 08:56 .trashed-1792160134-Artefactos Técnicos.pdf
+-rwxrwx---.  1 u0_a216 media_rw   3008329 Sep 18 09:27 .trashed-1792330204-Antifrágil PDF.pdf
+-rwxrwx---.  1 u0_a216 media_rw   7774682 Sep 18 09:42 .trashed-1792331143-Taleb_Antifragile__2012.pdf
+-rwxrwx---.  1 u0_a216 media_rw  12150661 Sep 23 11:42 .trashed-1792771727-La geometria fractal de la natu - Benoit Mandelbrot.pdf
+-rwxrwx---.  1 u0_a216 media_rw    162246 Jan 22  2026 06d164426e81cd925789900130233d7a506db8cd.pdf
+-rwxrwx---.  1 u0_a216 media_rw   1129622 Jun  7 13:19 09. IEstrella, otros Trabajo Interamericano Version Final.pdf
+-rwxrwx---.  1 u0_a216 media_rw    491396 Feb  2  2026 09.pdf
+-rwxrwx---.  1 u0_a216 media_rw    545745 Jan  2  2026 1 Plan de curso CI 2025-2.pdf
+-rw-rw----.  1 u0_a216 media_rw    846205 Jan 26  2026 1-1-6.pdf
+-rwxrwx---.  1 u0_a216 media_rw   5930888 Feb  6  2026 1. TEMA 1 formación ideológica.pdf
+-rwxrwx---.  1 u0_a216 media_rw    582020 Jan 24  2026 1303-1319+López+Yohana+artículo.pdf
+-rw-rw----.  1 u0_a216 media_rw    132404 Jun  6 20:32 1779539119820.jpeg
+-rwxrwx---.  1 u0_a216 media_rw   1911722 Jul 23 10:09 1828.pdf
+-rwxrwx---.  1 u0_a216 media_rw   2847437 Jul 23 10:09 1834.pdf
+-rwxrwx---.  1 u0_a216 media_rw   4075804 May 21 21:27 1840-2.pdf
+-rwxrwx---.  1 u0_a216 media_rw   4234123 Jul 23 10:09 1840.pdf
+-rwxrwx---.  1 u0_a216 media_rw   4386374 Jul 23 10:09 1842.pdf
+-rwxrwx---.  1 u0_a216 media_rw   2239837 Jul 23 10:09 1843.pdf
+-rw-rw----.  1 u0_a216 media_rw    256183 Jan 27  2026 1973_Ley_de_Ejercicio.pdf
+-rwxrwx---.  1 u0_a216 media_rw    300071 Jan 26  2026 2+Jose+Rolando+Arciniegas+Cardozo.pdf
+-rwxrwx---.  1 u0_a216 media_rw   1843830 Feb 19  2026 2013-libroazul.pdf
+-rwxrwx---.  1 u0_a216 media_rw  12095748 Sep 23 10:17 2014_pro-git_es.pdf
+-rwxrwx---.  1 u0_a216 media_rw   2076319 Jun  7 13:20 2025-Hahn-Ceara-Sistema-de-Gestion-de-Calidad-Interamericano-3ra.-Edicion-f-11.pdf
+-rwxrwx---.  1 u0_a216 media_rw   9198352 Jun 13 05:51 20260610 CILEA- IA y agentes (1).pdf
+-rwxrwx---.  1 u0_a216 media_rw    109159 Jun 27 13:11 203433.pdf
+-rwxrwx---.  1 u0_a216 media_rw    404146 May 10 21:03 21118-Texto del artículo-94879-1-10-20251209.pdf
+-rwxrwx---.  1 u0_a216 media_rw    205435 May 24 14:32 23-Perfil-de-Egreso-Especializ-Finanzas.pdf
+-rwxrwx---.  1 u0_a216 media_rw  25053476 Sep 18 09:31 26-1_POPPER - La Logica de la Investigacion Cientifica.pdf
+-rwxrwx---.  1 u0_a216 media_rw    316411 Jan 26  2026 3++Jenny+Patricia+Ortiz+Quevedo_Rene+Valera_martha+Torres.pdf
+-rwxrwx---.  1 u0_a216 media_rw    998832 Jul 25 22:58 35-Texto del artículo-116-1-10-20210324.pdf
+-rwxrwx---.  1 u0_a216 media_rw   1930754 Feb 19  2026 47642-Texto del artículo-190108-1-10-20210730.pdf
+-rwxrwx---.  1 u0_a216 media_rw   2745525 Feb 19  2026 47647-Texto del artículo-190110-1-10-20210730.pdf
+-rwxrwx---.  1 u0_a216 media_rw    988252 Apr 29 18:58 537380.pdf
+-rwxrwx---.  1 u0_a216 media_rw    988482 Jun 18 18:05 537727.pdf
+-rwxrwx---.  1 u0_a216 media_rw    694626 May  3 05:25 630-2160-1-PB.pdf
+-rw-rw----.  1 u0_a216 media_rw    193726 Jan 26  2026 633 pc  2019- 2.pdf
+
+════ V · PDFs en el teléfono ════
+
+════ VI · archivos OCR típicos · .txt con 'BALDOR' ════
+
+════ VII · el raw actual · ¿de dónde salió? ════
+-rw-------. 1 u0_a288 u0_a288 185043 Sep 23 00:01 /data/data/com.termux/files/home/.baldor_algebra_raw.txt
+  File: /data/data/com.termux/files/home/.baldor_algebra_raw.txt
+  Size: 185043    	Blocks: 368        IO Block: 4096   regular file
+Device: 254,75	Inode: 435095      Links: 1
+Access: (0600/-rw-------)  Uid: (10288/ u0_a288)   Gid: (10288/ u0_a288)
+Context: u:object_r:app_data_file:s0:c32,c257,c512,c768
+Access: 2026-09-22 23:39:32.208303470 -0400
+Modify: 2026-09-23 00:01:19.396302535 -0400
+Change: 2026-09-23 00:01:19.396302535 -0400
+ Birth: -
+════════════════════════════════════════════════════════════════
+  PÁGINA 1 — ALGEBRA DE BALDOR
+════════════════════════════════════════════════════════════════
+A. BALDOR
+
+---
+
+(mbn+1(m+9—1). . (m*—m—iymi+m—l) — 14. (x4—x*—(x"+x74x)
+(m—n—m—r-1). - 10. (20—b—ey(20—b+c).
+
+
+
+════ VIII · buscar en JANUS_RODRIGUEZ · carpeta de trabajos ════
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/SOR/resultados/1828/1828_1779539307364.hocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/SOR/resultados/1828/temp_1779539307364.hocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/imágenes de validación/salida_prueba.hocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/validación/scripts/facsimiles_ocr
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/temp_ocr_niif
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/texto_pdf_ocr.txt
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/grafo_pdf_ocr_grafo.dot
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/texto_pdf_ocr.txt
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/procesar_pdf_ocr.py
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/grafo_pdf_ocr_grafo.dot
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/Experimento_Cuadro/grafo_pdf_ocr_grafo.png
+/data/data/com.termux/files/home/JANUS_RODRIGUEZ/P2_Razon/SOT_Triuno/grafo_pdf_ocr_grafo.png
+
+════ IX · BIBLIOTECA · fuente de Baldor ════
+
+════ X · registro de entradas · Baldor ════
+| .baldor_algebra_raw.txt | ALGEBRA_de_BALDOR.pdf (parcial pp.1-50) | aprendizaje-matemático |
+
+════ XI · archivos grandes tipo OCR (.txt > 100KB con 'ALGEBRA') ════
+/data/data/com.termux/files/home/.baldor_algebra_raw.txt
+
+════ XII · buscar 'Baldor' en cualquier archivo binario o PDF cercano ════
+/data/data/com.termux/files/home/storage/downloads/.exmu-cfg1.data
+/data/data/com.termux/files/home/storage/downloads/Norma Internacional de Educacion 2019.pdf
+/data/data/com.termux/files/home/storage/downloads/final V6.1.pdf
+/data/data/com.termux/files/home/storage/downloads/1 Plan de curso CI 2025-2.pdf
+/data/data/com.termux/files/home/storage/downloads/SCFV V7.pdf
+/data/data/com.termux/files/home/storage/downloads/OLLYS+AVILA.pdf
+/data/data/com.termux/files/home/storage/downloads/537380.pdf
+/data/data/com.termux/files/home/storage/downloads/NIIF S1 (1).pdf
+/data/data/com.termux/files/home/storage/downloads/203433.pdf
+/data/data/com.termux/files/home/storage/downloads/7-70-77.pdf
+/data/data/com.termux/files/home/storage/downloads/xuper/Mobile.apk
+/data/data/com.termux/files/home/storage/downloads/1840.pdf
+/data/data/com.termux/files/home/storage/downloads/1834.pdf
+/data/data/com.termux/files/home/storage/downloads/images (1).jpeg
+/data/data/com.termux/files/home/storage/downloads/Propuesta de Investigación MEM.docx
+/data/data/com.termux/files/home/storage/downloads/Propuesta de Investigación MEM.pdf
+/data/data/com.termux/files/home/storage/downloads/CV1025.20278400.pdf
+/data/data/com.termux/files/home/storage/downloads/GUIA-CHATGPT-PRO.pdf
+/data/data/com.termux/files/home/storage/downloads/contabilidad 1 UNEFA.docx
+/data/data/com.termux/files/home/storage/downloads/HijoLPC/HijoLPC.py
+/data/data/com.termux/files/home/storage/downloads/HijoLPC/matriz36_lpc.json
+/data/data/com.termux/files/home/storage/downloads/prueba.py
+/data/data/com.termux/files/home/storage/downloads/1828.pdf
+/data/data/com.termux/files/home/storage/downloads/uuuuuu.jpg
+/data/data/com.termux/files/home/storage/downloads/Diaz-Navas, D. E (2026). Ensayo_ Hacia una Educación Contable Multimodal y Resiliente en Venezuela.pdf
+/data/data/com.termux/files/home/storage/downloads/persona_bdv_referencia_cuenta_78400.pdf
+/data/data/com.termux/files/home/storage/downloads/CV-DOMINGOEDN.docx
+/data/data/com.termux/files/home/storage/downloads/recibo de pago.pdf
+/data/data/com.termux/files/home/storage/downloads/Triptico Negocios.pdf
+/data/data/com.termux/files/home/storage/downloads/logoImage.jpg
+/data/data/com.termux/files/home/storage/downloads/1-1-6.pdf
+/data/data/com.termux/files/home/storage/downloads/invitacion_frida.html
+/data/data/com.termux/files/home/storage/downloads/TR1002.pdf
+/data/data/com.termux/files/home/storage/downloads/Manual de NIAS edición 2021 Volumen 3.pdf
+/data/data/com.termux/files/home/storage/downloads/invitacion_frida_pro.html
+/data/data/com.termux/files/home/storage/downloads/TR1301.pdf
+/data/data/com.termux/files/home/storage/downloads/FOTO.png
+/data/data/com.termux/files/home/storage/downloads/537727.pdf
+/data/data/com.termux/files/home/storage/downloads/Manual de NIAS edición 2021 Volumen II.pdf
+/data/data/com.termux/files/home/storage/downloads/FIRMA.png

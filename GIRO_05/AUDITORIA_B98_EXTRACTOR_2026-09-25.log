@@ -1,0 +1,127 @@
+════ B98 · extractor de evidencias · Fri Sep 25 09:29:52 -04 2026 ════
+
+════ I · Perceptum · API ════
+39:class Perceptum:
+42:    def _extraer_entidades(evidencia: Evidencia) -> List[EntidadExtraida]:
+72:    def extraer(evidencia: Evidencia) -> ObservacionH1:
+124:    def _validar_referencia_fuente(ref: Dict[str, Any]) -> None:
+148:    def _segmentar_csv(evidencia: Evidencia) -> List[Tuple[Dict[str, Any], Dict[str, Any]]]:
+165:    def _segmentar_json_array(evidencia: Evidencia) -> List[Tuple[Any, Dict[str, Any]]]:
+187:    def _entidades_desde_dict(datos: Any) -> List[EntidadExtraida]:
+207:    def _construir_observacion(
+240:    def extraer_lote(evidencia: Evidencia) -> List[ObservacionH1]:
+
+════ II · modelos de Evidencia y ObservacionH1 ════
+38:class Evidencia:
+39-    """
+40-    Evidencia: fuente original adquirida por el SCFV.
+41-    Inmutable, no contiene interpretaciones contables.
+42-    """
+43-
+44-    evidencia_id: str
+45-    hash_evidencia: str
+46-
+47-    tipo: str
+48-    origen: str
+49-    referencia: Optional[str]
+50-
+51-    contenido_original: str
+52-
+53-    timestamp_adquisicion: int
+54-    correlation_id: str
+55-
+56-    metadata: Any = field(default_factory=dict)
+57-
+58-    def __post_init__(self):
+
+22:class EntidadExtraida:
+23-    campo: str
+24-    valor: Any
+25-    confianza: float
+26-
+27-
+28-@dataclass
+29:class ObservacionH1:
+30-    observacion_id: str
+31-    evidencia_id: str
+32-    entidades: List[EntidadExtraida]
+33-    confianza_global: float
+34-    timestamp: int
+35-    correlation_id: str
+36-    estado_epistemico: EstadoEpistemico = EstadoEpistemico.OBSERVADO
+37-    hash_evidencia: Optional[str] = None
+38-    referencia_fuente: Optional[Dict[str, Any]] = None
+39-
+40-
+41-@dataclass
+42-class HechoEconomico:
+43-    hecho_id: str
+44-    descripcion: str
+
+════ III · Intellectus · API ════
+7:class Intellectus:
+11:    def _evaluar_condicion(condicion: Dict, senales: Dict, perfil_attrs: Dict) -> bool:
+40:    def construir_mapa_normativo(
+104:    def interpretar(evidencia: Dict, perfil: Dict, normas: List[Dict]) -> Dict:
+
+════ IV · generador_propuesta · API ════
+61:def _extraer_entidades_dict(
+71:def calcular_r(entidades: Dict[str, object]) -> float:
+86:def calcular_o(entidades: Dict[str, object]) -> float:
+101:def calcular_t() -> float:
+111:def calcular_v(inflacion_anual: float = 0.0) -> float:
+130:def generar_hecho_h1(
+199:def _generar_propuesta_desde_hecho(
+288:def generar_propuesta_h1(
+
+════ V · Dictum · API ════
+7:class Dictum:
+9:    def orientar(mapa: Dict, formato: str = "texto") -> Dict:
+
+════ VI · ¿qué emite Perceptum.extraer? ════
+72:    def extraer(evidencia: Evidencia) -> ObservacionH1:
+73-        """
+74-        Convierte una Evidencia inmutable en una ObservacionH1.
+75-
+76-        Conserva:
+77-            - evidencia_id
+78-            - hash_evidencia
+79-            - correlation_id
+80-
+81-        Genera:
+82-            - observacion_id
+83-            - timestamp de percepción
+84-
+85-        No modifica la Evidencia.
+86-        """
+87-        if not isinstance(evidencia, Evidencia):
+88-            raise TypeError(
+89-                "PERCEPTUM: se requiere una instancia de Evidencia"
+90-            )
+91-
+92-        observacion_id = str(uuid.uuid4())
+93-        timestamp = int(time.time())
+94-
+95-        entidades = Perceptum._extraer_entidades(evidencia)
+96-
+97-        confianza_global = min(
+98-            (entidad.confianza for entidad in entidades),
+99-            default=0.0,
+100-        )
+101-
+102-        if confianza_global < 0.60:
+--
+240:    def extraer_lote(evidencia: Evidencia) -> List[ObservacionH1]:
+241-        """
+242-        Segmenta una Evidencia masiva en N ObservacionH1.
+243-
+244-        Soporta:
+245-            - CSV con header: N filas -> N observaciones, referencia CSV_ROW.
+246-            - JSON array: N items -> N observaciones, referencia JSON_INDEX.
+247-            - JSON objeto: 1 observación (delega en extraer()).
+
+════ VII · lectura de eventos reales ════
+1|ASIENTO_REGISTRADO|{"id": "372bed8b-158c-4083-8a81-4037c5d39ac6", "partidas": [{"cuenta": "110101", "naturaleza": "DEUDORA", "movimiento": "AUMENTA", "monto": 1000.0, "moneda": "VES"}, {"cuenta": "410101", "naturaleza": "ACREEDORA", "movimiento": "AUMENTA", "monto": 1000.0, "moneda": "VES"}], "total_debe": 1000.0, "total_haber": 1000.0, "evidencia": {"factura": "FAC-001", "rif": "J-12345678", "monto": 1000.0, "fecha": "2026-09-01", "tipo": "venta", "producto": "PROD-A", "cantidad": 2, "costo_unitario": 500.0}, "normas_aplicadas": ["LIVA_Art4", "NIC_29"], "conflictos": [], "justificacion_h2": null}
+
+════ VIII · catálogo de productos ════
+Cliente_A.scfv

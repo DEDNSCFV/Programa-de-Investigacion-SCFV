@@ -1,0 +1,23 @@
+════ B102 · 9 fractales × 2 reglas = 18 casos · Fri Sep 25 10:16:59 -04 2026 ════
+
+D.3: EventStore preparado para persistencia canónica.
+INVENTARIOS.scfv       regla1 activo_inventario OK  D=    850.00 H=    850.00 regla=COMPRA_INVENTARIO_PYMES
+INVENTARIOS.scfv       regla2 deterioro       OK  D=    100.00 H=    100.00 regla=DETERIORO_INVENTARIO_PYMES
+PPE.scfv               regla1 adquisicion     OK  D=  10000.00 H=  10000.00 regla=ACTIVACION_PYMES
+PPE.scfv               regla2 depreciacion    OK  D=    900.00 H=    900.00 regla=DEPRECIACION_PYMES
+INTANGIBLES.scfv       regla1 adquisicion     OK  D=   5000.00 H=   5000.00 regla=ACTIVACION_PYMES
+INTANGIBLES.scfv       regla2 amortizacion    OK  D=   1000.00 H=   1000.00 regla=AMORTIZACION_PYMES
+COMBINACIONES.scfv     regla1 plusvalia       OK  D=  15000.00 H=  15000.00 regla=PLUSVALIA_PYMES
+COMBINACIONES.scfv     regla2 ganancia        OK  D=   5000.00 H=   5000.00 regla=GANANCIA_COMPRA_VENTAJOSA_PYMES
+ARRENDAMIENTOS.scfv    regla1 reconocimiento  OK  D=   7721.73 H=   7721.73 regla=RECONOCIMIENTO_PYMES
+ARRENDAMIENTOS.scfv    regla2 pago cuota      OK  D=   1000.00 H=   1000.00 regla=PAGO_CUOTA_PYMES
+PROVISIONES.scfv       regla1 provision       OK  D=   1500.00 H=   1500.00 regla=PROVISION_PYMES
+PROVISIONES.scfv       regla2 uso provision   OK  D=    500.00 H=    500.00 regla=USO_PROVISION_PYMES
+SUBVENCIONES.scfv      regla1 recepcion       OK  D=  10000.00 H=  10000.00 regla=RECEPCION_PYMES
+SUBVENCIONES.scfv      regla2 devengamiento   OK  D=   2000.00 H=   2000.00 regla=DEVENGAMIENTO_PYMES
+MONEDA.scfv            regla1 transaccion     OK  D=  36500.00 H=  36500.00 regla=TRANSACCION_PYMES
+MONEDA.scfv            regla2 dif cambio      OK  D=  36500.00 H=  36500.00 regla=DIFERENCIA_CAMBIO_PYMES
+HIPERINFLACION.scfv    regla1 reexp activo    OK  D=   2000.00 H=   2000.00 regla=REEXPRESION_ACTIVO_PYMES
+HIPERINFLACION.scfv    regla2 reexp patrimonio OK  D=   2000.00 H=   2000.00 regla=REEXPRESION_PATRIMONIO_PYMES
+
+Resultado: 18/18

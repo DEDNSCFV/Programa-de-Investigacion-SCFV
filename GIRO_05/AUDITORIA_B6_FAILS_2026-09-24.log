@@ -1,0 +1,139 @@
+=== B6 · auditoría focalizada 4 fallos · 2026-09-24 · IA-2 ===
+
+=== test_examinador.py::TestExaminador::test_E11_independencia_de_motor ===
+============================= test session starts ==============================
+platform android -- Python 3.13.13, pytest-9.1.1, pluggy-1.6.0 -- /data/data/com.termux/files/usr/bin/python
+cachedir: .pytest_cache
+rootdir: /data/data/com.termux/files/home/scfv_v6/TESTS
+collecting ... collected 1 item
+
+test_examinador.py::TestExaminador::test_E11_independencia_de_motor FAILED [100%]
+
+=================================== FAILURES ===================================
+________________ TestExaminador.test_E11_independencia_de_motor ________________
+
+self = <TESTS.test_examinador.TestExaminador testMethod=test_E11_independencia_de_motor>
+
+    def test_E11_independencia_de_motor(self):
+        code = (
+            "import sys; "
+            "from PODERES.CONTABLE.examinador import ExaminadorEvidencia; "
+            "assert 'PODERES.CONTABLE.motor_contable.motor' not in sys.modules, "
+            "'E11: examinador cargó motor'; "
+            "assert 'PODERES.CONTABLE.event_store' not in sys.modules, "
+            "'E11: examinador cargó event_store'; "
+            "print('E11 OK')"
+        )
+        r = subprocess.run([sys.executable, "-c", code],
+                           capture_output=True, text=True)
+>       self.assertEqual(r.returncode, 0, f"E11 falla: {r.stderr}")
+E       AssertionError: 1 != 0 : E11 falla: Traceback (most recent call last):
+E         File "<string>", line 1, in <module>
+E           import sys; from PODERES.CONTABLE.examinador import ExaminadorEvidencia; assert 'PODERES.CONTABLE.motor_contable.motor' not in sys.modules, 'E11: examinador cargó motor'; assert 'PODERES.CONTABLE.event_store' not in sys.modules, 'E11: examinador cargó event_store'; print('E11 OK')
+E                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       ModuleNotFoundError: No module named 'PODERES'
+
+test_examinador.py:134: AssertionError
+=========================== short test summary info ============================
+FAILED test_examinador.py::TestExaminador::test_E11_independencia_de_motor - ...
+============================== 1 failed in 0.28s ===============================
+
+=== test_v82_nuevas_capacidades.py::test_schema_validator ===
+============================= test session starts ==============================
+platform android -- Python 3.13.13, pytest-9.1.1, pluggy-1.6.0 -- /data/data/com.termux/files/usr/bin/python
+cachedir: .pytest_cache
+rootdir: /data/data/com.termux/files/home/scfv_v6/TESTS
+collecting ... collected 1 item
+
+test_v82_nuevas_capacidades.py::test_schema_validator FAILED             [100%]
+
+=================================== FAILURES ===================================
+____________________________ test_schema_validator _____________________________
+
+    def test_schema_validator():
+        """Prueba que el validador de schema rechaza normas sin version_norma."""
+        print("--- test_schema_validator ---")
+        validator = SchemaValidator("normas/schema_v8.2.1.json")
+    
+        # Norma válida (LIVA_ART_62)
+>       with open("normas/nacionales/leyes_organicas/LIVA_ART_62.json", 'r') as f:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: 'normas/nacionales/leyes_organicas/LIVA_ART_62.json'
+
+test_v82_nuevas_capacidades.py:25: FileNotFoundError
+----------------------------- Captured stdout call -----------------------------
+--- test_schema_validator ---
+⚠️ Schema v8.2.1 no encontrado.
+=========================== short test summary info ============================
+FAILED test_v82_nuevas_capacidades.py::test_schema_validator - FileNotFoundEr...
+============================== 1 failed in 0.11s ===============================
+
+=== test_v82_nuevas_capacidades.py::test_and_condition ===
+============================= test session starts ==============================
+platform android -- Python 3.13.13, pytest-9.1.1, pluggy-1.6.0 -- /data/data/com.termux/files/usr/bin/python
+cachedir: .pytest_cache
+rootdir: /data/data/com.termux/files/home/scfv_v6/TESTS
+collecting ... collected 1 item
+
+test_v82_nuevas_capacidades.py::test_and_condition FAILED                [100%]
+
+=================================== FAILURES ===================================
+______________________________ test_and_condition ______________________________
+
+    def test_and_condition():
+        """Prueba que Intellectus evalúa condiciones AND correctamente."""
+        print("\n--- test_and_condition ---")
+        contexto, perfil, normas = SCFVLoader.cargar_todo('Cliente_A')
+    
+        # Buscar la norma LIVA_ART_62_COMPLETA (tiene AND)
+        norma_and = None
+        for n in normas:
+            if n.get('id') == 'LIVA_ART_62_COMPLETA':
+                norma_and = n
+                break
+>       assert norma_and is not None, "❌ LIVA_ART_62_COMPLETA no cargada"
+E       AssertionError: ❌ LIVA_ART_62_COMPLETA no cargada
+E       assert None is not None
+
+test_v82_nuevas_capacidades.py:51: AssertionError
+----------------------------- Captured stdout call -----------------------------
+
+--- test_and_condition ---
+⚠️ Perfil no encontrado: perfiles/Cliente_A.scfv. Usando perfil por defecto.
+⚠️ Carpeta 'normas/' no encontrada.
+=========================== short test summary info ============================
+FAILED test_v82_nuevas_capacidades.py::test_and_condition - AssertionError: ...
+============================== 1 failed in 0.34s ===============================
+
+=== test_v82_nuevas_capacidades.py::test_carga_normas_validas ===
+============================= test session starts ==============================
+platform android -- Python 3.13.13, pytest-9.1.1, pluggy-1.6.0 -- /data/data/com.termux/files/usr/bin/python
+cachedir: .pytest_cache
+rootdir: /data/data/com.termux/files/home/scfv_v6/TESTS
+collecting ... collected 1 item
+
+test_v82_nuevas_capacidades.py::test_carga_normas_validas FAILED         [100%]
+
+=================================== FAILURES ===================================
+__________________________ test_carga_normas_validas ___________________________
+
+    def test_carga_normas_validas():
+        """Prueba que solo las normas válidas se cargan."""
+        print("\n--- test_carga_normas_validas ---")
+        contexto, perfil, normas = SCFVLoader.cargar_todo('Cliente_A')
+    
+        # Verificar que LIVA_ART_62 y LIVA_ART_62_COMPLETA están cargadas
+        ids_cargados = [n.get('id') for n in normas]
+>       assert 'LIVA_ART_62' in ids_cargados, "❌ LIVA_ART_62 no cargada"
+E       AssertionError: ❌ LIVA_ART_62 no cargada
+E       assert 'LIVA_ART_62' in []
+
+test_v82_nuevas_capacidades.py:111: AssertionError
+----------------------------- Captured stdout call -----------------------------
+
+--- test_carga_normas_validas ---
+⚠️ Perfil no encontrado: perfiles/Cliente_A.scfv. Usando perfil por defecto.
+⚠️ Carpeta 'normas/' no encontrada.
+=========================== short test summary info ============================
+FAILED test_v82_nuevas_capacidades.py::test_carga_normas_validas - AssertionE...
+============================== 1 failed in 0.35s ===============================
