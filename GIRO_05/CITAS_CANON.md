@@ -223,6 +223,23 @@ Techniques and Tools. Pearson.
 
 ────────────────────────────────────────────────────────────────────────
 
+Austin, J. L. (1962). How to Do Things with Words. Oxford University Press.
+
+    Uso · actos de habla · performativos · ilocucionarios · fuerza ilocucionaria.
+    Líneas específicas · pendiente de verificación individual.
+    Nota · edición en mano: Paidós Studio, trad. Carrió/Rabossi.
+    Régimen · OCR con reserva (D-AUSTIN-OCR). Verificar contra original.
+
+────────────────────────────────────────────────────────────────────────
+
+Derrida, J. (1967). De la grammatologie. Les Éditions de Minuit.
+
+    Uso · gramatología · huella · différance · escritura · suplemento.
+    Líneas específicas · pendiente de verificación individual.
+    Nota · edición en mano: Siglo XXI, trad. del Barco/Ceretti, 1971.
+
+────────────────────────────────────────────────────────────────────────
+
 Gadamer, H.-G. (1999). Verdad y Método I. Sígueme.
 
     L16799 · "tituyen nuestra precomprensión de los mismos"

@@ -1,8 +1,8 @@
 # Inventario de BIBLIOTECA
 
-Estado al 2026-09-23. Verificable contra `REGISTRO_ENTRADAS.log` (30 líneas).
+Estado al 2026-09-27. Verificable contra `REGISTRO_ENTRADAS.log` (38 líneas).
 
-Raws en HOME: 41 archivos (`~/.<nombre>_raw.txt`, permisos 600).
+Raws en HOME: 43 archivos (`~/.<nombre>_raw.txt`, permisos 600).
 PDFs en Downloads: referenciados, no movidos.
 
 Convención de estado: `poblado` (>5 líneas) · `placeholder` (1 línea) · `vacío` (0 líneas).
@@ -82,13 +82,20 @@ Convención de estado: `poblado` (>5 líneas) · `placeholder` (1 línea) · `va
 
 Las 12 entradas en §1.6 y los placeholder de otras secciones quedan así hasta invocación (ver §4).
 
+### §1.7 · Aparato epistemológico (2)
+
+| # | Entrada | Raw (HOME) | FICHA | INDICE | CITAS |
+|---|---|---|---|---|---|
+| 40 | Austin_1962 | .austin_raw.txt | poblado | poblado | formato declarado + vacío |
+| 41 | Derrida_1967 | .derrida_raw.txt | poblado | poblado | formato declarado + vacío |
+
 ---
 
 ## §2 · Raws sin entrada en BIBLIOTECA
 
 | Raw (HOME) | PDF origen | Estatuto propuesto |
 |---|---|---|
-| .baldor_algebra_raw.txt | ALGEBRA_de_BALDOR.pdf (parcial pp.1-50) | aprendizaje-matemático |
+| .baldor_algebra_raw.txt | ALGEBRA_de_BALDOR.pdf (completo pp.1-287) | aprendizaje-matemático |
 | .boole_analysis_logic_raw.txt | mathematicalanal00booluoft.pdf | aprendizaje-matemático |
 
 No se crea entrada hasta invocación (ver §4).
@@ -136,4 +143,4 @@ La regla aplica también a material didáctico, corpus de aprendizaje, entradas 
 
 ---
 
-*Actualizado 2026-09-23 tras agregar Mandelbrot 1975+1982 y 12 NIIF/IFRS/NIAS. 39 entradas. Verificable contra REGISTRO_ENTRADAS.log.*
+*Actualizado 2026-09-27 tras agregar Austin 1962 y Derrida 1967 (§1.7 · Aparato epistemológico). 41 entradas. Verificable contra REGISTRO_ENTRADAS.log.*
